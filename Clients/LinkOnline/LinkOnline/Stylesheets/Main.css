@@ -1,0 +1,510 @@
+@font-face {
+    font-family: SegoeUILight;
+    src: url('/Stylesheets/SegoeUI/segoeuil.ttf');
+}
+
+@font-face {
+    font-family: SegoeUILight;
+    src: url('/Stylesheets/SegoeUI/segoeuil.eot');
+}
+
+@font-face {
+    font-family: SegoeUIBold;
+    src: url('/Stylesheets/SegoeUI/segoeuib.ttf');
+}
+
+@font-face {
+    font-family: SegoeUIBold;
+    src: url('/Stylesheets/SegoeUI/segoeuib.eot');
+}
+
+@font-face {
+    font-family: SegoeUI;
+    src: url('/Stylesheets/SegoeUI/segoeui.ttf');
+}
+
+@font-face {
+    font-family: SegoeUI;
+    src: url('/Stylesheets/SegoeUI/segoeui.eot');
+}
+
+html, body, form {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+body {
+    font-family: SegoeUILight;
+}
+
+.Headline {
+    border-bottom: 1px solid #6CAEE0;
+    padding: 20px;
+    font-size: 18pt;
+}
+
+.Content {
+    overflow: auto;
+}
+
+.Footer {
+    text-align: center;
+}
+
+
+/* Boxes */
+
+.Customradio:hover, .Customcheckbox:hover {
+    box-shadow:0px 0px 2px 0px #444444;
+}
+
+.Customradio, .Customcheckbox {
+    box-shadow:0px 0px 1px 0px #444444;
+    border-radius: 4px;
+}
+
+/* ##### Confirm box ##### */
+
+.ConfirmBoxBackground {
+    position:absolute;
+    
+    left:0px;
+    top:0px;
+
+    width:100%;
+    height:100%;
+
+    background:#444444;
+    opacity:0.5;
+}
+
+.ConfirmBox {
+    position:absolute;
+    padding:2em;
+    background:#FFFFFF;
+    box-shadow:0px 0px 5px 0px #444444;
+    text-align:right;
+}
+
+
+/* ##### Input controls ##### */
+
+input[type=button], input[type=submit] {
+    color: #FFFFFF;
+    border: 1px solid #41719C;
+    margin: 3px;
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: SegoeUILight;
+}
+
+    input[type=button], input[type=submit]:hover {
+        border: 1px solid #FCB040;
+    }
+
+input[class=DeleteButton] {
+    background: #e63b3b;
+    border: 1px solid #880000;
+}
+
+input[class=ConfirmButton] {
+    background: #008800;
+    border: 1px solid #005500;
+}
+
+input[type=text], input[type=password] {
+    padding: 5px;
+}
+
+.ImageButton {
+    background: none;
+    color: #FFFFFF;
+    border: 1px solid #FCB040;
+    margin: 3px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+    .ImageButton:hover {
+        background: none;
+        border: 1px solid #98C6E9;
+    }
+
+h1, h2, h4 {
+    margin: 0px;
+}
+
+h1 {
+    font-size: 23pt;
+}
+
+h2 {
+    font-size: 15pt;
+}
+
+.Button {
+    height: 50px;
+    width: 140px;
+    border: none !important;
+    font-size: 13pt;
+}
+.ButtonSmall {
+    height: 50px;
+    width: 100px;
+    border: none !important;
+    font-size: 13pt;
+}
+.SubTitle {
+    font-size: 12pt;
+}
+
+.TitleText {
+    font-size: 20pt;
+    font-weight: 600;
+}
+
+
+.Alpha {
+    color:#880000;
+    font-weight:bold;
+    font-style:italic;
+    vertical-align:super;
+    font-size:50%;
+}
+
+.Beta {
+    color:#008800;
+    font-weight:bold;
+    font-style:italic;
+    vertical-align:super;
+    font-size:50%;
+}
+
+/* ##### Navigation ##### */
+
+.Navigation {
+    border-width:1px;
+    border-style:solid;
+}
+
+.SubNavigation {
+    overflow:hidden;
+}
+
+.LabelUserName {
+    padding-right:5px;
+    background:url('/Images/Icons/Navigation/Expand2.png') no-repeat center right;
+    max-width:200px;
+}
+
+.NavigationItem {
+    width: 260px;
+    font-size: 16pt;
+    text-align: center;
+    cursor: pointer;
+
+    background-color:#FFFFFF;
+    color:#444444;
+}
+
+.NavigationItem:hover {
+    background-color:#e6e8ea;
+}
+
+.NavigationItem_Active {
+    width: 260px;
+    font-size: 16pt;
+    text-align: center;
+    cursor: pointer;
+    background-color:#aac0d0 !important;
+}
+
+.NavigationItem table,
+.NavigationItem_Active table {
+    width: 100%;
+    height: 100%;
+
+    min-height:40px;
+}
+
+.NavigationItem table td,
+.NavigationItem_Active table td {
+}
+
+.NavigationItem a,
+.NavigationItem_Active a {
+    text-decoration: none;
+}
+
+.NavigationItem .TableCellIcon,
+.NavigationItem_Active .TableCellIcon {
+    width:20px;
+    padding-left:10px;
+}
+
+table.NavigationItem:hover .TableCellArrow {
+    background:url('/Images/Icons/Navigation/Expand.png') no-repeat center center;
+}
+
+table.NavigationItem_Active .TableCellArrow,
+.NavigationItem_Active table.null .TableCellArrow {
+    background:url('/Images/Icons/Navigation/Collapse.png') no-repeat center center;
+}
+
+.NavigationItem:hover .TableCellArrow img {
+    display:block;
+    text-align:left;
+}
+
+.NavigationItem .TableCellIcon img,
+.NavigationItem_Active .TableCellIcon img {
+    height:20px;
+}
+
+.NavigationItem .TableCellLabel,
+.NavigationItem_Active .TableCellLabel {
+    padding-left:10px;
+    text-align:left;
+}
+
+.NavigationUserInfo {
+    text-align:center;
+    color:#FFFFFF;
+    padding:1em;
+}
+
+.NavigationItem_Debug {
+    color:#FF0000 !important;
+}
+
+
+.ImgUserImage {
+    height:70px;
+    cursor:pointer;
+}
+
+.SubText {
+    font-style: italic;
+}
+
+.tableStyle {
+    border-style: solid;
+    border-width: 2px;
+    /*border-color:#6CAEE0;*/
+    margin-left: 100px;
+    width: 85%;
+}
+
+.TableCellHeader {
+    width: 100px;
+    height: 50px;
+    min-height: 50px;
+    max-height: 50px;
+    overflow: hidden;
+    color: #FFFFFF;
+    font-weight: bold;
+    background-color: #6CAEE0;
+    text-align: center;
+}
+
+.rowStyle {
+    border: 0px solid #ffffff;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.cellStyle1 {
+    background-color: #FCB040;
+    text-align: center;
+}
+
+
+.GoButton {
+    cursor:pointer;
+    position:absolute;
+    right:0px;
+    top:50%;
+    margin-top:-57px;
+    background:#61CF71;
+    color:#FFFFFF;
+    font-weight:bold;
+    font-size:26pt;
+
+    padding:1em;
+}
+
+/* ##### Message box ##### */
+
+.MessageBox {
+    padding: 0.5em;
+    color: #FFFFFF;
+    position: absolute;
+    top: 10px;
+    box-shadow: 0px 0px 2px 0px #000000;
+    z-index:99999;
+}
+
+.MessageBoxSuccess {
+    background: #61CF71;
+}
+
+.MessageBoxError {
+    background: #FF0303;
+}
+
+.MessageBoxWarning {
+    background: #FCB040;
+}
+
+
+
+.BackButton {
+    cursor:pointer;
+    height:30px;
+    width:30px;
+    display:inline-block;
+    background:url('/Images/Icons/Back.png');
+}
+
+.BackButton:hover {
+    background:url('/Images/Icons/Back_Hover.png');
+}
+
+
+        
+.RightPanelItem {
+    cursor: pointer;
+    border-bottom: 1px solid #FFFFFF;
+    color:#444444;
+    background:#FFFFFF;
+    padding:12px 25px 5px 25px;
+    text-align:center;
+}
+
+
+/* ##### User validation ##### */
+
+.UserValidation {
+    background:#FFFFFF;
+    box-shadow:0px 0px 5px 0px #444444;
+
+    position:absolute;
+    z-index:9999;
+    padding:10px;
+
+    width:400px;
+
+    left:50%;
+    top:50%;
+
+    margin-left:-200px;
+    margin-top:-100px;
+}
+
+.UserValidation h1 {
+    font-size:14pt;
+    margin-bottom:20px;
+}
+
+.UserValidation table {
+    width:100%;
+}
+
+.MoveBox{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+#reportNameImg{
+    height: 23px;
+    width: 23px;
+    float: left;
+    pointer-events:none;
+}
+
+#reportNameDiv{
+    /*max-height: 70px;
+    max-width: 350px;*/
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-left: 10px;
+    /* padding-top: 5px; */
+    box-sizing: border-box;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+}
+
+#folderTitle{
+       position: absolute;
+    left: 0;
+    top: 5px;
+    font-size: 16px;
+    color: #aeaeae;
+    font-weight: bold;
+}
+
+.FileExplorerItem {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* padding-left: 40px; */
+    /* padding-left: 20px; */
+    /* padding-right: 40px; */
+}
+
+#cphContent_TreeView1{
+        position: relative;
+    top: 14px;
+    max-height: 280px;
+    overflow: scroll;
+}
+
+#cphContent_TreeView1 table td{
+     padding-top: 10px;
+    padding-bottom: 0px !important;
+     padding-left: 0px !important; 
+     padding-left: 0px !important; 
+     padding-right: 0px !important; 
+    
+}
+
+#cphContent_TreeView1 table td a{
+   color:#444444;
+   font-weight:bold;
+}
+
+.FileExplorerItem :before{
+    content: "";
+    display: block;
+    background: url("../Images/Icons/little-folder.png") no-repeat;
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin: 0 6px 0 0;
+}
+
+.selectedNode{
+   letter-spacing: 1.8px;
+    line-height: 25px;
+    border-bottom: 2px dashed #FCC16B;
+}
+
+
+
+.folderContents{
+    background: #f3f3f3;
+    /* border: 1px solid #d4d4d4; */
+    position: relative;
+    top: 10px;
+}
+
+#cphContent_pnlExplorer{
+    padding-right: 30px;
+}

@@ -1,0 +1,802 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1401" height="676">
+  <style type="text/css">
+    @font-face {
+    font-family: SegoeUILight;
+    src: url('http://youtube.tokyo.local/Stylesheets/SegoeUI/segoeuil.ttf');
+    }
+
+    @font-face {
+    font-family: SegoeUILight;
+    src: url('http://youtube.tokyo.local/Stylesheets/SegoeUI/segoeuil.eot');
+    }
+
+    @font-face {
+    font-family: SegoeUIBold;
+    src: url('http://youtube.tokyo.local/Stylesheets/SegoeUI/segoeuib.ttf');
+    }
+
+    @font-face {
+    font-family: SegoeUIBold;
+    src: url('http://youtube.tokyo.local/Stylesheets/SegoeUI/segoeuib.eot');
+    }
+    text { font-family:SegoeUILight; }
+  </style>
+  <g width="1351" height="576" transform="translate(40,20)">
+    <g class="legend" transform="translate(-1351,526)">
+      <rect x="1351" width="12" height="12" style="fill: rgb(242, 109, 84); opacity: 1;"/>
+      <text x="1364" y="6" dy=".35em" text-anchor="start" font-size="11px" font-weight="bold">March 2014</text>
+    </g>
+    <g class="legend" transform="translate(-1263,526)">
+      <rect x="1351" width="12" height="12" style="fill: rgb(103, 152, 208); opacity: 1;"/>
+      <text x="1364" y="6" dy=".35em" text-anchor="start" font-size="11px" font-weight="bold">April 2014</text>
+    </g>
+    <g class="legend" transform="translate(-1175,526)">
+      <rect x="1351" width="12" height="12" style="fill: rgb(255, 208, 86); opacity: 1;"/>
+      <text x="1364" y="6" dy=".35em" text-anchor="start" font-size="11px" font-weight="bold">May 2014</text>
+    </g>
+    <g class="legend" transform="translate(-1097,526)">
+      <rect x="1351" width="12" height="12" style="fill: rgb(91, 193, 167); opacity: 1;"/>
+      <text x="1364" y="6" dy=".35em" text-anchor="start" font-size="11px" font-weight="bold">June 2014</text>
+    </g>
+    <g class="legend" transform="translate(-1014,526)">
+      <rect x="1351" width="12" height="12" style="fill: rgb(234, 136, 185); opacity: 1;"/>
+      <text x="1364" y="6" dy=".35em" text-anchor="start" font-size="11px" font-weight="bold">July 2014</text>
+    </g>
+    <g class="legend" transform="translate(-931,526)">
+      <rect x="1351" width="12" height="12" style="fill: rgb(68, 176, 255); opacity: 1;"/>
+      <text x="1364" y="6" dy=".35em" text-anchor="start" font-size="11px" font-weight="bold">August 2014</text>
+    </g>
+    <g class="legend" transform="translate(-838,526)">
+      <rect x="1351" width="12" height="12" style="fill: rgb(0, 114, 198); opacity: 1;"/>
+      <text x="1364" y="6" dy=".35em" text-anchor="start" font-size="11px" font-weight="bold">September 2014</text>
+    </g>
+    <g class="legend" transform="translate(-730,526)">
+      <rect x="1351" width="12" height="12" style="fill: rgb(0, 49, 123); opacity: 1;"/>
+      <text x="1364" y="6" dy=".35em" text-anchor="start" font-size="11px" font-weight="bold">October 2014</text>
+    </g>
+    <g class="legend" transform="translate(-632,526)">
+      <rect x="1351" width="12" height="12" style="fill: rgb(104, 33, 122); opacity: 1;"/>
+      <text x="1364" y="6" dy=".35em" text-anchor="start" font-size="11px" font-weight="bold">November 2014</text>
+    </g>
+    <g class="legend" transform="translate(-529,526)">
+      <rect x="1351" width="12" height="12" style="fill: rgb(213, 49, 49); opacity: 1;"/>
+      <text x="1364" y="6" dy=".35em" text-anchor="start" font-size="11px" font-weight="bold">December 2014</text>
+    </g>
+    <g class="legend" transform="translate(-426,526)">
+      <rect x="1351" width="12" height="12" style="fill: rgb(49, 109, 213); opacity: 1;"/>
+      <text x="1364" y="6" dy=".35em" text-anchor="start" font-size="11px" font-weight="bold">January 2015</text>
+    </g>
+    <g class="legend" transform="translate(-328,526)">
+      <rect x="1351" width="12" height="12" style="fill: rgb(210, 13, 217); opacity: 1;"/>
+      <text x="1364" y="6" dy=".35em" text-anchor="start" font-size="11px" font-weight="bold">February 2015</text>
+    </g>
+    <g class="legend" transform="translate(-225,526)">
+      <rect x="1351" width="12" height="12" style="fill: rgb(152, 199, 215); opacity: 1;"/>
+      <text x="1364" y="6" dy=".35em" text-anchor="start" font-size="11px" font-weight="bold">March 2015</text>
+    </g>
+    <g class="x axis" id="xAxis" transform="translate(0,508.7692307692308)">
+      <g class="tick" transform="translate(70.5,0)" style="opacity: 1;">
+        <line y2="6" x2="0" stroke="black"/>
+        <text dy=".71em" y="9" x="0" class="dlabel" transform="" style="text-anchor: middle; fill: rgb(108, 174, 224); font-size: 10px; font-weight: bold;">
+          <tspan x="0" y="9" dy="0.71em">14 to 17 years old</tspan>
+        </text>
+      </g>
+      <g class="tick" transform="translate(191.5,0)" style="opacity: 1;">
+        <line y2="6" x2="0" stroke="black"/>
+        <text dy=".71em" y="9" x="0" class="dlabel" transform="" style="text-anchor: middle; fill: rgb(108, 174, 224); font-size: 10px; font-weight: bold;">
+          <tspan x="0" y="9" dy="0.71em">14 to 15 years old</tspan>
+        </text>
+      </g>
+      <g class="tick" transform="translate(312.5,0)" style="opacity: 1;">
+        <line y2="6" x2="0" stroke="black"/>
+        <text dy=".71em" y="9" x="0" class="dlabel" transform="" style="text-anchor: middle; fill: rgb(108, 174, 224); font-size: 10px; font-weight: bold;">
+          <tspan x="0" y="9" dy="0.71em">16 to 17 years old</tspan>
+        </text>
+      </g>
+      <g class="tick" transform="translate(433.5,0)" style="opacity: 1;">
+        <line y2="6" x2="0" stroke="black"/>
+        <text dy=".71em" y="9" x="0" class="dlabel" transform="" style="text-anchor: middle; fill: rgb(108, 174, 224); font-size: 10px; font-weight: bold;">
+          <tspan x="0" y="9" dy="0.71em">18 to 19 years old</tspan>
+        </text>
+      </g>
+      <g class="tick" transform="translate(554.5,0)" style="opacity: 1;">
+        <line y2="6" x2="0" stroke="black"/>
+        <text dy=".71em" y="9" x="0" class="dlabel" transform="" style="text-anchor: middle; fill: rgb(108, 174, 224); font-size: 10px; font-weight: bold;">
+          <tspan x="0" y="9" dy="0.71em">20 to 24 years old</tspan>
+        </text>
+      </g>
+      <g class="tick" transform="translate(675.5,0)" style="opacity: 1;">
+        <line y2="6" x2="0" stroke="black"/>
+        <text dy=".71em" y="9" x="0" class="dlabel" transform="" style="text-anchor: middle; fill: rgb(108, 174, 224); font-size: 10px; font-weight: bold;">
+          <tspan x="0" y="9" dy="0.71em">25 to 29 years old</tspan>
+        </text>
+      </g>
+      <g class="tick" transform="translate(796.5,0)" style="opacity: 1;">
+        <line y2="6" x2="0" stroke="black"/>
+        <text dy=".71em" y="9" x="0" class="dlabel" transform="" style="text-anchor: middle; fill: rgb(108, 174, 224); font-size: 10px; font-weight: bold;">
+          <tspan x="0" y="9" dy="0.71em">30 to 34 years old</tspan>
+        </text>
+      </g>
+      <g class="tick" transform="translate(917.5,0)" style="opacity: 1;">
+        <line y2="6" x2="0" stroke="black"/>
+        <text dy=".71em" y="9" x="0" class="dlabel" transform="" style="text-anchor: middle; fill: rgb(108, 174, 224); font-size: 10px; font-weight: bold;">
+          <tspan x="0" y="9" dy="0.71em">35 to 44 years old</tspan>
+        </text>
+      </g>
+      <g class="tick" transform="translate(1038.5,0)" style="opacity: 1;">
+        <line y2="6" x2="0" stroke="black"/>
+        <text dy=".71em" y="9" x="0" class="dlabel" transform="" style="text-anchor: middle; fill: rgb(108, 174, 224); font-size: 10px; font-weight: bold;">
+          <tspan x="0" y="9" dy="0.71em">45 to 54 years old</tspan>
+        </text>
+      </g>
+      <g class="tick" transform="translate(1159.5,0)" style="opacity: 1;">
+        <line y2="6" x2="0" stroke="black"/>
+        <text dy=".71em" y="9" x="0" class="dlabel" transform="" style="text-anchor: middle; fill: rgb(108, 174, 224); font-size: 10px; font-weight: bold;">
+          <tspan x="0" y="9" dy="0.71em">55 to 64 years old</tspan>
+        </text>
+      </g>
+      <g class="tick" transform="translate(1280.5,0)" style="opacity: 1;">
+        <line y2="6" x2="0" stroke="black"/>
+        <text dy=".71em" y="9" x="0" class="dlabel" transform="" style="text-anchor: middle; fill: rgb(108, 174, 224); font-size: 10px; font-weight: bold;">
+          <tspan x="0" y="9" dy="0.71em">65 or over</tspan>
+        </text>
+      </g>
+      <path class="domain" d="M0,6V0H1351V6" fill="none" stroke="black"/>
+    </g>
+    <g class="y axis" id="yAxis">
+      <g class="tick" transform="translate(0,505.7692307692308)" style="opacity: 1;">
+        <line x2="-6" y2="0" stroke="black"/>
+        <text dy=".32em" x="-9" y="0" style="text-anchor: end;">0%</text>
+      </g>
+      <g class="tick" transform="translate(0,470.8395349752166)" style="opacity: 1;">
+        <line x2="-6" y2="0" stroke="black"/>
+        <text dy=".32em" x="-9" y="0" style="text-anchor: end;">2%</text>
+      </g>
+      <g class="tick" transform="translate(0,435.90983918120247)" style="opacity: 1;">
+        <line x2="-6" y2="0" stroke="black"/>
+        <text dy=".32em" x="-9" y="0" style="text-anchor: end;">4%</text>
+      </g>
+      <g class="tick" transform="translate(0,400.9801433871884)" style="opacity: 1;">
+        <line x2="-6" y2="0" stroke="black"/>
+        <text dy=".32em" x="-9" y="0" style="text-anchor: end;">6%</text>
+      </g>
+      <g class="tick" transform="translate(0,366.0504475931743)" style="opacity: 1;">
+        <line x2="-6" y2="0" stroke="black"/>
+        <text dy=".32em" x="-9" y="0" style="text-anchor: end;">8%</text>
+      </g>
+      <g class="tick" transform="translate(0,331.1207517991602)" style="opacity: 1;">
+        <line x2="-6" y2="0" stroke="black"/>
+        <text dy=".32em" x="-9" y="0" style="text-anchor: end;">10%</text>
+      </g>
+      <g class="tick" transform="translate(0,296.191056005146)" style="opacity: 1;">
+        <line x2="-6" y2="0" stroke="black"/>
+        <text dy=".32em" x="-9" y="0" style="text-anchor: end;">12%</text>
+      </g>
+      <g class="tick" transform="translate(0,261.26136021113183)" style="opacity: 1;">
+        <line x2="-6" y2="0" stroke="black"/>
+        <text dy=".32em" x="-9" y="0" style="text-anchor: end;">14%</text>
+      </g>
+      <g class="tick" transform="translate(0,226.33166441711776)" style="opacity: 1;">
+        <line x2="-6" y2="0" stroke="black"/>
+        <text dy=".32em" x="-9" y="0" style="text-anchor: end;">16%</text>
+      </g>
+      <g class="tick" transform="translate(0,191.4019686231036)" style="opacity: 1;">
+        <line x2="-6" y2="0" stroke="black"/>
+        <text dy=".32em" x="-9" y="0" style="text-anchor: end;">18%</text>
+      </g>
+      <g class="tick" transform="translate(0,156.47227282908952)" style="opacity: 1;">
+        <line x2="-6" y2="0" stroke="black"/>
+        <text dy=".32em" x="-9" y="0" style="text-anchor: end;">20%</text>
+      </g>
+      <g class="tick" transform="translate(0,121.54257703507537)" style="opacity: 1;">
+        <line x2="-6" y2="0" stroke="black"/>
+        <text dy=".32em" x="-9" y="0" style="text-anchor: end;">22%</text>
+      </g>
+      <g class="tick" transform="translate(0,86.61288124106123)" style="opacity: 1;">
+        <line x2="-6" y2="0" stroke="black"/>
+        <text dy=".32em" x="-9" y="0" style="text-anchor: end;">24%</text>
+      </g>
+      <g class="tick" transform="translate(0,51.68318544704711)" style="opacity: 1;">
+        <line x2="-6" y2="0" stroke="black"/>
+        <text dy=".32em" x="-9" y="0" style="text-anchor: end;">26%</text>
+      </g>
+      <path class="domain" d="M-6,20H0V505.7692307692308H-6" fill="none" stroke="black"/>
+      <text transform="rotate(-90)" y="6" dy=".71em" style="text-anchor: end;"/>
+    </g>
+    <g class="g" transform="translate(16,1)">
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="3" y="505.7692307692308" height="0" style="fill: rgb(242, 109, 84);"/>
+        <text class="hiddenval" x="7" y="490.7692307692308" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;"/>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="11" y="435.90983918120247" height="70" style="fill: rgb(103, 152, 208);"/>
+        <text class="hiddenval" x="15" y="428.57509608784386" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;">4%</text>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="19" y="418.44499128419545" height="88" style="fill: rgb(255, 208, 86);"/>
+        <text class="hiddenval" x="23" y="405.4298418735165" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;">5%</text>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="27" y="418.44499128419545" height="88" style="fill: rgb(91, 193, 167);"/>
+        <text class="hiddenval" x="31" y="403.68059034423106" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;">5%</text>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="35" y="418.44499128419545" height="88" style="fill: rgb(234, 136, 185);"/>
+        <text class="hiddenval" x="39" y="411.6089311592294" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;">5%</text>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="43" y="418.44499128419545" height="88" style="fill: rgb(68, 176, 255);"/>
+        <text class="hiddenval" x="47" y="395.6401167262643" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;">5%</text>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="51" y="505.7692307692308" height="0" style="fill: rgb(0, 114, 198);"/>
+        <text class="hiddenval" x="55" y="490.7692307692308" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;"/>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="59" y="418.44499128419545" height="88" style="fill: rgb(0, 49, 123);"/>
+        <text class="hiddenval" x="63" y="398.5273724603628" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;">5%</text>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="67" y="418.44499128419545" height="88" style="fill: rgb(104, 33, 122);"/>
+        <text class="hiddenval" x="71" y="403.815196913625" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;">5%</text>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="75" y="418.44499128419545" height="88" style="fill: rgb(213, 49, 49);"/>
+        <text class="hiddenval" x="79" y="405.1072575059709" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;">5%</text>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="83" y="505.7692307692308" height="0" style="fill: rgb(49, 109, 213);"/>
+        <text class="hiddenval" x="87" y="490.7692307692308" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;"/>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="91" y="366.0504475931743" height="140" style="fill: rgb(210, 13, 217);"/>
+        <text class="hiddenval" x="95" y="353.04490384465305" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;">8%</text>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="99" y="435.90983918120247" height="70" style="fill: rgb(152, 199, 215);"/>
+        <text class="hiddenval" x="103" y="421.10605374761917" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;">4%</text>
+      </g>
+    </g>
+    <g class="g" transform="translate(137,1)">
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="3" y="488.30438287222375" height="18" style="fill: rgb(242, 109, 84);"/>
+        <text class="hiddenval" x="7" y="465.15693081926526" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;">1%</text>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="11" y="470.8395349752166" height="35" style="fill: rgb(103, 152, 208);"/>
+        <text class="hiddenval" x="15" y="461.59037276448214" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;">2%</text>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="19" y="470.8395349752166" height="35" style="fill: rgb(255, 208, 86);"/>
+        <text class="hiddenval" x="23" y="451.07352935757683" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;">2%</text>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="27" y="470.8395349752166" height="35" style="fill: rgb(91, 193, 167);"/>
+        <text class="hiddenval" x="31" y="447.18692110533107" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;">2%</text>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="35" y="488.30438287222375" height="18" style="fill: rgb(234, 136, 185);"/>
+        <text class="hiddenval" x="39" y="465.35767637011884" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;">1%</text>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="43" y="488.30438287222375" height="18" style="fill: rgb(68, 176, 255);"/>
+        <text class="hiddenval" x="47" y="478.68171970588133" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;">1%</text>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="51" y="470.8395349752166" height="35" style="fill: rgb(0, 114, 198);"/>
+        <text class="hiddenval" x="55" y="448.21791580392085" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;">2%</text>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="59" y="488.30438287222375" height="18" style="fill: rgb(0, 49, 123);"/>
+        <text class="hiddenval" x="63" y="478.4654765519064" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;">1%</text>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="67" y="488.30438287222375" height="18" style="fill: rgb(104, 33, 122);"/>
+        <text class="hiddenval" x="71" y="476.8756596187515" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;">1%</text>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="75" y="488.30438287222375" height="18" style="fill: rgb(213, 49, 49);"/>
+        <text class="hiddenval" x="79" y="475.49707599668585" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;">1%</text>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="83" y="470.8395349752166" height="35" style="fill: rgb(49, 109, 213);"/>
+        <text class="hiddenval" x="87" y="454.51552826885825" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;">2%</text>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="91" y="505.7692307692308" height="0" style="fill: rgb(210, 13, 217);"/>
+        <text class="hiddenval" x="95" y="486.8223024953988" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;">0%</text>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="99" y="488.30438287222375" height="18" style="fill: rgb(152, 199, 215);"/>
+        <text class="hiddenval" x="103" y="472.3909451588497" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;">1%</text>
+      </g>
+    </g>
+    <g class="g" transform="translate(258,1)">
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="3" y="453.3746870782096" height="53" style="fill: rgb(242, 109, 84);"/>
+        <text class="hiddenval" x="7" y="435.09615327503747" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;">3%</text>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="11" y="453.3746870782096" height="53" style="fill: rgb(103, 152, 208);"/>
+        <text class="hiddenval" x="15" y="438.82193871277195" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;">3%</text>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="19" y="435.90983918120247" height="70" style="fill: rgb(255, 208, 86);"/>
+        <text class="hiddenval" x="23" y="421.6558840859798" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;">4%</text>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="27" y="453.3746870782096" height="53" style="fill: rgb(91, 193, 167);"/>
+        <text class="hiddenval" x="31" y="445.34781806316255" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;">3%</text>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="35" y="470.8395349752166" height="35" style="fill: rgb(234, 136, 185);"/>
+        <text class="hiddenval" x="39" y="453.1852771130578" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;">2%</text>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="43" y="470.8395349752166" height="35" style="fill: rgb(68, 176, 255);"/>
+        <text class="hiddenval" x="47" y="453.23394271977554" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;">2%</text>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="51" y="488.30438287222375" height="18" style="fill: rgb(0, 114, 198);"/>
+        <text class="hiddenval" x="55" y="465.51946950219457" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;">1%</text>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="59" y="470.8395349752166" height="35" style="fill: rgb(0, 49, 123);"/>
+        <text class="hiddenval" x="63" y="457.17133357450456" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;">2%</text>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="67" y="470.8395349752166" height="35" style="fill: rgb(104, 33, 122);"/>
+        <text class="hiddenval" x="71" y="460.82847634057725" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;">2%</text>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="75" y="470.8395349752166" height="35" style="fill: rgb(213, 49, 49);"/>
+        <text class="hiddenval" x="79" y="454.09816670045865" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;">2%</text>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="83" y="453.3746870782096" height="53" style="fill: rgb(49, 109, 213);"/>
+        <text class="hiddenval" x="87" y="435.89926971397443" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;">3%</text>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="91" y="488.30438287222375" height="18" style="fill: rgb(210, 13, 217);"/>
+        <text class="hiddenval" x="95" y="476.90422268782146" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;">1%</text>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="99" y="470.8395349752166" height="35" style="fill: rgb(152, 199, 215);"/>
+        <text class="hiddenval" x="103" y="461.6647271085755" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;">2%</text>
+      </g>
+    </g>
+    <g class="g" transform="translate(379,1)">
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="3" y="383.5152954901813" height="122" style="fill: rgb(242, 109, 84);"/>
+        <text class="hiddenval" x="7" y="376.95623805503294" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;">7%</text>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="11" y="366.0504475931743" height="140" style="fill: rgb(103, 152, 208);"/>
+        <text class="hiddenval" x="15" y="358.4134022962977" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;">8%</text>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="19" y="331.1207517991602" height="175" style="fill: rgb(255, 208, 86);"/>
+        <text class="hiddenval" x="23" y="319.564671275752" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;">10%</text>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="27" y="278.7262081081389" height="227" style="fill: rgb(91, 193, 167);"/>
+        <text class="hiddenval" x="31" y="271.5432419542182" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;">13%</text>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="35" y="278.7262081081389" height="227" style="fill: rgb(234, 136, 185);"/>
+        <text class="hiddenval" x="39" y="262.46974491036144" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;">13%</text>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="43" y="278.7262081081389" height="227" style="fill: rgb(68, 176, 255);"/>
+        <text class="hiddenval" x="47" y="264.10575244698015" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;">13%</text>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="51" y="139.00742493208247" height="367" style="fill: rgb(0, 114, 198);"/>
+        <text class="hiddenval" x="55" y="121.94931129983453" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;">21%</text>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="59" y="313.65590390215306" height="192" style="fill: rgb(0, 49, 123);"/>
+        <text class="hiddenval" x="63" y="292.35445312659374" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;">11%</text>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="67" y="348.5855996961672" height="157" style="fill: rgb(104, 33, 122);"/>
+        <text class="hiddenval" x="71" y="336.5430583883662" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;">9%</text>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="75" y="261.26136021113183" height="245" style="fill: rgb(213, 49, 49);"/>
+        <text class="hiddenval" x="79" y="242.1120734405048" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;">14%</text>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="83" y="208.86681652011066" height="297" style="fill: rgb(49, 109, 213);"/>
+        <text class="hiddenval" x="87" y="188.63936261892232" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;">17%</text>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="91" y="226.33166441711776" height="280" style="fill: rgb(210, 13, 217);"/>
+        <text class="hiddenval" x="95" y="209.6806889156565" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;">16%</text>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="99" y="296.191056005146" height="210" style="fill: rgb(152, 199, 215);"/>
+        <text class="hiddenval" x="103" y="282.25194894909225" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;">12%</text>
+      </g>
+    </g>
+    <g class="g" transform="translate(500,1)">
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="3" y="156.47227282908952" height="350" style="fill: rgb(242, 109, 84);"/>
+        <text class="hiddenval" x="7" y="139.33363125361223" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;">20%</text>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="11" y="191.4019686231036" height="315" style="fill: rgb(103, 152, 208);"/>
+        <text class="hiddenval" x="15" y="173.76297777947173" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;">18%</text>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="19" y="69.1480333440542" height="437" style="fill: rgb(255, 208, 86);"/>
+        <text class="hiddenval" x="23" y="48.116598145599966" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;">25%</text>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="27" y="34.21833755004001" height="472" style="fill: rgb(91, 193, 167);"/>
+        <text class="hiddenval" x="31" y="19.116462167373356" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;">27%</text>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="35" y="16.753489653032922" height="489" style="fill: rgb(234, 136, 185);"/>
+        <text class="hiddenval" x="39" y="6.001884800982591" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;">28%</text>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="43" y="16.753489653032922" height="489" style="fill: rgb(68, 176, 255);"/>
+        <text class="hiddenval" x="47" y="5" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;">28%</text>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="51" y="69.1480333440542" height="437" style="fill: rgb(0, 114, 198);"/>
+        <text class="hiddenval" x="55" y="54.148365509370834" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;">25%</text>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="59" y="69.1480333440542" height="437" style="fill: rgb(0, 49, 123);"/>
+        <text class="hiddenval" x="63" y="62.019894396699755" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;">25%</text>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="67" y="104.07772913806828" height="402" style="fill: rgb(104, 33, 122);"/>
+        <text class="hiddenval" x="71" y="87.60094939102157" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;">23%</text>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="75" y="34.21833755004001" height="472" style="fill: rgb(213, 49, 49);"/>
+        <text class="hiddenval" x="79" y="16.505603856957034" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;">27%</text>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="83" y="34.21833755004001" height="472" style="fill: rgb(49, 109, 213);"/>
+        <text class="hiddenval" x="87" y="10.771643007729352" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;">27%</text>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="91" y="69.1480333440542" height="437" style="fill: rgb(210, 13, 217);"/>
+        <text class="hiddenval" x="95" y="54.14544543137974" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;">25%</text>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="99" y="104.07772913806828" height="402" style="fill: rgb(152, 199, 215);"/>
+        <text class="hiddenval" x="103" y="81.4731716657731" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;">23%</text>
+      </g>
+    </g>
+    <g class="g" transform="translate(621,1)">
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="3" y="156.47227282908952" height="350" style="fill: rgb(242, 109, 84);"/>
+        <text class="hiddenval" x="7" y="143.94446383621582" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;">20%</text>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="11" y="139.00742493208247" height="367" style="fill: rgb(103, 152, 208);"/>
+        <text class="hiddenval" x="15" y="130.8712840136733" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;">21%</text>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="19" y="104.07772913806828" height="402" style="fill: rgb(255, 208, 86);"/>
+        <text class="hiddenval" x="23" y="84.63101974742796" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;">23%</text>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="27" y="69.1480333440542" height="437" style="fill: rgb(91, 193, 167);"/>
+        <text class="hiddenval" x="31" y="55.238256216390596" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;">25%</text>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="35" y="51.68318544704711" height="454" style="fill: rgb(234, 136, 185);"/>
+        <text class="hiddenval" x="39" y="42.13228788663006" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;">26%</text>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="43" y="51.68318544704711" height="454" style="fill: rgb(68, 176, 255);"/>
+        <text class="hiddenval" x="47" y="44.74248298868331" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;">26%</text>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="51" y="69.1480333440542" height="437" style="fill: rgb(0, 114, 198);"/>
+        <text class="hiddenval" x="55" y="54.14792478905305" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;">25%</text>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="59" y="104.07772913806828" height="402" style="fill: rgb(0, 49, 123);"/>
+        <text class="hiddenval" x="63" y="83.02490108500024" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;">23%</text>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="67" y="69.1480333440542" height="437" style="fill: rgb(104, 33, 122);"/>
+        <text class="hiddenval" x="71" y="52.772176025207315" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;">25%</text>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="75" y="51.68318544704711" height="454" style="fill: rgb(213, 49, 49);"/>
+        <text class="hiddenval" x="79" y="39.31332655272393" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;">26%</text>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="83" y="69.1480333440542" height="437" style="fill: rgb(49, 109, 213);"/>
+        <text class="hiddenval" x="87" y="54.148549280602595" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;">25%</text>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="91" y="69.1480333440542" height="437" style="fill: rgb(210, 13, 217);"/>
+        <text class="hiddenval" x="95" y="54.15518116326214" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;">25%</text>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="99" y="86.61288124106123" height="419" style="fill: rgb(152, 199, 215);"/>
+        <text class="hiddenval" x="103" y="73.71612973010407" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;">24%</text>
+      </g>
+    </g>
+    <g class="g" transform="translate(742,1)">
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="3" y="139.00742493208247" height="367" style="fill: rgb(242, 109, 84);"/>
+        <text class="hiddenval" x="7" y="118.70040119378135" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;">21%</text>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="11" y="121.54257703507537" height="384" style="fill: rgb(103, 152, 208);"/>
+        <text class="hiddenval" x="15" y="112.81108107135498" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;">22%</text>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="19" y="86.61288124106123" height="419" style="fill: rgb(255, 208, 86);"/>
+        <text class="hiddenval" x="23" y="66.21205831534104" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;">24%</text>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="27" y="69.1480333440542" height="437" style="fill: rgb(91, 193, 167);"/>
+        <text class="hiddenval" x="31" y="46.78653583325044" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;">25%</text>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="35" y="69.1480333440542" height="437" style="fill: rgb(234, 136, 185);"/>
+        <text class="hiddenval" x="39" y="48.1440234434623" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;">25%</text>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="43" y="69.1480333440542" height="437" style="fill: rgb(68, 176, 255);"/>
+        <text class="hiddenval" x="47" y="47.495811096321326" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;">25%</text>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="51" y="69.1480333440542" height="437" style="fill: rgb(0, 114, 198);"/>
+        <text class="hiddenval" x="55" y="54.14760801030593" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;">25%</text>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="59" y="69.1480333440542" height="437" style="fill: rgb(0, 49, 123);"/>
+        <text class="hiddenval" x="63" y="59.48168119814146" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;">25%</text>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="67" y="51.68318544704711" height="454" style="fill: rgb(104, 33, 122);"/>
+        <text class="hiddenval" x="71" y="43.820586368850165" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;">26%</text>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="75" y="69.1480333440542" height="437" style="fill: rgb(213, 49, 49);"/>
+        <text class="hiddenval" x="79" y="56.26632163064244" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;">25%</text>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="83" y="69.1480333440542" height="437" style="fill: rgb(49, 109, 213);"/>
+        <text class="hiddenval" x="87" y="54.15624202459915" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;">25%</text>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="91" y="69.1480333440542" height="437" style="fill: rgb(210, 13, 217);"/>
+        <text class="hiddenval" x="95" y="54.14708114573146" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;">25%</text>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="99" y="51.68318544704711" height="454" style="fill: rgb(152, 199, 215);"/>
+        <text class="hiddenval" x="103" y="38.82531274636983" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;">26%</text>
+      </g>
+    </g>
+    <g class="g" transform="translate(863,1)">
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="3" y="191.4019686231036" height="315" style="fill: rgb(242, 109, 84);"/>
+        <text class="hiddenval" x="7" y="169.20250670930966" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;">18%</text>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="11" y="278.7262081081389" height="227" style="fill: rgb(103, 152, 208);"/>
+        <text class="hiddenval" x="15" y="265.3518035296997" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;">13%</text>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="19" y="470.8395349752166" height="35" style="fill: rgb(255, 208, 86);"/>
+        <text class="hiddenval" x="23" y="447.5230570398377" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;">2%</text>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="27" y="505.7692307692308" height="0" style="fill: rgb(91, 193, 167);"/>
+        <text class="hiddenval" x="31" y="490.7692307692308" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;"/>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="35" y="505.7692307692308" height="0" style="fill: rgb(234, 136, 185);"/>
+        <text class="hiddenval" x="39" y="490.7692307692308" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;"/>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="43" y="505.7692307692308" height="0" style="fill: rgb(68, 176, 255);"/>
+        <text class="hiddenval" x="47" y="490.7692307692308" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;"/>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="51" y="505.7692307692308" height="0" style="fill: rgb(0, 114, 198);"/>
+        <text class="hiddenval" x="55" y="490.7692307692308" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;"/>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="59" y="418.44499128419545" height="88" style="fill: rgb(0, 49, 123);"/>
+        <text class="hiddenval" x="63" y="395.4610287364975" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;">5%</text>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="67" y="366.0504475931743" height="140" style="fill: rgb(104, 33, 122);"/>
+        <text class="hiddenval" x="71" y="355.1991219873498" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;">8%</text>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="75" y="505.7692307692308" height="0" style="fill: rgb(213, 49, 49);"/>
+        <text class="hiddenval" x="79" y="490.7692307692308" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;"/>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="83" y="505.7692307692308" height="0" style="fill: rgb(49, 109, 213);"/>
+        <text class="hiddenval" x="87" y="490.7692307692308" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;"/>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="91" y="505.7692307692308" height="0" style="fill: rgb(210, 13, 217);"/>
+        <text class="hiddenval" x="95" y="490.7692307692308" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;"/>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="99" y="400.9801433871884" height="105" style="fill: rgb(152, 199, 215);"/>
+        <text class="hiddenval" x="103" y="381.22765923285505" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;">6%</text>
+      </g>
+    </g>
+    <g class="g" transform="translate(984,1)">
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="3" y="366.0504475931743" height="140" style="fill: rgb(242, 109, 84);"/>
+        <text class="hiddenval" x="7" y="359.597659944505" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;">8%</text>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="11" y="366.0504475931743" height="140" style="fill: rgb(103, 152, 208);"/>
+        <text class="hiddenval" x="15" y="356.7881968604653" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;">8%</text>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="19" y="470.8395349752166" height="35" style="fill: rgb(255, 208, 86);"/>
+        <text class="hiddenval" x="23" y="456.05430436646054" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;">2%</text>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="27" y="505.7692307692308" height="0" style="fill: rgb(91, 193, 167);"/>
+        <text class="hiddenval" x="31" y="490.7692307692308" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;"/>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="35" y="505.7692307692308" height="0" style="fill: rgb(234, 136, 185);"/>
+        <text class="hiddenval" x="39" y="490.7692307692308" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;"/>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="43" y="505.7692307692308" height="0" style="fill: rgb(68, 176, 255);"/>
+        <text class="hiddenval" x="47" y="490.7692307692308" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;"/>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="51" y="505.7692307692308" height="0" style="fill: rgb(0, 114, 198);"/>
+        <text class="hiddenval" x="55" y="490.7692307692308" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;"/>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="59" y="470.8395349752166" height="35" style="fill: rgb(0, 49, 123);"/>
+        <text class="hiddenval" x="63" y="456.7769129301485" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;">2%</text>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="67" y="470.8395349752166" height="35" style="fill: rgb(104, 33, 122);"/>
+        <text class="hiddenval" x="71" y="460.350969972576" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;">2%</text>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="75" y="505.7692307692308" height="0" style="fill: rgb(213, 49, 49);"/>
+        <text class="hiddenval" x="79" y="490.7692307692308" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;"/>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="83" y="505.7692307692308" height="0" style="fill: rgb(49, 109, 213);"/>
+        <text class="hiddenval" x="87" y="490.7692307692308" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;"/>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="91" y="505.7692307692308" height="0" style="fill: rgb(210, 13, 217);"/>
+        <text class="hiddenval" x="95" y="490.7692307692308" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;"/>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="99" y="488.30438287222375" height="18" style="fill: rgb(152, 199, 215);"/>
+        <text class="hiddenval" x="103" y="465.1571672278499" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;">1%</text>
+      </g>
+    </g>
+    <g class="g" transform="translate(1105,1)">
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="3" y="488.30438287222375" height="18" style="fill: rgb(242, 109, 84);"/>
+        <text class="hiddenval" x="7" y="465.15255244741644" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;">1%</text>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="11" y="453.3746870782096" height="53" style="fill: rgb(103, 152, 208);"/>
+        <text class="hiddenval" x="15" y="446.8972448108103" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;">3%</text>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="19" y="488.30438287222375" height="18" style="fill: rgb(255, 208, 86);"/>
+        <text class="hiddenval" x="23" y="469.2440573586599" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;">1%</text>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="27" y="505.7692307692308" height="0" style="fill: rgb(91, 193, 167);"/>
+        <text class="hiddenval" x="31" y="490.7692307692308" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;"/>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="35" y="505.7692307692308" height="0" style="fill: rgb(234, 136, 185);"/>
+        <text class="hiddenval" x="39" y="490.7692307692308" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;"/>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="43" y="505.7692307692308" height="0" style="fill: rgb(68, 176, 255);"/>
+        <text class="hiddenval" x="47" y="490.7692307692308" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;"/>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="51" y="505.7692307692308" height="0" style="fill: rgb(0, 114, 198);"/>
+        <text class="hiddenval" x="55" y="490.7692307692308" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;"/>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="59" y="488.30438287222375" height="18" style="fill: rgb(0, 49, 123);"/>
+        <text class="hiddenval" x="63" y="478.5793727811056" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;">1%</text>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="67" y="505.7692307692308" height="0" style="fill: rgb(104, 33, 122);"/>
+        <text class="hiddenval" x="71" y="483.4013229852756" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;">0%</text>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="75" y="505.7692307692308" height="0" style="fill: rgb(213, 49, 49);"/>
+        <text class="hiddenval" x="79" y="490.7692307692308" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;"/>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="83" y="505.7692307692308" height="0" style="fill: rgb(49, 109, 213);"/>
+        <text class="hiddenval" x="87" y="490.7692307692308" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;"/>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="91" y="505.7692307692308" height="0" style="fill: rgb(210, 13, 217);"/>
+        <text class="hiddenval" x="95" y="490.7692307692308" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;"/>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="99" y="505.7692307692308" height="0" style="fill: rgb(152, 199, 215);"/>
+        <text class="hiddenval" x="103" y="483.39440242451724" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;">0%</text>
+      </g>
+    </g>
+    <g class="g" transform="translate(1226,1)">
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="3" y="505.7692307692308" height="0" style="fill: rgb(242, 109, 84);"/>
+        <text class="hiddenval" x="7" y="488.06698045743576" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;">0%</text>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="11" y="488.30438287222375" height="18" style="fill: rgb(103, 152, 208);"/>
+        <text class="hiddenval" x="15" y="478.0933508341312" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;">1%</text>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="19" y="505.7692307692308" height="0" style="fill: rgb(255, 208, 86);"/>
+        <text class="hiddenval" x="23" y="482.4717271946412" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;">0%</text>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="27" y="505.7692307692308" height="0" style="fill: rgb(91, 193, 167);"/>
+        <text class="hiddenval" x="31" y="490.7692307692308" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;"/>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="35" y="505.7692307692308" height="0" style="fill: rgb(234, 136, 185);"/>
+        <text class="hiddenval" x="39" y="490.7692307692308" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;"/>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="43" y="505.7692307692308" height="0" style="fill: rgb(68, 176, 255);"/>
+        <text class="hiddenval" x="47" y="490.7692307692308" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;"/>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="51" y="505.7692307692308" height="0" style="fill: rgb(0, 114, 198);"/>
+        <text class="hiddenval" x="55" y="490.7692307692308" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;"/>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="59" y="505.7692307692308" height="0" style="fill: rgb(0, 49, 123);"/>
+        <text class="hiddenval" x="63" y="490.1143219198552" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;">0%</text>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="67" y="505.7692307692308" height="0" style="fill: rgb(104, 33, 122);"/>
+        <text class="hiddenval" x="71" y="490.7692307692308" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;"/>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="75" y="505.7692307692308" height="0" style="fill: rgb(213, 49, 49);"/>
+        <text class="hiddenval" x="79" y="490.7692307692308" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;"/>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="83" y="505.7692307692308" height="0" style="fill: rgb(49, 109, 213);"/>
+        <text class="hiddenval" x="87" y="490.7692307692308" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;"/>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="91" y="505.7692307692308" height="0" style="fill: rgb(210, 13, 217);"/>
+        <text class="hiddenval" x="95" y="490.7692307692308" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;"/>
+      </g>
+      <g transform="translate(0,0)">
+        <rect class="bar tool Rectbar" width="8" x="99" y="505.7692307692308" height="0" style="fill: rgb(152, 199, 215);"/>
+        <text class="hiddenval" x="103" y="490.7692307692308" dy=".75em" dx=".90em" text-anchor="middle" style="font-size: 9px; font-weight: bold;"/>
+      </g>
+    </g>
+    <text x="675.5" y="-6" style="text-anchor: middle; font-size: 21px; font-weight: bold;">Age of Respondent</text>
+  </g>
+</svg>

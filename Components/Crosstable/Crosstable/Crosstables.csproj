@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A05220B0-B1DB-49FB-84E6-B98A7A78339B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Crosstables</RootNamespace>
+    <AssemblyName>Crosstables</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="LinkBi">
+      <HintPath>..\..\LinkBi\bin\Debug\LinkBi.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\..\..\packages\Microsoft.Office.Interop.Excel.15.0.4795.1000\lib\net20\Microsoft.Office.Interop.Excel.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="SpreadsheetGear2012.Core, Version=7.1.2.102, Culture=neutral, PublicKeyToken=39c186f5904944ec, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\packages\Dll\SpreadsheetGear2012.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="SpreadsheetGear2012.Drawing, Version=7.1.2.102, Culture=neutral, PublicKeyToken=39c186f5904944ec, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\packages\Dll\SpreadsheetGear2012.Drawing.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes\BaseReportDefinition.cs" />
+    <Compile Include="Classes\BaseReportSettings.cs" />
+    <Compile Include="Classes\CategorySelector.cs" />
+    <Compile Include="Classes\Charts\Chart.cs" />
+    <Compile Include="Classes\Charts\ChartDataRenderers\ChartDataRenderer.cs" />
+    <Compile Include="Classes\Charts\ChartDataRenderers\ChartDataRendererWords.cs" />
+    <Compile Include="Classes\Charts\ChartDataRenderers\ChartDataRendererSingleSeries.cs" />
+    <Compile Include="Classes\Charts\ChartDataRenderers\ChartDataRendererMultiSeries.cs" />
+    <Compile Include="Classes\Crosstable.cs" />
+    <Compile Include="Classes\CrosstableSettings.cs" />
+    <Compile Include="Classes\Exporter.cs" />
+    <Compile Include="Classes\HierarchyClasses\HierarchyFilter.cs" />
+    <Compile Include="Classes\HierarchyClasses\HierarchyFilterCollection.cs" />
+    <Compile Include="Classes\ReportDefinitionClasses\Collections\WeightingVariableCollection.cs" />
+    <Compile Include="Classes\ReportDefinitionClasses\DataCheck.cs" />
+    <Compile Include="Classes\ReportDefinitionClasses\FilterCategory.cs" />
+    <Compile Include="Classes\ReportDefinitionClasses\FilterCategoryOperator.cs" />
+    <Compile Include="Classes\ReportDefinitionClasses\ODataRenderer.cs" />
+    <Compile Include="Classes\ReportDefinitionClasses\ReportDefinition.cs" />
+    <Compile Include="Classes\ReportDefinitionClasses\ReportDefinitionCategory.cs" />
+    <Compile Include="Classes\ReportDefinitionClasses\ReportDefinitionInfo.cs" />
+    <Compile Include="Classes\ReportDefinitionClasses\ReportDefinitionRenderer.cs" />
+    <Compile Include="Classes\ReportDefinitionClasses\ReportDefinitionRendererJSON.cs" />
+    <Compile Include="Classes\ReportDefinitionClasses\ReportDefinitionScoreCollection.cs" />
+    <Compile Include="Classes\ReportDefinitionClasses\ReportDefinitionScoreGroup.cs" />
+    <Compile Include="Classes\ReportDefinitionClasses\ReportDefinitionScore.cs" />
+    <Compile Include="Classes\ReportDefinitionClasses\ReportDefinitionTaxonomyCategory.cs" />
+    <Compile Include="Classes\ReportDefinitionClasses\ReportDefinitionVariable.cs" />
+    <Compile Include="Classes\ReportDefinitionClasses\TableauReportDefinitionRenderer.cs" />
+    <Compile Include="Classes\WorkflowClasses\Workflow.cs" />
+    <Compile Include="Classes\WorkflowClasses\WorkflowSelection.cs" />
+    <Compile Include="Classes\WorkflowClasses\WorkflowSelectionHierarchy.cs" />
+    <Compile Include="Classes\WorkflowClasses\WorkflowSelectionProject.cs" />
+    <Compile Include="Classes\WorkflowClasses\WorkflowSelectionSelector.cs" />
+    <Compile Include="Classes\WorkflowClasses\WorkflowSelectionVariable.cs" />
+    <Compile Include="Classes\WorkflowClasses\WorkflowSelector.cs" />
+    <Compile Include="Classes\WorkflowClasses\WorkflowSelectorItem.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Cores\CaseDataCore\CaseDataCore\CaseDataCore.csproj">
+      <Project>{776041c3-5967-455c-b06d-2aa511e611a1}</Project>
+      <Name>CaseDataCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Cores\DatabaseCore\DatabaseCore.csproj">
+      <Project>{d17e9d03-d024-4420-837f-a0a869c1c6a5}</Project>
+      <Name>DatabaseCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Cores\DataCore\DataCore\DataCore.csproj">
+      <Project>{4aa32feb-9fd7-4900-b752-35819860f9fd}</Project>
+      <Name>DataCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\ApplicationUtilities\ApplicationUtilities.csproj">
+      <Project>{2f85d9a6-33bf-4401-b2b2-635a7c78918d}</Project>
+      <Name>ApplicationUtilities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\VariableSelector\VariableSelector\VariableSelector.csproj">
+      <Project>{94accce9-c9b8-4634-9660-8eef195231a3}</Project>
+      <Name>VariableSelector</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\WebUtilities\WebUtilities.csproj">
+      <Project>{852825b2-b334-439e-8d4b-44b97c5e9de5}</Project>
+      <Name>WebUtilities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,8 @@
+<Workflow>
+  <Default>
+    <Selection Name="StudyType" Id="acde10d6-5be8-4fb0-a95b-ca5700ee75a8">
+      <VariableFilter Name="" VariableName="StudyType" IsTaxonomy="True" Mode="Multi">
+      </VariableFilter>
+    </Selection>
+  </Default>
+</Workflow>

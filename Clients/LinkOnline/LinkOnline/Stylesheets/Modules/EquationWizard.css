@@ -1,0 +1,42 @@
+﻿.EquationWizardSelection {
+    transition:transform .3s;
+    transform:scale(0);
+    box-shadow: 0px 0px 5px 0px #444444;
+    background:#FFFFFF;
+    position:absolute;
+    z-index: 9999;
+
+    left:50%;
+    top:50%;
+
+    width:600px;
+    height:600px;
+    
+    margin-left:-300px;
+    margin-top:-300px;
+}
+
+.EquationWizardSelection select {
+    width:100%;
+}
+
+.EquationWizardSelectionSections {
+    color:#FFFFFF;
+    float: left;
+    height: 100%;
+}
+
+.EquationWizardSelectionSection {
+    cursor:pointer;
+    padding:1em;
+}
+
+.EquationWizardSelectionItemName {
+    font-size:16pt;
+    font-weight:bold;
+}
+
+.EquationWizardConfiguration {
+    width:100%;
+    height:100%;
+}

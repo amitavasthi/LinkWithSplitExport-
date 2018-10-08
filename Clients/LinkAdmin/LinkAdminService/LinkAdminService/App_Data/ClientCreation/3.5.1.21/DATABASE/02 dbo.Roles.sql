@@ -1,0 +1,23 @@
+USE [###CLIENTNAME###]
+
+
+SET ANSI_NULLS ON
+
+
+SET QUOTED_IDENTIFIER ON
+
+
+CREATE TABLE [dbo].[Roles](
+	[Id] [uniqueidentifier] NOT NULL,
+	[CreationDate] [datetime] NOT NULL CONSTRAINT [DF_Roles_CreationDate]  DEFAULT (getdate()),
+	[Name] [nvarchar](255) NOT NULL,
+	[Description] [nvarchar](max) NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+
+
+
+

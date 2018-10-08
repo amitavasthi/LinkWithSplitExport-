@@ -1,0 +1,162 @@
+﻿html, body, form {
+    height:100%;
+    padding:0px;
+    margin:0px;
+    color:#333333;
+}
+
+body {
+    font-family:Calibri;
+    overflow:hidden;
+}
+
+h1 {
+    color:#6CAEE0;
+}
+
+.Headline {
+    padding:10px;
+}
+
+.Navigation {
+    padding:20px;
+    padding-right:0px;
+    background:#444444;
+    height:100%;
+}
+
+.NavigationItem {
+    text-align:center;
+    cursor:pointer;
+    background:#777777;
+    margin-bottom:5px;
+
+    padding:20px 10px 20px 10px;
+    
+    border-top-left-radius:2px;
+    border-bottom-left-radius:2px;
+}
+.NavigationItem:hover {
+    background:#cccccc;
+}
+
+.Content {
+    background:#444444;
+    width:100%;
+    height:100%;
+    padding:20px;
+    padding-left:0px;
+}
+
+.ContentPanel {
+    background:#FFFFFF;
+    width:100%;
+    height:100%;
+
+    overflow:auto;
+    
+    border-top-right-radius:2px;
+    border-bottom-right-radius:2px;
+    border-bottom-left-radius:2px;
+}
+
+/* ##### Input styles ##### */
+
+
+input[type=text],
+input[type=password],
+select {
+    background:#FFFFFF;
+    padding:5px;
+    border-radius:2px;
+    border:1px solid #444444;
+}
+
+input[type=button],
+.Button {
+    font-size:14pt;
+    display:inline-block;
+    border:none;
+    padding:5px 10px 5px 10px;
+    color:#FFFFFF;
+    background:#2189d7;
+    cursor:pointer;
+    text-align:center;
+}
+
+.Button:hover {
+    background:#2495e9;
+    /*box-shadow:0px 0px 2px 0px #FFFFFF;*/
+}
+
+/* ##### Table styles ##### */
+
+.TableContent .TableHeadline td {
+    border-top:none;
+    border-bottom:none;
+    font-weight:bold;
+}
+.TableContent  {
+    border-collapse:collapse;
+    width:100%;
+}
+.TableContent td {
+    padding:10px;
+    border-top:1px solid #cccccc;
+    border-bottom:1px solid #cccccc;
+}
+
+.TableContent .TdHoverOnly {
+    padding:0px;
+}
+.TableContent .TdHoverOnly .Button {
+    visibility:hidden;
+}
+
+.TableContent tr:hover .TdHoverOnly .Button {
+    visibility:visible;
+}
+
+.TableContent tr:hover {
+    background:#F6F6F6;
+}
+
+.TableContent .TableCellNew {
+    padding:2px;
+    font-size:36pt;
+    color:#6CAEE0;
+    text-align:center;
+    border-bottom:none;
+    line-height: 35px;
+    cursor:pointer;
+}
+
+
+/* ##### Scroll bar styles ##### */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius:2px;
+}
+::-webkit-scrollbar-thumb {
+    border:1px solid #FFFFFF;
+    background-color: #777777;
+    border-radius:2px;
+}
+::-webkit-scrollbar-thumb:hover {
+	background-color: #2495e9;
+}
+
+body {
+	scrollbar-face-color: #cccccc;
+	scrollbar-shadow-color: #cccccc;
+	scrollbar-highlight-color:#cccccc;
+	scrollbar-3dlight-color: #cccccc;
+	scrollbar-darkshadow-color: #FFFFFF;
+	scrollbar-track-color: #FFFFFF;
+	scrollbar-arrow-color: #cccccc;
+}

@@ -1,0 +1,9 @@
+﻿<Whitelist>
+  <Item IP="178.26.118.178"></Item>
+  <Item IP="::1"></Item>
+  <Item IP="127.0.0.1"></Item>
+  <Item IP="104.40.87.14"></Item>
+  <Item IP="104.40.89.251"></Item>
+  <Item IP="104.40.86.151"></Item>
+  <Item IP="59.144.59.54"></Item>
+</Whitelist>

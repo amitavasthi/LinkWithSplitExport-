@@ -1,0 +1,5 @@
+﻿<Navigation>
+  <MenuItem Row="0" Position="0" Name="New" OnClick="javascript:ClearLinkBiDefinition();" Icon="/Images/Icons/LinkReporterSettings/New.png"></MenuItem>
+  <MenuItem Row="0" Position="1" Name="Settings" Icon="/Images/Icons/LinkReporterSettings/Settings.png" OnClick="javascript:InitDragBox('boxSettingsControl')"></MenuItem>
+  <MenuItem Row="1" Position="1" Name="Save" Icon="/Images/Icons/LinkReporterSettings/Save.png" OnClick="javascript:SaveLinkBiDefinition();"></MenuItem>
+</Navigation>

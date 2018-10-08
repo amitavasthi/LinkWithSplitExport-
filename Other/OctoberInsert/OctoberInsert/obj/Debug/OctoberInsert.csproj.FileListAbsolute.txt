@@ -1,0 +1,6 @@
+C:\Projects\Cognicient\LinkManager\LinkManager\Other\OctoberInsert\OctoberInsert\bin\Debug\OctoberInsert.exe.config
+C:\Projects\Cognicient\LinkManager\LinkManager\Other\OctoberInsert\OctoberInsert\obj\Debug\OctoberInsert.csprojResolveAssemblyReference.cache
+C:\Projects\Cognicient\LinkManager\LinkManager\Other\OctoberInsert\OctoberInsert\bin\Debug\OctoberInsert.exe
+C:\Projects\Cognicient\LinkManager\LinkManager\Other\OctoberInsert\OctoberInsert\bin\Debug\OctoberInsert.pdb
+C:\Projects\Cognicient\LinkManager\LinkManager\Other\OctoberInsert\OctoberInsert\obj\Debug\OctoberInsert.exe
+C:\Projects\Cognicient\LinkManager\LinkManager\Other\OctoberInsert\OctoberInsert\obj\Debug\OctoberInsert.pdb

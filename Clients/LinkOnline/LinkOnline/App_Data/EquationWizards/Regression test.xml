@@ -1,0 +1,14 @@
+<EquationWizard>
+  <Properties>
+    <Section>Regression</Section>
+    <Name>Regression test</Name>
+    <Description>this is just a test</Description>
+  </Properties>
+  <Equation>
+    <PlaceHolder Type="Variable" Repeat="Category" Delimiter="+">
+      <![CDATA[
+        ([@Variable.@Category] * @CategoryValue / [@Variable])
+      ]]>
+    </PlaceHolder>
+  </Equation>
+</EquationWizard>

@@ -1,0 +1,109 @@
+﻿.Content{
+    overflow:hidden;
+}
+
+.LibraryGridHeadline {
+    width:100%;
+    color:#888888;
+}
+.LibraryGridHeadline:hover {
+    background:none !important;
+}
+.LibraryGridHeadline .GridViewDetail {
+    text-align:center !important;
+    border-left:1px solid #cccccc;
+}
+.LibraryGridHeadline .LibraryGridHeadlineItem {
+    cursor:pointer;
+    background:#FFFFFF;
+}
+.LibraryGridHeadline .LibraryGridHeadlineItem:hover {
+    background:#F6F6F6;
+}
+
+.LinkCloud {
+    height:100%;
+    width:100%;
+}
+
+.FileExplorer {
+    height:100%;
+    padding:1em;
+    border-right-width:1px;
+    border-right-style:solid;
+}
+
+.Files {
+    padding:1em;
+    padding-top: 0px;
+    height:100%;
+}
+
+.Controls {
+    width:100%;
+}
+
+.CloudItem {
+    float:left;
+    margin:10px;
+    width:120px;
+    height:170px;
+
+    text-align:center;
+}
+
+
+.CloudItem .GridViewDetail {
+    display:none;
+}
+
+.CloudItemGrid {
+    text-align:left;
+    width:100%;
+    clear:both;
+    margin:5px;
+}
+.CloudItemGrid:hover {
+    background:#FAFAFA;
+}
+
+.CloudItemGrid .GridViewDetail {
+    float:right;
+    text-align:right;
+}
+.CloudItemGrid input[type=image] {
+    float:left;
+    height:31px;
+}
+.CloudItemGrid div {
+    padding: 7px;
+    white-space:nowrap;
+    display:inline-block;
+}
+
+.FileExplorerNavigationItem {
+    float:left;
+    padding:5px;
+    border-right:2px solid #FFFFFF;
+}
+
+.FileExplorerNavigationItem:last-child {
+    border-right:none !important;
+}
+
+.FileExplorerNavigationItem a {
+    color:#FFFFFF;
+    text-decoration:none;
+}
+
+
+.TableChooseNewAction td {
+    text-align:center;
+}
+
+#cphContent_txtSearch
+{
+    padding: 2px;
+    float: left;
+    margin-top: 2px
+}

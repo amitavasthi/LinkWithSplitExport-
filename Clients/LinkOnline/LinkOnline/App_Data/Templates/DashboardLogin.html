@@ -1,0 +1,166 @@
+<html>
+<head>
+    <title>LiNK - Dashboard Authentication</title>
+    <script type="text/javascript" src="/Scripts/Includes/jquery-1.10.2.js"></script>
+    <link rel="icon" type="image/png" href="/favicon.png">
+    <style type="text/css">
+        body {
+            background-repeat: no-repeat;
+            background-size: 100%;
+            background-position:center;
+        }
+
+        .LoginFormBackground {
+            background: #FFFFFF;
+            box-shadow: 0px 0px 5px 0px #FFFFFF;
+            opacity: .7;
+            position: absolute;
+            z-index: 9998;
+            left: 10%;
+            top: 0px;
+            width: 477px;
+            height: 100%;
+        }
+
+        .LoginForm {
+            background: #6CAEE0;
+            padding: 40px;
+            position: absolute;
+            z-index: 9999;
+            left: 10%;
+            top: 50%;
+            margin-top: -160px;
+            width: 397px;
+        }
+
+        td {
+            font-family: Calibri;
+            font-size: 14pt;
+            color: #FFFFFF;
+        }
+
+        .Button {
+            cursor: pointer;
+            display: inline-block;
+            padding: 40px 50px 40px 50px;
+            background-color: #FCB040;
+            box-shadow: 0px 0px 0px 0px #d79739;
+            transition: box-shadow .5s, background-color .5s;
+            color: #FFFFFF;
+        }
+
+        .Button:hover {
+            box-shadow: 0px 0px 10px 0px #d79739;
+        }
+
+        input[type=text],
+        input[type=password] {
+            padding: 10px;
+            border: 1px solid #cccccc;
+        }
+
+        input[type=text]:hover,
+        input[type=password]:hover {
+        }
+
+
+        .loader {
+            margin:auto;
+            border: 2px solid #FFFFFF;
+            border-top: 2px solid #6CAEE0;
+            border-radius: 50%;
+            width: 20px;
+            height: 20px;
+            animation: spin 2s ease infinite;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body style="">
+    <script type="text/javascript">
+        document.body.style.backgroundImage = "url('/Handlers/Images.ashx?Path=Images/LoginBackgrounds/Vault.jpg&Width=" + window.innerWidth + "&Height=" + window.innerHeight + "')";
+    </script>
+    <script type="text/javascript">
+        document.body.onload = function () {
+            window.setTimeout(CheckAuthentication, 2000);
+        };
+
+        function Authenticate(sender) {
+            var tdError = document.getElementById("tdError");
+            tdError.style.visibility = "hidden";
+
+            sender.style.width = (sender.offsetWidth - 100) + "px";
+            sender.innerHTML = "<div class=\"loader\"></div>";
+
+            $.ajax({
+                type: "POST",
+                data: "Method=Authenticate&IsEncrypted=False&Username=" + document.getElementById("txtUsername").value +
+                    "&Password=" + document.getElementById("txtPassword").value,
+                url: "/Handlers/LinkBiExternal.ashx",
+                dataType: "html",
+                async: false,
+                success: function (data) {
+                    window.location = window.location;
+                },
+                error: function (msg) {
+                    sender.innerHTML = "Login";
+                    tdError.style.visibility = "";
+                }
+            });
+        }
+
+        function CheckAuthentication() {
+            $.ajax({
+                type: "POST",
+                data: "Method=IsAuthenticated",
+                url: "/Handlers/LinkBiExternal.ashx",
+                dataType: "html",
+                async: false,
+                success: function (data) {
+                    if (data == "True") {
+                        window.location = window.location;
+                    } else {
+                        window.setTimeout(CheckAuthentication, 2000);
+                    }
+                },
+                error: function (msg) {
+                }
+            });
+        }
+    </script>
+    <div class="LoginFormBackground"></div>
+    <div class="LoginForm">
+        <table cellpadding="10">
+            <tr>
+                <td colspan="2" style="text-align:center;padding-bottom:0px;">
+                    Please use your LiNK credentials to access this dashboard
+                </td>
+            </tr>
+            <tr>
+                <td id="tdError" colspan="2" style="visibility:hidden;padding:0px;font-size:12pt;text-align:center;color:#FF0000">
+                    The username or password you entered is incorrect.
+                </td>
+            </tr>
+            <tr>
+                <td align="right">
+                    <input id="txtUsername" type="text" />
+                </td>
+                <td rowspan="2">
+                    <div class="Button" onclick="Authenticate(this);">
+                        Login
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td align="right">
+                    <input id="txtPassword" type="password" />
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

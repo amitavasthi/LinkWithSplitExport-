@@ -1,0 +1,189 @@
+﻿.Grid {
+    width:100%;
+}
+
+.GridOverflow {
+    border-top:1px solid #6CAEE0;
+    border-bottom:1px solid #6CAEE0;
+}
+
+.PanelAdditionalButtons {
+    float:left;
+    margin-top:10px;
+}
+
+.PanelButtons {
+    float:right;
+    margin-top:10px;
+}
+
+.Grid .GridHead tr {
+    display: block;
+    position: relative;
+}
+
+.Grid .GridBody {
+    display: block;
+    overflow: auto;
+    width: 100%;
+}
+
+.Grid .GridOverflow {
+    overflow:auto;
+}
+
+.Grid .GridHeadlineItem, .Grid .GridRowItem {
+    /*height:19px;*/
+}
+
+.Grid .GridHeadline, .Grid .GridRow, .Grid .GridRow_Active{
+    border-right: 1px solid #8B8888;
+}
+
+.Grid .GridHeadline .GridHeadlineItem {
+    font-weight:bold;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    
+    border-left: 1px solid #8B8888;
+    border-top: 1px solid #8B8888;
+}
+ *[contenteditable] {
+                -webkit-user-select: auto;
+            }
+.Grid .GridHead .Spacer {
+    width:15px;
+
+    min-width:15px;
+    max-width:15px;
+
+    height: 28px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+
+.GridRow, .GridRow_Active, .GridRow2 {
+    height: 20px;
+}
+
+.GridHeadline {
+    height:20px;
+    color:#FFFFFF;
+}
+
+.GridHeadline input[type=text] {
+    color:#000000;
+}
+
+.GridHeadlineItem {
+    /*
+    background-color: #2A5F93;
+    background-image: url("http://test.survey-tester.com/Images/CompanyTemplate/2x4_DragBoxHeadline1.png"), url("http://test.survey-tester.com/Images/CompanyTemplate/2x4_DragBoxHeadline2.png");
+    background-position: 0 0px, 0 14px;
+    background-repeat: repeat-x, repeat-x;
+    background-size: 100px 14px, 100px 14px;
+    */
+
+    text-align:left;
+
+    font-weight:normal;
+}
+
+
+.GridRow {
+    cursor:pointer;
+}
+
+.GridRow_Active .GridRowItem {
+    color:#FFFFFF;
+}
+
+.GridRow_Active .GridRowItem a {
+    color:#FFFFFF;
+}
+
+
+.GridRow2 .GridRowItem {
+    background:#F6F6F6;
+}
+
+.GridRowItem, .GridHeadlineItem {
+    overflow:hidden;
+}
+
+.GridHeadlineItemSearch {
+    float:right;
+    cursor:pointer;
+}
+
+.GridColumnResizer {
+    width:1px;
+    /*cursor:col-resize;
+    height:29px;*/
+}
+
+.Grid th[class=GridColumnResizer], .Grid td[class=GridColumnResizer] {
+    padding:0px;
+}
+
+.GridRowItem, .GridHeadlineItem, .GridColumnResizer {
+    min-height:1px;
+    /*float:left;*/
+    display:table-cell;
+}
+
+.GridClear {
+    clear:both;
+}
+
+.GridSearch {
+    max-width:200px;
+
+    margin-top:-20px;
+
+    position:absolute;
+}
+
+.GridRowItem, .GridRow, .GridRow_Active {
+    min-height:28px;
+    /*max-height:56px;*/
+    word-break:break-word;
+    height: auto;
+}
+
+.GridHeadline, .GridRow, .GridRow_Active {
+    overflow:hidden;
+}
+
+.GridRowItem {
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+    border-left: 1px solid #8B8888;
+    border-top: 1px solid #8B8888;
+}
+
+.GridHeadlineItem {
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.GridRowItemOverflow, .GridHeadlineItemOverflow {
+    overflow:hidden;
+}
+
+.GridRowItemSingle {
+    display:block;
+}
+
+.GridHeadline, .GridHeadlineItem {
+    min-height:25px;
+}

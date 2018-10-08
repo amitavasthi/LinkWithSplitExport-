@@ -1,0 +1,12 @@
+C:\Projects\Cognicient\LinkManager\LinkManager\Other\V2_to_V3\V2_to_V3\bin\Debug\V2_to_V3.exe.config
+C:\Projects\Cognicient\LinkManager\LinkManager\Other\V2_to_V3\V2_to_V3\bin\Debug\V2_to_V3.exe
+C:\Projects\Cognicient\LinkManager\LinkManager\Other\V2_to_V3\V2_to_V3\bin\Debug\V2_to_V3.pdb
+C:\Projects\Cognicient\LinkManager\LinkManager\Other\V2_to_V3\V2_to_V3\obj\Debug\V2_to_V3.exe
+C:\Projects\Cognicient\LinkManager\LinkManager\Other\V2_to_V3\V2_to_V3\obj\Debug\V2_to_V3.pdb
+C:\Projects\Cognicient\LinkManager\LinkManager\Other\V2_to_V3\V2_to_V3\obj\Debug\V2_to_V3.csprojResolveAssemblyReference.cache
+C:\Projects\Blueocean\Link\LinkManager\Other\V2_to_V3\V2_to_V3\bin\Debug\V2_to_V3.exe.config
+C:\Projects\Blueocean\Link\LinkManager\Other\V2_to_V3\V2_to_V3\obj\Debug\V2_to_V3.exe
+C:\Projects\Blueocean\Link\LinkManager\Other\V2_to_V3\V2_to_V3\obj\Debug\V2_to_V3.pdb
+C:\Projects\Blueocean\Link\LinkManager\Other\V2_to_V3\V2_to_V3\bin\Debug\V2_to_V3.exe
+C:\Projects\Blueocean\Link\LinkManager\Other\V2_to_V3\V2_to_V3\bin\Debug\V2_to_V3.pdb
+C:\Projects\Blueocean\Link\LinkManager\Other\V2_to_V3\V2_to_V3\obj\Debug\V2_to_V3.csprojResolveAssemblyReference.cache

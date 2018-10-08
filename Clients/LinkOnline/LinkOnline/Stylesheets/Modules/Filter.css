@@ -1,0 +1,74 @@
+﻿.FilterOperator {
+    padding:5px;
+    margin:5px;
+    margin-left:20px;
+
+    border-radius:2px;
+
+    box-shadow: 0px 0px 2px 0px #000000;
+}
+
+.FilterOperator table{
+    width:100%;
+}
+
+.DropDownListType{
+    margin-left:-30px;
+}
+
+.DropDownListCategoriesType{
+    float:right;
+}
+
+.CategorySelectorCategories .HoverBox{
+    width:300px;
+    max-height:300px;
+    overflow:auto;
+}
+
+.CategorySelectorCategory {
+    color:#FFFFFF;
+    padding:5px;
+    cursor:pointer;
+}
+
+.CategorySelectorSearch_Active {
+}
+
+.CategorySelectorSearch_Inactive {
+    padding:3px;
+    font-size:12pt;
+    background:transparent;
+    color:#FFFFFF;
+    border:none;
+}
+
+.NewFilterOperator {
+    color:#FFFFFF;
+    text-decoration:none;
+}
+
+.DeleteFilterCategoryOperator {
+    float:right;
+}
+
+
+.FilterSearchResults {
+    background: #FFFFFF;
+    border-radius: 4px;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.FilterSearchResults table {
+    width:100%;
+    border-bottom:1px solid #FFFFFF;
+}
+
+.FilterSearchResults table td {
+    padding:5px !important;
+}
+
+.FilterSearchResults .FilterSearchResultVariable {
+    color:#FFFFFF;
+}

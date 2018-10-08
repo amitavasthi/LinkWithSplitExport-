@@ -1,0 +1,171 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage1.MasterPage" %>
+
+<%@ Register TagPrefix="wu" Assembly="WebUtilities" Namespace="WebUtilities.Controls" %>
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+    <head id="Head1" runat="server">
+        <title>Link | Reporting & Analytics</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <link rel="icon" type="image/png" href="/favicon.png">
+
+        <asp:PlaceHolder ID="phColorScheme" runat="server"></asp:PlaceHolder>
+
+        <wu:ScriptReference runat="server" Source="/Scripts/Main.js"></wu:ScriptReference>
+        <wu:StylesheetReference runat="server" Source="/Stylesheets/Main.css"></wu:StylesheetReference>
+
+        <wu:ScriptReference runat="server" Source="/Scripts/Controls/HoverBox.js"></wu:ScriptReference>
+        <wu:StylesheetReference runat="server" Source="/Stylesheets/Controls/HoverBox.css"></wu:StylesheetReference>
+
+        <wu:ScriptReference runat="server" Source="/Scripts/Controls/Grid.js"></wu:ScriptReference>
+        <wu:StylesheetReference runat="server" Source="/Stylesheets/Controls/Grid.css"></wu:StylesheetReference>
+
+        <wu:ScriptReference runat="server" Source="/Scripts/Controls/Box.js"></wu:ScriptReference>
+        <wu:StylesheetReference runat="server" Source="/Stylesheets/Controls/Box.css"></wu:StylesheetReference>
+        
+        <wu:ScriptReference runat="server" Source="/Scripts/Controls/ProgressBar.js"></wu:ScriptReference>
+        <wu:StylesheetReference runat="server" Source="/Stylesheets/Controls/ProgressBar.css"></wu:StylesheetReference>
+        
+        <wu:ScriptReference runat="server" Source="/Scripts/Controls/ToolTip.js"></wu:ScriptReference>
+        <wu:StylesheetReference runat="server" Source="/Stylesheets/Controls/ToolTip.css"></wu:StylesheetReference>
+        
+        <wu:ScriptReference runat="server" Source="/Scripts/Controls/OptionSwipe.js"></wu:ScriptReference>
+        <wu:StylesheetReference runat="server" Source="/Stylesheets/Controls/OptionSwipe.css"></wu:StylesheetReference>
+        
+        <wu:ScriptReference runat="server" Source="/Scripts/Menu.js"></wu:ScriptReference>
+        <wu:StylesheetReference runat="server" Source="/Stylesheets/Menu.css"></wu:StylesheetReference>
+
+        <wu:ScriptReference runat="server" Source="/Scripts/Controls/PopUp.js"></wu:ScriptReference>
+        <wu:StylesheetReference runat="server" Source="/Stylesheets/Controls/PopUp.css"></wu:StylesheetReference>
+        
+        
+        <wu:ScriptReference runat="server" Source="/Scripts/Controls/NavigationMenu.js"></wu:ScriptReference>
+        <wu:StylesheetReference runat="server" Source="/Stylesheets/Controls/NavigationMenu.css"></wu:StylesheetReference>
+        
+        <wu:ScriptReference runat="server" Source="/Scripts/Controls/Chat.js"></wu:ScriptReference>
+        <wu:StylesheetReference runat="server" Source="/Stylesheets/Controls/Chat.css"></wu:StylesheetReference>
+        
+        <wu:ScriptReference runat="server" Source="/Scripts/Controls/TreeView.js"></wu:ScriptReference>
+        <wu:StylesheetReference runat="server" Source="/Stylesheets/Controls/TreeView.css"></wu:StylesheetReference>
+        
+        <wu:ScriptReference runat="server" Source="/Scripts/PageResize.js"></wu:ScriptReference>
+        <wu:ScriptReference runat="server" Source="/Scripts/Ajax.js"></wu:ScriptReference>
+        <wu:ScriptReference runat="server" Source="/Scripts/Controls/Chart.js"></wu:ScriptReference>
+        <wu:ScriptReference runat="server" Source="/Scripts/Controls/SearchBox.js"></wu:ScriptReference>
+        <wu:ScriptReference runat="server" Source="/Scripts/Controls/Dragable.js"></wu:ScriptReference>
+        <wu:ScriptReference runat="server" Source="/Scripts/Controls/Boxes.js"></wu:ScriptReference>
+        <wu:ScriptReference runat="server" Source="/Scripts/Controls/ColorConverter.js"></wu:ScriptReference>
+        <wu:ScriptReference runat="server" Source="/Scripts/Modules/SignificanceTest.js"></wu:ScriptReference>
+        <wu:ScriptReference runat="server" Source="/Scripts/Modules/WeightingFilters.js"></wu:ScriptReference>
+        <wu:ScriptReference runat="server" Source="/Scripts/LanguageManager.js"></wu:ScriptReference>
+        <wu:ScriptReference runat="server" Source="/Scripts/Controls/JavascriptBox.js"></wu:ScriptReference>
+        <wu:ScriptReference runat="server" Source="/Scripts/TipGallery.js"></wu:ScriptReference>
+        <wu:ScriptReference runat="server" Source="/Scripts/Controls/RightPanel.js"></wu:ScriptReference>
+        <wu:ScriptReference runat="server" Source="/Scripts/Controls/UserValidation.js"></wu:ScriptReference>
+        
+        <wu:ScriptReference runat="server" Source="/Scripts/Includes/jquery-1.10.2.js"></wu:ScriptReference>
+        <!--<wu:ScriptReference runat="server" Source="/Scripts/JQuery/jquery-1.8.1.min.js"></wu:ScriptReference>-->
+        <wu:ScriptReference runat="server" Source="/Scripts/JQuery/jquery.foggy.min.js"></wu:ScriptReference>
+        
+        <!--<wu:StylesheetReference runat="server" Source="/Stylesheets/ColorSchemeTemp.css"></wu:StylesheetReference>-->
+        <wu:StylesheetReference runat="server" Source="/Stylesheets/Controls/Loading.css"></wu:StylesheetReference>
+        
+        <wu:ScriptReference runat="server" Source="/Scripts/Controls/Navigation.js"></wu:ScriptReference>
+        
+        <wu:ScriptReference runat="server" Source="/Scripts/Modules/SessionTimeout.js"></wu:ScriptReference>
+         <script>
+             $(document).ready(function () {
+                 var username = "<%= Session["UserDetails"]%>";
+                    user(username);
+                });
+            </script> 
+         <!--<wu:ScriptReference runat="server" Source="/Scripts/Support/jquery.js"></wu:ScriptReference>
+         <wu:ScriptReference runat="server" Source="/Scripts/Support/jquery-latest.js"></wu:ScriptReference>-->
+         <wu:ScriptReference runat="server" Source="/Scripts/Support/feedback.js"></wu:ScriptReference>
+         <wu:ScriptReference runat="server" Source="/Scripts/Support/html2canvas.js"></wu:ScriptReference>
+        <wu:StylesheetReference runat="server" Source="/Stylesheets/Support/feedback.css"></wu:StylesheetReference>
+        <wu:StylesheetReference runat="server" Source="/Stylesheets/Modules/SessionTimeout.css"></wu:StylesheetReference>
+        
+
+        <script src="/Scripts/D3JS/d3.min.js"></script>
+        <script src="/Scripts/D3JS/d3.tip.v0.6.3.js"></script>
+
+        <asp:ContentPlaceHolder ID="cphHead" runat="server"></asp:ContentPlaceHolder>
+        <style type="text/css">
+            #hbSettings .NavigationItem,
+            #hbSettings .NavigationItem_Active {
+                width: 210px !important;
+            }
+        </style>
+    </head>
+    <body onload="Load();" onselectstart="return false;" unselectable="on">
+        <form id="form1" runat="server" style="visibility:hidden;">
+            <div id="Main" class="Main">
+                <asp:ToolkitScriptManager ID="ToolkitScriptManager1" runat="server" EnablePageMethods="true" >
+                </asp:ToolkitScriptManager>
+                 <asp:LinkButton ID="lnkFake" runat="server" />
+                <div id="Headline" class="Headline">
+                    <div style="float:right">
+                        <table>
+                            <tr>
+                                <td>                                    
+                                    <wu:Image ID="Image1" runat="server" ImageUrl="/Images/Icons/Menu.png" CssClass="BackgroundColor6" style="cursor:pointer;"></wu:Image>
+                                    <wu:HoverBox ID="hbMenu" runat="server" Display="RightBottom" TriggerMode="Click" IdTrigger="Image1" Animation="Opacity" ActivateTriggerImage="True" Level="0" style="margin-top:-3px;z-index:100000;">
+                                        <asp:Panel ID="pnlNavigation" runat="server" CssClass="Navigation BorderColor1"></asp:Panel>
+                                    </wu:HoverBox>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <table cellspacing="0" cellpadding="0">
+                        <tr>
+                            <td>
+                                <wu:Image ID="imgLogo" runat="server" ImageUrl="/Images/Logos/Link.png" onclick="window.location = '/Pages/Default.aspx'" style="cursor:pointer;margin-top: -15px;margin-bottom: -15px;"></wu:Image>
+                            </td>
+                            <td style="padding-left:10px;">
+                                <asp:ContentPlaceHolder ID="cphTitle" runat="server"></asp:ContentPlaceHolder>
+                            </td>
+                        </tr>
+                    </table>
+                     <asp:ModalPopupExtender ID="mpeTimeout" BehaviorID="mpeTimeout" runat="server" PopupControlID="pnlPopup"
+                            TargetControlID="lnkFake" OkControlID="btnYes" CancelControlID="btnNo" BackgroundCssClass="modalBackground"
+                            OnOkScript="ResetSession()">
+                        </asp:ModalPopupExtender>
+                        <asp:Panel ID="pnlPopup" runat="server" CssClass="modalPopup" Style="display: none">
+                            <div class="header">
+                                 <wu:Label ID="lblNotificaation" Name="lnkNotification" runat="server"></wu:Label>
+                            </div>
+                            <div class="body">
+                               <span id="sessionNote"></span>&nbsp;<span id="seconds"></span><span id="sessionNote2"></span>
+                            </div>
+                            <div class="footer" align="right">
+                                <asp:Button ID="btnYes" runat="server" Name="lblSessionYes" Text="I’m still here" CssClass="yes" />
+                                <asp:Button ID="btnNo" runat="server" Name="lblSessionNo" Text="Log me out please" CssClass="no" />
+                            </div>
+                        </asp:Panel>
+
+                </div>
+                <div id="NonScroll" class="NonScroll">
+                    <asp:ContentPlaceHolder ID="cphNonScroll" runat="server"></asp:ContentPlaceHolder>
+                </div>
+                <div id="Content" class="Content">
+                    <asp:ContentPlaceHolder ID="cphContent" runat="server"></asp:ContentPlaceHolder>
+                </div>
+                <div id="Footer" class="Footer">
+                    <asp:ContentPlaceHolder ID="cphFooter" runat="server"></asp:ContentPlaceHolder>
+                    <!--<wu:Image ID="imgCopyright" runat="server" ImageUrl="/Images/Logos/Blueocean.png"></wu:Image>-->
+                </div>
+            </div>
+        </form>
+        <script type="text/javascript">
+            if (showLoadLoading)
+                ShowLoading(document.body);
+            $(document).ready(function () {
+                document.getElementById("sessionNote").innerHTML = LoadLanguageText("sessionNotification");
+                document.getElementById("sessionNote2").innerHTML = '&nbsp;' + LoadLanguageText("sessionNotification2");
+            });
+        </script>
+    </body>
+</html>
+

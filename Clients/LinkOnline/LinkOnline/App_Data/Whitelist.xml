@@ -1,0 +1,4 @@
+﻿<Whitelist>
+  <Item IP="::1"></Item>
+  <Item IP="127.0.0.1"></Item>
+</Whitelist>

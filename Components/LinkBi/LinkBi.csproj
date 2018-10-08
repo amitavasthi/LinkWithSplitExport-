@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E6E901CC-F409-4DF6-A6CD-0877FED4E489}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LinkBi1</RootNamespace>
+    <AssemblyName>LinkBi</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\..\packages\Microsoft.Office.Interop.Excel.15.0.4795.1000\lib\net20\Microsoft.Office.Interop.Excel.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes\Interfaces\CSV.cs" />
+    <Compile Include="Classes\Interfaces\JSON.cs" />
+    <Compile Include="Classes\Interfaces\Table.cs" />
+    <Compile Include="Classes\Interfaces\TempTableTest.cs" />
+    <Compile Include="Classes\Interfaces\XML.cs" />
+    <Compile Include="Classes\Interfaces\CustomCharts.cs" />
+    <Compile Include="Classes\LinkBiDefinitionInfo.cs" />
+    <Compile Include="Classes\LinkBiDefinitionProperties.cs" />
+    <Compile Include="Classes\Interfaces\LinkBiInterface.cs" />
+    <Compile Include="Classes\Interfaces\Excel.cs" />
+    <Compile Include="Classes\LinkBiDefinition.cs" />
+    <Compile Include="Classes\LinkBiDefinitionDimension.cs" />
+    <Compile Include="Classes\LinkBiDefinitionDimensionScore.cs" />
+    <Compile Include="Classes\LinkBiDefinitionScoreGroup.cs" />
+    <Compile Include="Classes\LinkBiDefinitionCategory.cs" />
+    <Compile Include="Classes\LinkBiDefinitionTaxonomyCategory.cs" />
+    <Compile Include="Classes\LinkBiDefinitionVariable.cs" />
+    <Compile Include="Classes\LinkBiDefinitionTaxonomyVariable.cs" />
+    <Compile Include="Classes\LinkBiSelector.cs" />
+    <Compile Include="Classes\LinkBiServerConnections\LinkBiServerConnection.cs" />
+    <Compile Include="Classes\LinkBiServerConnections\LinkBiServerConnectionFTP.cs" />
+    <Compile Include="Classes\LinkBiServerConnections\LinkBiServerConnectionFileSystem.cs" />
+    <Compile Include="Classes\LinkBiSettings.cs" />
+    <Compile Include="Controls\LinkBiDefinitionPropertiesControl.cs" />
+    <Compile Include="Controls\LinkBiDefinitionSelector.cs" />
+    <Compile Include="Controls\LinkBiServerConnectionControl.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Cores\CaseDataCore\CaseDataCore\CaseDataCore.csproj">
+      <Project>{776041c3-5967-455c-b06d-2aa511e611a1}</Project>
+      <Name>CaseDataCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Cores\DatabaseCore\DatabaseCore.csproj">
+      <Project>{d17e9d03-d024-4420-837f-a0a869c1c6a5}</Project>
+      <Name>DatabaseCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Cores\DataCore\DataCore\DataCore.csproj">
+      <Project>{4aa32feb-9fd7-4900-b752-35819860f9fd}</Project>
+      <Name>DataCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ApplicationUtilities\ApplicationUtilities.csproj">
+      <Project>{2f85d9a6-33bf-4401-b2b2-635a7c78918d}</Project>
+      <Name>ApplicationUtilities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Crosstable\Crosstable\Crosstables.csproj">
+      <Project>{a05220b0-b1db-49fb-84e6-b98a7a78339b}</Project>
+      <Name>Crosstables</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\VariableSelector\VariableSelector\VariableSelector.csproj">
+      <Project>{94accce9-c9b8-4634-9660-8eef195231a3}</Project>
+      <Name>VariableSelector</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WebUtilities\WebUtilities.csproj">
+      <Project>{852825b2-b334-439e-8d4b-44b97c5e9de5}</Project>
+      <Name>WebUtilities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

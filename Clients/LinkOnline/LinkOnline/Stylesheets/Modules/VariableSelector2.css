@@ -1,0 +1,201 @@
+﻿.FullScreenVariableSelectorControlContainer {
+    position:absolute;
+    
+    left:100px;
+    top:0px;
+
+    height:100%;
+
+    z-index: 10001;
+    overflow:auto;
+}
+
+.FullScreenVariableSelectorControlContainerBackground {
+    background:#444444;
+    opacity:0.8;
+
+    position:absolute;
+    
+    left:0px;
+    top:0px;
+    width:100%;
+    height:100%;
+    
+    z-index: 10000;
+}
+
+
+.PnlVariableSelectors .VariableSelector {
+    border-top:1px solid #FFFFFF;
+}
+
+.VariableSelector {
+    cursor:pointer;
+    /*min-width:250px;*/
+    /*padding-left: 1em;
+    padding-right: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;*/
+
+    color:#FFFFFF;
+
+    font-size:12pt;
+}
+
+.VariableSelector .VariableSelectorDropDown,
+.VariableSelector .VariableSelectorDragHandle {
+    visibility:hidden;
+}
+
+.VariableSelector:hover .VariableSelectorDropDown,
+.VariableSelector:hover .VariableSelectorDragHandle {
+    visibility:visible;
+}
+
+.VariableSelectorControl  td {
+    padding:0px;
+}
+
+.LinkBiScores td {
+    text-align:left !important;
+}
+
+
+.VariableSelectorVariableType {
+    height:30px;
+    cursor:pointer;
+}
+
+.VariableSelectorVariableLabel {
+    padding-left:1em !important;
+    padding-right:1em !important;
+}
+
+.VariableSelectorDropDown img {
+    height:30px;
+}
+
+.VariableSelectorVariableWarning img {
+    height:15px;
+}
+
+.LinkBiScores {
+    overflow:hidden;
+
+    /*margin-left:60px;*/
+
+    color:#FFFFFF;
+    
+    border-width:1px;
+    border-style:solid;
+}
+
+.LinkBiScore {
+    z-index:1001;
+    
+    /*border-top:3px solid transparent;
+    border-bottom:3px solid transparent;*/
+}
+
+.LinkBiScoreOptionSwiper {
+    visibility:hidden;
+    float:left;
+    width:30px;
+}
+
+.LinkBiScoreDragHandle {
+    min-width:30px;
+    width:30px;
+}
+
+.LinkBiScore:hover .LinkBiScoreDragHandle {
+    background:url('/Images/Icons/VariableSelector/CategoryDragHandle.png') center center no-repeat;
+    background-size: auto 30px;
+    min-width:30px;
+    width:30px;
+}
+
+.LinkBiScoreGroup:hover .LinkBiScoreDragHandle {
+    background:url('/Images/Icons/VariableSelector/CategoryDragHandle2.png') center center no-repeat;
+    min-width:60px;
+    width:60px;
+}
+
+.LinkBiScore:hover .LinkBiScoreDragHandle:active {
+    background:url('/Images/Icons/VariableSelector/CategoryDragHandle_Hover.png') center center no-repeat;
+}
+
+.LinkBiScoreGroup:hover .LinkBiScoreDragHandle:active {
+    background:url('/Images/Icons/VariableSelector/CategoryDragHandle2_Hover.png') center center no-repeat;
+}
+
+.LinkBiScore:hover .LinkBiScoreOptionSwiper,
+.LinkBiScoreGroup:hover .LinkBiScoreOptionSwiper {
+    visibility:visible;
+    cursor:pointer;
+}
+
+.LinkBiScoreGroupScores {
+    border-top:1px solid #FFFFFF;
+    border-left:1px solid #FFFFFF;
+    
+    margin-left:60px;
+
+    overflow:hidden;
+}
+
+.LinkBiScores input[type=text] {
+    border:1px solid transparent;
+    background:transparent;
+    width:95%;
+    font-size:16pt;
+}
+
+.LinkBiScores input[type=text]:hover {
+    border:1px solid #444444;
+}
+
+
+.LinkBiScoreGroupName {
+    color:#FFFFFF;
+}
+
+.LinkBiScoreGroupName:focus {
+    border:none;
+}
+
+
+.ScoreOptions {
+    color:#FFFFFF;
+    overflow:hidden;
+}
+
+.ScoreOptions table {
+    height:100%;
+}
+
+.ScoreOptions td {
+    padding:0px 10px 0px 10px;
+}
+
+.ScoreOptions input[type=text] {
+    background:#FFFFFF;
+    width:auto;
+}
+
+
+.VariableSelectorTypeBackgroundSingle {
+    background:#61CF71;
+}
+
+.VariableSelectorTypeBackgroundMulti {
+    background:#9C54B8;
+}
+
+.VariableSelectorTypeBackgroundNumeric {
+    background:#D3D456;
+}
+
+.VariableSelectorTypeBackgroundText {
+    background:#4FA6DC;
+}

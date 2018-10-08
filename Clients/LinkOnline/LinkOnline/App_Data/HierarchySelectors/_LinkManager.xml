@@ -1,0 +1,172 @@
+﻿<HierarchySelector>
+  <Stylesheet>
+    <![CDATA[
+  .HierarchySelectorItem img {
+    height:50px;
+  }
+  
+  .HierarchySelectorItem {
+  text-align:center;
+  min-width:80px;
+  }
+  .HierarchySelectorItem_Spacer {
+  display:inline-block;
+  }
+  ]]></Stylesheet>
+  <Section Name="Concept/Product">
+    <Hierarchy Id="01000000-0000-0000-0000-000000000000">
+      <table style="height:170px;font-size:16pt;">
+        <tr>
+          <td>
+            <img src="/Fileadmin/ClientImages/Unilever/HierarchySelector/Product.png" SrcActive="/Fileadmin/ClientImages/Unilever/HierarchySelector/Product_Active.png"></img>
+          </td>
+          <td>
+            product
+          </td>
+        </tr>
+      </table>
+    </Hierarchy>
+    <Hierarchy Id="02000000-0000-0000-0000-000000000000">
+      <table style="height:170px;font-size:16pt;">
+        <tr>
+          <td>
+            <img src="/Fileadmin/ClientImages/Unilever/HierarchySelector/Concept.png" SrcActive="/Fileadmin/ClientImages/Unilever/HierarchySelector/Concept_Active.png"></img>
+          </td>
+          <td>
+            concept
+          </td>
+        </tr>
+      </table>
+    </Hierarchy>
+  </Section>
+  <Section Name="Select level 1 item">
+    <Hierarchy Id="10000000-0000-0000-0000-000000000000">
+      <table style="height:120px;font-size:14pt;">
+        <tr>
+          <td>
+            <img src="/Fileadmin/ClientImages/Unilever/HierarchySelector/Foods.png" SrcActive="/Fileadmin/ClientImages/Unilever/HierarchySelector/Foods_Active.png"></img>
+          </td>
+          <td>
+            foods
+          </td>
+        </tr>
+      </table>
+    </Hierarchy>
+    <Hierarchy Id="20000000-0000-0000-0000-000000000000">
+      <table style="height:120px;font-size:14pt;">
+        <tr>
+          <td>
+            <img src="/Fileadmin/ClientImages/Unilever/HierarchySelector/HPC.png" SrcActive="/Fileadmin/ClientImages/Unilever/HierarchySelector/HPC_Active.png"></img>
+          </td>
+          <td>
+            hpc
+          </td>
+        </tr>
+      </table>
+    </Hierarchy>
+  </Section>
+  <Section Name="Select level 2 item" SelectionMode="Multi">
+    <HierarchyFilter IdHierarchy="10000000-0000-0000-0000-000000000000">
+      <Hierarchy Id="00000000-0000-0000-0000-000000000001">
+        <div>
+          <img src="/Fileadmin/ClientImages/Unilever/HierarchySelector/Foods/Beverages.jpg" style="height:50px"></img>
+          <br />
+          beverages
+        </div>
+      </Hierarchy>
+      <Hierarchy Id="00000000-0000-0000-0000-000000000002">
+        <div>
+          <img src="/Fileadmin/ClientImages/Unilever/HierarchySelector/Foods/Dairy.png" style="height:50px"></img>
+          <br />
+          dairy
+        </div>
+      </Hierarchy>
+      <Hierarchy Id="00000000-0000-0000-0000-000000000003">
+        <div>
+          <img src="/Fileadmin/ClientImages/Unilever/HierarchySelector/Foods/Dressings.png" SrcActive="/Fileadmin/ClientImages/Unilever/HierarchySelector/Foods/Dressings_Active.png" style="height:50px"></img>
+          <br />
+          dressings
+        </div>
+      </Hierarchy>
+      <Hierarchy Id="00000000-0000-0000-0000-000000000004">
+        <div>
+          <img src="/Fileadmin/ClientImages/Unilever/HierarchySelector/Foods/Ice cream.png" SrcActive="/Fileadmin/ClientImages/Unilever/HierarchySelector/Foods/Ice cream_Active.png" style="height:50px"></img>
+          <br />
+          ice cream
+        </div>
+      </Hierarchy>
+      <Hierarchy Id="00000000-0000-0000-0000-000000000005">
+        <div>
+          <img src="/Fileadmin/ClientImages/Unilever/HierarchySelector/Foods/New Vitality Platform.jpg" style="height:50px"></img>
+          <br />
+          vitality
+        </div>
+      </Hierarchy>
+      <Hierarchy Id="00000000-0000-0000-0000-000000000006">
+        <div>
+          <img src="/Fileadmin/ClientImages/Unilever/HierarchySelector/Foods/desserts.png" style="height:50px"></img>
+          <br />
+          desserts
+        </div>
+      </Hierarchy>
+      <Hierarchy Id="00000000-0000-0000-0000-000000000007">
+        <div>
+          <img src="/Fileadmin/ClientImages/Unilever/HierarchySelector/Foods/OLIVE-OIL.jpg" style="height:50px"></img>
+          <br />
+          olive oil
+        </div>
+      </Hierarchy>
+      <Hierarchy Id="00000000-0000-0000-0000-000000000008">
+        <div>
+          <img src="/Fileadmin/ClientImages/Unilever/HierarchySelector/Foods/Savoury.png" style="height:50px"></img>
+          <br />
+          savoury
+        </div>
+      </Hierarchy>
+      <Hierarchy Id="00000000-0000-0000-0000-000000000009">
+        <div>
+          <img src="/Fileadmin/ClientImages/Unilever/HierarchySelector/Foods/Spreads.png" style="height:50px"></img>
+          <br />
+          spreads
+        </div>
+      </Hierarchy>
+      <Hierarchy Id="00000000-0000-0000-0000-000000000010">
+        <div>
+          <img src="/Fileadmin/ClientImages/Unilever/HierarchySelector/Foods/Sweet Snacks.jpg" style="height:50px"></img>
+          <br />
+          snacks
+        </div>
+      </Hierarchy>
+      <Hierarchy Id="00000000-0000-0000-0000-000000000011">
+        <div>
+          <img src="/Fileadmin/ClientImages/Unilever/HierarchySelector/Foods/Vitality shots.jpg" style="height:50px"></img>
+          <br />
+          vitality shots
+        </div>
+      </Hierarchy>
+    </HierarchyFilter>
+    <HierarchyFilter IdHierarchy="20000000-0000-0000-0000-000000000000">
+      <Hierarchy Id="10000000-0000-0000-0000-000000000001">
+        <img src="/Fileadmin/ClientImages/Unilever/HierarchySelector/HPC/Deodorants.jpg" style="height:50px"></img>
+      </Hierarchy>
+      <Hierarchy Id="20000000-0000-0000-0000-000000000002">
+        <img src="/Fileadmin/ClientImages/Unilever/HierarchySelector/HPC/Fabric Cleaning.jpg" style="height:50px"></img>
+      </Hierarchy>
+      <Hierarchy Id="30000000-0000-0000-0000-000000000003">
+        <img src="/Fileadmin/ClientImages/Unilever/HierarchySelector/HPC/Fabric conditioner.jpg" style="height:50px"></img>
+      </Hierarchy>
+      <Hierarchy Id="40000000-0000-0000-0000-000000000004">
+        <img src="/Fileadmin/ClientImages/Unilever/HierarchySelector/HPC/Hair care.jpg" style="height:50px"></img>
+      </Hierarchy>
+      <Hierarchy Id="50000000-0000-0000-0000-000000000005">
+        <img src="/Fileadmin/ClientImages/Unilever/HierarchySelector/HPC/Household cleaners.jpg" style="height:50px"></img>
+      </Hierarchy>
+      <Hierarchy Id="60000000-0000-0000-0000-000000000006">
+        <img src="/Fileadmin/ClientImages/Unilever/HierarchySelector/HPC/Oral care.jpg" style="height:50px"></img>
+      </Hierarchy>
+      <Hierarchy Id="70000000-0000-0000-0000-000000000007">
+        <img src="/Fileadmin/ClientImages/Unilever/HierarchySelector/HPC/Skin cleansing and care.jpg" style="height:50px"></img>
+      </Hierarchy>
+    </HierarchyFilter>
+  </Section>
+</HierarchySelector>

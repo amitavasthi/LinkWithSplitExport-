@@ -1,0 +1,250 @@
+﻿<html>
+<head>
+    <script src="/Scripts/D3JS/d3.min.js"></script>
+    <script src="/Scripts/D3JS/d3.tip.v0.6.3.js"></script>
+    <script src="/Scripts/D3JS/d3.layout.cloud.js"></script>
+    <script src="/Scripts/Ajax.js"></script>
+    <script src="/Scripts/PageResize.js"></script>
+
+    <script src="/Scripts/Main.js"></script>
+    <link rel="stylesheet" type="text/css" href="/Stylesheets/Main.css" />
+    <link rel="stylesheet" type="text/css" href="/Stylesheets/Controls/Loading.css" />
+    <!--For Export-->
+    <script src="/Scripts/ChartExport/canvg.js"></script>
+    <script src="/Scripts/ChartExport/FileSaver.js"></script>
+    <script src="/Scripts/ChartExport/html2canvas.js"></script>
+    <script src="/Scripts/ChartExport/jspdf.js"></script>
+    <script src="/Scripts/ChartExport/rgbcolor.js"></script>
+    <link href="/Stylesheets/ChartExportMenu/dropdown.css" rel="stylesheet" />
+    <!--<script src="/Scripts/ChartExportMenu/dropdown.js"></script>-->
+
+    <link href="/Stylesheets/font-awesome.min.css" rel="stylesheet" />
+
+
+    <script src="/Scripts/JQuery/jquery-1.8.1.min.js"></script>
+
+    <style type="text/css">
+        .LoadingBackground {
+            background-color: #FFFFFF !important;
+        }
+
+        .BackgroundColor1 {
+            background-color: #6CAEE0;
+        }
+
+          #drop_down {
+            position: relative;
+            top:0;
+            left: 90%;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="drop_down" class="dropdown">
+        <a class="account"><i class="fa fa-download"></i></a>
+        <div class="submenu">
+            <ul class="root">
+                <li><a id="png" class="exportBtn">PNG</a></li>
+                <li><a id="jpeg" class="exportBtn">JPEG</a> </li>
+                <!--<li><a id="pdf" class="exportBtn">PDF</a></li>-->
+
+            </ul>
+        </div>
+    </div>
+    <div id="chartContainer" style="height:100%;width:100%;"></div>   
+    <form id="svgform" method="post" action="/Handlers/RSVGExport.ashx">
+        <input type="hidden" id="output_format" name="output_format" value="">
+        <input type="hidden" id="data" name="data" value="">
+        <input type="hidden" id="type" name="type" value="">
+    </form>
+
+    <script type="text/javascript">
+        var chartContainer = document.getElementById("chartContainer");
+
+        var fill;
+        var width, height;
+
+        window.setTimeout(function () {
+
+            ShowLoading(chartContainer);
+
+            _AjaxRequest("/Handlers/ChartHandler.ashx", "GetData", "NoCache=" + (new Date()).getTime() + "&Renderer=Words&Source=###SOURCE###&PathDimensions=###PATH###&IdVariable=###IdVariable###", function (response) {
+                //d3.json("/Handlers/ChartHandler.ashx?Method=GetData&Renderer=Words&Source=###SOURCE###&PathDimensions=###PATH###&IdVariable=###IdVariable###", function (error, data) {
+
+                //alert(JSON.stringify(JSON.parse(response)));
+
+                var data = JSON.parse(response);
+                width = chartContainer.parentNode.parentNode.offsetWidth - 20;
+                height = chartContainer.parentNode.parentNode.offsetHeight - 20;
+
+                var maxValue = 0.0;
+
+                for (var i = 0; i < data.length; i++) {
+                    if (data[i].text == "")
+                        continue;
+
+                    if (data[i].value > maxValue)
+                        maxValue = data[i].value;
+                }
+
+                for (var i = 0; i < data.length; i++) {
+                    data[i].size = (data[i].value * 100 / maxValue);
+                }
+
+                var fontSize = d3.scale.log().range([10, 100]);
+
+                fill = d3.scale.category20b();
+                d3.layout.cloud().size([width, height])
+                    .words(data)
+                    .padding(3)
+                    .rotate(function () {
+                        //return ~~(Math.random() * 2) * 90;
+                        return ~~(Math.random() * 5) * 30 - 60;
+                    })
+                    .font("Impact")
+                    .fontSize(function (d) {
+                        return d.size;
+                    })                   
+                    .on("end", function () { draw(data); })
+                    .start();
+            });
+        }, 1000);
+
+        function draw(words) {
+            d3.select("#chartContainer").append("svg")
+                .attr("width", width)
+                .attr("height", height)
+            .append("g")
+                .attr("transform", "translate(" + (width / 2) + "," + (height / 2) + ")")
+            .selectAll("text")
+                .data(words)
+            .enter().append("text")
+                .style("font-size", function (d) {
+                    return d.size + "px";
+                })
+                .style("font-family", "Impact")
+                .style("fill", function (d, i) {
+                    return fill(i);
+                })
+                .attr("text-anchor", "middle")
+                .attr("transform", function (d) {
+                    return "translate(" + [d.x, d.y] + ")rotate(" + d.rotate + ")";
+                })
+                .text(function (d) {
+                    return d.text;
+                });
+
+            HideLoading();
+        }
+        
+        
+        $(window).load(function () {
+            var canvas;
+
+            $("#png").click(function () {
+                d3.selectAll("path").attr("fill", "none");
+                d3.selectAll(".tick line, path.domain").attr("stroke", "black");
+                var svg = document.querySelector("svg");
+                var serializer = new XMLSerializer();
+                var svgString = serializer.serializeToString(svg);
+                canvas = document.createElement('canvas');
+                canvas.height = svg.getAttribute('height');
+                canvas.width = svg.getAttribute('width');
+                canvg(canvas, svgString);
+                //var form = document.getElementById("svgform");
+                //form['output_format'].value = "png";
+                //form['data'].value = escape(svgString);
+                //form['type'].value = "WordCloud";
+                //form.submit();
+                var dataURL = canvas.toDataURL('image/png');
+                var data = atob(dataURL.substring('data:image/jpg;base64,'.length)),
+                asArray = new Uint8Array(data.length);
+                for (var i = 0, len = data.length; i < len; ++i) { asArray[i] = data.charCodeAt(i); } var blob = new Blob([asArray.buffer], { type: 'image/png' }); saveAs(blob, 'WordCloud_' + Date.now() + '.png');
+
+
+            });
+
+            $("#jpeg").click(function () {
+
+                d3.selectAll("path").attr("fill", "none");
+                d3.selectAll(".tick line, path.domain").attr("stroke", "black");
+                var svg = document.querySelector("svg");
+                var serializer = new XMLSerializer();
+                var svgString = serializer.serializeToString(svg);
+                canvas = document.createElement('canvas');
+                canvas.height = svg.getAttribute('height');
+                canvas.width = svg.getAttribute('width');
+                canvg(canvas, svgString);
+                var dataURL = canvas.toDataURL('image/png');
+                var data = atob(dataURL.substring('data:image/jpg;base64,'.length)),
+                asArray = new Uint8Array(data.length);
+                for (var i = 0, len = data.length; i < len; ++i) { asArray[i] = data.charCodeAt(i); } var blob = new Blob([asArray.buffer], { type: 'image/jpg' }); saveAs(blob, 'export_' + Date.now() + '.jpeg');
+                
+            });
+
+            $("#pdf").click(function () {
+                d3.selectAll("path").attr("fill", "none");
+                d3.selectAll(".tick line, path.domain").attr("stroke", "black");
+                var pdf1;
+                var canvas;
+                var svg = document.querySelector("svg");
+                var serializer = new XMLSerializer();
+                var svgString = serializer.serializeToString(svg);
+                canvas = document.createElement('canvas');
+                canvas.height = svg.getAttribute('height');
+                canvas.width = svg.getAttribute('width');
+                canvg(canvas, svgString);
+                var form = document.getElementById("svgform");
+                form['output_format'].value = "pdf";
+                form['data'].value = escape(svgString);
+                form['type'].value = "WordCloudPDF";
+                form.submit();
+
+            });
+        
+    
+        })
+        
+        
+    </script>
+    
+       
+    <script>
+
+        $(document).ready(function () {
+
+            $(".account").click(function () {
+                var X = $(this).attr('id');
+                if (X == 1) {
+                    $(".submenu").hide();
+                    $(this).attr('id', '0');
+                }
+                else {
+                    $(".submenu").show();
+                    $(this).attr('id', '1');
+                }
+
+            });
+
+            //Mouse click on sub menu
+            $(".submenu").mouseup(function () {
+                return false
+            });
+
+            //Mouse click on my account link
+            $(".account").mouseup(function () {
+                return false
+            });
+
+
+            //Document Click
+            $(document).mouseup(function () {
+                $(".submenu").hide();
+                $(".account").attr('id', '');
+            });
+        });
+
+    </script>
+</body>
+</html>

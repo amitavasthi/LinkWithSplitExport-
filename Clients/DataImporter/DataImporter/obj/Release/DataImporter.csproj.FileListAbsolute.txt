@@ -1,0 +1,17 @@
+C:\Projects\Blueocean\Link\LinkManager\Clients\DataImporter\DataImporter\bin\Release\DataImporter.exe.config
+C:\Projects\Blueocean\Link\LinkManager\Clients\DataImporter\DataImporter\bin\Release\DataImporter.exe
+C:\Projects\Blueocean\Link\LinkManager\Clients\DataImporter\DataImporter\bin\Release\DataImporter.pdb
+C:\Projects\Blueocean\Link\LinkManager\Clients\DataImporter\DataImporter\bin\Release\ApplicationUtilities.dll
+C:\Projects\Blueocean\Link\LinkManager\Clients\DataImporter\DataImporter\bin\Release\DatabaseCore.dll
+C:\Projects\Blueocean\Link\LinkManager\Clients\DataImporter\DataImporter\bin\Release\DataReader.dll
+C:\Projects\Blueocean\Link\LinkManager\Clients\DataImporter\DataImporter\bin\Release\SpreadsheetGear2012.Core.dll
+C:\Projects\Blueocean\Link\LinkManager\Clients\DataImporter\DataImporter\bin\Release\Microsoft.Web.Administration.dll
+C:\Projects\Blueocean\Link\LinkManager\Clients\DataImporter\DataImporter\bin\Release\Spss.dll
+C:\Projects\Blueocean\Link\LinkManager\Clients\DataImporter\DataImporter\bin\Release\ApplicationUtilities.pdb
+C:\Projects\Blueocean\Link\LinkManager\Clients\DataImporter\DataImporter\bin\Release\DataReader.pdb
+C:\Projects\Blueocean\Link\LinkManager\Clients\DataImporter\DataImporter\bin\Release\DatabaseCore.pdb
+C:\Projects\Blueocean\Link\LinkManager\Clients\DataImporter\DataImporter\bin\Release\SpreadsheetGear2012.Core.xml
+C:\Projects\Blueocean\Link\LinkManager\Clients\DataImporter\DataImporter\bin\Release\Spss.xml
+C:\Projects\Blueocean\Link\LinkManager\Clients\DataImporter\DataImporter\obj\Release\DataImporter.csprojResolveAssemblyReference.cache
+C:\Projects\Blueocean\Link\LinkManager\Clients\DataImporter\DataImporter\obj\Release\DataImporter.exe
+C:\Projects\Blueocean\Link\LinkManager\Clients\DataImporter\DataImporter\obj\Release\DataImporter.pdb

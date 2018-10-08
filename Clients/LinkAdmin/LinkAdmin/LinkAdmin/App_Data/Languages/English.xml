@@ -1,0 +1,176 @@
+﻿<Labels>
+
+  <!-- ##### Language related specifications ##### -->
+
+  <Label Name="FormatProviderCulture">en-US</Label>
+  <Label Name="PageDirection">LeftToRight</Label>
+
+  <Label Name="DateFormat">yyyy-MM-dd</Label>
+  <Label Name="TimeFormat">HH:mm:ss</Label>
+  <Label Name="DurationFormat">hh\:mm\:ss</Label>
+  <Label Name="NumberFormatDouble">{0:#,0.###DECIMALS###}</Label>
+  <Label Name="NumberFormatDoubleDecimalPlace">0</Label>
+
+  <!-- ##### Global labels ##### -->
+
+  <Label Name="Name">name</Label>
+  <Label Name="FirstName">first name</Label>
+  <Label Name="LastName">last name</Label>
+  <Label Name="Mail">mail</Label>
+  <Label Name="Username">username</Label>
+  <Label Name="Password">password</Label>
+  <Label Name="Client">client</Label>
+  
+  <Label Name="False">no</Label>
+  <Label Name="True">yes</Label>
+
+  <Label Name="NavigationDefault">home</Label>
+  <Label Name="NavigationClients">clients</Label>
+  <Label Name="NavigationInstances">instances</Label>
+  <Label Name="NavigationServers">servers</Label>
+  <Label Name="NavigationServerBenchmark">LSBI</Label>
+  <Label Name="NavigationOverview">overview</Label>
+  <Label Name="NavigationConsole">console</Label>
+
+  <!-- ##### Default.aspx ##### -->
+
+  <Label Name="CreateSingleSignOn">portal credentials</Label>
+  <Label Name="PortalCredentialsNotExist">no credentials provided</Label>
+  <Label Name="CreateSingleSignOnHost">portal</Label>
+  <Label Name="CreateSingleSignOnUsername">username</Label>
+  <Label Name="CreateSingleSignOnPassword">password</Label>
+  
+  <!-- ##### Clients.aspx ##### -->
+
+  <Label Name="PortalName">name</Label>
+  <Label Name="HostName">host</Label>
+  <Label Name="DataSize">data size</Label>
+  <Label Name="InstanceName">instance</Label>
+  
+  <Label Name="MovePortalMigrationRequired">migration required</Label>
+  <Label Name="MovePortalSource">from</Label>
+  <Label Name="MovePortalTarget">to</Label>
+
+  <Label Name="CreatePortal">create client</Label>
+  <Label Name="CreatePortalName">name</Label>
+  <Label Name="CreatePortalInstance">instance</Label>
+  <Label Name="CreatePortalServers">create on servers</Label>
+  <Label Name="CreatePortalDefaultUsers">create users</Label>
+  
+  <Label Name="CreatePortalName_Error">
+    <span style="color:#CC0000">please specify a name for the client</span>
+  </Label>
+  <Label Name="CreatePortalServers_Error">
+    <span style="color:#CC0000">you have to select at least one server</span>
+  </Label>
+  <Label Name="CreatePortalDefaultUsers_Error">
+    <span style="color:#CC0000">you have to select at least one user</span>
+  </Label>
+  
+  <!-- ##### Servers.aspx ##### -->
+
+  <Label Name="ServerDescription">name</Label>
+  <Label Name="ServerIP">IP</Label>
+  <Label Name="ServerRole">role</Label>
+  <Label Name="ServerCountries">assigned countries</Label>
+  <Label Name="ServerSessions">active sessions</Label>
+  <Label Name="ServerConnectionQuality">connection quality</Label>
+  <Label Name="ServerState">state</Label>
+  <Label Name="ServerSynchEnabled">synch active</Label>
+
+  <Label Name="ServerConnectionQualityVeryGood">
+    <span style="color:#00bb00">very good ({0}ms)</span>
+  </Label>
+  <Label Name="ServerConnectionQualityGood">
+    <span style="color:#008800">good ({0}ms)</span>
+  </Label>
+  <Label Name="ServerConnectionQualityNormal">
+    <span style="color:#FFC938">normal ({0}ms)</span>
+  </Label>
+  <Label Name="ServerConnectionQualityBad">
+    <span style="color:#CC0000">bad ({0}ms)</span>
+  </Label>
+  <Label Name="ServerConnectionQualityVeryBad">
+    <span style="color:#FF0000">very bad ({0}ms)</span>
+  </Label>
+  <Label Name="ServerConnectionQualityNA">
+    <span style="color:#FF0000">N/A</span>
+  </Label>
+
+  <Label Name="ServerSynchEnabledTrue">
+    <span style="color:#00BB00">yes</span>
+  </Label>
+  <Label Name="ServerSynchEnabledFalse">
+    <span style="color:#CC0000">no</span>
+  </Label>
+
+  <Label Name="ServerRolePrimary">primary</Label>
+  <Label Name="ServerRoleFailover">failover</Label>
+  <Label Name="ServerRoleProduction">production</Label>
+
+  <Label Name="ServerBringOnline">bring online</Label>
+  <Label Name="ServerTakeOffline">take offline</Label>
+  
+  <Label Name="ServerStateOnline">
+    <span style="color:#00BB00">online</span>
+  </Label>
+  <Label Name="ServerStateOffline">
+    <span style="color:#CC0000">offline</span>
+  </Label>
+
+  <Label Name="LatestSynchActionFilesystem">filesystem</Label>
+  <Label Name="LatestSynchActionDatabase">database</Label>
+  <Label Name="SynchTimestampHours">{0} hours</Label>
+  <Label Name="SynchTimestampMinutes">{0} minutes</Label>
+  <Label Name="SynchTimestampSeconds">{0} seconds</Label>
+  <Label Name="SynchTimestamp">
+    <i>{0}</i> ago</Label>
+  <Label Name="SynchTimestampMilliseconds">less than 1 second ago</Label>
+
+
+  <!-- ##### Instances.aspx ##### -->
+
+  <Label Name="InstanceVersion">software version</Label>
+  <Label Name="InstanceClients">no. of clients</Label>
+  <Label Name="InstanceServers">replicated on servers</Label>
+  <Label Name="InstanceDeployUpdate">update</Label>
+
+  <Label Name="DeployUpdateWarning">
+    <div style="color:#CE9400">
+      Deploying an software update will take the target servers offline (one by one).
+      <br /><br />
+      Also it is not possible to downgrade to a lower software version.
+      <br />
+      Once the update has been started there is no way back.
+      <br /><br />
+    </div>
+  </Label>
+  
+  <Label Name="DeployUpdate">deploy update</Label>
+  <Label Name="DeployUpdateInstance">instance</Label>
+  <Label Name="DeployUpdateFromVersion">from version</Label>
+  <Label Name="DeployUpdateToVersion">to version</Label>
+
+  <Label Name="SoftwareUpdateError_ServerOffline">
+    Unable to deploy software update because server '{0}' is offline.
+  </Label>
+  <Label Name="NoUpdateAvailable">no new update available</Label>
+  
+  <Label Name="DeploymentStep1">
+    <div class="DeploymentStep" id="deploymentStep{0}">taking server '{1}' offline...</div>
+  </Label>
+  <Label Name="DeploymentStep2">
+    <div class="DeploymentStep" id="deploymentStep{0}">deploying version '{3}' on server '{1}'...</div>
+  </Label>
+  <Label Name="DeploymentStep3">
+    <div class="DeploymentStep" id="deploymentStep{0}">bringing server '{1}' online...</div>
+  </Label>
+
+  <!-- ##### ServerBenchmark.aspx ##### -->
+
+  <Label Name="ServerBenchmarkDescription">
+    The server benchmark test shows how the servers perform on simultaneous aggregation jobs.
+    The x axis shows how many aggregation jobs were run simultaneously. The y axis shows the average aggregation time.
+  </Label>
+  
+</Labels>

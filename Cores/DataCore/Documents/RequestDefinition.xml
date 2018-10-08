@@ -1,0 +1,84 @@
+<Report DataRequest="21.10.2014 11:33:37" DataCalculationTime="00:00:00.0196592">
+  <Filters>
+  </Filters>
+  <Settings>
+  </Settings>
+  <WeightingVariables>
+    <WeightingVariable Name="MUSIC-GENC">
+    </WeightingVariable>
+    <WeightingVariable Name="MAINGENCSAMPLE">
+    </WeightingVariable>
+  </WeightingVariables>
+  <Workflow>
+    <Selection Name="country">
+      <VariableFilter Name="SelectCountry" IdVariable="83e7fcfa-4781-4d81-95f8-9e23e12341df" Mode="Multi">
+        <Category Id="b45f4485-c05d-4f37-bfd5-2e02f42b61cf">
+        </Category>
+      </VariableFilter>
+    </Selection>
+    <Selection Name="det">
+      <VariableFilter Name="SelectDet" IdVariable="3ea7b9e6-56cb-44bf-a53e-3a275b71cb64" Mode="Single">
+        <Category Id="48e0ad58-a858-48ac-9cdc-70f7eb60ea2a">
+        </Category>
+      </VariableFilter>
+    </Selection>
+    <Selection Name="regions">
+      <VariableFilter Name="SelectRegion" IdVariable="b4a67c61-4a27-426e-b17a-2838c42dd524">
+      </VariableFilter>
+    </Selection>
+  </Workflow>
+  <Variables Position="Left">
+    <Variable Id="b4a67c61-4a27-426e-b17a-2838c42dd524">
+      <Category Id="d91ce8bf-8d91-4415-989f-6705f12adb3b">
+      </Category>
+      <Category Id="92617ef2-529a-4b61-a258-804b770e118c">
+      </Category>
+      <Category Id="91ade704-1720-4c08-b697-960b303e6b21">
+      </Category>
+    </Variable>
+  </Variables>
+  <Variables Position="Top">
+    <Variable Id="95876568-ae79-4f9c-9b0f-072de3d9e082">
+      <Category Id="a48b7fe2-d1d2-4911-977c-066990bdf945">
+      </Category>
+      <Category Id="4ea87d0c-a669-459c-a8f5-30f957b53ae6">
+      </Category>
+      <Category Id="cada5ddc-b885-4aa9-b05d-852d4970ff1b">
+      </Category>
+    </Variable>
+  </Variables>
+  <Results>
+    <Variable Id="b4a67c61-4a27-426e-b17a-2838c42dd524">
+      <Category Id="d91ce8bf-8d91-4415-989f-6705f12adb3b">
+        <Variable Id="95876568-ae79-4f9c-9b0f-072de3d9e082">
+          <Category Id="a48b7fe2-d1d2-4911-977c-066990bdf945" Value="13">
+          </Category>
+          <Category Id="4ea87d0c-a669-459c-a8f5-30f957b53ae6" Value="57">
+          </Category>
+          <Category Id="cada5ddc-b885-4aa9-b05d-852d4970ff1b" Value="2">
+          </Category>
+        </Variable>
+      </Category>
+      <Category Id="92617ef2-529a-4b61-a258-804b770e118c">
+        <Variable Id="95876568-ae79-4f9c-9b0f-072de3d9e082">
+          <Category Id="a48b7fe2-d1d2-4911-977c-066990bdf945" Value="20">
+          </Category>
+          <Category Id="4ea87d0c-a669-459c-a8f5-30f957b53ae6" Value="86">
+          </Category>
+          <Category Id="cada5ddc-b885-4aa9-b05d-852d4970ff1b" Value="5">
+          </Category>
+        </Variable>
+      </Category>
+      <Category Id="91ade704-1720-4c08-b697-960b303e6b21">
+        <Variable Id="95876568-ae79-4f9c-9b0f-072de3d9e082">
+          <Category Id="a48b7fe2-d1d2-4911-977c-066990bdf945" Value="13">
+          </Category>
+          <Category Id="4ea87d0c-a669-459c-a8f5-30f957b53ae6" Value="126">
+          </Category>
+          <Category Id="cada5ddc-b885-4aa9-b05d-852d4970ff1b" Value="4">
+          </Category>
+        </Variable>
+      </Category>
+    </Variable>
+  </Results>
+</Report>

@@ -1,0 +1,42 @@
+﻿.ReportTabContainer {
+    height:28px;
+    margin-left:10px;
+    margin-top:10px;
+    /*padding-left:20px;*/
+    /*background:url('/Images/Backgrounds/ReporterTabContainer.png') bottom left no-repeat;*/
+}
+
+.ReportTab {
+    width:140px;
+    float:left;
+    
+    overflow:hidden;
+    white-space:nowrap;
+
+    color:#FFFFFF;
+    font-weight:bold;
+    
+    /*margin-left:-20px;*/
+    padding-left:30px;
+    padding-right:30px;
+
+    height:28px;
+
+    cursor:pointer;
+    text-align:center;
+
+    border-right:1px solid #FFFFFF;
+}
+
+.ReportTab_Active {
+    background-color:#FFFFFF;
+}
+
+.ReportTabLabel {
+    margin-top:5px;
+}
+
+.BtnReportTabAdd {
+    margin-top:4px;
+    margin-left:4px;
+}

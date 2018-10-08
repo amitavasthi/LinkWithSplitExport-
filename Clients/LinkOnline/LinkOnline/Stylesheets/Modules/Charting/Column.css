@@ -1,0 +1,121 @@
+﻿@font-face {
+    font-family: Segoe UI;
+    src: url('/Stylesheets/Segoe UI/Segoe UI.ttf');
+}
+
+@font-face {
+    font-family: Segoe UI;
+    src: url('/Stylesheets/Segoe UI/Segoe UI.eot');
+}
+
+body {
+    font-family: Segoe UI;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #444444 /*#444444*/;
+    stroke-width: 2px;
+    shape-rendering: crispEdges;
+}
+
+.x.axis path {
+}
+
+.tick {
+    fill: #000000 !important;
+    font-size: 12px;
+    /*font-weight: bold;*/
+}
+
+.y.axis .tick {
+    fill: #000000 !important; /*fill: #888888;*/
+    /*font-weight: bold;*/
+}
+
+.d3-tip {
+    line-height: 1;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    border-radius: 2px;
+}
+
+.chart g .ToolTip {
+    display: none;
+}
+
+.chart g:hover .ToolTip {
+    display: block;
+}
+
+.bar:hover {
+    fill: #444444 !important;
+    cursor: pointer;
+}
+
+.YAxisLabel {
+    fill: #444444;
+}
+
+.ChartTitle {
+    text-align: center;
+    color: #444444;
+    font-size: 16pt;
+}
+
+.hiddenval {
+    display: none;
+}
+
+.BtnPreviousData {
+    height: 20px;
+    cursor: pointer;
+    margin-left: 30px;
+    margin-top: 10px;
+    float: left;
+    position: absolute;
+}
+
+svg {
+    overflow: visible;
+    background-color: #ffffff;
+}
+
+.chart {
+    overflow: visible;
+    background-color: #ffffff;
+    height: 100% !important;
+}
+
+#svgelement {
+    overflow: visible;
+    background-color: #ffffff;
+    height: 100% !important;
+}
+
+
+.exportBtn {
+    font: 10px SegoeUIBold;
+    padding: 3px;
+    margin-left: 3px;
+}
+
+#drop_down {
+    position: relative;
+    top: 0%;
+    left: 90%;
+}
+
+.toollabel {
+    display: none;
+}
+
+.minheight {
+    min-height: 500px;
+}
+
+.legendtext {
+    font-size: 12px;
+}

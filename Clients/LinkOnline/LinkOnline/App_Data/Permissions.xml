@@ -1,0 +1,136 @@
+﻿<Permissions>
+  <Products>
+    <Product Name="LinkOnline">
+      <Sections>
+        <Section Id="0" Name="Main"></Section>
+        <Section Id="1" Name="Agency Management System"></Section>
+        <Section Id="2" Name="Client Manager"></Section>
+        <Section Id="3" Name="TaxonomyManager"></Section>
+        <Section Id="4" Name="LinkManager"></Section>
+        <Section Id="5" Name="Services"></Section>
+        <Section Id="9" Name="API"></Section>
+        <Section Id="10" Name="Library"></Section>
+      </Sections>
+      <Permissions>
+        <Permission Id="111" Name="AddUser" Section="2"></Permission>
+        <Permission Id="112" Name="ManageUsers" Section="2"></Permission>
+        <Permission Id="113" Name="ManageUserGroups" Section="2"></Permission>
+        <Permission Id="114" Name="HomeSettings" Section="2"></Permission>
+        <Permission Id="115" Name="PortalSettings" Section="2"></Permission>
+        <Permission Id="116" Name="Workgroups" Section="2"></Permission>
+
+        <Permission Id="2" Name="Taxonomy" Section="3"></Permission>
+        <Permission Id="201" Name="UploadTaxonomy" Section="3"></Permission>
+        <Permission Id="202" Name="ResetTaxonomy" Section="3"></Permission>
+
+        <Permission Id="4" Name="Linking" Section="4"></Permission>
+        <Permission Id="401" Name="UploadAugment" Section="4"></Permission>
+        <Permission Id="402" Name="DownloadAugment" Section="4"></Permission>
+        <Permission Id="403" Name="DeleteLinking" Section="4"></Permission>
+        <Permission Id="404" Name="ResetLinking" Section="4"></Permission>
+        <Permission Id="405" Name="ManualLinking" Section="4"></Permission>
+
+        <Permission Id="7" Name="Reporter" Section="0"></Permission>
+        <Permission Id="511" Name="PowerBi" Section="0"></Permission>
+
+        <Permission Id="9" Name="Cloud" Section="0"></Permission>
+        <Permission Id="91" Name="CloudColumnAuthor" Section="10"></Permission>
+        <Permission Id="92" Name="CloudColumnType" Section="10"></Permission>
+        <Permission Id="93" Name="CloudColumnSize" Section="10"></Permission>
+        <Permission Id="94" Name="CloudColumnCreationDate" Section="10"></Permission>
+
+        <Permission Id="10" Name="AgencyManagementSystem" Section="1"></Permission>
+        <Permission Id="101" Name="UploadStudy" Section="1"></Permission>
+        <Permission Id="102" Name="DeleteStudy" Section="1"></Permission>
+        <Permission Id="103" Name="SetStudyHiarachy" Section="1"></Permission>
+        <Permission Id="104" Name="DownloadAssignment" Section="1"></Permission>
+        <Permission Id="105" Name="ModifyVariables" Section="1"></Permission>
+        <Permission Id="106" Name="Backup" Section="1"></Permission>
+        <Permission Id="107" Name="DataAnalyser" Section="1"></Permission>
+        <Permission Id="108" Name="navData" Section="1"></Permission>
+
+        <Permission Id="11" Name="Hierarchy" Section="0"></Permission>
+        <Permission Id="13" Name="Saved Report" Section="0"></Permission>
+        <Permission Id="1000" Name="Debug" Section="0"></Permission>
+        <Permission Id="1001" Name="SeeAllPermissions" Section="0"></Permission>
+
+        <Permission Id="6" Name="Link Bi" Section="5"></Permission>
+        <Permission Id="502" Name="Exports" Section="5"></Permission>
+
+        <Permission Id="901" Name="Authenticate" Section="9"></Permission>
+        <Permission Id="902" Name="GetVariables" Section="9"></Permission>
+        <Permission Id="903" Name="GetCategories" Section="9"></Permission>
+        <Permission Id="904" Name="ProcessReport" Section="9"></Permission>
+        <Permission Id="905" Name="SignificanceTest" Section="9"></Permission>
+        <Permission Id="906" Name="GetStudies" Section="9"></Permission>
+        <Permission Id="907" Name="CreateStudy" Section="9"></Permission>
+        <Permission Id="908" Name="CreateVariable" Section="9"></Permission>
+        <Permission Id="909" Name="CreateCategory" Section="9"></Permission>
+        <Permission Id="910" Name="LinkVariable" Section="9"></Permission>
+        <Permission Id="911" Name="LinkCategory" Section="9"></Permission>
+        <Permission Id="912" Name="InsertResponses" Section="9"></Permission>
+        <Permission Id="913" Name="GetNews" Section="9"></Permission>
+        <Permission Id="914" Name="SaveNews" Section="9"></Permission>
+        <Permission Id="915" Name="DeleteNews" Section="9"></Permission>
+      </Permissions>
+      <Pages>
+        <Page Name="/Pages/ClientManager/CreateUser.aspx" Permission="111"></Page>
+        <Page Name="/Pages/ClientManager/ManageUsers.aspx" Permission="112"></Page>
+        <Page Name="/Pages/ClientManager/ManageUserGroupsHome.aspx" Permission="113"></Page>
+        <Page Name="/Pages/ClientManager/ManageGroup.aspx" Permission="113"></Page>
+        <Page Name="/Pages/ClientManager/ClientSettings.aspx" Permission="115"></Page>
+        <Page Name="/Pages/ClientManager/HomeScreenManagement.aspx" Permission="114"></Page>
+        <Page Name="/Pages/ClientManager/DashboardItems.aspx" Permission="114"></Page>
+        <Page Name="/Pages/ClientManager/Workgroups.aspx" Permission="116"></Page>
+
+        <Page Name="/Pages/TaxonomyManager/TaxonomyManager.aspx" Permission="2">
+          <Buttons>
+            <Button Id="btnUpload" Permission="201"></Button>
+            <Button Id="btnReset" Permission="202"></Button>
+          </Buttons>
+        </Page>
+        <Page Name="/Pages/TaxonomyManager/WorkflowDefinition.aspx" Permission="2"></Page>
+
+        <Page Name="/Pages/LinkManager/LinkManager.aspx" Permission="4">
+          <Buttons>
+            <Button Id="btnUploadAugment" Permission="401"></Button>
+            <Button Id="btnDownloadAugment" Permission="402"></Button>
+            <Button Id="btnDelete" Permission="403"></Button>
+            <Button Id="btnReset" Permission="404"></Button>
+          </Buttons>
+        </Page>
+        
+        <Page Name="/Pages/LinkManager/ManualLinkManager.aspx" Permission="405"></Page>
+
+        <Page Name="/Pages/LinkBi/LinkBi.aspx" Permission="6"></Page>
+        <Page Name="/Pages/LinkBi/SavedDefinitions.aspx" Permission="13"></Page>
+
+        <Page Name="/Pages/LinkReporter/Crosstabs.aspx" Permission="7"></Page>
+
+        <Page Name="/Pages/LinkCloud.aspx" Permission="9"></Page>
+
+        <Page Name="/Pages/AgencyManagementSystem/Overview.aspx" Permission="10">
+          <Controls>
+            <Control Id="btnNew" Permission="101"></Control>
+          </Controls>
+        </Page>
+        <Page Name="/Pages/AgencyManagementSystem/SelectHierarchy.aspx" Permission="10"></Page>
+        <Page Name="/Pages/AgencyManagementSystem/Hierarchy.aspx" Permission="10"></Page>
+        <Page Name="/Pages/AgencyManagementSystem/Variables.aspx" Permission="105"></Page>
+        <Page Name="/Pages/TaxonomyManager/ProjectHierarchy.aspx" Permission="11"></Page>
+        <Page Name="/Pages/Backup.aspx" Permission="106"></Page>
+
+        <Page Name="/Pages/QA/Overview.aspx" Permission="12"></Page>
+        <Page Name="/Pages/QA/Logs.aspx" Permission="12"></Page>
+
+        <Page Name="/Pages/Services/Exports.aspx" Permission="502"></Page>
+
+        <Page Name="/Pages/Debug.aspx" Permission="1000"></Page>
+        
+        <Page Name="/Pages/DataManagement/Overview.aspx" Permission="108"></Page>
+        
+
+      </Pages>
+    </Product>
+  </Products>
+</Permissions>

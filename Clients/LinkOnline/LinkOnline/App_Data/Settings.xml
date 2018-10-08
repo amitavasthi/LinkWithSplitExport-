@@ -1,0 +1,5 @@
+﻿<Navigation>
+  <NavigationItem CssClass="NavigationItem" CssClassActive="NavigationItem_Active" Target="/Pages/Account/Home.aspx" Name="navAccountManagement" Icon="/Images/Icons/Navigation/Admin.png"></NavigationItem>
+  <NavigationItem CssClass="NavigationItem feedback-btn" CssClassActive="NavigationItem_Active" Target="javascript:callFeedback();" Name="navFeedBack"  Icon="/Images/Icons/Navigation/Assistance.png"></NavigationItem>
+  <NavigationItem CssClass="NavigationItem" CssClassActive="NavigationItem_Active" Target="javascript:Logout();" Name="navLogout" Icon="/Images/Icons/Navigation/Logout.png"></NavigationItem>
+ </Navigation>

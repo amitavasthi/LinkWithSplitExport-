@@ -1,0 +1,27 @@
+﻿.NavigationMenu {
+    color:#FFFFFF;
+    font-weight:bold;
+    font-size:12pt;
+}
+
+.TableCellNavigationMenuItem {
+    
+    min-width:150px;
+    width:150px;
+}
+
+.TableCellNavigationMenuItem:not(:empty) {
+    border-width:2px;
+    border-style:solid;
+
+    background-color:#FFFFFF;
+}
+
+.NavigationMenuItem {
+    cursor:pointer;
+    text-align:center;
+
+    
+    padding-top:0.5em;
+    padding-bottom:0.5em;
+}

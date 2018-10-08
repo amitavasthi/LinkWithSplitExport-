@@ -1,0 +1,1201 @@
+﻿<Labels>
+
+  <!-- ##### Language related specifications ##### -->
+
+  <Label Name="FormatProviderCulture">en-US</Label>
+  <Label Name="PageDirection">LeftToRight</Label>
+
+  <Label Name="DateFormat">yyyy-MM-dd</Label>
+  <Label Name="TimeFormat">HH:mm:ss</Label>
+  <Label Name="DurationFormat">hh\:mm\:ss</Label>
+  <!--<Label Name="NumberFormatDouble">{0:0.###DECIMALS###}</Label>-->
+  <Label Name="NumberFormatDouble">{0:#,0.###DECIMALS###}</Label>
+  <Label Name="NumberFormatDoubleDecimalPlace">0</Label>
+
+
+  <!-- ##### ALEXA Labels ##### -->
+
+  <Label Name="Alexa_Error_VariableNotExists">Sorry, I couldn't find this variable in the database.</Label>
+  <Label Name="Alexa_Error_ValueNotFound">Sorry, I couldn't find a value for the requested query.</Label>
+
+  <Label Name="Alexa_Output_HighestValue">The highest value of {0} is {1} with a share of {2} percent.</Label>
+  <Label Name="Alexa_Output_Value">The {0} is {1}.</Label>
+
+
+  <!-- ##### Global labels ##### -->
+
+  <Label Name="Name">name</Label>
+  <Label Name="Username">username</Label>
+  <Label Name="Password">password</Label>
+  <Label Name="Back">back</Label>
+  <Label Name="NewVariableName">New Variable Name</Label>
+  <Label Name="NewVariableLabel">New Variable Label</Label>
+  <Label Name="NewCategoryName">New Category Name</Label>
+  <Label Name="NewCategoryLabel">New Category Label</Label>
+
+  <Label Name="Add">add</Label>
+  <Label Name="Edit">edit</Label>
+  <Label Name="Cancel">cancel</Label>
+
+  <Label Name="User">user</Label>
+  <Label Name="CreationDate">creation date</Label>
+  <Label Name="Status">status</Label>
+
+  <Label Name="SessionTimeoutWarning">
+    are you still there?<br />your session ends in {0} seconds!
+  </Label>
+
+  <Label Name="KickedOutMessage">you have been logged out of LiNK because someone else logged in with your credentials</Label>
+
+
+  <Label Name="TimeDifferenceLessThanMinute">&lt;1 minute ago</Label>
+  <Label Name="TimeDifferenceMinute">1 minute ago</Label>
+  <Label Name="TimeDifferenceMinutes">{0} minutes ago</Label>
+  <Label Name="TimeDifferenceHours">{0} hours ago</Label>
+  <Label Name="TimeDifferenceDays">{0} days ago</Label>
+
+  <!-- ##### Voice recognition ##### -->
+
+  <Label Name="LiNKVoice_Hello">Hello! I am LiNK. How can I help you?</Label>
+
+
+  <!-- ##### Variable search ##### -->
+
+  <Label Name="MetadataCategoryColumnVariableLabel">Variable</Label>
+  <Label Name="MetadataCategoryColumnValue">Value</Label>
+  <Label Name="MetadataCategoryColumnName">Name</Label>
+  <Label Name="MetadataCategoryColumnLabel">Label</Label>
+  <Label Name="MetadataCategoryColumnHierarchy">Hierarchy</Label>
+
+  <Label Name="MetadataVariableColumnChapter">Chapter</Label>
+  <Label Name="MetadataVariableColumnType">Type</Label>
+  <Label Name="MetadataVariableColumnName">Name</Label>
+  <Label Name="MetadataVariableColumnLabel">Label</Label>
+  <Label Name="MetadataVariableColumnHierarchy">Hierarchy</Label>
+
+
+  <!-- ##### Master.Master ##### -->
+  <Label Name="UserMessage">you're logged in as</Label>
+
+  <Label Name="MaintenanceWarning">
+    Maintanance in <span id="MaintenanceWarningMinutes">4</span> minutes <span id="MaintenanceWarningSeconds">59</span> seconds. Please make sure your work is saved.
+  </Label>
+  <Label Name="MaintananceMessage">
+    MAINTANANCE MODE ENABLED
+  </Label>
+
+  <Label Name="navHome">home</Label>
+  <Label Name="navAdmin">admin</Label>
+  <Label Name="navAddUser">add user</Label>
+  <Label Name="navHomeManagement">home</Label>
+  <Label Name="navData">data</Label>
+  <Label Name="navManageWorkgroups">workgroups</Label>
+  <Label Name="navManageUsers">manage users</Label>
+  <Label Name="navManageUserGroups">user groups</Label>
+  <Label Name="navPortalSettings">settings</Label>
+  <Label Name="navProduction">production</Label>
+  <Label Name="navLibrary">library</Label>
+  <Label Name="navReporting">reporting</Label>
+  <Label Name="navServices">services</Label>
+  <Label Name="navAMS">ams</Label>
+  <Label Name="navBackup">backup</Label>
+  <Label Name="navTaxonomy">taxonomy</Label>
+  <Label Name="navDashboards">dashboards</Label>
+  <Label Name="navReporter">studio</Label>
+  <Label Name="navWorkflowDefinition">bottom bar definition</Label>
+  <Label Name="navNewReport">new report</Label>
+  <Label Name="navLogger">Loggers</Label>
+  <Label Name="navLinkManager">linking</Label>
+  <Label Name="navQA">qa</Label>
+  <Label Name="navQALogs">qa logs</Label>
+  <Label Name="navLinkBi">link bi</Label>
+  <Label Name="navSavedDefinitions">saved reports</Label>
+  <Label Name="navExports">exports</Label>
+
+  <Label Name="navAccountManagement">settings</Label>
+  <Label Name="navLogout">logout</Label>
+  <Label Name="navFeedBack">feedback</Label>
+
+  <Label Name="navDataManagement">data management</Label>
+  <Label Name="navDesign">design</Label>
+
+  <Label Name="navDebug">debug</Label>
+
+  <Label Name="navLogs">Logs</Label>
+
+  <Label Name="LeaveMessageReporter">Do you want to save your report?</Label>
+
+  <!-- ##### Default.aspx ##### -->
+  <Label Name="HomeTitleNews">what's new</Label>
+  <Label Name="HomeTitleSocial">social</Label>
+  <Label Name="HomeTitleChart">overview</Label>
+  <Label Name="HomeTitleRecentUsed">recently used</Label>
+
+  <Label Name="HomescreenNoChartDefined">there is nothing here yet!</Label>
+
+  <Label Name="CalendarMonthShort1">jan</Label>
+  <Label Name="CalendarMonthShort2">feb</Label>
+  <Label Name="CalendarMonthShort3">mar</Label>
+  <Label Name="CalendarMonthShort4">apr</Label>
+  <Label Name="CalendarMonthShort5">may</Label>
+  <Label Name="CalendarMonthShort6">jun</Label>
+  <Label Name="CalendarMonthShort7">jul</Label>
+  <Label Name="CalendarMonthShort8">aug</Label>
+  <Label Name="CalendarMonthShort9">sep</Label>
+  <Label Name="CalendarMonthShort10">oct</Label>
+  <Label Name="CalendarMonthShort11">nov</Label>
+  <Label Name="CalendarMonthShort12">dec</Label>
+
+  <!-- ##### AccountManagement.aspx ##### -->
+
+  <Label Name="UserValidationButtonActivate">activate</Label>
+  <Label Name="UserValidationTitle">You must activate your user id before continuing</Label>
+  <Label Name="UserValidationPasswordTitle">You must change your password before continuing</Label>
+  <Label Name="UserValidationEmployeeId">employee id</Label>
+  <Label Name="UserValidationE-Mail">E-Mail</Label>
+  <Label Name="UserValidationError">The information you entered is incorrect. Please try again or contact your administrator.</Label>
+
+  <Label Name="ChangePassword">change password</Label>
+  <Label Name="ChangeContact">change contact details</Label>
+  <Label Name="ChangeEmail">change email</Label>
+  <Label Name="Change">change</Label>
+  <Label Name="OldPassword">old password</Label>
+  <Label Name="NewPassword">new password</Label>
+  <Label Name="ConfirmPassword">confirm password</Label>
+  <Label Name="oldEmail">old email</Label>
+  <Label Name="newEmail">new email</Label>
+  <Label Name="ChangeMessage">your password has been changed successfully, please login with new password.</Label>
+  <Label Name="Mismatch">your password and confirm password do not match.</Label>
+  <Label Name="OldPasswordMatchesNewPassword">your old password and new password must be different.</Label>
+  <Label Name="WrongPassword">please enter a correct password.</Label>
+  <Label Name="ContactSuccess">your contact details has been changed successfully.</Label>
+  <Label Name="MailSuccess">your email has been changed successfully.</Label>
+  <Label Name="MailError">please enter the correct email address.</Label>
+  <Label Name="ChangeMsgWarning">you didn't change anything</Label>
+  <Label Name="PasswordError">
+    <div style="display:inline-block">
+      Your password must contain a minimum of 8 and a maximum 32 characters,<br />
+      have at least one numeric, at least one capital<br />
+      letter and must have at least one special character.
+    </div>
+  </Label>
+  <Label Name="PasswordNote">
+    <div style="display:inline-block;font-weight:bold;">
+      <span style="color:green;">Password Policy </span>: Your password must contain a minimum of 8 and a maximum 32 characters
+      have at least one numeric, at least one capital
+      letter and must have at least one special character.
+    </div>
+  </Label>
+  <Label Name="PasswordPolicyMsg">
+    <span style="color:green;">Password Policy </span>: Your password must contain a minimum of 8 and a maximum 32 characters<br/>
+    have at least one numeric, at least one capital
+    letter and must have at least one special character.
+  </Label>
+  <Label Name="PasswordPolicy">
+    <span style="margin-left:20px;">
+      password should match the password policy.
+    </span>
+  </Label>
+  <Label Name="PasswordRequestExpired">
+    this request has been either expired or not found,<br/> please make a new request or contact administrator.
+  </Label>
+
+  <!-- ##### Login.aspx ##### -->
+  <Label Name="Login">go!</Label>
+  <Label Name="LoginText">let's login</Label>
+  <Label Name="LoginErrorMsg">The user name or password you entered is incorrect.</Label>
+
+  <!-- ##### Taxonomy Manager #####-->
+  <Label Name="addVariable">add variable</Label>
+  <Label Name="addCategory">add category</Label>
+  <Label Name="chapterAdded">new chapter added</Label>
+  <Label Name="categoryUpdated">category information has been updated</Label>
+  <Label Name="variableUpdated">variable information has been updated</Label>
+  <Label Name="chapterUpdated">chapter information has been updated</Label>
+  <Label Name="variableExists">variable name exists</Label>
+  <Label Name="enterVariable">variable label should not be blank</Label>
+  <Label Name="chapterExists">chapter name exists</Label>
+  <Label Name="enterChapter">chapter label should not be blank</Label>
+  <Label Name="enterCategory">category label should not be blank</Label>
+  <Label Name="variablesCopied">variables copied, please update variable labels</Label>
+  <Label Name="categoriesCopied">categories copied</Label>
+  <Label Name="variablesMoved">variables moved</Label>
+  <Label Name="categoriesMoved">categories moved</Label>
+
+  <Label Name="TaxonomyManagerTitle">taxonomy</Label>
+  Upload Taxonomy
+
+  <!-- ##### QA/Overview.aspx -->
+
+  <Label Name="QATitle">QA</Label>
+
+  <!-- ##### QA/Logs.aspx -->
+
+  <Label Name="QAUndo">Are you sure you want to undo the QA action?</Label>
+
+  <Label Name="QASignOffStudy">study</Label>
+  <Label Name="QASignOffSource">item</Label>
+  <Label Name="QASignOffElement">element</Label>
+  <Label Name="QASignOffUser">user</Label>
+  <Label Name="QASignOffStatus">status</Label>
+  <Label Name="QASignOffDate">date</Label>
+
+  <Label Name="QASignOffStatus0">LIVE</Label>
+  <Label Name="QASignOffStatus1">QA</Label>
+
+  <Label Name="ChangeStatus">change status</Label>
+
+  <Label Name="QASignOffSourceStudies">whole study</Label>
+  <Label Name="QASignOffSourceTaxonomyVariables">taxonomy variable</Label>
+  <Label Name="QASignOffSourceTaxonomyCategories">taxonomy category</Label>
+  <Label Name="QASignOffSourceCategories">study category</Label>
+
+  <!-- ##### Uploader.aspx ##### -->
+  <Label Name="SelectFile">study file</Label>
+  <Label Name="UploaderSendMail">mail me when the upload is finished</Label>
+
+  <Label Name="RotationVariables">rotation variables</Label>
+  <Label Name="RotationVariablesSubTitle">separated by space</Label>
+
+  <!-- ##### DataManagement/Overview.aspx ##### -->
+
+  <Label Name="DataManagementTitle">data</Label>
+
+  <Label Name="Move">move</Label>
+  <Label Name="DataAnalyzer">analyse data</Label>
+  <Label Name="SetHierarchyFilter">hierarchy filter</Label>
+
+  <Label Name="DeleteStudiesConfirmMessage">Are you sure you want to delete the selected studies?</Label>
+
+  <!-- ##### DataManagement/HierarchyFilter.aspx ##### -->
+
+  <Label Name="HierarchyFilterTitle">hierarchy filter</Label>
+
+  <!-- ##### LinkCloud.aspx ##### -->
+
+  <Label Name="LibraryTitle">library</Label>
+  <Label Name="FileExist">there is already a file with same name in this location</Label>
+  <Label Name="CreateDirectory">create folder</Label>
+  <Label Name="MovingReport">Move Report</Label>
+  <Label Name="DestinationDirectoryError">Please select folder to move.</Label>
+  <Label Name="DestinationDirectorySaveError">Please select folder to save.</Label>
+  <Label Name="CreateDirectoryErrorAlreadyExists">a folder with the name '{0}' already exists</Label>
+  <Label Name="CreateDirectoryErrorName">please enter folder name</Label>
+  <Label Name="CreateDirectorySpecialCharacter">invalid folder/file name</Label>
+  <Label Name="CreateDirectoryErrorDirectoryMaxLength">Given folder/file name is too lengthy. It must be less than 248 characters</Label>
+  <Label Name="CreateDirectoryErrorDirectoryFullMaxLength">fully qualified file name must be less than 260 characters</Label>
+  <Label Name="SelectAFile">please select a file</Label>
+
+  <Label Name="SavedReports">saved reports</Label>
+  <Label Name="UsersSavedReports">{0}'s saved reports</Label>
+  <Label Name="MySavedReports">my saved reports</Label>
+
+  <Label Name="CopyHyperlink">copy hyperlink</Label>
+  <Label Name="CopyHyperlinkSuccess">The saved report's hyperlink was copied successfully to your clipboard.</Label>
+  <Label Name="CopyHyperlinkError">An error occurred while copying the link to your clipboard. Please check your security settings.</Label>
+
+  <Label Name="TableExportRestrict">You cannot select categories of more than one variable.</Label>
+
+  <Label Name="TableExportFilterRestrict">
+    <span style="color:#BB0000">
+      The selected <b>{0} {1}</b> is not selected in filters of <b>{2}</b>. Please select it before proceeding further.<br/>
+    </span>
+  </Label>
+
+  <Label Name="ConnectPowerBITargetPowerBI">PowerBI</Label>
+  <Label Name="ConnectPowerBITargetTableau">Tableau</Label>
+  <Label Name="ConnectPowerBITargetTable">Table</Label>
+  <Label Name="ConnectPowerBI">connect to BI</Label>
+  <Label Name="MakePrivate">make it private</Label>
+  <Label Name="MakePublic">make it public</Label>
+  <Label Name="ConnectPowerBIDescriptionSave">You need to save your report before you can connect it.</Label>
+  <Label Name="ConnectPowerBIDescriptionTarget">What BI tool would you like to connect to?</Label>
+  <Label Name="ConnectPowerBIDescription1">We require your login credentials to connect to the secure LiNK API</Label>
+  <Label Name="ConnectPowerBIDescription2">Step 1: Copy the following connection link</Label>
+  <Label Name="ConnectPowerBIDescription3">Step 2: Enter the link in the Web data source</Label>
+  <Label Name="CreateLink">create link</Label>
+
+  <Label Name="DeleteCloudDirectory">Are you sure you want to delete the folder '{0}' with all it's contents?</Label>
+  <Label Name="DeleteSavedReport">Are you sure you want to delete the saved report '{0}'?</Label>
+  <Label Name="DeleteCloudFile">Are you sure you want to delete the file '{0}'?</Label>
+
+  <Label Name="DuplicateFile">make copy</Label>
+
+  <Label Name="PinToHomescreen">pin to overview</Label>
+
+  <Label Name="LibraryHeadlineName">name</Label>
+  <Label Name="LibraryHeadlineType">type</Label>
+  <Label Name="LibraryHeadlineSize">size</Label>
+  <Label Name="LibraryHeadlineAuthor">author</Label>
+  <Label Name="LibraryHeadlineCreationDate">date created</Label>
+  <Label Name="LibraryHeadlineModifiedDate">date modified</Label>
+
+  <Label Name="CloudColumnType">column type</Label>
+  <Label Name="CloudColumnSize">column size</Label>
+  <Label Name="CloudColumnAuthor">column author</Label>
+  <Label Name="CloudColumnCreationDate">column date created</Label>
+
+
+  <Label Name="FileFormatSavedReports">System Folder</Label>
+  <Label Name="FileFormatDirectory">File Folder</Label>
+  <Label Name="FileFormatSavedReport">LiNK Report File</Label>
+  <Label Name="FileFormatUnknown">{0} File</Label>
+  <Label Name="FileFormat.xlsx">Excel Worksheet</Label>
+  <Label Name="FileFormat.xls">Excel Worksheet</Label>
+  <Label Name="FileFormat.pptx">PowerPoint Presentation</Label>
+  <Label Name="FileFormat.ppt">PowerPoint Presentation</Label>
+  <Label Name="FileFormat.docx">Word Document</Label>
+  <Label Name="FileFormat.doc">Word Document</Label>
+  <Label Name="FileFormat.pdf">PDF File</Label>
+  <Label Name="FileFormat.bmp">Image</Label>
+  <Label Name="FileFormat.png">Image</Label>
+  <Label Name="FileFormat.jpg">Image</Label>
+  <Label Name="FileFormat.jpeg">Image</Label>
+  <Label Name="FileFormat.sav">Data file</Label>
+
+  <Label Name="TypeSort">Type</Label>
+  <!-- ##### Backup.aspx ##### -->
+
+  <Label Name="BackupTitle">backup</Label>
+
+  <Label Name="Running">running</Label>
+  <Label Name="Finished">finished</Label>
+  <Label Name="Failed">failed</Label>
+
+  <!-- ##### LinkBi.aspx ##### -->
+
+  <Label Name="NewLinkBiReport">new report</Label>
+
+  <Label Name="LinkBiTitle">business intelligence</Label>
+
+  <Label Name="ExportPercentage">export percentage</Label>
+
+  <Label Name="LinkBiDefinitionMeasures">variable name</Label>
+  <Label Name="LinkBiDefinitionMeasureScores">categories</Label>
+  <Label Name="LinkBiDefinitionFilter">filter variable {0}</Label>
+
+  <Label Name="NewLinkBiFilter">
+    <img src="/Images/Icons/Add.png" /> add filter
+  </Label>
+  <Label Name="NewLinkBiMeasure">
+    <img src="/Images/Icons/Add.png" /> add measure
+  </Label>
+
+  <Label Name="NewLinkBiSavedReport">{0}'s saved report</Label>
+
+  <Label Name="Factor">factor</Label>
+  <Label Name="Show">show</Label>
+  <Label Name="Hide">hide</Label>
+
+  <Label Name="Weighting">weighting</Label>
+  <Label Name="Filter">filter</Label>
+
+
+  <Label Name="CombineGroupMenuItem">combine with group '{0}'</Label>
+  <Label Name="RemoveFromGroupMenuItem">remove from group '{0}'</Label>
+  <Label Name="CreateNewScoreGroupMenuItem">create new group</Label>
+  <Label Name="InsertMeanScore">insert mean score</Label>
+  <Label Name="InsertStandardDeviationScore">insert standard deviation</Label>
+  <Label Name="InsertStandardError">insert standard error</Label>
+  <Label Name="InsertSampleVariance">insert sample variance</Label>
+  <Label Name="DefineEquation">define equation</Label>
+
+  <!-- ##### SelectInterface.aspx ##### -->
+
+  <Label Name="SelectInterfaceMessage">how would you like to deploy your end result?</Label>
+
+  <!-- ##### Status.aspx ##### -->
+
+  <Label Name="LinkBiProgressLabel">your LinkBi export is running...</Label>
+  <Label Name="MailLinkBiResult">mail me the LinkBi export when it's finished.</Label>
+  <Label Name="LinkBiExportFinished">your LinkBi export is finished.</Label>
+  <Label Name="LinkBiDownloadExport">download</Label>
+
+  <Label Name="MailSendError">
+    An error occurred while sending the export to your mail address '{0}'.<br />{1}
+  </Label>
+
+  <!-- ##### SavedDefinitions.aspx ##### -->
+  <Label Name="LinkBiDefinitionUpToDate">
+    <span style="color:#00BB00">up to date</span>
+  </Label>
+  <Label Name="LinkBiDefinitionOutdated">
+    <span style="color:#BB0000">outdated</span>
+  </Label>
+
+  <Label Name="LinkBiDefinitionMessageOudatedData">The report '{0}' has outdated data.</Label>
+
+  <Label Name="LinkBiServerConnectionFileSystemFilePath">file path</Label>
+
+  <Label Name="LinkBiInterfaceType">provider</Label>
+  <Label Name="LinkBiServerConnectionType">connection type</Label>
+  <Label Name="LinkBiServerConnectionFTPServer">server</Label>
+  <Label Name="LinkBiServerConnectionFTPUsername">username</Label>
+  <Label Name="LinkBiServerConnectionFTPPassword">password</Label>
+
+  <Label Name="LinkBiServerConnectionInvalid">The connection to the server could not be established.</Label>
+  <Label Name="LinkBiServerConnectionDeploySuccess">The LinkBi report was deployed successfully to the server.</Label>
+  <Label Name="LinkBiServerConnectionDeployFailed">An error occurred while deploying the LinkBi report to the server.</Label>
+
+  <!-- ##### Exports.aspx -->
+
+  <Label Name="AvailableVariables">available variables</Label>
+  <Label Name="SelectedVariables">selected variables</Label>
+
+  <!-- ##### ProjectHierachyManager.aspx ##### -->
+  <Label Name="ProjectInformation">project information</Label>
+  <Label Name="StudyInformation">study information</Label>
+  <Label Name="TypologyInformation">typology information</Label>
+  <Label Name="NewTaxonomyFieldValue"></Label>
+
+  <!-- ##### AgencyManagementSystem ##### -->
+
+  <Label Name="AgencyManagementSystemTitle">agency management system</Label>
+  <Label Name="AgencyManagementSystemVariablesTitle">{0} variables</Label>
+
+  <Label Name="NoProjectHierarchySet">
+    <span style="color:#BB0000">no hierarchy set</span>
+  </Label>
+  <Label Name="ProjectHierarchySet">
+    <span style="color:#00BB00">hierarchy set</span>
+  </Label>
+  <Label Name="ProjectHierarchyIncomplete">
+    <span style="color:#ee9614">hierarchy incomplete</span>
+  </Label>
+
+  <Label Name="SetProjectHierarchy">set hierarchy</Label>
+  <Label Name="ExportHierarchy">export hierarchy</Label>
+
+  <Label Name="SelectHierarchy">select a hierarchy for your study</Label>
+
+  <Label Name="TaxonomyManagerTitle">taxonomy manager</Label>
+
+
+  <Label Name="StudyImportFailed">import failed</Label>
+  <Label Name="StudyDeleting">deleting</Label>
+
+  <Label Name="DeleteStudyConfirmMessage">
+    Are you sure to delete the study '{0}'?
+  </Label>
+
+  <Label Name="DataImportETA">
+    <i>
+      ETA: <span class="Color2">{0}</span>
+    </i>
+  </Label>
+
+  <Label Name="StudyUploadTip1">
+    <b class="Color2">tip:</b>&#160;you can upload any supported<br />file inside a zip file!
+  </Label>
+  <Label Name="StudyUploadTip2">
+    <b class="Color2">tip:</b>&#160;the response import takes 0.06 seconds<br/>for each respondent and category!
+  </Label>
+
+  <Label Name="StudyLanguage">metadata language</Label>
+
+
+  <Label Name="DataAnalyser">data analyser</Label>
+  <Label Name="RunDataAnalyser">data analyser</Label>
+  <Label Name="DataAnalyserExport">export data</Label>
+  <Label Name="DataAnalyserWeights">check weighting</Label>
+  <Label Name="DataAnalyserCompare">compare taxonomized</Label>
+  <Label Name="WeightingVariable">weighting variable</Label>
+
+  <!-- ##### DataManagement / Overview.aspx -->
+
+  <Label Name="MoveStudiesDescription">select the hierarchy where you want to move the studies to.</Label>
+  <Label Name="StudyStatusUnlinked">unlinked</Label>
+  <Label Name="StudyStatusLinking">linking</Label>
+  <Label Name="StudyStatusOnline">online</Label>
+  <Label Name="StudyStatusQA">QA</Label>
+
+  <Label Name="HierarchyDeletionErrorStudies">You cannot delete a hierarchy which has studies assigned.</Label>
+  <Label Name="HierarchyDeletionErrorTaxonomy">You cannot delete a hierarchy which has taxonomy assigned.</Label>
+  <Label Name="DeleteHierarchyMessage">Are you sure you want to delete the hierarchy '{0}'?</Label>
+
+  <Label Name="Hierarchy">hierarchy</Label>
+
+  <!-- ##### AMS/Variables ##### -->
+
+  <Label Name="Categorize">categorize</Label>
+
+  <Label Name="CategorizeTextVariable">categorize text variable</Label>
+
+  <Label Name="CategorizeTextVariableStep1">step 1</Label>
+  <Label Name="CategorizeTextVariableStep2">step 2</Label>
+  <Label Name="CategorizeTextVariableStep3">step 3</Label>
+  <Label Name="CategorizeTextVariableStep4">step 4</Label>
+
+  <Label Name="DownloadTextAssignment">download text assignment</Label>
+  <Label Name="CategorizeTextVariableStep2Description">code the text answers in the downloaded text assignment file.</Label>
+  <Label Name="CategorizeTextVariableStep3VariableName">variable name</Label>
+  <Label Name="CategorizeTextVariableStep3UploadFile">
+    upload the modified<br/>text assignment file
+  </Label>
+
+  <!-- ##### Taxonomy manager ##### -->
+
+  <Label Name="ResetTaxonomyConfirmMessage">
+    Are you sure to reset the whole taxonomy?<br />
+    This will also reset all existing links to study data.
+  </Label>
+
+  <Label Name="ResetHierarchyTaxonomyMessage">
+    Are you sure to reset the taxonomy for the hierarchy '{0}'.<br />
+    This will also reset all existing links to study data.
+  </Label>
+
+  <Label Name="ResetHierarchyTaxonomy">reset hierarchy taxonomy</Label>
+  <Label Name="SelectTaxonomyFile">select taxonomy file</Label>
+  <Label Name="HierarchySpecificUpload">hierarchy specific upload</Label>
+
+  <!-- ##### WorkflowDefinition ##### -->
+
+  <Label Name="DeleteWorkflowSelector">Are you sure you want to delete the bottom bar filter '{0}'?</Label>
+
+  <Label Name="HierarchyWorkflowNotDefined">The hierarchy '{0}' has no hierarchy dependent bottom bar defined. When selected the bottom bar is inherited.</Label>
+  <Label Name="ButtonWorkflowAdd">Create bottom bar for the hierarchy '{0}'</Label>
+  <Label Name="DeleteWorkflow">Are you sure you want to delete the selected workflow definition?</Label>
+
+  <!-- ##### DataUploader.aspx ##### -->
+
+  <Label Name="DataUploaderStatusStep1">
+    <b>1.</b> set study data
+  </Label>
+  <Label Name="DataUploaderStatusStep2">
+    <b>2.</b> saving file
+  </Label>
+  <Label Name="DataUploaderStatusStep2_1">
+    <b>2.1</b> unzipping file
+  </Label>
+  <Label Name="DataUploaderStatusStep3">
+    <b>3.</b> validate file
+  </Label>
+  <Label Name="DataUploaderStatusStep4">
+    <b>4.</b> insert metadata
+  </Label>
+  <Label Name="DataUploaderStatusStep5">
+    <b>5.</b> insert respondents
+  </Label>
+  <Label Name="DataUploaderStatusStep6">
+    <b>6.</b> insert responses
+  </Label>
+
+  <Label Name="StudyFile">study file</Label>
+  <Label Name="DataUploadFileSubTitle">supported file formats: .sav, .pkd, .zip, .xls, .xlsx, .csv</Label>
+
+  <Label Name="StudyName">study name</Label>
+  <Label Name="RespondentVariable">respondent variable name</Label>
+
+  <Label Name="StudyStatus">status</Label>
+
+  <Label Name="DownloadAssignment">download assignment</Label>
+  <Label Name="ModifyVariables">modify variables</Label>
+  <Label Name="DeleteStudy">delete study</Label>
+
+  <!-- ##### Crosstabs.aspx ##### -->
+
+  <Label Name="ErrorTabAlreadyExists">A tab with this name already exists.</Label>
+
+  <Label Name="SaveReportLocationOverwrite">overwrite</Label>
+  <Label Name="SaveReportLocationNew">create new</Label>
+
+  <Label Name="DropAreaMessageReplace">replace</Label>
+  <Label Name="DropAreaMessageNest">nest</Label>
+  <Label Name="DropAreaMessageAdd">add</Label>
+  <Label Name="DropAreaMessageDelete">remove</Label>
+  <Label Name="DropAreaMessageCancel">cancel</Label>
+  <Label Name="DropAreaMessageWeight">weight</Label>
+
+  <Label Name="ToolTipSelectVariable">search</Label>
+  <Label Name="ToolTipWeighting">weights</Label>
+  <Label Name="ToolTipFilter">filters</Label>
+  <Label Name="ToolTipSwitch">switch table</Label>
+  <Label Name="ToolTipSwitchLinkBi">switch selection</Label>
+
+  <Label Name="FilterDefinitionAllTabs">apply on all tabs</Label>
+
+  <Label Name="Crosstabs">studio</Label>
+  <Label Name="CrosstableFilter">filter</Label>
+  <Label Name="CrosstableVariablesTop">top</Label>
+  <Label Name="CrosstableVariablesLeft">side</Label>
+  <Label Name="NoFilterApplied">
+    <div style="margin-top: 9px;margin-bottom: 9px;">no filters applied</div>
+  </Label>
+  <Label Name="FiltersApplied">
+    Filters<br />applied
+  </Label>
+
+  <Label Name="SearchFilterCategory">search category</Label>
+  <Label Name="AddFilterOperator">add operator</Label>
+
+  <Label Name="SelectVariable">Search variable...</Label>
+  <Label Name="AddNestedVariable">add nested</Label>
+
+  <Label Name="DefaultWeightingVariable">default weighting</Label>
+  <Label Name="AddNewWeightingFilter">add new weighting filter</Label>
+
+  <Label Name="NoWeightingApplied">
+    no weighting<br />applied
+  </Label>
+  <Label Name="WeightingFiltersApplied">
+    {0} weighting<br />filters applied
+  </Label>
+  <Label Name="WeightingApplied">
+    Weighting on '{0}'.
+  </Label>
+
+  <Label Name="SearchFilter">search filter</Label>
+
+  <Label Name="MetadataLanguage">metadata language</Label>
+  <Label Name="DefaultWeighting">default weighting</Label>
+
+  <Label Name="SaveTab">save tab</Label>
+  <Label Name="SaveAllTabs">save all tabs</Label>
+  <Label Name="SaveAllowOverwrite">allows others to edit</Label>
+  <Label Name="NewReport">new report {0}</Label>
+  <Label Name="SavedDefinitions">saved definitions</Label>
+  <Label Name="SettingsDisplay">show</Label>
+  <Label Name="SettingsRendererTitle">table</Label>
+  <Label Name="Copy">copy</Label>
+
+  <Label Name="BaseType">base type</Label>
+  <Label Name="SettingsBaseTypeAnsweringBase">answering base</Label>
+  <Label Name="SettingsBaseTypeTotalBase">total base</Label>
+
+  <Label Name="DisplayUnweightedBase">display&#160;unweighted&#160;base</Label>
+  <Label Name="DisplayEffectiveBase">display&#160;Effective&#160;base</Label>
+  <Label Name="SigDiffEffectiveBase">use&#160;effective&#160;base</Label>
+  <Label Name="HideLowBase">hide&#160;low&#160;base</Label>
+  <Label Name="RepeatHeader">repeat&#160;header</Label>
+  <Label Name="DecimalPlaces">decimal&#160;places</Label>
+  <Label Name="SignificanceTest">significance&#160;test</Label>
+  <Label Name="DataCheckEnabled">mark&#160;empty&#160;variables</Label>
+  <Label Name="SignificanceTestLevel">significance&#160;test&#160;level</Label>
+  <Label Name="SignificanceWeight">base&#160;to&#160;consider&#160;</Label>
+  <Label Name="LowBaseConsider">
+    low&#160;base&#160;threshold<br/><br/>&#160;&#160;&#160;&#160;base&#160;to&#160;consider&#160;
+  </Label>
+  <Label Name="LowBaseConsiderExport">
+    base&#160;to&#160;consider&#160;for&#160;low&#160;base&#160;threshold
+  </Label>
+  <Label Name="AggregateNonQAData">report&#160;on&#160;unchecked&#160;data</Label>
+  <Label Name="ScrollLabels">scroll&#160;headline&#160;labels</Label>
+  <Label Name="HideEmptyRowsAndColumns">hide&#160;empty&#160;rows&#160;&amp;&#160;columns</Label>
+  <Label Name="SettingsDisplayBoth">absolutes&#160;&amp;&#160;percentages</Label>
+  <Label Name="SettingsDisplayValues">absolutes&#160;only</Label>
+  <Label Name="SettingsDisplayPercentages">percentages&#160;only</Label>
+  <Label Name="SettingsMinWidth">cell&#160;width</Label>
+  <Label Name="SettingsMinHeight">cell&#160;height</Label>
+  <Label Name="SettingsRankLeft">rank categories</Label>
+  <Label Name="CategoryLimit">category limit (can affect performance)</Label>
+
+  <Label Name="SecretSettings">secret settings</Label>
+  <Label Name="SecretSettingsPercentageBase">percentage&#160;base</Label>
+  <Label Name="SecretSettingsPowerBIValues">PowerBI&#160;values</Label>
+
+  <Label Name="VariableScrollWarning">
+    <table style="text-align:left;">
+      <tr>
+        <td>
+          <img src="/Images/Icons/Warning2.png"/>
+        </td>
+        <td>
+          <b>LiNK has noticed that things have slowed down.</b>
+          <br />Would you like to disable the label scrolling on your tables to make it run faster?
+        </td>
+      </tr>
+    </table>
+  </Label>
+
+  <Label Name="New">new</Label>
+  <Label Name="Settings">settings</Label>
+  <Label Name="View">view</Label>
+  <Label Name="Export">export</Label>
+  <Label Name="Share">save</Label>
+  <Label Name="Rename">rename</Label>
+  <Label Name="Move">move</Label>
+  <Label Name="MoveHere">move here</Label>
+  <Label Name="Combine">combine</Label>
+  <Label Name="CombineCategoires">combine categories</Label>
+  <Label Name="LinkReporterSettingsConnectPowerBI">
+    connect&#160;to <br />BI tool
+  </Label>
+
+  <Label Name="ChartTypeCrosstable">crosstable</Label>
+  <Label Name="ChartTypeLine">line</Label>
+  <Label Name="ChartTypeScatter">scatter</Label>
+  <Label Name="ChartTypeBar">bar</Label>
+  <Label Name="ChartTypeSpiderWeb">spiderweb</Label>
+  <Label Name="ChartTypeColumn">column</Label>
+  <Label Name="ChartTypeWindRose">windrose</Label>
+  <Label Name="ChartTypeArea">area</Label>
+  <Label Name="ChartTypePie">pie</Label>
+
+  <Label Name="Base">Base</Label>
+  <Label Name="LowBaseText">low base threshold</Label>
+  <Label Name="BaseAnsweringLeft">Base</Label>
+  <Label Name="BaseTotalLeft">Base</Label>
+  <Label Name="BaseUnweightedTop">
+    Base<br>
+      <span style="font-size:10.5px;">
+        (unweighted)
+      </span>
+    </br>
+  </Label>
+  <Label Name="BaseEffectiveTop">
+    Base<br>
+      <span style="font-size:10.5px;">
+        (Effective)
+      </span>
+    </br>
+  </Label>
+  <Label Name="BaseUnweightedLeft">
+    Base<br>
+      <span style="font-size:10.5px;float:left;">
+        (unweighted)
+      </span>
+    </br>
+  </Label>
+  <Label Name="BaseEffectiveLeft">
+    Base<br>
+      <span style="font-size:10.5px;float:left;">
+        &#160;&#160;(Effective)
+      </span>
+    </br>
+  </Label>
+  <Label Name="ExportNote">
+    <b>Note : </b>
+    <i>Column with pink color are under low base threshold limit,'*' indicates low base threshold</i>
+  </Label>
+  <Label Name="SaveReport">save report</Label>
+  <Label Name="SaveReportSuccess">your report was saved successfull in the library at '{0}'.</Label>
+  <Label Name="SaveReportErrorAlreadyExists">a report with this name already exists.</Label>
+  <Label Name="SaveReportErrorName">please set a name for the report.</Label>
+
+  <Label Name="DeleteReportTab">Are you sure you want to delete the report '{0}'?</Label>
+
+  <!--<Label Name="InitializingAggregator">initializing...</Label>
+  <Label Name="InitializingFilters">initializing filters...</Label>
+  <Label Name="AggregatingData">aggregating data...</Label>
+  <Label Name="RenderingTable">rendering table...</Label>-->
+  <Label Name="InitializingAggregator">initializing...</Label>
+  <Label Name="InitializingFilters">filtering...</Label>
+  <Label Name="AggregatingData">building...</Label>
+  <Label Name="RenderingTable">laying out display...</Label>
+
+
+  <Label Name="SettingsTip1">
+    <b class="Color2">tip:</b>&#160;settings are saved along with your reports!
+  </Label>
+  <Label Name="SettingsTip2">
+    <b class="Color2">tip:</b>&#160;when you're done, just close this window!
+  </Label>
+  <Label Name="General">general</Label>
+  <Label Name="AllGeneral">apply all tabs</Label>
+  <Label Name="SignificanceDifference">significance difference</Label>
+
+  <Label Name="FilterDefinitionTip1">
+    <b class="Color2">tip:</b>&#160;when you're done, just close this window!
+  </Label>
+  <Label Name="FilterDefinitionTip2">
+    <b class="Color2">tip:</b>&#160;filters are saved along with your reports!
+  </Label>
+
+  <Label Name="VariableSearchTip1">
+    <b class="Color2">tip:</b>&#160;pick your variable and drag it onto the table!
+  </Label>
+  <Label Name="VariableSearchTip2">
+    <b class="Color2">tip:</b>&#160;you can modify a variable's categories here before selecting it!
+  </Label>
+
+  <Label Name="EquationDefinitionTip1">
+    <b class="Color2">tip:</b>&#160;to have the base of a variable just remove the ".category" of a place holder.
+  </Label>
+  <Label Name="EquationDefinitionTip2">
+    <b class="Color2">tip:</b>&#160;place holders can be entered manually.
+  </Label>
+
+  <Label Name="Equation">equation</Label>
+
+  <Label Name="EquationToolTipInsertPlaceHolder">
+    insert place-holder
+  </Label>
+  <Label Name="EquationToolTipInsertMethod">
+    insert method
+  </Label>
+  <Label Name="EquationToolTipInsertCondition">
+    insert condition
+  </Label>
+  <Label Name="EquationToolTipValidate">
+    validate equation
+  </Label>
+  <Label Name="EquationToolTipExpandEditor">
+    expand editor
+  </Label>
+
+  <Label Name="EquationValidationErrorSyntax">
+    A syntax error was found in your equation '{0}'.
+  </Label>
+  <Label Name="EquationValidationErrorIncorrectPlaceHolder">
+    The place holder '{0}' wasn't found on the system.
+  </Label>
+  <Label Name="EquationValidationErrorMethodNotSupported">
+    The specified object '{0}' is not supported.
+  </Label>
+
+  <Label Name="EquationValidationNoErrorsFound">
+    no errors were found.
+  </Label>
+
+  <Label Name="Filters">filters</Label>
+  <Label Name="VariableSearch">variable search</Label>
+
+  <Label Name="ReporterExport">report 1</Label>
+
+
+  <Label Name="LowBase">&#160;&#160;&#160;&#160;threshold value</Label>
+
+  <Label Name="ReportName">name</Label>
+  <Label Name="ReportFilter">filter</Label>
+  <Label Name="ReportWeighting">weighting</Label>
+  <Label Name="ReportSigDiff">significance level</Label>
+  <Label Name="ReportSigDiffType">significance Type</Label>
+  <Label Name="SignificanceWeightLabel">base&#160;to&#160;consider&#160;</Label>
+  <Label Name="ReportHierarchy">hierarchy</Label>
+  <Label Name="ReportBaseType">base type</Label>
+
+
+  <Label Name="NormalExport">Normal Export</Label>
+  <Label Name="SplitExport">Split &amp; Export</Label>
+
+
+  <Label Name="ExportAllTabs">do you want to export all tabs?</Label>
+
+
+  <Label Name="EquationMethodDescription_SigDiff">Performs a significance test where a value is compared by another value considering their base.</Label>
+  <Label Name="EquationMethodDescription_Math.Abs">Returns the absolute value of a number.</Label>
+  <Label Name="EquationMethodDescription_Math.Acos">Returns the angle whose cosine is the specified number.</Label>
+  <Label Name="EquationMethodDescription_Math.Asin">Returns the angle whose sine is the specified number.</Label>
+  <Label Name="EquationMethodDescription_Math.Atan">Returns the angle whose tangent is the specified number.</Label>
+  <Label Name="EquationMethodDescription_Math.Atan2">Returns the angle whose tangent is the quotient of two specified numbers.</Label>
+  <Label Name="EquationMethodDescription_Math.Ceiling">Returns the smallest integral value that is greater than or equal to the specified double-precision floating-point number.</Label>
+  <Label Name="EquationMethodDescription_Math.Cos">Returns the cosine of the specified angle.</Label>
+  <Label Name="EquationMethodDescription_Math.Cosh">Returns the hyperbolic cosine of the specified angle.</Label>
+  <Label Name="EquationMethodDescription_Math.Exp">Returns e raised to the specified power.</Label>
+  <Label Name="EquationMethodDescription_Math.Floor">Returns the largest integer less than or equal to the specified double-precision floating-point number.</Label>
+  <Label Name="EquationMethodDescription_Math.IEEERemainder">Returns the remainder resulting from the division of a specified number by another specified number.</Label>
+  <Label Name="EquationMethodDescription_Math.Log">Returns the natural (base e) logarithm of a specified number.</Label>
+  <Label Name="EquationMethodDescription_Math.Log10">Returns the base 10 logarithm of a specified number.</Label>
+  <Label Name="EquationMethodDescription_Math.Max">Returns the larger of two double-precision floating-point numbers.</Label>
+  <Label Name="EquationMethodDescription_Math.Min">Returns the smaller of two double-precision floating-point numbers.</Label>
+  <Label Name="EquationMethodDescription_Math.Pow">Returns a specified number raised to the specified power.</Label>
+  <Label Name="EquationMethodDescription_Math.Round">Rounds a double-precision floating-point value to the nearest integral value.</Label>
+  <Label Name="EquationMethodDescription_Math.Sign">Returns a value indicating the sign of a double-precision floating-point number.</Label>
+  <Label Name="EquationMethodDescription_Math.Sin">Returns the sine of the specified angle.</Label>
+  <Label Name="EquationMethodDescription_Math.Sinh">Returns the hyperbolic sine of the specified angle.</Label>
+  <Label Name="EquationMethodDescription_Math.Sqrt">Returns the square root of a specified number.</Label>
+  <Label Name="EquationMethodDescription_Math.Tan">Returns the tangent of the specified angle.</Label>
+  <Label Name="EquationMethodDescription_Math.Tanh">Returns the hyperbolic tangent of the specified angle.</Label>
+  <Label Name="EquationMethodDescription_Math.Truncate">Calculates the integral part of a specified double-precision floating-point number.</Label>
+
+  <!-- ##### ReportDefinitionError.aspx ##### -->
+  <Label Name="ReportDefinitionError">
+    <h1>Oooops! That shouldn't have happened.</h1>
+    an unexpected error has occurred with your report.
+  </Label>
+  <Label Name="TryAgain">try again</Label>
+  <Label Name="ResetReportDefinition">reset report definition</Label>
+
+  <!-- ##### ClientManager/DashboardItems.aspx ##### -->
+
+  <Label Name="DashboardItemTitle">title</Label>
+  <Label Name="DashboardItemSource">source</Label>
+  <Label Name="DashboardItemCreator">creator</Label>
+  <Label Name="DashboardItemCreationDate">creation date</Label>
+
+  <Label Name="AddDashboardItem">add dashboard item</Label>
+  <Label Name="EditDashboardItem">edit dashboard item</Label>
+
+  <Label Name="DeleteDashboardItemTitle">are you sure?</Label>
+  <Label Name="DeleteDashboardItem">Are you sure you want to delete the dashboard item '{0}'?</Label>
+
+  <Label Name="DashboardItems">dashboards</Label>
+
+  <!-- ##### WORKFLOWS ##### -->
+  <Label Name="SelectCountry">select country</Label>
+  <Label Name="SelectDet">select det</Label>
+  <Label Name="SelectRegion">select region</Label>
+  <!-- ##### CLIENT SETTINGS ##### -->
+  <Label Name="Save">save</Label>
+  <Label Name="Reset">reset</Label>
+  <Label Name="MainColor">main color</Label>
+  <Label Name="SecondaryColor">secondary color</Label>
+  <Label Name="SelectImage">select an image</Label>
+  <Label Name="Acceptchanges">accept</Label>
+  <Label Name="PortalSettings">portal settings</Label>
+  <Label Name="EnableCustomCharting">enable custom charting</Label>
+  <Label Name="uploadclientlogo"> upload client logo</Label>
+  <Label Name="ChangeClientLogo"> change client logo</Label>
+  <Label Name="SuccessMsg">the settings saved successfully</Label>
+  <Label Name="NotImage">please select an image, only image files are allowed.</Label>
+
+  <!-- ##### ClientManager/Workgroups.aspx -->
+
+  <Label Name="ManageWorkgroupsTitle">workgroups</Label>
+  <Label Name="AddWorkgroup">add workgroup</Label>
+  <Label Name="DeleteWorkgroupMessage">Are you sure you want to delete the workgroup '{0}' with all it's dependencies?</Label>
+
+  <!-- ##### CLIENTMANAGERHOME & MANAGEUSERSHOME ##### -->
+  <Label Name="ClientManager">client manager</Label>
+  <Label Name="CreateUser">create new &#10;user</Label>
+  <Label Name="ManageUsers">manage users</Label>
+  <Label Name="PortalSettings">portal settings</Label>
+  <Label Name="ClientManager">client manager</Label>
+  <Label Name="UserName">user name</Label>
+  <Label Name="password">password</Label>
+  <Label Name="FirstName">first name</Label>
+  <Label Name="LastName">last name</Label>
+  <Label Name="Email">email</Label>
+  <Label Name="Phone">phone</Label>
+  <Label Name="Role">user group</Label>
+  <Label Name="NoWorkGroups"> no workgroups available</Label>
+  <Label Name="Create">create</Label>
+  <Label Name="UploadXLSFile">upload XLS file</Label>
+  <Label Name="UserAddMsg">the user has been added successfully.</Label>
+  <Label Name="UserDeleteErrMsg">Oooops! you don't have permission to delete this user.</Label>
+  <Label Name="UserModifyErrMsg">Oooops! you don't have permission to modify this user.</Label>
+  <Label Name="UserDeleteMsg">the user has been removed successfully.</Label>
+  <Label Name="UserGroupAddMsg">the user group has been added successfully.</Label>
+  <Label Name="DuplicateError">a user with same email address already exist</Label>
+  <Label Name="AddUser">create new user</Label>
+  <Label Name="UserLogs">usage logs</Label>
+  <Label Name="ModifyUser">modify user</Label>
+  <Label Name="ManageUserGroups">user &#10;groups</Label>
+  <Label Name="ManageDetails">manage details</Label>
+  <Label Name="AllocateUsers">allocate modules &#10;to users</Label>
+  <Label Name="AcceptChanges">accept changes</Label>
+  <Label Name="UserModifyMsg">the user has been modified successfully.</Label>
+  <Label Name="CreateFromXLS">create users in bulk &#10;from an XLS file</Label>
+  <Label Name="UploadExcel">upload xls file</Label>
+  <Label Name="SelectExcel">select xls file</Label>
+  <Label Name="NewsDetails">news details</Label>
+  <Label Name="CreateNews">create</Label>
+  <Label Name="AddNewsMsg">the news has been added successfully.</Label>
+  <Label Name="DeleteNewsMsg">the news has been deleted successfully.</Label>
+  <Label Name="ModifyNewsMsg">the news has been modified successfully.</Label>
+  <Label Name="newsHeading">news heading</Label>
+  <Label Name="Description">description</Label>
+  <Label Name="AddNews">add news</Label>
+  <Label Name="Modify">modify</Label>
+  <Label Name="Delete">delete</Label>
+  <Label Name="Save">save</Label>
+  <Label Name="EditNews">modify news</Label>
+  <Label Name="NewsModifyMsg">You do not have the permission to change someone else's news </Label>
+  <Label Name="NewsDelteMsg">you do not have the permission to delete someone else's news</Label>
+  <Label Name="HomeManagement">home &#10;settings </Label>
+  <Label Name="NoChangeMsg">you did not make any changes.</Label>
+  <Label Name="RemoveNewsConfirmMessage">are you sure to remove the news? </Label>
+  <Label Name="RemoveChartConfirmMessage">are you sure to remove the chart? </Label>
+  <Label Name="RemoveUserConfirmMessage">are you sure to remove the user? </Label>
+  <Label Name="Reminder">send reminder </Label>
+  <Label Name="MailSubject">mail from LiNK online team </Label>
+  <Label Name="ReminderMsg">A reminder mail has been sent successfully. </Label>
+  <Label Name="UserWorkgroupsTitle">workgroups</Label>
+  <Label Name="MailSubjectUserCreation">account details for </Label>
+  <!-- ##### ALLOCATEMODULES ##### -->
+  <Label Name="AllocateModules">allocate abilities to users individually</Label>
+  <Label Name="ManageDetails">manage details</Label>
+  <Label Name="SelectUser">select a user for assign modules</Label>
+  <!-- ##### MANAGEUSERGROUPS ##### -->
+  <Label Name="CreateGroup">create user groups</Label>
+  <Label Name="DuplicateGroup">a user group with this name already exists.</Label>
+  <Label Name="ManageUsers">manage users</Label>
+  <Label Name="Selectthemodulestoassigntothegroup">select the modules below to assign to the group</Label>
+  <Label Name="GroupName">group name</Label>
+  <Label Name="ManageGroups">manage user&#10;groups</Label>
+  <Label Name="RoleDeleteMsg">the user group has been removed successfully</Label>
+  <Label Name="RoleErrorMsg">Oooops! That shouldn't have happened. an unexpected error has occurred while removing the user group.</Label>
+  <Label Name="AdminRoleMsg">you don't have permission to delete this user group.</Label>
+  <Label Name="UserExistMsg">users are assigned to this user group, you can't remove the user group now.</Label>
+  <Label Name="RoleModifyMsg">the user group has been modified successfully.</Label>
+  <Label Name="RoleNotExist">the specified usergroup does not exist.</Label>
+  <Label Name="Remove">remove</Label>
+  <Label Name="RemoveUserGroupConfirmMessage">are you sure to remove the user group</Label>
+  <!-- ##### HOMESCREEN ##### -->
+  <Label Name="Home">home</Label>
+  <Label Name="HomeDesign">home design</Label>
+  <Label Name="HomeDdesigner">home designer</Label>
+  <Label Name="AddDetails">add details</Label>
+  <Label Name="EditDetails">edit details</Label>
+  <Label Name="AvailableCharts">available charts</Label>
+  <Label Name="ChartURL">chart url</Label>
+  <Label Name="ChartHeading">chart heading</Label>
+  <Label Name="CustomCharts">custom charts</Label>
+  <Label Name="CustomChartMgmt">manage custom charts</Label>
+  <Label Name="NewsMgmt">manage portal news</Label>
+  <Label Name="ChartDetails">custom chart details</Label>
+  <Label Name="ChartSuccess">the custom chart details are saved successfully.</Label>
+  <Label Name="ChartDelete">the custom chart details are deleted successfully.</Label>
+  <Label Name="ValidURL"> enter a valid URL  (like http://www.google.com).</Label>
+  <Label Name="ChartModifyMsg">You do not have the permission to change someone else's chart details</Label>
+  <Label Name="ChartDelteMsg">you do not have the permission to delete someone else's chart details</Label>
+  <!-- ##### ForgotPassword ##### -->
+  <Label Name="ValidEmail">
+    please enter a valid email address
+  </Label>
+  <Label Name="ForgotMsg">
+    enter the e-mail address associated with your LiNK account, then click go. <br/>we'll email you a link to a page where you can easily create a new password.
+  </Label>
+  <Label Name="ForgotHeading">LiNK password assistance</Label>
+  <Label Name="NotFound">we're sorry. we weren't able to identify you given the information provided.</Label>
+  <Label Name="ResetMailSuccess">
+    If the e-mail address you entered is associated with our records,<br/> you will receive an e-mail
+    from us with instructions for resetting your password.
+  </Label>
+  <Label Name="ForgotSubject">LiNK Password Assistance</Label>
+  <Label Name="CreateMsg">create your new password</Label>
+  <Label Name="ResetSuccess">we have successfully changed your password</Label>
+  <Label Name="checkMail">check your e-mail.</Label>
+  <Label Name="linkExpire">there was a problem with your request</Label>
+  <Label Name="linkExpireMsg">
+    we're sorry, we had a problem with your request,<br/>this request has been either expired or not found,<br/> please make a new request or contact administrator
+  </Label>
+  <Label Name="AgencyManagementSystem">ams</Label>
+  <Label Name="HomeSettings">home settings</Label>
+  <Label Name="UploadTaxonomy">upload taxonomy</Label>
+  <Label Name="ResetTaxonomy">Reset Taxonomy</Label>
+  <Label Name="UploadAugment">upload augment</Label>
+  <Label Name="DownloadAugment">download augment</Label>
+  <Label Name="DeleteLinking">delete linking</Label>
+  <Label Name="ResetLinking">reset linking</Label>
+  <Label Name="ResetLinkingConfirmMessage">Do you want to reset the entire linking?</Label>
+  <Label Name="UploadStudy">Upload Study</Label>
+  <Label Name="DeleteStudy">Delete Study</Label>
+  <Label Name="SetStudyHiarachy">Study Hiarachy</Label>
+  <Label Name="DownloadAssignment">Download Assignment</Label>
+  <Label Name="TaxonomyManager">Taxonomy Manager</Label>
+  <Label Name="LinkManager">Link Manager</Label>
+  <Label Name="DownloadTaxonomy">download taxonomy</Label>
+  <Label Name="NoLinkedVariables"> either no Augment file uploaded for this study or existing Augment file was deleted for the study.</Label>
+  <!-- ##### Overview Screen ##### -->
+  <Label Name="NameofStudy">
+    <b>Name of the Study</b>
+  </Label>
+  <Label Name="RespondentsNumber">
+    <b>Number of Respondents</b>
+  </Label>
+  <Label Name="TextToolTip">number of respondents for</Label>
+  <Label Name="lnkNotification">
+    Are you still there&#10;?
+  </Label>
+  <Label Name="sessionNotification">Your session will expire in </Label>
+  <Label Name="sessionNotification2">
+    minutes
+  </Label>
+  <Label Name="lblSessionYes">
+    I’m still here
+  </Label>
+  <Label Name="lblSessionNo">
+    Log me out please
+  </Label>
+
+  <!-- ##### MANUAL LINK MANAGER ##### -->
+  <Label Name="lblStudyVariables">
+    Study (Variables)
+  </Label>
+  <Label Name="lblTaxanomyVariables">
+    Taxonomy (Variables)
+  </Label>
+  <Label Name="lblManualLink">
+    Manual Link
+  </Label>
+
+  <Label Name="lblStudyCategories">
+    Study (Categories)
+  </Label>
+  <Label Name="lblTaxanomyCategories">
+    Taxonomy (Categories)
+  </Label>
+  <Label Name="LinkSuccessMsg">Link has been created successfully.</Label>
+  <Label Name="UnLinkSuccessMsg">Un Linked successfully.</Label>
+
+  <Label Name="StudyVariablesMandatoryMessage">Please select Study variables</Label>
+  <Label Name="TaxonomyVariablesMandatoryMessage">Please select Taxonomy variables</Label>
+  <Label Name="StudyCategoriesMandatoryMessage">Please select Study Categories</Label>
+  <Label Name="TaxonomyCategoriesMandatoryMessage">Please select Taxonomy Categories</Label>
+  <Label Name="UndoConfirmationMessage">Are you sure you want to undo the last activity ?</Label>
+  <!--For Assistant Module-->
+  <Label Name="FeedbackMsg">Thank you for your Feedback.</Label>
+  <!--For Linking Module-->
+  <Label Name="BreakLinking">do you want to break the existing linking?</Label>
+  <Label Name="UnlinkedVaraiables">download &#10; unlinked variables</Label>
+  <Label Name="LinkVariables">link variables</Label>
+  <Label Name="Upload">upload</Label>
+  <Label Name="Download">download</Label>
+  <Label Name="UnlinkVariable">do you want to unlink the existing linking ?</Label>
+  <Label Name="AddNote">notes</Label>
+  <Label Name="NonMatchingtaxonomyCategoryLabel">non matching taxonomy category;if any</Label>
+  <Label Name="NonMatchingtaxonomyValue">N/A</Label>
+  <Label Name="PrefferedText">preffered linking</Label>
+  <Label Name="ExistingLinks">existing links</Label>
+  <Label Name="LinkedNotesText">existing links with notes</Label>
+  <Label Name="NonMatchText">unable to auto match</Label>
+  <Label Name="ExcelOnly">supported file format is .xls or .xlsx</Label>
+
+  <!-- ##### APS App messages ##### -->
+  <Label Name="APSAccountActivationErr">your account isn’t activated. please refer to instructions on how to activate your account in the email with your LinkMR Account Details or contact your LinkMR Admin.</Label>
+  <Label Name="APSForgotSubject">password assistance</Label>
+  <Label Name="APSForgotPassword1">enter the e-mail address associated with your LiNK account, then click go. We'll email you a link to a page where you can easily create a new password.</Label>
+  <Label Name="APSForgotPassword2">if the e-mail address you entered is associated with our records. you will receive an e-mail from us with instructions for resetting your password.</Label>
+  <Label Name="APSInvalidEmail">please enter a valid email address</Label>
+  <Label Name="APSForgotPasswordErr">we're sorry. we weren't able to identify you given the information provided.</Label>
+  <Label Name="APSAccessDenied">your access has been revoked. please contact the LiNKMR Mobile App administrator to be reinstated. you will need to uninstall the version of the app and re-download the app from the store, in order to be reinstated.</Label>
+  <Label Name="APSInvalidAccess">invalid credentials!</Label>
+  <Label Name="APSChartNotAvailable">Chart is not available.</Label>
+  <Label Name="APSNoDataAvailable">No data available currently, please visit later.</Label>
+  <Label Name="APSAreYouSure">Are you sure want to exit ?</Label>
+  <Label Name="APSInformation">Information !</Label>
+  <Label Name="APSInernetErr">No internet connection.</Label>
+  <Label Name="APSError">Error !</Label>
+  <Label Name="APSPleaseWait">Please wait..</Label>
+  <Label Name="APSUpdating">Updating content..</Label>
+  <Label Name="APSNoConnection">Can't connect to server !</Label>
+  <Label Name="APSChartShareErr">Chart share service issue</Label>
+  <Label Name="APSChartNotAvailable">Chart is not available.</Label>
+  <Label Name="APSProcessingData100">Processing data.. 100%</Label>
+  <Label Name="APSProcessingErr">Error processing data !</Label>
+  <Label Name="APSError">Error !</Label>
+  <Label Name="APSProcessingData">Processing data..</Label>
+  <Label Name="APSFileErr">Error accessing internal file !</Label>
+  <Label Name="APSFilesErr">Error accessing internal files !</Label>
+  <Label Name="APSDownloadErr">Error downloading latest data , please restart app to try again.</Label>
+  <Label Name="APSInformation">Information !</Label>
+  <Label Name="APSMenuFileMissing">Error in menu file !</Label>
+  <Label Name="APSTranslations">
+    {"APSAccountActivationErr":"your account isn’t activated. please refer to instructions on how to activate your account in the email with your LinkMR Account Details or contact your LinkMR Admin.","APSForgotSubject":"password assistance","APSForgotPassword1":"enter the e-mail address associated with your LiNK account, then click go. We'll email you a link to a page where you can easily create a new password.","APSForgotPassword2":"if the e-mail address you entered is associated with our records. you will receive an e-mail from us with instructions for resetting your password.","APSInvalidEmail":"please enter a valid email address","APSForgotPasswordErr":"we're sorry. we weren't able to identify you given the information provided.","APSAccessDenied":"your access has been revoked. please contact the LiNKMR Mobile App administrator to be reinstated. you will need to uninstall the version of the app and re-download the app from the store, in order to be reinstated.","APSInvalidAccess":"invalid credentials!","APSChartNotAvailable":"Chart is not available.","APSNoDataAvailable":"No data available currently, please visit later.","APSAreYouSure":"Are you sure want to exit ?","APSInformation":"Information !","APSInernetErr":"No internet connection.","APSError":"Error !","APSPleaseWait":"Please wait..","APSUpdating":"Updating content..","APSNoConnection":"Can't connect to server !","APSChartShareErr":"Chart share service issue","APSChartNotAvailable":"Chart is not available.","APSProcessingData100":"Processing data.. 100%","APSProcessingErr":"Error processing data !","APSError":"Error !","APSProcessingData":"Processing data..","APSFileErr":"Error accessing internal file !","APSFilesErr":"Error accessing internal files !","APSDownloadErr":"Error downloading latest data , please restart app to try again.","APSInformation":"Information !","APSMenuFileMissing":"Error in menu file !", "APSInvalidEmail": "please enter a valid email address" , "APSEnerEmail" :  "please enter email address", "APSLetsLogin" : "let's login" , "APSEmpID" : "employee id", "APSPwd" : "password" , "APSForgotPwd" : "forgot password", "APSGo" : "go!"}
+  </Label>
+
+  <!-- ##### Architect.aspx ##### -->
+
+  <Label Name="ArchitectTitle">architect</Label>
+
+  <!-- ##### Equation wizard ##### -->
+
+  <Label Name="EquationWizardPlaceHolderVariable"></Label>
+
+
+
+  <!-- ##### IFF ##### -->
+  <Label Name="CommentSection_Set_DriversOfLiking_OlfactiveUK">Drivers of Liking - Olfactive Comments - UK</Label>
+  <Label Name="CommentSection_Set_DriversOfLiking_OlfactiveTurkey">Drivers of Liking - Olfactive Comments - Turkey</Label>
+  <Label Name="CommentSection_Set_DriversOfLiking_OlfactiveSouthAfrica">Drivers of Liking - Olfactive Comments - South Africa</Label>
+  <Label Name="CommentSection_Set_DriversOfLiking_OlfactiveBrazil">Drivers of Liking - Olfactive Comments - Brazil</Label>
+  <Label Name="CommentSection_Set_DriversOfLiking_OlfactiveThailand">Drivers of Liking - Olfactive Comments - Thailand</Label>
+  <Label Name="CommentSection_Set_DriversOfLiking_OlfactiveNigeria">Drivers of Liking - Olfactive Comments - Nigeria</Label>
+  <Label Name="CommentSection_Set_DriversOfLiking_OlfactiveVietnam">Drivers of Liking - Olfactive Comments - Vietnam</Label>
+  <Label Name="CommentSection_Set_DriversOfLiking_OlfactiveIndonesia">Drivers of Liking - Olfactive Comments - Indonesia</Label>
+  <Label Name="CommentSection_Set_DriversOfLiking_OlfactiveChina">Drivers of Liking - Olfactive Comments - China</Label>
+  <Label Name="CommentSection_Set_DriversOfLiking_OlfactiveIndia">Drivers of Liking - Olfactive Comments - India</Label>
+
+</Labels>

@@ -1,0 +1,10 @@
+C:\Projects\Cognicient\LinkManager\LinkManager\Components\PermissionCore\PermissionCore\bin\Release\PermissionCore.dll
+C:\Projects\Cognicient\LinkManager\LinkManager\Components\PermissionCore\PermissionCore\bin\Release\PermissionCore.pdb
+C:\Projects\Cognicient\LinkManager\LinkManager\Components\PermissionCore\PermissionCore\obj\Release\PermissionCore.csprojResolveAssemblyReference.cache
+C:\Projects\Cognicient\LinkManager\LinkManager\Components\PermissionCore\PermissionCore\obj\Release\PermissionCore.dll
+C:\Projects\Cognicient\LinkManager\LinkManager\Components\PermissionCore\PermissionCore\obj\Release\PermissionCore.pdb
+C:\Projects\Blueocean\Link\LinkManager\Components\PermissionCore\PermissionCore\bin\Release\PermissionCore.dll
+C:\Projects\Blueocean\Link\LinkManager\Components\PermissionCore\PermissionCore\bin\Release\PermissionCore.pdb
+C:\Projects\Blueocean\Link\LinkManager\Components\PermissionCore\PermissionCore\obj\Release\PermissionCore.csprojResolveAssemblyReference.cache
+C:\Projects\Blueocean\Link\LinkManager\Components\PermissionCore\PermissionCore\obj\Release\PermissionCore.dll
+C:\Projects\Blueocean\Link\LinkManager\Components\PermissionCore\PermissionCore\obj\Release\PermissionCore.pdb

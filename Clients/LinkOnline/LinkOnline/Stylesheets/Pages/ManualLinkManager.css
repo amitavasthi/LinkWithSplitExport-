@@ -1,0 +1,80 @@
+﻿body {
+    font-family: SegoeUILight;
+}
+
+.styleclass {
+    white-space: pre-wrap;
+}
+
+#cphContent_tblContent {
+    clear: both;
+}
+
+.rowclass {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.container-padding {
+    padding-top: 20px;
+}
+
+.StudyVariables {
+    background-color: white;
+    color: black;
+    margin-left: 1px;
+    margin-bottom: -9px;
+    margin-right: -13px;
+    height: auto;
+    padding-top: 11px;
+    padding-left: 10px;
+    padding-bottom: 57px;
+}
+
+.StudyVariablesItem {
+    padding-bottom: 2px;
+}
+
+.footer-panel {
+    padding-left: 45%;
+}
+
+.hidden-div {
+    display: none;
+}
+
+.SearchTextBox {
+    font-size: 16pt;
+    padding: 5px;
+}
+.fixedHeight{
+    max-height:600px;
+    overflow-y:scroll;
+}
+.btn-Undo{
+    background: #FEDF37;
+}
+.SearchTextBox{
+    width: 100%;
+}
+
+.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
+    z-index: 0;
+}
+.msgTitles{
+    font-weight: bold;
+    font-size: 30px;
+}
+.text-success{
+    font-weight: bold;
+     font-size: 25px;
+ }
+
+.CategorySearchResults{
+    height: 400px !important;
+    overflow-y: scroll;
+}
+
+.CategorySearchResults {
+    margin: -1px;
+}

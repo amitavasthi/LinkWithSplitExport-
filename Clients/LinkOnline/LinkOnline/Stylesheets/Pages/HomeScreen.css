@@ -1,0 +1,86 @@
+﻿.Homescreen {
+    margin: 20px;
+}
+
+.Section {
+    float: left;
+    height: 100%;
+}
+
+.Module {
+}
+
+
+.ModuleRecentUsed {
+    text-align:center;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.ModuleNews {
+    overflow:hidden;
+}
+
+.RecentUsedItem {
+    text-align: center;
+    display: inline-block;
+    height: 120px;
+    width: 120px;
+    overflow:hidden;
+}
+
+.RecentUsedItemImage {
+    cursor:pointer;
+}
+
+.Homescreen h1 {
+    margin: 10px;
+    font-weight: normal;
+}
+
+
+.HomescreenNoChartDefinedSmiley {
+    font-size:50pt;
+    margin:40px;
+    color:#C2C2C2;
+}
+
+.HomescreenNoChartDefinedText {
+    font-size:18pt;
+    margin:40px;
+    color:#C2C2C2;
+}
+
+
+.NewsContainer {
+    overflow:hidden;
+}
+
+.NewsItem {
+    margin:10px;
+}
+
+.NewsItemTitle {
+}
+.NewsItemText {
+    color:#666666;
+}
+
+.NewsItemCalendar {
+    border-width:1px;
+    border-style:solid;
+
+    margin-right:10px;
+
+    width:40px;
+}
+
+.NewsItemCalendarMonth {
+    color:#FFFFFF;
+    text-align:center;
+}
+
+.NewsItemCalendarDay {
+    padding:5px;
+    text-align:center;
+}

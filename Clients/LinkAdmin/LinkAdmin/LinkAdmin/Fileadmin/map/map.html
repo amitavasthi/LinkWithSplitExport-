@@ -1,0 +1,534 @@
+﻿<html>
+<head>
+    <title>LiNK Admin Map View</title>
+    <script src="/Scripts/D3JS/d3.min.js"></script>
+    <script src="/Scripts/D3JS/d3.tip.v0.6.3.js"></script>
+    <script src="/Scripts/Components/Ajax.js"></script>
+    <script src="/Scripts/PageResize.js"></script>
+    <script src="js/topojson.v1.min.js"></script>    
+     <script src="/Scripts/JQuery/jquery-1.8.1.min.js"></script>
+
+
+    <style>
+        html, body{
+            margin:0px;
+            padding:0px;
+        }
+
+        .country:hover {
+            stroke: #fff;
+            stroke-width: 1.5px;
+        }
+
+        .text {
+            font-size: 14px;
+            text-transform: capitalize;
+        }
+
+        #container {
+            /*margin: 10px 10%;*/
+            height: 100%;
+            width: 100%;
+            overflow: hidden;
+            background: #222222;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        div.tooltip {
+            color: #222;
+            background: #fff;
+            padding: .5em;
+            text-shadow: #f5f5f5 0 1px 0;
+            border-radius: 2px;
+            box-shadow: 0px 0px 2px 0px #a6a6a6;
+            opacity: 0.9;
+            position: absolute;
+        }
+
+        .graticule {
+            fill: none;
+            stroke: #bbb;
+            stroke-width: .5px;
+            stroke-opacity: .5;
+        }
+
+        .equator {
+            stroke: #ccc;
+            stroke-width: 1px;
+        }
+
+        .strong {
+            stroke-dasharray: 100;
+            /*animation: dash  linear;*/
+            -webkit-animation: dash 5s linear; /* Safari 4.0 - 8.0 */
+            -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+            animation: dash 5s linear;
+            animation-iteration-count: infinite;
+        }
+
+        .d3-dp-line {
+            stroke-dasharray: 100;
+            /*animation: dash  linear;*/
+        }
+
+        .strong {
+            -webkit-animation: dash 5s linear; /* Safari 4.0 - 8.0 */
+            animation: dash 5s linear;
+            -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+            animation-iteration-count: infinite;
+        }
+
+        .moderate {
+            -webkit-animation: dash 5s linear; /* Safari 4.0 - 8.0 */
+            animation: dash 10s linear;
+            -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+            animation-iteration-count: infinite;
+        }
+
+        .poor {
+            -webkit-animation: dash 5s linear; /* Safari 4.0 - 8.0 */
+            animation: dash 30s linear;
+            -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes dash {
+            to {
+                stroke-dashoffset: 1000;
+            }
+        }
+    </style>
+
+
+
+</head>
+<body>
+
+    <div id="container"></div>
+
+    <script>
+        d3.select(window).on("resize", throttle);
+
+        var zoom = d3.behavior.zoom()
+            .scaleExtent([1, 9])
+            .on("zoom", move);
+
+
+        var width = document.getElementById('container').offsetWidth;
+        var height = (width / 2) + 100;
+
+        var topo, projection, path, svg, g;
+
+        var graticule = d3.geo.graticule();
+
+        var tooltip = d3.select("#container").append("div").attr("class", "tooltip hidden");
+
+        setup(width, height);
+
+        function setup(width, height) {
+            projection = d3.geo.mercator()
+              .translate([(width / 2), (height / 2)])
+              .scale(width / 2 / Math.PI);
+
+            path = d3.geo.path().projection(projection);
+
+            svg = d3.select("#container").append("svg")
+                .attr("width", width)
+                .attr("height", height)
+               .call(zoom)
+                .on("click", click)
+                .append("g");
+
+            g = svg.append("g");
+
+        }
+        $.getJSON("data/world-topo-min.js", function (world) {
+            var countries = topojson.feature(world, world.objects.countries).features;
+            topo = countries;
+            draw(topo);
+        });
+        //d3.json("data/world-topo-min.json", function (error, world) {
+        //var countries = topojson.feature(world, world.objects.countries).features;
+        //    topo = countries;
+        //    draw(topo);
+        //});
+
+        function draw(topo) {
+
+            var country = g.selectAll(".country").data(topo);
+
+            country.enter().insert("path")
+                .attr("class", "country")
+                .attr("d", path)
+                .attr("id", function (d, i) { return d.id; })
+                .attr("title", function (d, i) { return d.properties.name; })
+                .style("fill", function (d, i) { return "#555555"; });
+
+            //offsets for tooltips
+            var offsetL = document.getElementById('container').offsetLeft + 20;
+            var offsetT = document.getElementById('container').offsetTop + 10;
+
+            //EXAMPLE: adding some capitals from external CSV file
+
+            var serverData = [
+
+                    {
+                        "CountryName": "United States",
+                        "CapitalName": "Washington",
+                        "CapitalLatitude": 47.62062073,
+                        "CapitalLongitude": -122.3109589,
+                        "City": "Seattle",
+                        "IP": "216.176.177.26",
+                        "ServerName": "US Server",
+                        "Status": "strong",
+                        "OnOff": "on"
+                    },
+    {
+        "CountryName": "Germany",
+        "CapitalName": "Bayern",
+        "CapitalLatitude": 48.13742828,
+        "CapitalLongitude": 11.57549,
+        "City": "Munich",
+        "IP": "193.164.131.143",
+        "ServerName": "EU Server",
+        "Status": "poor",
+        "OnOff": "on"
+    },
+    {
+        "CountryName": "France",
+        "CapitalName": "Paris",
+        "CapitalLatitude": 40.62062073,
+        "CapitalLongitude": -80.3109589,
+        "City": "Europe",
+        "IP": "315.112.62.183",
+        "ServerName": "Switch",
+        "Status": "strong",
+        "OnOff": "on"
+    },
+    {
+        "CountryName": "Portugal",
+        "CapitalName": "Lisbon",
+        "CapitalLatitude": 51.5074,
+        "CapitalLongitude": -0.1278,
+        "City": "Europe",
+        "IP": "415.112.62.183",
+        "ServerName": "User",
+        "Status": "strong",
+        "OnOff": "on"
+    },
+    //{
+    //    "CountryName": "India",
+    //    "CapitalName": "Karnataka",
+    //    "CapitalLatitude": 12.97622967,
+    //    "CapitalLongitude": 77.60328674,
+    //    "City": "Bangalore",
+    //    "IP": "115.112.62.173",
+    //    "ServerName": "User",
+    //    "Status": "strong",
+    //    "OnOff": "on"
+    //},
+    {
+        "CountryName": "US",
+        "CapitalName": "Tampa",
+        "CapitalLatitude": 27.9506,
+        "CapitalLongitude": -82.4572,
+        "City": "Bangalore",
+        "IP": "115.112.62.173",
+        "ServerName": "User",
+        "Status": "strong",
+        "OnOff": "on"
+    },
+    {
+        "CountryName": "India",
+        "CapitalName": "Karnataka",
+        "CapitalLatitude": 12.97622967,
+        "CapitalLongitude": 77.60328674,
+        "City": "Bangalore",
+        "IP": "115.112.62.173",
+        "ServerName": "Alpha Server",
+        "Status": "moderate",
+        "Role": "Production",
+        "OnOff": "off"
+    },
+  
+    //{
+    //    "CountryName": "India",
+    //    "CapitalName": "Karnataka",
+    //    "CapitalLatitude": 12.97622967,
+    //    "CapitalLongitude": 77.60328674,
+    //    "City": "Bangalore",
+    //    "IP": "115.112.62.173",
+    //    "ServerName": "Alpha Server",
+    //    "Status": "moderate",
+    //    "OnOff": "off"
+    //},
+    //{
+    //    "CountryName": "India",
+    //    "CapitalName": "Karnataka",
+    //    "CapitalLatitude": 17.97622967,
+    //    "CapitalLongitude": 77.60328674,
+    //    "City": "Bangalore",
+    //    "IP": "115.112.62.175",
+    //    "ServerName": "Beta Server",
+    //    "Status": "moderate",
+    //    "OnOff": "on"
+    //}
+
+
+
+            ];
+
+            serverData.forEach(function (i) {
+                addpoint(i);
+            });
+
+
+            var circleEle = document.getElementsByTagName('circle');
+
+            for (var i = 0; i <= circleEle.length; i++) {
+
+                if ((circleEle[i].id != 'Switch') && document.getElementById("Switch") != undefined) {
+
+                    var dpX = document.getElementById("Switch").getAttribute('cx');
+                    var dpY = document.getElementById("Switch").getAttribute('cy');
+                    var Status = circleEle[i].getAttribute('status');
+
+
+                    //if (circleEle[i].getAttribute('fill') != 'red') {
+                        if (circleEle[i].id == 'User') {
+
+                            var element = g.append("svg:line")
+                           .attr("class", function () {
+                               return 'd3-dp-line strong';
+                               if (Status == 'strong') {
+                                   return 'd3-dp-line strong'
+                               } else if (Status == 'poor') { return 'd3-dp-line poor' } else if (Status == 'moderate') { return 'd3-dp-line moderate' }
+                           })
+                            .attr("x1", dpX)
+                            .attr("y1", parseFloat(dpY) - 5)
+                            .attr("x2", circleEle[i].getAttribute('cx'))
+                            .attr("y2", circleEle[i].getAttribute('cy'))
+                            .style("stroke-dasharray", ("0, 0"))
+                            .style("stroke-opacity", 1)
+                             .style("stroke-width", 1)
+                            .style("stroke", "blue")
+                             .style('stroke', function () {
+                                 return "#888888";
+                                 if (Status == "strong") {
+                                     return "#888888";
+                                 } else if (Status == "moderate") { return "#fbf17d" }
+                                 else if (Status == "poor") { return "#ff4646" }
+
+                             });
+                            element = g.append("svg:line")
+                           .attr("class", function () { if (Status == 'strong') { return 'd3-dp-line strong' } else if (Status == 'poor') { return 'd3-dp-line poor' } else if (Status == 'moderate') { return 'd3-dp-line moderate' } })
+                            .attr("x1", dpX)
+                            .attr("y1", parseFloat(dpY) - 5)
+                            .attr("x2", circleEle[i].getAttribute('cx'))
+                            .attr("y2", circleEle[i].getAttribute('cy'))
+                            .style("stroke-dasharray", ("4, 300"))
+                            .style("stroke-opacity", 1)
+                             .style("stroke-width", 4)
+                            .style("stroke", "#24AFE2")
+                             .style('stroke', function () {
+                                 if (Status == "strong") {
+                                     return "#24AFE2"
+                                 } else if (Status == "moderate") { return "#fbf17d" }
+                                 else if (Status == "poor") { return "#ff4646" }
+
+                             });
+                        }
+                        else {
+                            var element = g.append("svg:line")
+                           .attr("class", function () { if (Status == 'strong') { return 'd3-dp-line strong' } else if (Status == 'poor') { return 'd3-dp-line poor' } else if (Status == 'moderate') { return 'd3-dp-line moderate' } })
+                            .attr("x2", dpX)
+                            .attr("y2", parseFloat(dpY) - 5)
+                            .attr("x1", circleEle[i].getAttribute('cx'))
+                            .attr("y1", circleEle[i].getAttribute('cy'))
+                            .style("stroke-dasharray", ("0, 0"))
+                            .style("stroke-opacity", 1)
+                             .style("stroke-width", 1)
+                            .style("stroke", "blue")
+                             .style('stroke', function () {
+                                 if (Status == "off")
+                                     return "#ff4646";
+                                 else
+                                     return "#5fba7d";
+
+                                 if (Status == "strong") {
+                                     return "#5fba7d"
+                                 } else if (Status == "moderate") { return "#fbf17d" }
+                                 else if (Status == "poor") { return "#ff4646" }
+
+                             });
+
+                            if (Status != "off") {
+                                element = g.append("svg:line")
+                               .attr("class", function () {
+                                   return 'd3-dp-line strong';
+                                   if (Status == 'strong') {
+                                       return 'd3-dp-line strong'
+                                   } else if (Status == 'poor') {
+                                       return 'd3-dp-line poor'
+                                   } else if (Status == 'moderate') {
+                                       return 'd3-dp-line moderate'
+                                   }
+                               })
+                                .attr("x2", dpX)
+                                .attr("y2", parseFloat(dpY) - 5)
+                                .attr("x1", circleEle[i].getAttribute('cx'))
+                                .attr("y1", circleEle[i].getAttribute('cy'))
+                                .style("stroke-dasharray", ("4, 300"))
+                                .style("stroke-opacity", 1)
+                                 .style("stroke-width", 4)
+                                .style("stroke", "#24AFE2")
+                                 .style('stroke', function () {
+                                     /*if (Status == "strong") {
+                                         return "#24AFE2"
+                                     } else if (Status == "moderate") { return "#fbf17d" }
+                                     else if (Status == "poor") { return "#ff4646" }*/
+                                     return "#24AFE2";
+                                 });
+                            }
+                        }/*}
+                        else {
+
+                            var element = g.append("svg:line")
+                                //.attr("class",'d3-dp-line')
+                                .attr("class", function () { if (Status == 'strong') { return 'd3-dp-line strong' } else if (Status == 'poor') { return 'd3-dp-line poor' } else if (Status == 'moderate') { return 'd3-dp-line moderate' } })
+                                .attr("x2", dpX)
+                                .attr("y2", parseFloat(dpY) - 5)
+                                .attr("x1", circleEle[i].getAttribute('cx'))
+                                .attr("y1", circleEle[i].getAttribute('cy'))
+                            .style("stroke-dasharray", ("0, 0"))
+                                .style("stroke-opacity", 1)
+                                 .style("stroke-width", 1)                           
+                                .style("stroke", "blue")
+                                 .style('stroke', function () {
+                                     if (Status == "strong") {
+                                         return "#5fba7d"
+                                     } else if (Status == "moderate") { return "#fbf17d" }
+                                     else if (Status == "poor") { return "#ff4646" }
+
+                                 });
+                        }*/
+                    //}
+
+                    circleEle[i].setAttribute('fill', '#24AFE2');
+                }
+
+            }
+
+
+
+            //});
+
+        }
+
+
+        function redraw() {
+            width = document.getElementById('container').offsetWidth;
+            height = width / 2;
+            d3.select('svg').remove();
+            setup(width, height);
+            draw(topo);
+        }
+
+
+        function move() {
+
+            var t = d3.event.translate;
+            var s = d3.event.scale;
+            zscale = s;
+            var h = height / 4;
+
+
+            t[0] = Math.min(
+              (width / height) * (s - 1),
+              Math.max(width * (1 - s), t[0])
+            );
+
+            t[1] = Math.min(
+              h * (s - 1) + h * s,
+              Math.max(height * (1 - s) - h * s, t[1])
+            );
+
+            zoom.translate(t);
+            g.attr("transform", "translate(" + t + ")scale(" + s + ")");
+
+            //adjust the country hover stroke width based on zoom level
+            d3.selectAll(".country").style("stroke-width", 1.5 / s);
+
+        }
+
+
+
+        var throttleTimer;
+        function throttle() {
+            window.clearTimeout(throttleTimer);
+            throttleTimer = window.setTimeout(function () {
+                redraw();
+            }, 200);
+        }
+
+
+        //geo translation on mouse click in map
+        function click() {
+            var latlon = projection.invert(d3.mouse(this));
+        }
+
+
+        //function to add points and text to the map (used in plotting capitals)
+        function addpoint(d) {
+
+            var lat = d.CapitalLongitude, lon = d.CapitalLatitude, text = d.ServerName;
+            var gpoint = g.append("g").attr("class", "gpoint");
+            var x = projection([lat, lon])[0];
+            var y = projection([lat, lon])[1];
+
+            gpoint.append("svg:circle")
+                  .attr("cx", x)
+                  .attr("cy", y)
+                .attr("id", d.ServerName.replace(" ", ""))
+                 .attr("status", d.OnOff.replace(" ", ""))
+                  .attr("class", "point")
+                 .attr('fill', function () { if (d.OnOff == 'on') { return '#006400' } else { return 'red' } })
+                  .attr("r", 5)
+              .on("mousemove", function () {
+                  tooltip.classed("InfoTooltip hidden", false)
+                      .attr("style", "left:" + this.getBoundingClientRect().left + "px;top:" + (this.getBoundingClientRect().top + 20) + "px;z-index:99999")
+                    .html("Name:" + d.ServerName + "<br/>IP:" + d.IP + "<br/>Status:" + d.OnOff + "<br/>Connection Quality:" + d.Status + "<br/>");
+
+              })
+                .on("mouseout", function (d, i) {
+                    tooltip.classed("InfoTooltip hidden", true);
+                });
+
+            if (text.length > 0) {
+
+                gpoint.append("text")
+                      .attr("x", x + 10)
+                      .attr("y", y + 2)
+                     .attr("fill", '#FFFFFF')
+                    .attr("font-family", "Calibri Light")
+                      .attr("class", "text")
+                      .text(text)
+                     .on("mousemove", function () {
+
+                         tooltip.classed("InfoTooltipText hidden", false)
+                             .attr("style", "left:" + this.getBoundingClientRect().left + "px;top:" + (this.getBoundingClientRect().top + 20) + "px;z-index:99999")
+                                .html("Name:" + d.ServerName + "<br/>IP:" + d.IP + "<br/>Status:" + d.OnOff + "<br/>Connection Quality:" + d.Status + "<br/>");
+
+                     })
+                  .on("mouseout", function (d, i) {
+                      tooltip.classed("InfoTooltipText hidden", true);
+                  });;
+            }
+
+        }
+    </script>
+</body>
+</html>

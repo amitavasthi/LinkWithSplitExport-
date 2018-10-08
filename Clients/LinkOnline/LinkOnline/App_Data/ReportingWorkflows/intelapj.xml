@@ -1,0 +1,8 @@
+<Workflow>
+  <Default>
+    <Selection Name="Country" Id="c9602843-0da8-49ab-930f-18c419cb9e24">
+      <VariableFilter Name="" VariableName="Country" IsTaxonomy="True" Mode="Multi">
+      </VariableFilter>
+    </Selection>
+  </Default>
+</Workflow>

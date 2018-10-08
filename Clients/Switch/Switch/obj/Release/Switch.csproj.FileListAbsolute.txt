@@ -1,0 +1,7 @@
+C:\Projects\Blueocean\Link\LinkManager\Clients\Switch\Switch\bin\Release\Switch.exe.config
+C:\Projects\Blueocean\Link\LinkManager\Clients\Switch\Switch\bin\Release\Servers.xml
+C:\Projects\Blueocean\Link\LinkManager\Clients\Switch\Switch\bin\Release\Switch.exe
+C:\Projects\Blueocean\Link\LinkManager\Clients\Switch\Switch\bin\Release\Switch.pdb
+C:\Projects\Blueocean\Link\LinkManager\Clients\Switch\Switch\obj\Release\Switch.csprojResolveAssemblyReference.cache
+C:\Projects\Blueocean\Link\LinkManager\Clients\Switch\Switch\obj\Release\Switch.exe
+C:\Projects\Blueocean\Link\LinkManager\Clients\Switch\Switch\obj\Release\Switch.pdb

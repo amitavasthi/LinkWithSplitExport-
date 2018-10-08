@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{852825B2-B334-439E-8D4B-44B97C5E9DE5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WebUtilities</RootNamespace>
+    <AssemblyName>WebUtilities</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MasterPage, Version=0.0.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\MasterPage\MasterPage\bin\Debug\MasterPage.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\..\packages\Microsoft.Office.Interop.Excel.15.0.4795.1000\lib\net20\Microsoft.Office.Interop.Excel.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BaseClasses\BaseControl.cs" />
+    <Compile Include="BaseClasses\BaseHandler.cs" />
+    <Compile Include="BaseClasses\Page.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Classes\Controls\Box.cs" />
+    <Compile Include="Classes\Controls\Button.cs" />
+    <Compile Include="Classes\Controls\Button2.cs" />
+    <Compile Include="Classes\Controls\CategorySearch.cs" />
+    <Compile Include="Classes\Controls\Chat.cs" />
+    <Compile Include="Classes\Controls\CheckBox.cs" />
+    <Compile Include="Classes\Controls\ConfirmBox.cs" />
+    <Compile Include="Classes\Controls\DatePicker.cs" />
+    <Compile Include="Classes\Controls\Grid\Grid.cs" />
+    <Compile Include="Classes\Controls\Grid\GridColumnResizer.cs" />
+    <Compile Include="Classes\Controls\Grid\GridControl.cs" />
+    <Compile Include="Classes\Controls\Grid\GridHeadline.cs" />
+    <Compile Include="Classes\Controls\Grid\GridHeadlineItem.cs" />
+    <Compile Include="Classes\Controls\Grid\GridRow.cs" />
+    <Compile Include="Classes\Controls\Grid\GridRowItem.cs" />
+    <Compile Include="Classes\Controls\HiddenField.cs" />
+    <Compile Include="Classes\Controls\HoverBox.cs" />
+    <Compile Include="Classes\Controls\ImageButton.cs" />
+    <Compile Include="Classes\Controls\Image.cs" />
+    <Compile Include="Classes\Controls\NavigationItem.cs" />
+    <Compile Include="Classes\Controls\NavigationLeaveMessage.cs" />
+    <Compile Include="Classes\Controls\NumericBox.cs" />
+    <Compile Include="Classes\Controls\OptionSwipe.cs" />
+    <Compile Include="Classes\Controls\Panel.cs" />
+    <Compile Include="Classes\Controls\PlaceHolder.cs" />
+    <Compile Include="Classes\Controls\ProgressBar.cs" />
+    <Compile Include="Classes\Controls\Table.cs" />
+    <Compile Include="Classes\Controls\TextBox.cs" />
+    <Compile Include="Classes\Controls\DropDownList.cs" />
+    <Compile Include="Classes\Controls\TipGallery.cs" />
+    <Compile Include="Classes\Controls\TreeView.cs" />
+    <Compile Include="Classes\ExtensionMethods.cs" />
+    <Compile Include="Classes\Controls\Label.cs" />
+    <Compile Include="Classes\LanguageManager.cs" />
+    <Compile Include="Classes\Controls\LinkButton.cs" />
+    <Compile Include="Classes\Controls\ScriptReference.cs" />
+    <Compile Include="Classes\Controls\StylesheetReference.cs" />
+    <Compile Include="Classes\Controls\NavigationMenu.cs" />
+    <Compile Include="Classes\Controls\NavigationMenuItem.cs" />
+    <Compile Include="Classes\UserDefaults.cs" />
+    <Compile Include="Classes\UserValidation.cs" />
+    <Compile Include="Handlers\WebUtilitiesHandler.ashx.cs">
+      <DependentUpon>WebUtilitiesHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Handlers\WebUtilitiesHandler.ashx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Cores\DatabaseCore\DatabaseCore.csproj">
+      <Project>{d17e9d03-d024-4420-837f-a0a869c1c6a5}</Project>
+      <Name>DatabaseCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ApplicationUtilities\ApplicationUtilities.csproj">
+      <Project>{2f85d9a6-33bf-4401-b2b2-635a7c78918d}</Project>
+      <Name>ApplicationUtilities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PermissionCore\PermissionCore\PermissionCore.csproj">
+      <Project>{cd93b57a-c620-4b5a-8324-90a272d158e7}</Project>
+      <Name>PermissionCore</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

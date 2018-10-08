@@ -1,0 +1,144 @@
+﻿Userroletable {
+    margin: auto;
+}
+
+.Userroletable td {
+    padding: 5px;
+}
+
+.Userroletable .TableCellRootTopVariable {
+    height: auto;
+}
+
+.Userroletable .TableCellFilter {
+    font-size: 9pt;
+    width: auto;
+    min-width: 80px;
+    height: 20px;
+    padding: 0px !important;
+}
+
+.Userroletable .PanelFilter {
+    text-align: center;
+    /*box-shadow:0px 0px 5px 0px #000000;*/
+    color: #FFFFFF;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    cursor: pointer;
+}
+
+.Userroletable .TableCellHeadline {
+    font-size:9pt;
+    text-align: center;
+}
+
+.Userroletable .TableCellHeadlineBase, .Userroletable .TableCellHeadlineSigDiff {
+    border-style: solid;
+    border-width: 1px;
+    width: 80px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.Userroletable .TableCellHeadlineCategory {
+    border-style: solid;
+    border-width: 1px;
+    /*border-bottom-width:3px;*/
+    width: 80px;
+    height: 20px;
+    min-height: 20px;
+    max-height: 20px;
+    overflow: hidden;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.TableCellHeadlineWeightingInformation {
+    border-width: 1px;
+    border-style: solid;
+    color: #FFFFFF;
+}
+
+.Userroletable .TableCellHeadline:hover .ImageDeleteVariable {
+    visibility: visible;
+}
+
+.Userroletable .TableCellHeadlineSelectNew {
+    width: 80px;
+}
+
+.Userroletable .ImageDeleteVariable {
+    visibility: hidden;
+    float: right;
+    cursor: pointer;
+}
+
+.Userroletable .TableCellValue {
+    color: #000000;
+    text-align: center;
+    font-weight: bold;
+    font-size: 9pt;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.Userroletable .TableCellPercentage, .Userroletable .TableCellSigDiff {
+    color: #000000;
+    text-align: center;
+    font-weight: bold;
+    font-size: 9pt;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.Userroletable .TableCellHeadline {
+}
+
+.Userroletable .TableCellVariableSpacerTop {
+    border-left-color: #FFFFFF;
+    border-left-width: 2px;
+    border-left-style: solid;
+}
+
+.Userroletable .TableCellVariableSpacerLeft {
+    border-top-color: #FFFFFF;
+    border-top-width: 2px;
+    border-top-style: solid;
+}
+
+.Userroletable select {
+    width: 80px;
+    border: none;
+}
+
+    .Userroletable select:hover {
+        border-width: 1px;
+        border-style: solid;
+        border-color: #97AFB0;
+    }
+
+.Userroletable input[type=text],
+.Userroletable input[type=password],
+.Userroletable input[type=tel] {
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    border-width: 1px;
+    border-style: solid;
+}
+
+    .Userroletable input[type=text]:hover,
+    .Userroletable input[type=password]:hover,
+    .Userroletable input[type=tel]:hover {
+        border-top-left-radius: 2px;
+        border-bottom-left-radius: 2px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: #97AFB0;/*#FCB040;*/
+    }
+
+    #cphContent_pnlModuleDetails{
+        clear:both;
+    }
+   

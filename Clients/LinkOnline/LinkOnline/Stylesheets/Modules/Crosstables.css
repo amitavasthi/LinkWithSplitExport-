@@ -1,0 +1,611 @@
+﻿.Content {
+    background-color:#E4E4E4;
+}
+
+.ReportContainer {
+    background-color:#FFFFFF;
+    
+    margin-left:10px;
+    margin-right:10px;
+
+    padding-left:15px;
+    padding-top:5px;
+}
+
+
+.TableCellExportSettingsOverviewTitle {
+    border:1px solid #000000;
+    font-weight:bold;
+}
+.TableCellExportSettingsOverviewValue {
+    border:1px solid #000000;
+}
+
+.TableCellBaseValue,
+.TableCellLeftBaseValue {
+    background:#EEEEEE;
+}
+
+.TableCellNewTopVariable {
+    background-color:#FFFFFF;
+}
+
+.BoxFilter,
+.BoxFilter a {
+    color:#FFFFFF;
+}
+
+
+.PanelDefaultWeighting {
+    position:absolute;
+    height:60px;
+    overflow:hidden;
+    background:#FFFFFF;
+
+    border-width:2px;
+    border-style:solid;
+    border-radius:2px;
+}
+
+/* ##### Borders ##### */
+
+.CrosstableContainer td {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border-color:#8B8888;
+}
+
+.Crosstable .TableCellHeadlineTopVariable {
+    /*border-right: 1px solid #8B8888;*/
+}
+
+.Crosstable .TableCellHeadlineBase {
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-style: solid;
+    border-right-width: 0px;
+}
+
+.Crosstable .TableCellHeadlineTopBaseUnweighted {
+    border-right-style: solid;
+    border-right-width: 1px;
+    overflow: hidden;
+}
+
+.Crosstable .TableCellHeadlineCategory,
+.Crosstable .TableCellHeadlineSigDiff,
+.Crosstable .TableCellValue,
+.Crosstable .TableCellPercentage,
+.Crosstable .TableCellSigDiff {
+    border-style: solid;
+    border-width: 1px;
+}
+
+.TableCellHeadlineTopCategory {
+    border-bottom-width: 4px;
+}
+
+.TableCellLeftBaseValue {
+    /*border-left-width: 0px !important;*/
+}
+
+.TableCellHeadlineLeftCategory {
+    border-width: 1px;
+    border-style: solid;
+}
+
+.TableCellLeftHeadlineSpacer {
+    border-width:0px !important;
+}
+
+.Crosstable .TableCellNoData {
+    border-style: solid;
+    border-width: 1px;
+}
+
+
+
+/*.Crosstable .TableCellHeadlineLeftVariable {
+    border-bottom:4px solid #FFFFFF;
+}
+.Crosstable .TableCellHeadlineNestedLeftVariable {
+    border-top-width:2px;
+    border-top-style:solid;
+    border-bottom-width:2px;
+    border-bottom-style:solid;
+}
+.TableCellHeadlineLeftCategory  {
+    border-right-width:4px !important;
+}*/
+
+.TableCellBaseValue {
+}
+
+.TableCellHeadlineLeftCategory {
+
+    max-width:60px;
+    min-width:60px;
+    width:60px;
+}
+
+.TableCellLeftHeadlineSpacer {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    max-width: 1px;
+}
+
+
+.GoButton2 {
+    cursor: pointer;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 26pt;
+    padding:25px 33px 25px 33px;
+
+    background-color:#AAAAAA;
+}
+
+.TableCellHeadline {
+    word-wrap:break-word;
+}
+
+.Crosstable .VariableSelector {
+    font-size: 12pt;
+}
+
+    .Crosstable .VariableSelector .LinkBiScores input[type=text] {
+        font-size: 12pt;
+    }
+
+
+.TableTopLeftButtons {
+    width: 100%;
+}
+
+.TableTopLeftButtons td {
+    background-repeat: no-repeat;
+    background-position: center center;
+    cursor: pointer;
+
+    height:50%;
+    width:50%;
+}
+
+.TableTopLeftButtons td:hover {
+}
+
+/* ##### Filter Box ##### */
+
+.FilterBox {
+    position: absolute;
+    z-index: 1001;
+}
+
+/* ##### Crosstable ##### */
+
+.TopLeft {
+    width: 100%;
+    height: 170px;
+}
+
+.LeftHeadline {
+    width: 100%;
+    /*margin-top: -1px;*/
+}
+
+.PanelTableScroll {
+    overflow:scroll;
+    overflow-x:scroll;
+    overflow-y:scroll;
+}
+
+.PanelTopHeadlineScroll {
+    overflow: hidden;
+}
+
+.PanelLeftHeadlineScroll {
+    overflow: hidden;
+}
+.CrosstableContainer {
+    min-width: 800px;
+    min-height: 400px;
+    margin-top: 10px;
+    background-color:#FFFFFF!important;
+}
+
+.CrosstableContainer td {
+    padding: 0px;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.PanelTableScroll .Crosstable {
+    /*margin-top: -1px;*/
+}
+
+.NestedVariableSelectorLeft {
+}
+
+.TableCellHeadlineCategory {
+}
+
+div, td, span {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.Crosstable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    /*width:100%;*/
+}
+  *[contenteditable] {
+                -webkit-user-select: auto;
+            }
+    /*.Crosstable td,
+.Crosstable th {
+    padding: 5px;
+    overflow: hidden;
+}*/
+
+.Crosstable .TableCellHeadlineLeftVariable .VariableSelectorControl td,
+.Crosstable .TableCellHeadlineLeftVariable .VariableSelectorControl th {
+    padding: 0px;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.TableLeftVariableLabel {
+    height: 100%;
+    display: block;
+}
+
+.Crosstable .TableCellRootTopVariable {
+    height: 60px;
+    max-height: 60px;
+    overflow: hidden;
+}
+
+.Crosstable .TableCellHeadlineTopVariable {
+    padding: 0px;
+}
+
+.Crosstable .TableCellHeadlineLeftVariable {
+    overflow: hidden;
+    /*vertical-align: top;*/
+     vertical-align: middle;
+    width:60px;
+    min-width:60px;
+    max-width:60px;
+}
+
+.TableCellFilter {
+    font-size: 10pt;
+    height: 55px;
+    padding: 0px !important;
+}
+
+.TableCellHeadlineLeftVariable {
+    vertical-align: top;
+}
+
+.TableCellHeadlineLeftVariable,
+.TableCellFilter {
+    width: 60px !important;
+    min-width: 60px !important;
+    max-width: 60px !important;
+}
+
+.TableTopLeftButtons {
+    /*border-color:#8B8888;
+
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;*/
+}
+
+.PanelFilter {
+    text-align: center;
+    /*box-shadow:0px 0px 5px 0px #000000;*/
+    color: #FFFFFF;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    cursor: pointer;
+}
+
+.TableCellHeadline {
+    /*font-size:10pt;*/
+    font-size: 14px;
+    text-align: center;
+}
+
+.Crosstable .TableCellHeadlineBase {
+    color: #000000;
+    /*font-weight: bold;*/
+}
+
+.Crosstable .TableCellHeadlineCategory,
+.Crosstable .TableCellHeadlineSigDiff {
+    color: #000000;
+    /*font-weight: bold;*/
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    height: 20px;
+    min-height: 20px;
+    max-height: 20px;
+}
+
+.Crosstable .TableCellHeadlineLeftCategory {
+    color: #000000;
+}
+
+.Crosstable .TableCellHeadlineCategory {
+    height: 40px;
+    min-height: 40px;
+    max-height: 40px;
+}
+
+.TableCellHeadlineWeightingInformation {
+    width: 100%;
+    border-width: 1px;
+    border-style: solid;
+    color: #000000;
+    cursor: pointer;
+}
+
+.Crosstable .TableCellHeadline:hover .ImageDeleteVariable {
+    visibility: visible;
+}
+
+.Crosstable .TableCellHeadlineSelectNew {
+    width: 200px;
+}
+
+.Crosstable .ImageDeleteVariable {
+    visibility: hidden;
+    float: right;
+    cursor: pointer;
+}
+
+.Crosstable .TableCellValue {
+    color: #000000;
+    text-align: center;
+    font-weight: bold;
+    /*font-size:9pt;*/
+    font-size: 12px;
+    height: 19px;
+    overflow: hidden;
+}
+
+.Crosstable .TableCellSigDiff {
+    cursor: pointer;
+}
+
+.Crosstable .TableCellPercentage, .Crosstable .TableCellSigDiff {
+    color: #000000;
+    text-align: center;
+    font-weight: bold;
+    /*font-size:9pt;*/
+    font-size: 12px;
+}
+
+.Crosstable .TableCellHeadline {
+}
+
+.Crosstable select {
+    width: 200px;
+    border: none;
+}
+
+.CrosstableContainer input[type=text],
+.CrosstableContainer input[type=text]:active,
+.CrosstableContainer input[type=text]:focus {
+    padding: 6px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-width: 2px;
+    border-style: solid;
+    outline: 0;
+}
+
+.VariableLabel, .TableCellHeadlineCategory, .TableCellHeadlineWeightingInformation {
+    text-align: center;
+}
+
+.VariableSelection {
+    width: 100%;
+}
+
+.TableCellHeadlineTopVariable .VariableSelection {
+    overflow: hidden;
+}
+
+.TableCellHeadlineLeftCategory {
+    overflow: hidden;
+}
+
+.TableCellHeadlineWeightingInformation {
+    border-right-width: 4px;
+    /*border-bottom-width:4px;*/
+}
+
+.TableCellHeadlineTopVariable .NestedVariableSelector .VariableSelection {
+    height: auto;
+}
+
+.TableCellHeadlineTopVariable .VariableSelection {
+    height: 30px;
+}
+
+.LeftPanelTrigger {
+    position: absolute;
+    width: 50px;
+    z-index: 1000;
+}
+
+.LeftPanel {
+    color: #FFFFFF;
+    font-size: 12pt;
+}
+
+    .LeftPanel a {
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+
+.LeftPanelSection {
+    cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-top: 1px solid #FFFFFF;
+}
+
+.AdvancedFilters td {
+}
+
+.AdvancedFilters a, .WeightingFilters a {
+    color: #FFFFFF;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.WeightingFilters {
+    color: #FFFFFF;
+    display: none;
+}
+
+.AdvancedFilters {
+    width: 570px;
+}
+
+    .AdvancedFilters table, .WeightingFilters table {
+        width: 100%;
+    }
+
+.AdvancedFiltersTableCellLabel {
+    background: #FFFFFF;
+    color: #000000;
+    padding: 5px;
+    width: 300px;
+    font-weight: bold;
+}
+
+.DragableCategory {
+    cursor: pointer;
+    color: #000000;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.TableCellDescription {
+    height: 50px;
+}
+
+.TableCellDescriptionLeft {
+    width: 50px;
+}
+
+.BlurTable {
+    position: absolute;
+    z-index: 1000;
+    background: #FFFFFF;
+    opacity: 0.7;
+    margin-top: -2em;
+    margin-left: -2em;
+}
+
+.TextBoxVariableSelector {
+    width: 95%;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+.TableCellHeadlineNewTopVariable {
+    padding-top: 27px;
+}
+
+
+.TableVariableSelector {
+    height: 100%;
+    width: 100%;
+}
+
+    .TableVariableSelector td {
+        padding: 0px;
+    }
+
+
+.CrosstabSelectionViewItem {
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 2px;
+}
+
+
+.VariableSelection {
+}
+
+.TableCellHeadlineLeftVariable {
+    padding: 0px !important;
+}
+
+    .TableCellHeadlineLeftVariable .VariableSelection {
+        /*width:200px;
+    max-width:200px;*/
+    }
+
+.TableCellHeadlineNestedLeftVariable {
+    width: 60px;
+    min-width: 60px;
+    max-width: 60px;
+
+    vertical-align:top;
+    overflow:hidden;
+}
+
+
+.TableCellHeadlineNestedTopVariable .TableVariableSelector {
+    height: 50px;
+}
+
+.TableCellHeadlineNestedTopVariable .VariableSelection {
+    max-height: 30px;
+    overflow: hidden;
+}
+
+.TableCellNewLeftVariable {
+    padding-top: 30px;
+    height: 50px;
+    width: 210px;
+}
+
+.TableCellLowBase {
+    background:#ffbcbc;
+}
+
+td[class='TableCellLowBase TableCellBase TableCellTopBase'] {
+    background:#ffbcbc !important;
+}

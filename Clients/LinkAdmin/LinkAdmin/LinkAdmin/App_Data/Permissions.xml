@@ -1,0 +1,13 @@
+﻿<Permissions>
+  <Products>
+    <Product Name="LinkAdmin">
+      <Sections>
+      </Sections>
+      <Permissions>
+      </Permissions>
+      <Pages>
+
+      </Pages>
+    </Product>
+  </Products>
+</Permissions>

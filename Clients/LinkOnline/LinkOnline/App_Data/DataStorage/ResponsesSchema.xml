@@ -1,0 +1,10 @@
+﻿<Schema>
+  <Field Name="Id" Type="Guid"></Field>
+  <Field Name="IdVariable" Type="Guid"></Field>
+  <Field Name="IdProject" Type="Guid"></Field>
+  <Field Name="IdRespondent" Type="Guid"></Field>
+  <Field Name="IdHLevelSlice" Type="Guid"></Field>
+  <Field Name="IdCategory" Type="Guid"></Field>
+  <Field Name="NumericAnswer" Type="decimal"></Field>
+  <Field Name="TextAnswer" Type="String"></Field>
+</Schema>

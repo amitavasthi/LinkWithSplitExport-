@@ -1,0 +1,55 @@
+﻿<Report DataRequest="24.09.2014 14:16:17" DataCalculationTime="00:00:00.4708364">
+  <Filter>
+    <And>
+      <Or>
+        <And>
+          <Category Id="182dc8d9-e397-4a66-b04e-002d1bdef281"></Category>
+          <Category Id="e488e79e-8908-4871-bb89-0031abb9538f"></Category>
+        </And>
+        <Category Id="e562d923-a68e-4444-aa3f-005fbbbf4df2"></Category>
+      </Or>
+    </And>
+  </Filter>
+  <Variables Position="Left">
+    <Variable Id="11F8428F-C898-4871-922C-6A85F87E7FA6">
+      <Category Id="D8694FF0-B4ED-407D-A873-144EFEC5FDCD"></Category>
+      <Category Id="AD0CF91B-072B-4180-A61C-6404C8285D6B"></Category>
+      <Category Id="45B3B92F-60A8-4188-B09F-CF2FB4952BEB"></Category>
+      <Category Id="8F9A7FE2-1D9C-466A-9E8D-FF3F9BE8694B"></Category>
+    </Variable>
+  </Variables>
+  <Variables Position="Top">
+    <Variable Id="CD1B1880-5F12-4718-929F-2A33F27D91AE">
+      <Category Id="7E632D87-DA0C-4E5F-A7E1-C12CE7BF9D1F"></Category>
+      <Category Id="FB8E7631-B12C-4339-B7A4-C529008C0B12"></Category>
+    </Variable>
+  </Variables>
+  <Results>
+    <Variable Id="11F8428F-C898-4871-922C-6A85F87E7FA6">
+      <Category Id="D8694FF0-B4ED-407D-A873-144EFEC5FDCD">
+        <Variable Id="CD1B1880-5F12-4718-929F-2A33F27D91AE">
+          <Category Id="7E632D87-DA0C-4E5F-A7E1-C12CE7BF9D1F" Value="1514"></Category>
+          <Category Id="FB8E7631-B12C-4339-B7A4-C529008C0B12" Value="1604"></Category>
+        </Variable>
+      </Category>
+      <Category Id="AD0CF91B-072B-4180-A61C-6404C8285D6B">
+        <Variable Id="CD1B1880-5F12-4718-929F-2A33F27D91AE">
+          <Category Id="7E632D87-DA0C-4E5F-A7E1-C12CE7BF9D1F" Value="1963"></Category>
+          <Category Id="FB8E7631-B12C-4339-B7A4-C529008C0B12" Value="2282"></Category>
+        </Variable>
+      </Category>
+      <Category Id="45B3B92F-60A8-4188-B09F-CF2FB4952BEB">
+        <Variable Id="CD1B1880-5F12-4718-929F-2A33F27D91AE">
+          <Category Id="7E632D87-DA0C-4E5F-A7E1-C12CE7BF9D1F" Value="954"></Category>
+          <Category Id="FB8E7631-B12C-4339-B7A4-C529008C0B12" Value="1321"></Category>
+        </Variable>
+      </Category>
+      <Category Id="8F9A7FE2-1D9C-466A-9E8D-FF3F9BE8694B">
+        <Variable Id="CD1B1880-5F12-4718-929F-2A33F27D91AE">
+          <Category Id="7E632D87-DA0C-4E5F-A7E1-C12CE7BF9D1F" Value="1048"></Category>
+          <Category Id="FB8E7631-B12C-4339-B7A4-C529008C0B12" Value="1053"></Category>
+        </Variable>
+      </Category>
+    </Variable>
+  </Results>
+</Report>

@@ -1,0 +1,1536 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\..\..\packages\MSBuild.Microsoft.VisualStudio.Web.targets.14.0.0.3\build\MSBuild.Microsoft.VisualStudio.Web.targets.props" Condition="Exists('..\..\..\packages\MSBuild.Microsoft.VisualStudio.Web.targets.14.0.0.3\build\MSBuild.Microsoft.VisualStudio.Web.targets.props')" />
+  <Import Project="..\..\..\packages\MSBuild.Microsoft.VisualStudio.Web.targets.14.0.0.2\build\MSBuild.Microsoft.VisualStudio.Web.targets.props" Condition="Exists('..\..\..\packages\MSBuild.Microsoft.VisualStudio.Web.targets.14.0.0.2\build\MSBuild.Microsoft.VisualStudio.Web.targets.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{49E4B911-0FDD-4682-8E73-A34FD4D503E8}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LinkOnline</RootNamespace>
+    <AssemblyName>LinkOnline</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit">
+      <HintPath>..\..\..\packages\Dll\AjaxControlToolkit.DLL</HintPath>
+    </Reference>
+    <Reference Include="BenchmarkTest">
+      <HintPath>..\..\..\..\LinkManager\Clients\LinkOnline\LinkOnline\bin\BenchmarkTest.dll</HintPath>
+    </Reference>
+    <Reference Include="CDT.ColorPickerExtender">
+      <HintPath>..\..\..\..\LinkManager\Clients\LinkOnline\LinkOnline\bin\CDT.ColorPickerExtender.dll</HintPath>
+    </Reference>
+    <Reference Include="CsQuery, Version=1.3.5.200, Culture=neutral, PublicKeyToken=ab50af63106f043f, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\packages\Dll\CsQuery.dll</HintPath>
+    </Reference>
+    <Reference Include="HtmlAgilityPack, Version=1.4.9.0, Culture=neutral, PublicKeyToken=bd319b19eaf3b43a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\packages\Dll\HtmlAgilityPack.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\..\..\packages\Microsoft.Office.Interop.Excel.15.0.4795.1000\lib\net20\Microsoft.Office.Interop.Excel.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Mono.Security">
+      <HintPath>..\..\..\..\..\LinkManager\Clients\LinkOnline\LinkOnline\bin\Mono.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Newtonsoft.Json.11.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Npgsql, Version=2.0.11.94, Culture=neutral, PublicKeyToken=5d8b90d52f46fda7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Includes\Npgsql2.0.11.94-bin-ms.net4.0\Npgsql.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenHardwareMonitorLib">
+      <HintPath>..\..\..\..\LinkManager\Clients\LinkOnline\LinkOnline\bin\OpenHardwareMonitorLib.dll</HintPath>
+    </Reference>
+    <Reference Include="PermissionCore, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Components\PermissionCore\PermissionCore\bin\Debug\PermissionCore.dll</HintPath>
+    </Reference>
+    <Reference Include="ProjectHierarchy, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\ProjectHierarchy.dll</HintPath>
+    </Reference>
+    <Reference Include="RDotNet">
+      <HintPath>..\..\..\packages\Dll\RDotNet.dll</HintPath>
+    </Reference>
+    <Reference Include="RDotNet.NativeLibrary">
+      <HintPath>..\..\..\packages\Dll\RDotNet.NativeLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="SpreadsheetGear2012.Core, Version=7.1.2.102, Culture=neutral, PublicKeyToken=39c186f5904944ec, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\packages\Dll\SpreadsheetGear2012.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="SpreadsheetGear2012.Drawing, Version=7.1.2.102, Culture=neutral, PublicKeyToken=39c186f5904944ec, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\packages\Dll\SpreadsheetGear2012.Drawing.dll</HintPath>
+    </Reference>
+    <Reference Include="SpreadsheetGear2012.Windows.WPF, Version=7.1.2.102, Culture=neutral, PublicKeyToken=39c186f5904944ec, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\packages\Dll\SpreadsheetGear2012.Windows.WPF.dll</HintPath>
+    </Reference>
+    <Reference Include="Spss, Version=1.0.5267.41730, Culture=neutral, PublicKeyToken=0e8b42805099a438, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\packages\Dll\Spss.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.IO.Compression.FileSystem" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Data\ChartingColors.txt" />
+    <Content Include="App_Data\ChartingColors.txt" />
+    <Content Include="App_Data\Charts\Bar.html" />
+    <Content Include="App_Data\Charts\Area.html" />
+    <Content Include="App_Data\Charts\Column.html" />
+    <Content Include="App_Data\Charts\_Column.html" />
+    <Content Include="App_Data\Charts\Line.html" />
+    <Content Include="App_Data\Charts\Pie.html" />
+    <Content Include="App_Data\Charts\WordCloud.html" />
+    <Content Include="App_Data\Clients.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_Data\CustomCharts\CustomChartInit.html" />
+    <Content Include="App_Data\CustomCharts\CustomChart.html" />
+    <Content Include="App_Data\DataStorage\CreateResponseIndex.sql" />
+    <Content Include="App_Data\DataStorage\CreateResponseIndexPOSTGRE.sql" />
+    <Content Include="App_Data\DataStorage\CreateResponses.sql" />
+    <Content Include="App_Data\DataStorage\RebuildResponseIndex.sql" />
+    <Content Include="App_Data\HierarchySelectors\demoevent.xml" />
+    <Content Include="App_Data\HierarchySelectors\pilot5.xml" />
+    <Content Include="App_Data\HierarchySelectors\msi.xml" />
+    <Content Include="App_Data\HierarchySelectors\linkmanager.xml" />
+    <Content Include="App_Data\HierarchySelectors\_LinkManager.xml" />
+    <Content Include="App_Data\HierarchySelectors\Youtube.xml" />
+    <Content Include="App_Data\HomePage.xml" />
+    <Content Include="App_Data\Homescreen.xml" />
+    <Content Include="App_Data\HomeScreen\HomeScreen.xml" />
+    <Content Include="App_Data\LinkBiDefinition.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_Data\LinkBiSettingsMenu.xml" />
+    <Content Include="App_Data\ExportDefinition.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_Data\MailTemplates\English\CMUserTemplate.html" />
+    <Content Include="App_Data\MailTemplates\English\ContactChange.html" />
+    <Content Include="App_Data\MailTemplates\English\Feedback.html" />
+    <Content Include="App_Data\MailTemplates\English\ForgotPassword.html" />
+    <Content Include="App_Data\MailTemplates\English\MailSendConfirmation.html" />
+    <Content Include="App_Data\MailTemplates\English\MailTemplate.html" />
+    <Content Include="App_Data\MailTemplates\English\ModifyOwnerTemplate.html" />
+    <Content Include="App_Data\MailTemplates\English\PasswordChange.html" />
+    <Content Include="App_Data\MailTemplates\English\ReminderMail.html" />
+    <Content Include="App_Data\MailTemplates\English\YourTemplate.html" />
+    <Content Include="App_Data\Permissions\linkmanager.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_Data\ReportingWorkflows\museum.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_Data\ReportingWorkflows\msi.xml" />
+    <Content Include="App_Data\ReportingWorkflows\youtube.xml" />
+    <Content Include="App_Data\HierarchySelectorDefault.css" />
+    <Content Include="App_Data\RSVGConverter\chartExport.svg" />
+    <Content Include="App_Data\RSVGConverter\rsvg-convert.exe" />
+    <Content Include="App_Data\Templates\TableauConnector\LoadData.html" />
+    <Content Include="App_Data\TextAggregation.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_Data\UserValidation\LinkManager.xml" />
+    <Content Include="App_Data\Views\Crosstable.xml" />
+    <Content Include="App_Data\Views\Views2.xml" />
+    <Content Include="App_Data\Views\ViewsText.xml" />
+    <Content Include="App_Data\Views\Views.xml" />
+    <Content Include="App_Data\LinkReporterSettingsMenu.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_Data\MailTemplates\English\UploadFinished.html" />
+    <Content Include="App_Data\MailTemplates\English\LinkBiExportFinished.html" />
+    <Content Include="App_Data\Navigation.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_Data\News\News.xml" />
+    <Content Include="App_Data\RecentUsedDetails.xml" />
+    <Content Include="App_Data\ReportingWorkflows\msadtest.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_Data\ReportingWorkflows\linkwebapp.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_Data\ReportingWorkflows\linkmanager.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_Data\ReportDefinition.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_Data\ColorScheme.css" />
+    <Content Include="App_Data\Settings.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_Data\TaxonomyStructure.xml" />
+    <Content Include="App_Data\WeightingDefaults\youtube.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_Data\Whitelist.xml" />
+    <Content Include="Classes\Controls\ConnectPowerBI.ascx" />
+    <Content Include="Classes\Controls\EquationDefinition.ascx" />
+    <Content Include="Classes\Controls\HierarchySelector.ascx" />
+    <Content Include="Classes\Controls\VariableSearch.ascx" />
+    <!-- <Content Include="Images\Icons\Navigation\Admin\AddUser.png" /> -->
+    <!-- <Content Include="Images\Icons\Navigation\Admin\AddUser.png" /> -->
+    <!-- <Content Include="Images\Icons\Navigation\Admin\ManageUserGroups.png" /> -->
+    <!-- <Content Include="Images\Icons\Navigation\Admin\ManageUsers.png" /> -->
+    <!-- <Content Include="Images\Icons\Navigation\Admin\PortalSettings.png" /> -->
+    <!-- <Content Include="Images\Icons\Navigation\Production\DataManagement.png" /> -->
+    <!-- <Content Include="Images\Icons\Navigation\Production\Design.png" /> -->
+    <!-- <Content Include="Images\Icons\Navigation\Services\Exports.png" /> -->
+    <!-- <Content Include="/Images/Logos/Login.png" />	 -->
+    <Content Include="Images\Backgrounds\Error.png" />
+    <Content Include="Images\Backgrounds\ReporterTab.png" />
+    <Content Include="Images\Backgrounds\ReporterTabContainer.png" />
+    <Content Include="Images\Backgrounds\ReporterTab_Active.png" />
+    <Content Include="Images\Backgrounds\Tabs_Old.rar" />
+    <Content Include="Images\Backgrounds\Warning.png" />
+    <Content Include="Images\blank.gif" />
+    <Content Include="Images\ClientLogos\default.png" />
+    <Content Include="Images\ClientLogos\localhost.png" />
+    <Content Include="Images\close.png" />
+    <Content Include="Images\Components\ColorPicker\blank.gif" />
+    <Content Include="Images\Components\ColorPicker\colorpicker_background.png" />
+    <Content Include="Images\Components\ColorPicker\colorpicker_hex.png" />
+    <Content Include="Images\Components\ColorPicker\colorpicker_hsb_b.png" />
+    <Content Include="Images\Components\ColorPicker\colorpicker_hsb_h.png" />
+    <Content Include="Images\Components\ColorPicker\colorpicker_hsb_s.png" />
+    <Content Include="Images\Components\ColorPicker\colorpicker_indic.gif" />
+    <Content Include="Images\Components\ColorPicker\colorpicker_overlay.png" />
+    <Content Include="Images\Components\ColorPicker\colorpicker_rgb_b.png" />
+    <Content Include="Images\Components\ColorPicker\colorpicker_rgb_g.png" />
+    <Content Include="Images\Components\ColorPicker\colorpicker_rgb_r.png" />
+    <Content Include="Images\Components\ColorPicker\colorpicker_select.gif" />
+    <Content Include="Images\Components\ColorPicker\colorpicker_submit.png" />
+    <Content Include="Images\Components\ColorPicker\custom_background.png" />
+    <Content Include="Images\Components\ColorPicker\custom_hex.png" />
+    <Content Include="Images\Components\ColorPicker\custom_hsb_b.png" />
+    <Content Include="Images\Components\ColorPicker\custom_hsb_h.png" />
+    <Content Include="Images\Components\ColorPicker\custom_hsb_s.png" />
+    <Content Include="Images\Components\ColorPicker\custom_indic.gif" />
+    <Content Include="Images\Components\ColorPicker\custom_rgb_b.png" />
+    <Content Include="Images\Components\ColorPicker\custom_rgb_g.png" />
+    <Content Include="Images\Components\ColorPicker\custom_rgb_r.png" />
+    <Content Include="Images\Components\ColorPicker\custom_submit.png" />
+    <Content Include="Images\Components\ColorPicker\select.png" />
+    <Content Include="Images\Components\ColorPicker\select2.png" />
+    <Content Include="Images\Components\ColorPicker\select_v1.png" />
+    <Content Include="Images\Components\ColorPicker\slider.png" />
+    <Content Include="Images\CountryImages\AU.jpeg" />
+    <Content Include="Images\CountryImages\CN.jpeg" />
+    <Content Include="Images\CountryImages\DE.jpeg" />
+    <Content Include="Images\CountryImages\FR.jpeg" />
+    <Content Include="Images\CountryImages\JP.jpeg" />
+    <Content Include="Images\CountryImages\UK.jpeg" />
+    <Content Include="Images\CountryImages\US.jpeg" />
+    <Content Include="Images\Icons\add.PNG" />
+    <Content Include="Images\Icons\Add2.png" />
+    <Content Include="Images\Icons\Add3.png" />
+    <Content Include="Images\Icons\Add4.png" />
+    <Content Include="Images\Icons\Add5.png" />
+    <Content Include="Images\Icons\Arrow.png" />
+    <Content Include="Images\Icons\ArrowLeft.png" />
+    <Content Include="Images\Icons\Back.png" />
+    <Content Include="Images\Icons\Back2.png" />
+    <Content Include="Images\Icons\Back_Hover.png" />
+    <Content Include="Images\Icons\Bin.png" />
+    <Content Include="Images\Icons\Bin_Hover.png" />
+    <Content Include="Images\Icons\BoxClose.png" />
+    <Content Include="Images\Icons\BoxClose_Hover.png" />
+    <Content Include="Images\Icons\Boxes\checkbox\Active.png" />
+    <Content Include="Images\Icons\Boxes\checkbox\ActiveHover.png" />
+    <Content Include="Images\Icons\Boxes\checkbox\checkbox.rar" />
+    <Content Include="Images\Icons\Boxes\checkbox\Colored.rar" />
+    <Content Include="Images\Icons\Boxes\checkbox\Hover.png" />
+    <Content Include="Images\Icons\Boxes\checkbox\Inactive.png" />
+    <Content Include="Images\Icons\Boxes\checkbox\mouse over off.png" />
+    <Content Include="Images\Icons\Boxes\checkbox\mouse over on.png" />
+    <Content Include="Images\Icons\Boxes\checkbox\off.png" />
+    <Content Include="Images\Icons\Boxes\checkbox\on.png" />
+    <Content Include="Images\Icons\Boxes\radio\Active.png" />
+    <Content Include="Images\Icons\Boxes\radio\ActiveHover.png" />
+    <Content Include="Images\Icons\Boxes\radio\checkbox.rar" />
+    <Content Include="Images\Icons\Boxes\radio\Colored.rar" />
+    <Content Include="Images\Icons\Boxes\radio\Hover.png" />
+    <Content Include="Images\Icons\Boxes\radio\Inactive.png" />
+    <Content Include="Images\Icons\Boxes\radio\mouse over off.png" />
+    <Content Include="Images\Icons\Boxes\radio\mouse over on.png" />
+    <Content Include="Images\Icons\Boxes\radio\off.png" />
+    <Content Include="Images\Icons\Boxes\radio\on.png" />
+    <Content Include="Images\Icons\CancelCircle.png" />
+    <Content Include="Images\Icons\Charts\customcharts.png" />
+    <Content Include="Images\Icons\Charts\play.png" />
+    <Content Include="Images\Icons\Charts\smallcustomcharts.png" />
+    <Content Include="Images\Icons\Charts\smallplay.png" />
+    <Content Include="Images\Icons\ClientManager\Add New User.png" />
+    <Content Include="Images\Icons\ClientManager\admin.png" />
+    <Content Include="Images\Icons\ClientManager\Createusergroup.png" />
+    <Content Include="Images\Icons\ClientManager\Home Management.png" />
+    <Content Include="Images\Icons\ClientManager\Manage User Groups.png" />
+    <Content Include="Images\Icons\ClientManager\Manage Users.png" />
+    <Content Include="Images\Icons\ClientManager\Managedashboards.png" />
+    <Content Include="Images\Icons\ClientManager\Managenews.png" />
+    <Content Include="Images\Icons\ClientManager\ManageUserGroups.png" />
+    <Content Include="Images\Icons\ClientManager\Portal settings.png" />
+    <Content Include="Images\Icons\ClientManager\Workgroup.png" />
+    <Content Include="Images\Icons\Close.png" />
+    <Content Include="Images\Icons\Close_Hover.png" />
+    <Content Include="Images\Icons\Cloud\.bmp.png" />
+    <Content Include="Images\Icons\Cloud\.doc.png" />
+    <Content Include="Images\Icons\Cloud\.docx.png" />
+    <Content Include="Images\Icons\Cloud\.jpeg.png" />
+    <Content Include="Images\Icons\Cloud\.jpg.png" />
+    <Content Include="Images\Icons\Cloud\.lor.png" />
+    <Content Include="Images\Icons\Cloud\.pdf.PNG" />
+    <Content Include="Images\Icons\Cloud\.png.png" />
+    <Content Include="Images\Icons\Cloud\.pptx.png" />
+    <Content Include="Images\Icons\Cloud\.xls.png" />
+    <Content Include="Images\Icons\Cloud\.xlsx.png" />
+    <Content Include="Images\Icons\Cloud\Delete.png" />
+    <Content Include="Images\Icons\Cloud\Directory - Kopie.png" />
+    <Content Include="Images\Icons\Cloud\Directory.png" />
+    <Content Include="Images\Icons\Cloud\Download.png" />
+    <Content Include="Images\Icons\Cloud\NewDirectory.png" />
+    <Content Include="Images\Icons\Cloud\NewDirectory_Hover.png" />
+    <Content Include="Images\Icons\Cloud\Run.png" />
+    <Content Include="Images\Icons\Cloud\small.lor.png" />
+    <Content Include="Images\Icons\Cloud\Unknown.png" />
+    <Content Include="Images\Icons\Cloud\Upload.png" />
+    <Content Include="Images\Icons\Collapse.png" />
+    <Content Include="Images\Icons\DataAnalyser\Compare.PNG" />
+    <Content Include="Images\Icons\DataAnalyser\Export.PNG" />
+    <Content Include="Images\Icons\DataAnalyser\Weights.PNG" />
+    <Content Include="Images\Icons\DataManagement1\DataAnalyser\Compare.png" />
+    <Content Include="Images\Icons\DataManagement1\DataAnalyser\Export.png" />
+    <Content Include="Images\Icons\DataManagement1\DataAnalyser\Weights.png" />
+    <Content Include="Images\Icons\DataManagement1\DataAnalyzer.png" />
+    <Content Include="Images\Icons\DataManagement1\DataAnalyzer\document.png" />
+    <Content Include="Images\Icons\DataManagement1\DataAnalyzer\studies.png" />
+    <Content Include="Images\Icons\DataManagement1\DataAnalyzer\weights.png" />
+    <Content Include="Images\Icons\DataManagement1\DataAnalyzer_old.png" />
+    <Content Include="Images\Icons\DataManagement1\Delete.png" />
+    <Content Include="Images\Icons\DataManagement1\DownloadAssignment.png" />
+    <Content Include="Images\Icons\DataManagement1\ModifyVariables.png" />
+    <Content Include="Images\Icons\DataManagement1\ModifyVariables_old.png" />
+    <Content Include="Images\Icons\DataManagement1\Move.png" />
+    <Content Include="Images\Icons\DataManagement1\Move_old.png" />
+    <Content Include="Images\Icons\DataManagement1\ProgressBackground.png" />
+    <Content Include="Images\Icons\DataManagement1\SetHierarchyFilter.png" />
+    <Content Include="Images\Icons\DataManagement1\SetHierarchyFilter_old.png" />
+    <Content Include="Images\Icons\DataManagement1\Status\linking.png" />
+    <Content Include="Images\Icons\DataManagement1\Status\online.png" />
+    <Content Include="Images\Icons\DataManagement1\Status\QA.png" />
+    <Content Include="Images\Icons\DataManagement1\Status\StudyStatusOnline.png" />
+    <Content Include="Images\Icons\DataManagement1\Status\StudyStatusQA.png" />
+    <Content Include="Images\Icons\DataManagement1\Status\StudyStatusUnlinked.png" />
+    <Content Include="Images\Icons\DataManagement1\Status\StudyStatusUnlinkedlinking.png" />
+    <Content Include="Images\Icons\DataManagement1\Status\unlinked.png" />
+    <Content Include="Images\Icons\DataManagement1\UploadStudy.png" />
+    <Content Include="Images\Icons\DataManagement1\ViewGrid.png" />
+    <Content Include="Images\Icons\DataManagement1\ViewGrid_old.png" />
+    <Content Include="Images\Icons\DataManagement1\ViewItems.png" />
+    <Content Include="Images\Icons\DataManagement1\ViewItems_old.png" />
+    <Content Include="Images\Icons\DataManagement\DataAnalyser\Compare.png" />
+    <Content Include="Images\Icons\DataManagement\DataAnalyser\Export.png" />
+    <Content Include="Images\Icons\DataManagement\DataAnalyser\Weights.png" />
+    <Content Include="Images\Icons\DataManagement\DataAnalyzer.png" />
+    <Content Include="Images\Icons\DataManagement\DataAnalyzer\document.png" />
+    <Content Include="Images\Icons\DataManagement\DataAnalyzer\studies.png" />
+    <Content Include="Images\Icons\DataManagement\DataAnalyzer\weights.png" />
+    <Content Include="Images\Icons\DataManagement\DataAnalyzer_old.png" />
+    <Content Include="Images\Icons\DataManagement\Delete.png" />
+    <Content Include="Images\Icons\DataManagement\DownloadAssignment.png" />
+    <Content Include="Images\Icons\DataManagement\ModifyVariables.png" />
+    <Content Include="Images\Icons\DataManagement\ModifyVariables_old.png" />
+    <Content Include="Images\Icons\DataManagement\Move.png" />
+    <Content Include="Images\Icons\DataManagement\Move_old.png" />
+    <Content Include="Images\Icons\DataManagement\Online.png" />
+    <Content Include="Images\Icons\DataManagement\ProgressBackground.png" />
+    <Content Include="Images\Icons\DataManagement\SetHierarchyFilter.png" />
+    <Content Include="Images\Icons\DataManagement\SetHierarchyFilter_new.png" />
+    <Content Include="Images\Icons\DataManagement\SetHierarchyFilter_old.png" />
+    <Content Include="Images\Icons\DataManagement\Status\ImportFailed.png" />
+    <Content Include="Images\Icons\DataManagement\Status\Importing.png" />
+    <Content Include="Images\Icons\DataManagement\Status\Linking.png" />
+    <Content Include="Images\Icons\DataManagement\Status\linking_old.png" />
+    <Content Include="Images\Icons\DataManagement\Status\online.png" />
+    <Content Include="Images\Icons\DataManagement\Status\online_old.png" />
+    <Content Include="Images\Icons\DataManagement\Status\QA.png" />
+    <Content Include="Images\Icons\DataManagement\Status\QA_old.png" />
+    <Content Include="Images\Icons\DataManagement\Status\StudyStatusOnline.png" />
+    <Content Include="Images\Icons\DataManagement\Status\StudyStatusQA.png" />
+    <Content Include="Images\Icons\DataManagement\Status\StudyStatusUnlinked.png" />
+    <Content Include="Images\Icons\DataManagement\Status\StudyStatusUnlinkedlinking.png" />
+    <Content Include="Images\Icons\DataManagement\Status\Unlinked.png" />
+    <Content Include="Images\Icons\DataManagement\Status\unlinked_old.png" />
+    <Content Include="Images\Icons\DataManagement\UploadStudy.png" />
+    <Content Include="Images\Icons\DataManagement\ViewGrid.png" />
+    <Content Include="Images\Icons\DataManagement\ViewGrid_old.png" />
+    <Content Include="Images\Icons\DataManagement\ViewItems.png" />
+    <Content Include="Images\Icons\DataManagement\ViewItems_old.png" />
+    <Content Include="Images\Icons\Delete.png" />
+    <Content Include="Images\Icons\Delete2.png" />
+    <Content Include="Images\Icons\Delete3.png" />
+    <Content Include="Images\Icons\DropDown.png" />
+    <Content Include="Images\Icons\Duplicate.png" />
+    <Content Include="Images\Icons\Equation\Equation.rar" />
+    <Content Include="Images\Icons\Equation\ExpandEditor.png" />
+    <Content Include="Images\Icons\Equation\InsertCondition.png" />
+    <Content Include="Images\Icons\Equation\InsertMethod.png" />
+    <Content Include="Images\Icons\Equation\InsertPlaceHolder.png" />
+    <Content Include="Images\Icons\Equation\Validate.png" />
+    <Content Include="Images\Icons\Error.png" />
+    <Content Include="Images\Icons\Expand - Kopie.png" />
+    <Content Include="Images\Icons\Expand.png" />
+    <Content Include="Images\Icons\Expand2.png" />
+    <Content Include="Images\Icons\ExpandH.png" />
+    <Content Include="Images\Icons\ExpandSmall - Kopie.png" />
+    <Content Include="Images\Icons\ExpandSmall.png" />
+    <Content Include="Images\Icons\Expand_Hover.png" />
+    <Content Include="Images\Icons\ExportVariables.png" />
+    <Content Include="Images\Icons\Filter.png" />
+    <Content Include="Images\Icons\Filter_Active.png" />
+    <Content Include="Images\Icons\Hide.png" />
+    <Content Include="Images\Icons\HideVariableSelection.png" />
+    <Content Include="Images\Icons\Home\chart1.PNG" />
+    <Content Include="Images\Icons\Home\chart2.PNG" />
+    <Content Include="Images\Icons\Home\report1.png" />
+    <Content Include="Images\Icons\Home\report2.png" />
+    <Content Include="Images\Icons\Home\rssfeed.jpg" />
+    <Content Include="Images\Icons\Home\rssfeed.png" />
+    <Content Include="Images\Icons\icon_colorpicker.gif" />
+    <Content Include="Images\Icons\LinkBiSelectorToolTip.png" />
+    <Content Include="Images\Icons\LinkBi\Download.png" />
+    <Content Include="Images\Icons\LinkBi\DownloadLinkBi.png" />
+    <Content Include="Images\Icons\LinkBi\Server.png" />
+    <Content Include="Images\Icons\LinkReporterSettings\Collapser.png" />
+    <Content Include="Images\Icons\LinkReporterSettings\ConnectPowerBI.png" />
+    <Content Include="Images\Icons\LinkReporterSettings\Expander.png" />
+    <Content Include="Images\Icons\LinkReporterSettings\Export.png" />
+    <Content Include="Images\Icons\LinkReporterSettings\Hierarchy.png" />
+    <Content Include="Images\Icons\LinkReporterSettings\New.png" />
+    <Content Include="Images\Icons\LinkReporterSettings\Save.png" />
+    <Content Include="Images\Icons\LinkReporterSettings\SaveAllTabs.png" />
+    <Content Include="Images\Icons\LinkReporterSettings\SaveTab.png" />
+    <Content Include="Images\Icons\LinkReporterSettings\Settings.png" />
+    <Content Include="Images\Icons\LinkReporterSettings\Tools.png" />
+    <Content Include="Images\Icons\LinkReporterSettings\View.png" />
+    <Content Include="Images\Icons\LinkReporterSettings\Views\Area.png" />
+    <Content Include="Images\Icons\LinkReporterSettings\Views\Bar.png" />
+    <Content Include="Images\Icons\LinkReporterSettings\Views\Column.png" />
+    <Content Include="Images\Icons\LinkReporterSettings\Views\Crosstable.png" />
+    <Content Include="Images\Icons\LinkReporterSettings\Views\Line.png" />
+    <Content Include="Images\Icons\LinkReporterSettings\Views\Pie.png" />
+    <Content Include="Images\Icons\LinkReporterSettings\Views\View.png" />
+    <Content Include="Images\Icons\LinkReporterSettings\Views\WordCloud.png" />
+    <Content Include="Images\Icons\Loading.gif" />
+    <Content Include="Images\Icons\maximise.png" />
+    <Content Include="Images\Icons\Menu.png" />
+    <Content Include="Images\Icons\Menu\combination.png" />
+    <Content Include="Images\Icons\Menu\CombineWithGroup.png" />
+    <Content Include="Images\Icons\Menu\ConnectPowerBI.png" />
+    <Content Include="Images\Icons\Menu\CopyHyperlink.png" />
+    <Content Include="Images\Icons\Menu\CreateNewGroup.png" />
+    <Content Include="Images\Icons\Menu\Delete - Copy.png" />
+    <Content Include="Images\Icons\Menu\Delete.png" />
+    <Content Include="Images\Icons\Menu\DeleteReporterTab.png" />
+    <Content Include="Images\Icons\Menu\Duplicate.png" />
+    <Content Include="Images\Icons\Menu\Equation.png" />
+    <Content Include="Images\Icons\Menu\Make Copy.png" />
+    <Content Include="Images\Icons\Menu\Pin.png" />
+    <Content Include="Images\Icons\Menu\RemoveFromGroup.png" />
+    <Content Include="Images\Icons\Menu\rename.png" />
+    <Content Include="Images\Icons\Menu\Rename2.png" />
+    <Content Include="Images\Icons\Menu\RenameReporterTab.png" />
+    <Content Include="Images\Icons\Menu\SwitchViewGrid.png" />
+    <Content Include="Images\Icons\Menu\SwitchViewItems.png" />
+    <Content Include="Images\Icons\Menu_Active.png" />
+    <Content Include="Images\Icons\Menu_Hover.png" />
+    <Content Include="Images\Icons\Navigation\Admin.png" />
+    <Content Include="Images\Icons\Navigation\Admin_Active.png" />
+    <Content Include="Images\Icons\Navigation\Assistance.png" />
+    <Content Include="Images\Icons\Navigation\Back.png" />
+    <Content Include="Images\Icons\Navigation\Collapse.png" />
+    <Content Include="Images\Icons\Navigation\Dashboards.png" />
+    <Content Include="Images\Icons\Navigation\Debug.png" />
+    <Content Include="Images\Icons\Navigation\Expand.png" />
+    <Content Include="Images\Icons\Navigation\Expand2.png" />
+    <Content Include="Images\Icons\Navigation\Home.png" />
+    <Content Include="Images\Icons\Navigation\Library.png" />
+    <Content Include="Images\Icons\Navigation\Log.png" />
+    <Content Include="Images\Icons\Navigation\Logout.png" />
+    <Content Include="Images\Icons\Navigation\Logout_Active.png" />
+    <Content Include="Images\Icons\Navigation\Production.png" />
+    <Content Include="Images\Icons\Navigation\Production_Active.png" />
+    <Content Include="Images\Icons\Navigation\Reporter.png" />
+    <Content Include="Images\Icons\Navigation\Reporter_Active.png" />
+    <Content Include="Images\Icons\Navigation\Services.png" />
+    <Content Include="Images\Icons\Navigation\Services_Active.png" />
+    <Content Include="Images\Icons\Navigation\Settings.png" />
+    <Content Include="Images\Icons\Navigation\Settings2.png" />
+    <Content Include="Images\Icons\Navigation\UserInfo.png" />
+    <Content Include="Images\Icons\Navigation\_Back.png" />
+    <Content Include="Images\Icons\OkCircle.png" />
+    <Content Include="Images\Icons\PasswordInvalid.png" />
+    <Content Include="Images\Icons\PasswordValid.png" />
+    <Content Include="Images\Icons\Pin.png" />
+    <Content Include="Images\Icons\RecentUsedItems\Dashboard.png" />
+    <Content Include="Images\Icons\RecentUsedItems\LinkBi.png" />
+    <Content Include="Images\Icons\RecentUsedItems\Report.png" />
+    <Content Include="Images\Icons\remove.PNG" />
+    <Content Include="Images\Icons\ReporterAddTab.png" />
+    <Content Include="Images\Icons\Right.png" />
+    <Content Include="Images\Icons\Search.png" />
+    <Content Include="Images\Icons\Search2.png" />
+    <Content Include="Images\Icons\Search_Hover.png" />
+    <Content Include="Images\Icons\SelectVariable.png" />
+    <Content Include="Images\Icons\SelectVariable_Hover.png" />
+    <Content Include="Images\Icons\Show.png" />
+    <Content Include="Images\Icons\SignOff.png" />
+    <Content Include="Images\Icons\SignOff_Hover.png" />
+    <Content Include="Images\Icons\Success.png" />
+    <Content Include="Images\Icons\Swiper.png" />
+    <Content Include="Images\Icons\Switch.png" />
+    <Content Include="Images\Icons\Switch_Hover.png" />
+    <Content Include="Images\Icons\ToolTipBottom.png" />
+    <Content Include="Images\Icons\ToolTipLeft.png" />
+    <Content Include="Images\Icons\ToolTipTop.png" />
+    <Content Include="Images\Icons\TreeViewNodeCollapse - Copy.png" />
+    <Content Include="Images\Icons\TreeViewNodeCollapse.png" />
+    <Content Include="Images\Icons\TreeViewNodeExpand - Copy.png" />
+    <Content Include="Images\Icons\TreeViewNodeExpand.png" />
+    <Content Include="Images\Icons\Undo.png" />
+    <Content Include="Images\Icons\VariableSelector\1.png" />
+    <Content Include="Images\Icons\VariableSelector\1_Hover.png" />
+    <Content Include="Images\Icons\VariableSelector\Categorize.png" />
+    <Content Include="Images\Icons\VariableSelector\CategoryDragHandle.png" />
+    <Content Include="Images\Icons\VariableSelector\CategoryDragHandle2.png" />
+    <Content Include="Images\Icons\VariableSelector\CategoryDragHandle2_Hover.png" />
+    <Content Include="Images\Icons\VariableSelector\CategoryDragHandle_Hover.png" />
+    <Content Include="Images\Icons\VariableSelector\Down.png" />
+    <Content Include="Images\Icons\VariableSelector\Multi.png" />
+    <Content Include="Images\Icons\VariableSelector\Multi_Hover.png" />
+    <Content Include="Images\Icons\VariableSelector\Numeric.png" />
+    <Content Include="Images\Icons\VariableSelector\Numeric_Hover.png" />
+    <Content Include="Images\Icons\VariableSelector\ScoreDragHandle.png" />
+    <Content Include="Images\Icons\VariableSelector\ScoreGroup.png" />
+    <Content Include="Images\Icons\VariableSelector\Single.png" />
+    <Content Include="Images\Icons\VariableSelector\Single_Hover.png" />
+    <Content Include="Images\Icons\VariableSelector\Text.png" />
+    <Content Include="Images\Icons\VariableSelector\Text_Hover.png" />
+    <Content Include="Images\Icons\VariableSelector\Up.png" />
+    <Content Include="Images\Icons\VariableSelector\VariableDragHandle.png" />
+    <Content Include="Images\Icons\VariableSelector\VariableSide.png" />
+    <Content Include="Images\Icons\VariableSelector\VariableTop.png" />
+    <Content Include="Images\Icons\VariableSide.png" />
+    <Content Include="Images\Icons\Warning.png" />
+    <Content Include="Images\Icons\Warning2.png" />
+    <Content Include="Images\Icons\Weighting.png" />
+    <Content Include="Images\Icons\Weighting_Active.png" />
+    <Content Include="Images\Icons\Weighting_Hover.png" />
+    <Content Include="Images\Icons\_Expand_Hover.png" />
+    <Content Include="Images\LinkBi\Interfaces\csv.png" />
+    <Content Include="Images\LinkBi\Interfaces\csv_Hover.png" />
+    <Content Include="Images\LinkBi\Interfaces\Excel.png" />
+    <Content Include="Images\LinkBi\Interfaces\Excel_Hover.png" />
+    <Content Include="Images\LinkBi\Interfaces\Xml.png" />
+    <Content Include="Images\LinkBi\Interfaces\Xml_hover.png" />
+    <Content Include="Images\LoginBackgrounds\Vault.jpg" />
+    <Content Include="Images\Logos\Blueocean.png" />
+    <Content Include="Images\Logos\Blueoceansmall.png" />
+    <Content Include="Images\Logos\Link festive.png" />
+    <Content Include="Images\Logos\Link-7.png" />
+    <Content Include="Images\Logos\Link.png" />
+    <Content Include="Images\Logos\Login.png" />
+    <Content Include="Images\Samples\ConnectPowerBI.png" />
+    <Content Include="Images\Samples\ConnectTABLE.png" />
+    <Content Include="Images\Samples\ConnectTableau.png" />
+    <Content Include="Images\Support\icons.png" />
+    <Content Include="Images\Support\pin.PNG" />
+    <Content Include="Images\Support\remove.PNG" />
+    <Content Include="Pages\Account\ChangeContact.aspx" />
+    <Content Include="Pages\Account\ChangePassword.aspx" />
+    <Content Include="Pages\Account\Home.aspx" />
+    <Content Include="Pages\AgencyManagementSystem\Overview.aspx" />
+    <Content Include="Pages\AgencyManagementSystem\Variables.aspx" />
+    <Content Include="Pages\Architect.aspx" />
+    <Content Include="Pages\Backup.aspx" />
+    <Content Include="Pages\ChartDev\ChartDevSite.aspx" />
+    <Content Include="Pages\ClientManager\AllocateRolePermission.aspx" />
+    <Content Include="Pages\ClientManager\ChartsDetails.aspx" />
+    <Content Include="Pages\ClientManager\ClientManagerHome.aspx" />
+    <Content Include="Pages\ClientManager\ClientSettings.aspx" />
+    <Content Include="Pages\ClientManager\CreateGroup.aspx" />
+    <Content Include="Pages\ClientManager\CreateUser.aspx" />
+    <Content Include="Pages\ClientManager\DashboardItems.aspx" />
+    <Content Include="Pages\ClientManager\HomeScreenManagement.aspx" />
+    <Content Include="Pages\ClientManager\ManageGroup.aspx" />
+    <Content Include="Pages\ClientManager\ManageNews.aspx" />
+    <Content Include="Pages\ClientManager\ManageUserGroupsHome.aspx" />
+    <Content Include="Pages\ClientManager\ManageUsers.aspx" />
+    <Content Include="Pages\ClientManager\ModifyUser.aspx" />
+    <Content Include="Pages\ClientManager\NewsDetails.aspx" />
+    <Content Include="Pages\ClientManager\UsersHome.aspx" />
+    <Content Include="Pages\ClientManager\Workgroups.aspx" />
+    <Content Include="Pages\CustomCharts\Builder.aspx" />
+    <Content Include="Pages\CustomCharts\ChartsHome.aspx" />
+    <Content Include="Pages\Dashboards.aspx" />
+    <Content Include="Pages\DataManagement\HierarchyFilter.aspx" />
+    <Content Include="Pages\DataManagement\Overview.aspx" />
+    <Content Include="Pages\Debug.aspx" />
+    <Content Include="Pages\Dummy.Master" />
+    <Content Include="Pages\ForgotPassword.aspx" />
+    <Content Include="Pages\LinkBi\LinkBi.aspx" />
+    <Content Include="Pages\LinkBi\SavedDefinitions.aspx" />
+    <Content Include="Pages\LinkBi\SelectInterface.aspx" />
+    <Content Include="Pages\LinkBi\Status.aspx" />
+    <Content Include="Pages\LinkCloud.aspx" />
+    <Content Include="Pages\LinkManager\AutoLinking.aspx" />
+    <Content Include="Pages\LinkManager\LinkingModule.aspx" />
+    <Content Include="Pages\LinkManager\LinkManager.aspx" />
+    <Content Include="Pages\LinkManager\ManualLinkManager.aspx" />
+    <Content Include="Pages\LinkManager\Test.aspx" />
+    <Content Include="Pages\LinkOverview.aspx" />
+    <Content Include="Pages\LinkReporter\ReportDefinitionError.aspx" />
+    <Content Include="Pages\LinkReporter\Studio.aspx" />
+    <Content Include="Pages\Logs\LoggedUsers.aspx" />
+    <Content Include="Pages\PasswordAssistance.aspx" />
+    <Content Include="Pages\ResetPassword.aspx" />
+    <Content Include="Pages\Services\Exports.aspx" />
+    <Content Include="Pages\Services\TableauConnector.aspx" />
+    <Content Include="Pages\TaxonomyManager\TaxonomyManager.aspx" />
+    <Content Include="Pages\TaxonomyManager\WorkflowDefinition.aspx" />
+    <Content Include="Scripts\Ajax.js" />
+    <Content Include="Scripts\BootStrap\bootstrap.min.js" />
+    <Content Include="Scripts\ChartExport\canvg.js" />
+    <Content Include="Scripts\ChartExport\FileSaver.js" />
+    <Content Include="Scripts\ChartExport\html2canvas.js" />
+    <Content Include="Scripts\ChartExport\jspdf.js" />
+    <Content Include="Scripts\ChartExport\rgbcolor.js" />
+    <Content Include="Scripts\Controls\Box.js" />
+    <Content Include="Scripts\Controls\Boxes.js" />
+    <Content Include="Scripts\Controls\CategorySearch.js" />
+    <Content Include="Scripts\Controls\Chart.js" />
+    <Content Include="Scripts\Controls\Chat.js" />
+    <Content Include="Scripts\Controls\ColorConverter.js" />
+    <Content Include="Scripts\Controls\colorpicker.js" />
+    <Content Include="Scripts\Controls\Dragable.js" />
+    <Content Include="Scripts\Controls\RightPanel.js" />
+    <Content Include="Scripts\Controls\UserValidation.js" />
+    <Content Include="Scripts\D3JS\d3.layout.cloud.js" />
+    <Content Include="Scripts\D3JS\d3.min.js" />
+    <Content Include="Scripts\D3JS\d3.tip.v0.6.3.js" />
+    <Content Include="Scripts\D3JS\html2canvas.min.js" />
+    <Content Include="Scripts\D3JS\vkbeautify.0.99.00.beta.js" />
+    <Content Include="Scripts\D3JS\wheelMenu.js" />
+    <Content Include="Scripts\DataTable\Ajax.js" />
+    <Content Include="Scripts\DataTable\d3.min.js" />
+    <Content Include="Scripts\DataTable\dataTables.fixedColumns.js" />
+    <Content Include="Scripts\DataTable\dataTables.tableTools.min.js" />
+    <Content Include="Scripts\DataTable\jquery-2.1.1.min.js" />
+    <Content Include="Scripts\DataTable\jquery.dataTables.min.js" />
+    <Content Include="Scripts\DataTable\jquery.sumoselect.min.js" />
+    <Content Include="Scripts\DataTable\UnderScore.js" />
+    <Content Include="Scripts\eye.js" />
+    <Content Include="Scripts\Includes\jquery-1.10.2.js" />
+    <Content Include="Scripts\Includes\select2.full.js" />
+    <Content Include="Scripts\jquery.sortable.js" />
+    <Content Include="Scripts\jquery.sortable.min.js" />
+    <Content Include="Scripts\JQuery\CodeMirror\Addons\merge\merge.css" />
+    <Content Include="Scripts\JQuery\CodeMirror\Addons\merge\merge.js" />
+    <Content Include="Scripts\JQuery\CodeMirror\autocomplete\anyword-hint.js" />
+    <Content Include="Scripts\JQuery\CodeMirror\autocomplete\show-hint.css" />
+    <Content Include="Scripts\JQuery\CodeMirror\autocomplete\show-hint.js" />
+    <Content Include="Scripts\JQuery\CodeMirror\autocomplete\variables-hint.js" />
+    <Content Include="Scripts\JQuery\CodeMirror\codemirror.css" />
+    <Content Include="Scripts\JQuery\CodeMirror\codemirror.js" />
+    <Content Include="Scripts\JQuery\CodeMirror\equation.js" />
+    <Content Include="Scripts\JQuery\CodeMirror\javascript.js" />
+    <Content Include="Scripts\JQuery\CodeMirror\mathematica.js" />
+    <Content Include="Scripts\JQuery\CodeMirror\sql.js" />
+    <Content Include="Scripts\JQuery\CodeMirror\vb.js" />
+    <Content Include="Scripts\JQuery\CodeMirror\xml.js" />
+    <Content Include="Scripts\Modules\Charting\ChartingBase.js" />
+    <Content Include="Scripts\Modules\Charting\Column.js" />
+    <Content Include="Scripts\Modules\Charting\Line.js" />
+    <Content Include="Scripts\Modules\Charting\MultiSeriesChart.js" />
+    <Content Include="Scripts\Modules\Comments.js" />
+    <Content Include="Scripts\Modules\EquationDefinition.js" />
+    <Content Include="Scripts\Modules\EquationWizard.js" />
+    <Content Include="Scripts\Modules\Filters.js" />
+    <Content Include="Scripts\HomePage.js" />
+    <Content Include="Scripts\Controls\JavascriptBox.js" />
+    <Content Include="Scripts\jquery-1.10.2.js" />
+    <Content Include="Scripts\jquery-ui.min.js" />
+    <Content Include="Scripts\jquery.dragsort.js" />
+    <Content Include="Scripts\jquery.js" />
+    <Content Include="Scripts\JQuery\AwesomeCloud\jquery.awesomeCloud-0.2.js" />
+    <Content Include="Scripts\JQuery\AwesomeCloud\jquery.awesomeCloud-0.2.min.js" />
+    <Content Include="Scripts\JQuery\jquery-1.7.2.js" />
+    <Content Include="Scripts\JQuery\jquery-1.8.1.min.js" />
+    <Content Include="Scripts\JQuery\jquery-ui-1.7.2.custom.min.js" />
+    <Content Include="Scripts\JQuery\jquery.foggy.min.js" />
+    <Content Include="Scripts\LanguageManager.js" />
+    <Content Include="Scripts\layout.js" />
+    <Content Include="Scripts\Modules\SavedReports.js" />
+    <Content Include="Scripts\Modules\SessionTimeout.js" />
+    <Content Include="Scripts\Modules\SpeechRecognition.js" />
+    <Content Include="Scripts\Modules\TableauConnector.js" />
+    <Content Include="Scripts\Modules\Voice.js" />
+    <Content Include="Scripts\PageResize.js" />
+    <Content Include="Scripts\Pages\LinkBi.js" />
+    <Content Include="Scripts\Menu.js" />
+    <Content Include="Scripts\Controls\Navigation.js" />
+    <Content Include="Scripts\Controls\NavigationMenu.js" />
+    <Content Include="Scripts\Controls\OptionSwipe.js" />
+    <Content Include="Scripts\Overview.js" />
+    <Content Include="Scripts\Controls\PopUp.js" />
+    <Content Include="Scripts\Controls\ProgressBar.js" />
+    <Content Include="Scripts\Modules\ReportDefinition.js" />
+    <Content Include="Scripts\Modules\ReportTabs.js" />
+    <Content Include="Scripts\Controls\SearchBox.js" />
+    <Content Include="Scripts\Modules\SignificanceTest.js" />
+    <Content Include="Scripts\Pages\LinkModule.js" />
+    <Content Include="Scripts\Pages\ManualLinkManager.js" />
+    <Content Include="Scripts\StudyTaxonomyStructure.js" />
+    <Content Include="Scripts\ProjectHierarchyManager.js" />
+    <Content Include="Scripts\Support\feedback.js" />
+    <Content Include="Scripts\Support\html2canvas.js" />
+    <Content Include="Scripts\Support\jquery-latest.js" />
+    <Content Include="Scripts\Support\jquery.js" />
+    <Content Include="Scripts\Support\Support.js" />
+    <Content Include="Scripts\TipGallery.js" />
+    <Content Include="Scripts\Controls\ToolTip.js" />
+    <Content Include="Scripts\Controls\TreeView.js" />
+    <Content Include="Scripts\utils.js" />
+    <Content Include="Scripts\Modules\VariableSearch.js" />
+    <Content Include="Scripts\Modules\VariableSelector.js" />
+    <Content Include="Scripts\_VariableSelection.js" />
+    <Content Include="Scripts\Modules\VariableSelection.js" />
+    <Content Include="Scripts\Modules\WeightingFilters.js" />
+    <Content Include="Scripts\Modules\Workflow.js" />
+    <Content Include="Stylesheets\BootStrap\bootstrap.min.css" />
+    <Content Include="Stylesheets\BootStrap\bootstrap.vertical-tabs.min.css" />
+    <Content Include="Stylesheets\BootStrap\dataTables.fixedColumns.css" />
+    <Content Include="Stylesheets\BootStrap\dataTables.tableTools.min.css" />
+    <Content Include="Stylesheets\BootStrap\jquery.dataTables.css" />
+    <Content Include="Stylesheets\BootStrap\spinners.css" />
+    <Content Include="Stylesheets\Controls\CategorySearch.css" />
+    <Content Include="Stylesheets\Controls\wheelStyles.css" />
+    <Content Include="Stylesheets\Modules\Charting\Column.css" />
+    <Content Include="Stylesheets\Modules\Charting\Line.css" />
+    <Content Include="Stylesheets\Modules\EquationDefinition.css" />
+    <Content Include="Stylesheets\Modules\EquationWizard.css" />
+    <Content Include="Stylesheets\Modules\SessionTimeout.css" />
+    <Content Include="Stylesheets\Modules\SpeechRecognition.css" />
+    <Content Include="Stylesheets\Pages\ClientManager.css" />
+    <Content Include="Stylesheets\Controls\Box.css" />
+    <Content Include="Stylesheets\Controls\Chat.css" />
+    <Content Include="Stylesheets\Controls\colorpicker.css" />
+    <Content Include="Stylesheets\ColorSchemeTemp.css" />
+    <Content Include="Stylesheets\Modules\Crosstables.css" />
+    <Content Include="Stylesheets\Modules\Filter.css" />
+    <Content Include="Stylesheets\Pages\Homescreen.css" />
+    <Content Include="Stylesheets\JQuery\jqueryui\ui-lightness\images\ui-bg_diagonals-thick_18_b81900_40x40.png" />
+    <Content Include="Stylesheets\JQuery\jqueryui\ui-lightness\images\ui-bg_diagonals-thick_20_666666_40x40.png" />
+    <Content Include="Stylesheets\JQuery\jqueryui\ui-lightness\images\ui-bg_flat_10_000000_40x100.png" />
+    <Content Include="Stylesheets\JQuery\jqueryui\ui-lightness\images\ui-bg_glass_100_f6f6f6_1x400.png" />
+    <Content Include="Stylesheets\JQuery\jqueryui\ui-lightness\images\ui-bg_glass_100_fdf5ce_1x400.png" />
+    <Content Include="Stylesheets\JQuery\jqueryui\ui-lightness\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="Stylesheets\JQuery\jqueryui\ui-lightness\images\ui-bg_gloss-wave_35_f6a828_500x100.png" />
+    <Content Include="Stylesheets\JQuery\jqueryui\ui-lightness\images\ui-bg_highlight-soft_100_eeeeee_1x100.png" />
+    <Content Include="Stylesheets\JQuery\jqueryui\ui-lightness\images\ui-bg_highlight-soft_75_ffe45c_1x100.png" />
+    <Content Include="Stylesheets\JQuery\jqueryui\ui-lightness\images\ui-icons_222222_256x240.png" />
+    <Content Include="Stylesheets\JQuery\jqueryui\ui-lightness\images\ui-icons_228ef1_256x240.png" />
+    <Content Include="Stylesheets\JQuery\jqueryui\ui-lightness\images\ui-icons_ef8c08_256x240.png" />
+    <Content Include="Stylesheets\JQuery\jqueryui\ui-lightness\images\ui-icons_ffd27a_256x240.png" />
+    <Content Include="Stylesheets\JQuery\jqueryui\ui-lightness\images\ui-icons_ffffff_256x240.png" />
+    <Content Include="Stylesheets\JQuery\jqueryui\ui-lightness\jquery-ui-1.7.2.custom.css" />
+    <Content Include="Stylesheets\layout.css" />
+    <Content Include="Stylesheets\Pages\LinkBi.css" />
+    <Content Include="Stylesheets\Pages\LinkCloud.css" />
+    <Content Include="Stylesheets\Controls\Loading.css" />
+    <Content Include="Stylesheets\Menu.css" />
+    <Content Include="Stylesheets\Controls\NavigationMenu.css" />
+    <Content Include="Stylesheets\Controls\OptionSwipe.css" />
+    <Content Include="Stylesheets\OverView.css" />
+    <Content Include="Stylesheets\Controls\PopUp.css" />
+    <Content Include="Stylesheets\Controls\ProgressBar.css" />
+    <Content Include="Stylesheets\Modules\ReportTabs.css" />
+    <Content Include="Stylesheets\Pages\LinkModule.css" />
+    <Content Include="Stylesheets\Pages\ManualLinkManager.css" />
+    <Content Include="Stylesheets\SegoeUI\segoepr.ttf" />
+    <Content Include="Stylesheets\SegoeUI\segoeprb.ttf" />
+    <Content Include="Stylesheets\SegoeUI\segoesc.ttf" />
+    <Content Include="Stylesheets\SegoeUI\segoescb.ttf" />
+    <Content Include="Stylesheets\SegoeUI\segoeui.ttf" />
+    <Content Include="Stylesheets\SegoeUI\segoeuib.ttf" />
+    <Content Include="Stylesheets\SegoeUI\segoeuii.ttf" />
+    <Content Include="Stylesheets\SegoeUI\segoeuil.ttf" />
+    <Content Include="Stylesheets\SegoeUI\segoeuisl.ttf" />
+    <Content Include="Stylesheets\SegoeUI\segoeuiz.ttf" />
+    <Content Include="Stylesheets\SegoeUI\seguisb.ttf" />
+    <Content Include="Stylesheets\SegoeUI\seguisym.ttf" />
+    <Content Include="Handlers\GlobalHandler.ashx" />
+    <Content Include="Handlers\LanguageManager.ashx" />
+    <Content Include="Handlers\HomePageHandler.ashx" />
+    <Content Include="Handlers\LinkBi.ashx" />
+    <Content Include="Handlers\ProjectHierarchyManager.ashx" />
+    <Content Include="Handlers\StudyTaxonomyStructure.ashx" />
+    <Content Include="Handlers\LinkBiExternal.ashx" />
+    <Content Include="Handlers\VariableSelector.ashx" />
+    <Content Include="Handlers\WebUtilitiesHandler.ashx" />
+    <Content Include="Handlers\HomeHandler.ashx" />
+    <Content Include="Handlers\LinkOverview.ashx" />
+    <Content Include="Handlers\WorkflowDefinitionHandler.ashx" />
+    <Content Include="Handlers\QAHandler.ashx" />
+    <Content Include="Handlers\ChartHandler.ashx" />
+    <Content Include="Handlers\CustomCharts.ashx" />
+    <Content Include="Handlers\LinkManagerHandler.ashx" />
+    <Content Include="Handlers\Support.ashx" />
+    <Content Include="Handlers\RSVGExport.ashx" />
+    <Content Include="Handlers\AutoLink.ashx" />
+    <Content Include="Handlers\Synch.ashx" />
+    <Content Include="Handlers\StudioV2.ashx" />
+    <Content Include="Handlers\EquationWizard.ashx" />
+    <Content Include="Handlers\UserValidationService.ashx" />
+    <Content Include="Handlers\Comments.ashx" />
+    <Content Include="Handlers\Dashboards.ashx" />
+    <Content Include="Handlers\Images.ashx" />
+    <Content Include="packages.config" />
+    <Content Include="Images\Icons\LinkReporterSettings\LinkReporterSettings.rar" />
+    <Content Include="Images\Icons\LinkReporterSettings\_LinkReporterSettings.rar" />
+    <None Include="Properties\PublishProfiles\Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\LinkWebApp.pubxml" />
+    <Content Include="Scripts\D3JS\download.pl" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Data\DataStorage\CreateResponsesPOSTGRE.sql" />
+    <Content Include="App_Data\DataStorage\ResponsesSchema.xml" />
+    <Content Include="App_Data\Languages\English.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_Data\Permissions\Global.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Default.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="Pages\Default.aspx" />
+    <Content Include="Pages\ErrorPage.aspx" />
+    <Content Include="Pages\LinkReporter\Crosstabs.aspx" />
+    <Content Include="Pages\Login.aspx" />
+    <Content Include="Scripts\Controls\Grid.js" />
+    <Content Include="Scripts\Controls\HoverBox.js" />
+    <Content Include="Scripts\Main.js" />
+    <Content Include="Stylesheets\Controls\Grid.css" />
+    <Content Include="Stylesheets\Controls\HoverBox.css" />
+    <Content Include="Stylesheets\Pages\Login.css" />
+    <Content Include="Stylesheets\Main.css" />
+    <Content Include="Stylesheets\Support\feedback.css" />
+    <Content Include="Stylesheets\TaxonomyVariableControlStyles.css" />
+    <Content Include="Stylesheets\Controls\ToolTip.css" />
+    <Content Include="Stylesheets\Controls\TreeView.css" />
+    <Content Include="Stylesheets\UserRole.css" />
+    <Content Include="Stylesheets\Modules\VariableSearch.css" />
+    <Content Include="Stylesheets\Modules\VariableSelector.css" />
+    <Content Include="Stylesheets\Modules\VariableSelector2.css" />
+    <Content Include="Stylesheets\Modules\Workflow.css" />
+    <Content Include="V4_Prototype\Scripts\Pages\Architect.js" />
+    <Content Include="V4_Prototype\Scripts\Pages\Studio.js" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes\Controls\ConnectPowerBI.ascx.cs">
+      <DependentUpon>ConnectPowerBI.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Classes\Controls\ConnectPowerBI.ascx.designer.cs">
+      <DependentUpon>ConnectPowerBI.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\Controls\EquationDefinition.ascx.cs">
+      <DependentUpon>EquationDefinition.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Classes\Controls\EquationDefinition.ascx.designer.cs">
+      <DependentUpon>EquationDefinition.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\Controls\HierarchyFilterDefinition.cs" />
+    <Compile Include="Classes\Controls\HierarchySelector.ascx.cs">
+      <DependentUpon>HierarchySelector.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Classes\Controls\HierarchySelector.ascx.designer.cs">
+      <DependentUpon>HierarchySelector.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\Controls\VariableSearch.ascx.cs">
+      <DependentUpon>VariableSearch.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Classes\Controls\VariableSearch.ascx.designer.cs">
+      <DependentUpon>VariableSearch.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\EquationWizard.cs" />
+    <Compile Include="Classes\ExportDefinition.cs" />
+    <Compile Include="Classes\HomeHelper.cs" />
+    <Compile Include="Classes\HomeManager.cs" />
+    <Compile Include="Classes\LinkOverviewHelper.cs" />
+    <Compile Include="Classes\MetadataExport.cs" />
+    <Compile Include="Classes\NewsManager.cs" />
+    <Compile Include="Classes\RecentUsed.cs" />
+    <Compile Include="Classes\SessionSynch.cs" />
+    <Compile Include="Classes\SupportClass.cs" />
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Handlers\AutoLink.ashx.cs">
+      <DependentUpon>AutoLink.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Handlers\ChartHandler.ashx.cs">
+      <DependentUpon>ChartHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Handlers\Comments.ashx.cs">
+      <DependentUpon>Comments.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Handlers\CustomCharts.ashx.cs">
+      <DependentUpon>CustomCharts.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Handlers\Dashboards.ashx.cs">
+      <DependentUpon>Dashboards.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Handlers\EquationWizard.ashx.cs">
+      <DependentUpon>EquationWizard.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Handlers\GlobalHandler.ashx.cs">
+      <DependentUpon>GlobalHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Handlers\HomeHandler.ashx.cs">
+      <DependentUpon>HomeHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Handlers\HomePageHandler.ashx.cs">
+      <DependentUpon>HomePageHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Handlers\Images.ashx.cs">
+      <DependentUpon>Images.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Handlers\LanguageManager.ashx.cs">
+      <DependentUpon>LanguageManager.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Handlers\LinkBi.ashx.cs">
+      <DependentUpon>LinkBi.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Handlers\LinkBiExternal.ashx.cs">
+      <DependentUpon>LinkBiExternal.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Handlers\LinkManagerHandler.ashx.cs">
+      <DependentUpon>LinkManagerHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Handlers\LinkOverview.ashx.cs">
+      <DependentUpon>LinkOverview.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Handlers\QAHandler.ashx.cs">
+      <DependentUpon>QAHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Handlers\RSVGExport.ashx.cs">
+      <DependentUpon>RSVGExport.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Handlers\StudioV2.ashx.cs">
+      <DependentUpon>StudioV2.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Handlers\StudyTaxonomyStructure.ashx.cs">
+      <DependentUpon>StudyTaxonomyStructure.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Handlers\ProjectHierarchyManager.ashx.cs">
+      <DependentUpon>ProjectHierarchyManager.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Handlers\Support.ashx.cs">
+      <DependentUpon>Support.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Handlers\Synch.ashx.cs">
+      <DependentUpon>Synch.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Handlers\UserValidationService.ashx.cs">
+      <DependentUpon>UserValidationService.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Handlers\VariableSelector.ashx.cs">
+      <DependentUpon>VariableSelector.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Handlers\WebUtilitiesHandler.ashx.cs">
+      <DependentUpon>WebUtilitiesHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Handlers\WorkflowDefinitionHandler.ashx.cs">
+      <DependentUpon>WorkflowDefinitionHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Account\ChangeContact.aspx.cs">
+      <DependentUpon>ChangeContact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Account\ChangeContact.aspx.designer.cs">
+      <DependentUpon>ChangeContact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Account\ChangePassword.aspx.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Account\ChangePassword.aspx.designer.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Account\Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Account\Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\AgencyManagementSystem\Overview.aspx.cs">
+      <DependentUpon>Overview.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\AgencyManagementSystem\Overview.aspx.designer.cs">
+      <DependentUpon>Overview.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\AgencyManagementSystem\Variables.aspx.cs">
+      <DependentUpon>Variables.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\AgencyManagementSystem\Variables.aspx.designer.cs">
+      <DependentUpon>Variables.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Architect.aspx.cs">
+      <DependentUpon>Architect.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Architect.aspx.designer.cs">
+      <DependentUpon>Architect.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Backup.aspx.cs">
+      <DependentUpon>Backup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Backup.aspx.designer.cs">
+      <DependentUpon>Backup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\ChartDev\ChartDevSite.aspx.cs">
+      <DependentUpon>ChartDevSite.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\ChartDev\ChartDevSite.aspx.designer.cs">
+      <DependentUpon>ChartDevSite.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\ClientManager\AllocateRolePermission.aspx.cs">
+      <DependentUpon>AllocateRolePermission.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\ClientManager\AllocateRolePermission.aspx.designer.cs">
+      <DependentUpon>AllocateRolePermission.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\ClientManager\ChartsDetails.aspx.cs">
+      <DependentUpon>ChartsDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\ClientManager\ChartsDetails.aspx.designer.cs">
+      <DependentUpon>ChartsDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\ClientManager\ClientManagerHome.aspx.cs">
+      <DependentUpon>ClientManagerHome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\ClientManager\ClientManagerHome.aspx.designer.cs">
+      <DependentUpon>ClientManagerHome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\ClientManager\ClientSettings.aspx.cs">
+      <DependentUpon>ClientSettings.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\ClientManager\ClientSettings.aspx.designer.cs">
+      <DependentUpon>ClientSettings.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\ClientManager\CreateGroup.aspx.cs">
+      <DependentUpon>CreateGroup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\ClientManager\CreateGroup.aspx.designer.cs">
+      <DependentUpon>CreateGroup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\ClientManager\CreateUser.aspx.cs">
+      <DependentUpon>CreateUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\ClientManager\CreateUser.aspx.designer.cs">
+      <DependentUpon>CreateUser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\ClientManager\DashboardItems.aspx.cs">
+      <DependentUpon>DashboardItems.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\ClientManager\DashboardItems.aspx.designer.cs">
+      <DependentUpon>DashboardItems.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\ClientManager\HomeScreenManagement.aspx.cs">
+      <DependentUpon>HomeScreenManagement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\ClientManager\HomeScreenManagement.aspx.designer.cs">
+      <DependentUpon>HomeScreenManagement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\ClientManager\ManageGroup.aspx.cs">
+      <DependentUpon>ManageGroup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\ClientManager\ManageGroup.aspx.designer.cs">
+      <DependentUpon>ManageGroup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\ClientManager\ManageNews.aspx.cs">
+      <DependentUpon>ManageNews.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\ClientManager\ManageNews.aspx.designer.cs">
+      <DependentUpon>ManageNews.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\ClientManager\ManageUserGroupsHome.aspx.cs">
+      <DependentUpon>ManageUserGroupsHome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\ClientManager\ManageUserGroupsHome.aspx.designer.cs">
+      <DependentUpon>ManageUserGroupsHome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\ClientManager\ManageUsers.aspx.cs">
+      <DependentUpon>ManageUsers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\ClientManager\ManageUsers.aspx.designer.cs">
+      <DependentUpon>ManageUsers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\ClientManager\ModifyUser.aspx.cs">
+      <DependentUpon>ModifyUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\ClientManager\ModifyUser.aspx.designer.cs">
+      <DependentUpon>ModifyUser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\ClientManager\NewsDetails.aspx.cs">
+      <DependentUpon>NewsDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\ClientManager\NewsDetails.aspx.designer.cs">
+      <DependentUpon>NewsDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\ClientManager\UsersHome.aspx.cs">
+      <DependentUpon>UsersHome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\ClientManager\UsersHome.aspx.designer.cs">
+      <DependentUpon>UsersHome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\ClientManager\Workgroups.aspx.cs">
+      <DependentUpon>Workgroups.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\ClientManager\Workgroups.aspx.designer.cs">
+      <DependentUpon>Workgroups.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\CustomCharts\Builder.aspx.cs">
+      <DependentUpon>Builder.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\CustomCharts\Builder.aspx.designer.cs">
+      <DependentUpon>Builder.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\CustomCharts\ChartsHome.aspx.cs">
+      <DependentUpon>ChartsHome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\CustomCharts\ChartsHome.aspx.designer.cs">
+      <DependentUpon>ChartsHome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Dashboards.aspx.cs">
+      <DependentUpon>Dashboards.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Dashboards.aspx.designer.cs">
+      <DependentUpon>Dashboards.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\DataManagement\HierarchyFilter.aspx.cs">
+      <DependentUpon>HierarchyFilter.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\DataManagement\HierarchyFilter.aspx.designer.cs">
+      <DependentUpon>HierarchyFilter.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\DataManagement\Overview.aspx.cs">
+      <DependentUpon>Overview.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\DataManagement\Overview.aspx.designer.cs">
+      <DependentUpon>Overview.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Debug.aspx.cs">
+      <DependentUpon>Debug.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Debug.aspx.designer.cs">
+      <DependentUpon>Debug.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Dummy.Master.cs">
+      <DependentUpon>Dummy.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Dummy.Master.designer.cs">
+      <DependentUpon>Dummy.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\ErrorPage.aspx.cs">
+      <DependentUpon>ErrorPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\ErrorPage.aspx.designer.cs">
+      <DependentUpon>ErrorPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\ForgotPassword.aspx.cs">
+      <DependentUpon>ForgotPassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\ForgotPassword.aspx.designer.cs">
+      <DependentUpon>ForgotPassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\LinkBi\LinkBi.aspx.cs">
+      <DependentUpon>LinkBi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\LinkBi\LinkBi.aspx.designer.cs">
+      <DependentUpon>LinkBi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\LinkBi\SavedDefinitions.aspx.cs">
+      <DependentUpon>SavedDefinitions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\LinkBi\SavedDefinitions.aspx.designer.cs">
+      <DependentUpon>SavedDefinitions.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\LinkBi\SelectInterface.aspx.cs">
+      <DependentUpon>SelectInterface.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\LinkBi\SelectInterface.aspx.designer.cs">
+      <DependentUpon>SelectInterface.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\LinkBi\Status.aspx.cs">
+      <DependentUpon>Status.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\LinkBi\Status.aspx.designer.cs">
+      <DependentUpon>Status.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\LinkCloud.aspx.cs">
+      <DependentUpon>LinkCloud.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\LinkCloud.aspx.designer.cs">
+      <DependentUpon>LinkCloud.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\LinkManager\AutoLinking.aspx.cs">
+      <DependentUpon>AutoLinking.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\LinkManager\AutoLinking.aspx.designer.cs">
+      <DependentUpon>AutoLinking.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\LinkManager\LinkingModule.aspx.cs">
+      <DependentUpon>LinkingModule.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\LinkManager\LinkingModule.aspx.designer.cs">
+      <DependentUpon>LinkingModule.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\LinkManager\LinkManager.aspx.cs">
+      <DependentUpon>LinkManager.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\LinkManager\LinkManager.aspx.designer.cs">
+      <DependentUpon>LinkManager.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\LinkManager\ManualLinkManager.aspx.cs">
+      <DependentUpon>ManualLinkManager.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\LinkManager\ManualLinkManager.aspx.designer.cs">
+      <DependentUpon>ManualLinkManager.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\LinkManager\Test.aspx.cs">
+      <DependentUpon>Test.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\LinkManager\Test.aspx.designer.cs">
+      <DependentUpon>Test.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\LinkOverview.aspx.cs">
+      <DependentUpon>LinkOverview.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\LinkOverview.aspx.designer.cs">
+      <DependentUpon>LinkOverview.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\LinkReporter\Crosstabs.aspx.cs">
+      <DependentUpon>Crosstabs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\LinkReporter\Crosstabs.aspx.designer.cs">
+      <DependentUpon>Crosstabs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\LinkReporter\ReportDefinitionError.aspx.cs">
+      <DependentUpon>ReportDefinitionError.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\LinkReporter\ReportDefinitionError.aspx.designer.cs">
+      <DependentUpon>ReportDefinitionError.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\LinkReporter\Studio.aspx.cs">
+      <DependentUpon>Studio.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\LinkReporter\Studio.aspx.designer.cs">
+      <DependentUpon>Studio.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Logs\LoggedUsers.aspx.cs">
+      <DependentUpon>LoggedUsers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Logs\LoggedUsers.aspx.designer.cs">
+      <DependentUpon>LoggedUsers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\PasswordAssistance.aspx.cs">
+      <DependentUpon>PasswordAssistance.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\PasswordAssistance.aspx.designer.cs">
+      <DependentUpon>PasswordAssistance.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\ResetPassword.aspx.cs">
+      <DependentUpon>ResetPassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\ResetPassword.aspx.designer.cs">
+      <DependentUpon>ResetPassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Services\Exports.aspx.cs">
+      <DependentUpon>Exports.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Services\Exports.aspx.designer.cs">
+      <DependentUpon>Exports.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Services\TableauConnector.aspx.cs">
+      <DependentUpon>TableauConnector.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Services\TableauConnector.aspx.designer.cs">
+      <DependentUpon>TableauConnector.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\TaxonomyManager\TaxonomyManager.aspx.cs">
+      <DependentUpon>TaxonomyManager.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\TaxonomyManager\TaxonomyManager.aspx.designer.cs">
+      <DependentUpon>TaxonomyManager.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\TaxonomyManager\WorkflowDefinition.aspx.cs">
+      <DependentUpon>WorkflowDefinition.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\TaxonomyManager\WorkflowDefinition.aspx.designer.cs">
+      <DependentUpon>WorkflowDefinition.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Images\Icons\Navigation\Admin\" />
+    <Folder Include="Images\Icons\Navigation\Production\" />
+    <Folder Include="Images\Icons\Navigation\Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Components\API\API.csproj">
+      <Project>{bd5de4e4-0298-4626-862a-9492d427a5fd}</Project>
+      <Name>API</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Components\ApplicationUtilities\ApplicationUtilities.csproj">
+      <Project>{2f85d9a6-33bf-4401-b2b2-635a7c78918d}</Project>
+      <Name>ApplicationUtilities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Components\ClientBackup\ClientBackup\ClientBackup.csproj">
+      <Project>{d9a64c90-46e4-4b8c-bee7-22b704539a73}</Project>
+      <Name>ClientBackup</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Components\Crosstable\Crosstable\Crosstables.csproj">
+      <Project>{a05220b0-b1db-49fb-84e6-b98a7a78339b}</Project>
+      <Name>Crosstables</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Components\DataAnalyser\DataAnalyser\DataAnalyser.csproj">
+      <Project>{69b77a01-7381-40ab-ad3f-95d9f3d53271}</Project>
+      <Name>DataAnalyser</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Components\DataInterface\DataInterface\DataInterface.csproj">
+      <Project>{e85266f2-299a-4d95-9e4a-ae3dddab40fc}</Project>
+      <Name>DataInterface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Components\Homescreen\Homescreen\Homescreen.csproj">
+      <Project>{468e0579-0035-47c9-b9a0-ebe046108cf0}</Project>
+      <Name>Homescreen</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Components\LinkBi\LinkBi.csproj">
+      <Project>{e6e901cc-f409-4df6-a6cd-0877fed4e489}</Project>
+      <Name>LinkBi</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Components\MasterPage\MasterPage\MasterPage.csproj">
+      <Project>{d044e899-82f5-4a98-ac43-8ff3daecde3a}</Project>
+      <Name>MasterPage</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Components\VariableSelector\VariableSelector\VariableSelector.csproj">
+      <Project>{94accce9-c9b8-4634-9660-8eef195231a3}</Project>
+      <Name>VariableSelector</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Components\WebUtilities\WebUtilities.csproj">
+      <Project>{852825b2-b334-439e-8d4b-44b97c5e9de5}</Project>
+      <Name>WebUtilities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Cores\DatabaseCore\DatabaseCore.csproj">
+      <Project>{d17e9d03-d024-4420-837f-a0a869c1c6a5}</Project>
+      <Name>DatabaseCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Cores\DataCore\DataCore\DataCore.csproj">
+      <Project>{4aa32feb-9fd7-4900-b752-35819860f9fd}</Project>
+      <Name>DataCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Dashboard\DashboardCore\DashboardCore\DashboardCore.csproj">
+      <Project>{4cf4713c-d117-4ca8-986e-7d3dddf8845c}</Project>
+      <Name>DashboardCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Tools\EquationInclude\EquationInclude.csproj">
+      <Project>{d8d34899-928a-4c02-8546-9ac43ed89fbd}</Project>
+      <Name>EquationInclude</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">15.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v15.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>54580</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:54580/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+    </PropertyGroup>
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,5 @@
+CountryName,CapitalName,CapitalLatitude,CapitalLongitude,City,IP,ServerName,Status,OnOff
+United States,Washington,47.62062073,-122.3109589,Seattle,216.176.177.26,US Server,strong,on
+Germany,Bayern,48.13742828,11.57549,Munich,193.164.131.143,EU Server,poor,on
+France,Paris,-15.78333333,-47.916667,Europe,315.112.62.183,Switch ,strong,on
+Portugal,Lisbon,38.71666667,-9.133333,Europe,415.112.62.183,User,strong,on

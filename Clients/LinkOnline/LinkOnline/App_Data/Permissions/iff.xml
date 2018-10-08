@@ -1,0 +1,23 @@
+﻿<Permissions>
+  <Products>
+    <Product Name="LinkOnline">
+      <Sections>
+        <Section Id="11" Name="Comments"></Section>
+      </Sections>
+      <Permissions>
+        <Permission Id="1110" Name="CommentSection_Set_DriversOfLiking_OlfactiveUK" Section="11"></Permission>
+        <Permission Id="1111" Name="CommentSection_Set_DriversOfLiking_OlfactiveTurkey" Section="11"></Permission>
+        <Permission Id="1112" Name="CommentSection_Set_DriversOfLiking_OlfactiveSouthAfrica" Section="11"></Permission>
+        <Permission Id="1113" Name="CommentSection_Set_DriversOfLiking_OlfactiveBrazil" Section="11"></Permission>
+        <Permission Id="1114" Name="CommentSection_Set_DriversOfLiking_OlfactiveThailand" Section="11"></Permission>
+        <Permission Id="1115" Name="CommentSection_Set_DriversOfLiking_OlfactiveNigeria" Section="11"></Permission>
+        <Permission Id="1116" Name="CommentSection_Set_DriversOfLiking_OlfactiveVietnam" Section="11"></Permission>
+        <Permission Id="1117" Name="CommentSection_Set_DriversOfLiking_OlfactiveIndonesia" Section="11"></Permission>
+        <Permission Id="1118" Name="CommentSection_Set_DriversOfLiking_OlfactiveChina" Section="11"></Permission>
+        <Permission Id="1119" Name="CommentSection_Set_DriversOfLiking_OlfactiveIndia" Section="11"></Permission>
+      </Permissions>
+      <Pages>
+      </Pages>
+    </Product>
+  </Products>
+</Permissions>

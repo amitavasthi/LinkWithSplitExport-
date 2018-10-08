@@ -1,0 +1,63 @@
+﻿/* #### Content box #### */
+
+.ContentBox {
+    background-color:#FFFFFF;
+    box-shadow: 0px 0px 5px 0px #000000;
+    display:inline-block;
+    border-radius: 2px;
+    margin:20px;
+}
+
+.ContentBoxHeadline {
+    color:#444444;
+    font-weight:bold;
+    font-size: 10pt;
+    padding:5px 20px 5px 20px;
+    text-align:center;
+    box-shadow: 0px 0px 5px 0px #000000;
+}
+
+.ContentBoxContent {
+    padding:20px;
+    font-size: 10pt;
+}
+
+/* #### Table #### */
+
+.DataTable {
+    border-collapse:collapse;
+}
+
+.DataTable td {
+    border:1px solid #444444;
+    padding:10px;
+}
+
+.DataTable tr:hover td {
+    background:#E6E6E6;
+}
+
+.DataTable .TableCellHeader:first-child {
+    border-left:1px solid #444444 !important;
+}
+.DataTable .TableCellHeader:last-child {
+    border-right:1px solid #444444 !important;
+}
+
+.TableCellHeader {
+    color:#FFFFFF;
+    padding:10px;
+    border:1px solid #FFFFFF !important;
+    border-top:1px solid #444444 !important;
+    border-bottom:1px solid #444444 !important;
+}
+
+.TableCellTitle {
+    font-weight:bold;
+    padding:5px;
+}
+
+.TableCellValue {
+    color:#666666;
+    padding:5px;
+}

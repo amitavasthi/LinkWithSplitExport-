@@ -1,0 +1,14 @@
+﻿.HierarchySelectorItem_Spacer {
+    height: 100%;
+    margin:0px;
+}
+
+.HierarchySelectorItem {
+    height: 100px;
+    overflow: hidden;
+}
+
+.HierarchySelector {
+    font-size: 12pt;
+    font-family: SegoeUI;
+}

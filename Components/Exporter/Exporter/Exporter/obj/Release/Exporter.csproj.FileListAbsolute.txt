@@ -1,0 +1,19 @@
+C:\Projects\Cognicient\LinkManager\LinkManager\Components\Exporter\Exporter\Exporter\bin\Release\LiNK Excel Export.dll
+C:\Projects\Cognicient\LinkManager\LinkManager\Components\Exporter\Exporter\Exporter\bin\Release\LiNK Excel Export.pdb
+C:\Projects\Cognicient\LinkManager\LinkManager\Components\Exporter\Exporter\Exporter\bin\Release\ApplicationUtilities.dll
+C:\Projects\Cognicient\LinkManager\LinkManager\Components\Exporter\Exporter\Exporter\bin\Release\Crosstables.dll
+C:\Projects\Cognicient\LinkManager\LinkManager\Components\Exporter\Exporter\Exporter\bin\Release\SpreadsheetGear2012.Core.dll
+C:\Projects\Cognicient\LinkManager\LinkManager\Components\Exporter\Exporter\Exporter\bin\Release\WebUtilities.dll
+C:\Projects\Cognicient\LinkManager\LinkManager\Components\Exporter\Exporter\Exporter\bin\Release\DatabaseCore.dll
+C:\Projects\Cognicient\LinkManager\LinkManager\Components\Exporter\Exporter\Exporter\bin\Release\DataCore.dll
+C:\Projects\Cognicient\LinkManager\LinkManager\Components\Exporter\Exporter\Exporter\bin\Release\PermissionCore.dll
+C:\Projects\Cognicient\LinkManager\LinkManager\Components\Exporter\Exporter\Exporter\bin\Release\ApplicationUtilities.pdb
+C:\Projects\Cognicient\LinkManager\LinkManager\Components\Exporter\Exporter\Exporter\bin\Release\Crosstables.pdb
+C:\Projects\Cognicient\LinkManager\LinkManager\Components\Exporter\Exporter\Exporter\bin\Release\SpreadsheetGear2012.Core.xml
+C:\Projects\Cognicient\LinkManager\LinkManager\Components\Exporter\Exporter\Exporter\bin\Release\WebUtilities.pdb
+C:\Projects\Cognicient\LinkManager\LinkManager\Components\Exporter\Exporter\Exporter\bin\Release\DatabaseCore.pdb
+C:\Projects\Cognicient\LinkManager\LinkManager\Components\Exporter\Exporter\Exporter\bin\Release\DataCore.pdb
+C:\Projects\Cognicient\LinkManager\LinkManager\Components\Exporter\Exporter\Exporter\bin\Release\PermissionCore.pdb
+C:\Projects\Cognicient\LinkManager\LinkManager\Components\Exporter\Exporter\Exporter\obj\Release\Exporter.csprojResolveAssemblyReference.cache
+C:\Projects\Cognicient\LinkManager\LinkManager\Components\Exporter\Exporter\Exporter\obj\Release\LiNK Excel Export.dll
+C:\Projects\Cognicient\LinkManager\LinkManager\Components\Exporter\Exporter\Exporter\obj\Release\LiNK Excel Export.pdb

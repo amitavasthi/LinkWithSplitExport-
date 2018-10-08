@@ -1,0 +1,6 @@
+<Servers>
+  <Server IP="216.176.177.26" Description="US - West" Role="Primary" Countries="*" State="Online"></Server>
+  <Server IP="193.164.131.143" Description="EU - West" Role="Primary" Countries="*" State="Offline"></Server>
+  <Server IP="115.112.62.173" Description="Alpha (India)" Role="Primary" Countries="*" State="Offline"></Server>
+  <Server IP="178.26.118.178" Description="Konstantin Development" Role="Primary" Countries="*" State="Offline"></Server>
+</Servers>

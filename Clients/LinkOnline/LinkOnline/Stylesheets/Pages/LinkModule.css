@@ -1,0 +1,194 @@
+﻿.labelPadding {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.TaxonomyChapterTitle {
+    border-top: 1px solid #FFFFFF;
+    background: #444444;
+    cursor: pointer;
+}
+
+.TaxonomyChapterTitleLabel {
+    padding: 1em;
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 16pt;
+}
+
+.TaxonomyChapterVariables {
+    overflow: hidden;
+}
+
+.TreeViewNodeLabel {
+    cursor: pointer;
+}
+
+.LabelHierarchyPath {
+    font-size: 18pt;
+}
+
+.hidden {
+    display: none;
+}
+
+.divtaxonomyvariable {
+    padding-left: 20px;
+    padding-top: 30px;
+}
+
+.taxonomyVariableLabel {
+    background-color: grey;
+    color: white;
+}
+
+td {
+    margin: 20px;
+    padding: 8px;
+}
+
+#pnlVariableSelect {
+    height: 330px;
+    overflow-y: scroll;
+}
+
+.modal-content {
+    width: 765px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+#taxonomyvariable {
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-family: 'SegoeUILight';
+}
+
+.taxonomyVariableLabel {
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-family: 'SegoeUILight' !important;
+}
+
+.categories {
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-family: 'SegoeUILight' !important;
+}
+
+#taxonomyvariable td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+
+.preferedLink {
+    background-color: #05E9FF;
+    color: #FFFFFF;
+    margin-bottom: 7px;
+}
+
+.notlinked {
+    background-color: #ff0000;
+    color: #FFFFFF;
+    margin-bottom: 7px;
+}
+
+.manualLink {
+    background-color: #61CF71; /*green*/
+    color: #FFFFFF;
+    margin-bottom: 7px;
+}
+
+.notesLink {
+    background-color: #b8860b;
+    color: #FFFFFF;
+    margin-bottom: 7px;
+}
+
+.txtNotes {
+    background-color: #FFFFFF;
+    margin-bottom: 7px;
+}
+
+.preferedLink, .notlinked, .manualLink, .notesLink {
+    height: 30px;
+    padding: 10px;
+    padding-bottom: 30px;
+}
+
+input[type=button], input[type=submit] {
+    color: #FFFFFF;
+    border: 1px solid #41719C;
+    margin: 3px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: SegoeUILight !important;
+}
+
+    input[type=button], input[type=submit]:hover {
+        border: 1px solid #FCB040;
+    }
+
+#AddStudy {
+    cursor: pointer;
+}
+
+#AddSymbol {
+    cursor: pointer;
+}
+
+.VariableSearchResults {
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    overflow-y: scroll;
+}
+
+.BackgroundColorLinked {
+    background-color: #61CF71; /*#82B541;*/
+}
+
+.addNotes {
+    /*height: 20px;*/
+    display: inline-block;
+    position: relative;
+    /*padding-bottom: 30px;*/
+}
+
+.closeButton {
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+    background-image: url('/Images/Icons/CancelCircle.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 20px;
+    height: 20px;
+}
+
+textarea {
+    width: 100%;
+    box-sizing: border-box; /* For IE and modern versions of Chrome */
+    -moz-box-sizing: border-box; /* For Firefox                          */
+    -webkit-box-sizing: border-box;
+}
+
+.acceptButton {
+    position: absolute;
+    bottom: 0px;
+    right: 10px;
+    background-image: url('/Images/Icons/OkCircle.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 20px;
+    height: 20px;
+}
+
+.variableHide {
+}
+
+

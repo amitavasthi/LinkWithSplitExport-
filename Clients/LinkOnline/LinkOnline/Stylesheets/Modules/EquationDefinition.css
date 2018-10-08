@@ -1,0 +1,72 @@
+﻿.EquationDefinitionOperator{
+    color:#0094ff;
+}
+
+#boxEquationDefinition .Box {
+    z-index:10003;
+}
+
+#boxEquationDefinition .BoxBackground {
+    z-index:10002;
+}
+
+#boxEquationDefinitionCategorySearch .Box {
+    z-index:10005;
+}
+
+#boxEquationDefinitionCategorySearch .BoxBackground {
+    z-index:10003;
+}
+
+#boxEquationInsertMethod .Box {
+    z-index:10005;
+}
+
+#boxEquationInsertMethod .BoxBackground {
+    z-index:10003;
+}
+
+#_boxEquationErrors .BoxBackground {
+    z-index:10006;
+}
+
+.EquationErrors {
+    z-index:10007;
+    top:50%;
+}
+
+.EquationErrorsSuccess div {
+    background:#61CF71;
+    color:#FFFFFF;
+}
+
+.EquationErrorsFailed div {
+    background:#FF0000;
+    color:#FFFFFF;
+}
+
+
+.EquationToolBar {
+    width:100%;
+    display:inline-block;
+}
+
+.EquationToolBarItem {
+    background:#444444;
+    padding:5px;
+    float:left;
+    cursor:pointer;
+    border-right:1px solid #FFFFFF;
+}
+
+
+
+.EquationMethod {
+    width:100%;
+}
+
+.TableCellEquationMethodDescription {
+    width:100%;
+    color:#aaaaaa;
+    font-style:italic;
+}

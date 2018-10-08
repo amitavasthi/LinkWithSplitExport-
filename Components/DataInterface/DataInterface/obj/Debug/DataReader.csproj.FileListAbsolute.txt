@@ -1,0 +1,13 @@
+C:\Projects\Cognicient\LinkManager\LinkManager\Components\DataReader\DataReader\bin\Debug\DataReader.dll
+C:\Projects\Cognicient\LinkManager\LinkManager\Components\DataReader\DataReader\bin\Debug\DataReader.pdb
+C:\Projects\Cognicient\LinkManager\LinkManager\Components\DataReader\DataReader\bin\Debug\DatabaseCore.dll
+C:\Projects\Cognicient\LinkManager\LinkManager\Components\DataReader\DataReader\bin\Debug\DatabaseCore.pdb
+C:\Projects\Cognicient\LinkManager\LinkManager\Components\DataReader\DataReader\obj\Debug\DataReader.csprojResolveAssemblyReference.cache
+C:\Projects\Cognicient\LinkManager\LinkManager\Components\DataReader\DataReader\obj\Debug\Interop.MDMLib.dll
+C:\Projects\Cognicient\LinkManager\LinkManager\Components\DataReader\DataReader\obj\Debug\Interop.MRLIBVERLib.dll
+C:\Projects\Cognicient\LinkManager\LinkManager\Components\DataReader\DataReader\obj\Debug\DataReader.csproj.ResolveComReference.cache
+C:\Projects\Cognicient\LinkManager\LinkManager\Components\DataReader\DataReader\obj\Debug\DataReader.dll
+C:\Projects\Cognicient\LinkManager\LinkManager\Components\DataReader\DataReader\obj\Debug\DataReader.pdb
+C:\Projects\Cognicient\LinkManager\LinkManager\Components\DataReader\DataReader\obj\Debug\Interop.MRDSCReg.dll
+C:\Projects\Cognicient\LinkManager\LinkManager\Components\DataReader\DataReader\bin\Debug\Spss.dll
+C:\Projects\Cognicient\LinkManager\LinkManager\Components\DataReader\DataReader\bin\Debug\Spss.xml

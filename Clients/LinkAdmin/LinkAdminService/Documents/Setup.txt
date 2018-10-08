@@ -1,0 +1,2 @@
+Give access of app pool user to directory:
+C:\Windows\System32\inetsrv\config

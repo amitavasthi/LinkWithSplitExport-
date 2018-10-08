@@ -1,0 +1,42 @@
+﻿<HierarchySelector>
+  <Stylesheet>
+    <![CDATA[
+  .HierarchySelectorItem img {
+    height:50px;
+  }
+  
+  .HierarchySelectorItem {
+  text-align:center;
+  min-width:80px;
+  }
+  .HierarchySelectorItem_Spacer {
+  display:inline-block;
+  }
+  ]]></Stylesheet>
+  <Section Name="Study">
+    <Hierarchy Id="01000000-0000-0000-0000-000000000000">
+      <table style="height:170px;font-size:16pt;">
+        <tr>
+          <td>
+            <img src="/Fileadmin/ClientImages/MSI/HierarchySelector/Q1_2015.png" SrcActive="/Fileadmin/ClientImages/MSI/HierarchySelector/Q1_2015_Active.png"></img>
+          </td>
+          <td>
+            Quarter 1 2015
+          </td>
+        </tr>
+      </table>
+    </Hierarchy>
+    <Hierarchy Id="02000000-0000-0000-0000-000000000000">
+      <table style="height:170px;font-size:16pt;">
+        <tr>
+          <td>
+            <img src="/Fileadmin/ClientImages/MSI/HierarchySelector/BO.png" SrcActive="/Fileadmin/ClientImages/MSI/HierarchySelector/BO_Active.png"></img>
+          </td>
+          <td>
+            BO test data
+          </td>
+        </tr>
+      </table>
+    </Hierarchy>
+  </Section>
+</HierarchySelector>

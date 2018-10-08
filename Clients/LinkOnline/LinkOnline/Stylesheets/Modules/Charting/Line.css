@@ -1,0 +1,139 @@
+﻿@font-face {
+    font-family: Segoe UI;
+    src: url('/Stylesheets/Segoe UI/Segoe UI.ttf');
+}
+
+@font-face {
+    font-family: Segoe UI;
+    src: url('/Stylesheets/Segoe UI/Segoe UI.eot');
+}
+
+body {
+    font-family: Segoe UI;
+}
+
+.chart .legend {
+    fill: #000000;
+    font: 12px;
+    text-anchor: start;
+}
+
+.chart text {
+    fill: #000000;
+    font: 12px;
+    text-anchor: middle;
+    /*text-anchor: end;*/
+}
+
+.chart .label {
+    fill: #000000;
+    text-anchor: end;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #444444;
+    stroke-width: 2px;
+    shape-rendering: crispEdges;
+}
+
+.x.axis path {
+}
+
+.line {
+    fill: none;
+    stroke: #444444;
+    stroke-width: 1.5px;
+}
+
+.tick {
+    fill: #000000 !important;
+    font-size: 12px;
+}
+
+.y.axis .tick {
+    fill: #000000 !important;
+    font-size: 12px;
+}
+
+.ChartTitle {
+    text-align: center;
+    color: #444444;
+    /*font-size: 16pt;*/
+}
+
+svg {
+    overflow: visible;
+    background-color: #ffffff;
+    height: 100%;
+}
+
+.exportBtn {
+    font: 10px SegoeUIBold;
+    padding: 3px;
+    margin-left: 3px;
+}
+
+path {
+    fill: none;
+}
+
+link.style {
+    fill: none;
+}
+
+/********************************************/
+.d3-tip {
+    line-height: 1;
+    padding: 12px;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    border-radius: 2px;
+    /*font-size: 10px;*/
+}
+
+
+.circle .ToolTip {
+    display: none;
+}
+
+.circle:hover .ToolTip {
+    display: block;
+}
+
+
+/******************************************/
+
+.Tooltips {
+    display: none;
+}
+
+.chart g:hover .Tooltips {
+    display: block;
+}
+
+div.tooltips {
+    position: absolute;
+    text-align: center;
+    /*width: 40px;
+            height: 30px;*/
+    padding: 2px;
+    font: 12px;
+    /*background: rgba(255, 255, 255, 0.8);
+            border: 2px solid steelblue;
+            border-radius: 4px;
+            box-shadow: #333333 0px 0px 10px;*/
+    pointer-events: none;
+}
+
+
+#drop_down {
+    position: relative;
+    top: 0%;
+    left: 90%;
+}
+
+.minheight {
+    min-height: 500px;
+}

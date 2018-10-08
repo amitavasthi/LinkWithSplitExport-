@@ -1,0 +1,5 @@
+﻿<Workflow>
+  <Selection Name="study">
+    <ProjectFilter Name="select study"></ProjectFilter>
+  </Selection>
+</Workflow>

@@ -1,0 +1,13 @@
+C:\Projects\Cognicient\LinkManager\LinkManager\Cores\DataCore\DataCore\bin\Debug\DataReader.dll
+C:\Projects\Cognicient\LinkManager\LinkManager\Cores\DataCore\DataCore\bin\Debug\DataReader.pdb
+C:\Projects\Cognicient\LinkManager\LinkManager\Cores\DataCore\DataCore\bin\Debug\DatabaseCore.dll
+C:\Projects\Cognicient\LinkManager\LinkManager\Cores\DataCore\DataCore\bin\Debug\Spss.dll
+C:\Projects\Cognicient\LinkManager\LinkManager\Cores\DataCore\DataCore\bin\Debug\DatabaseCore.pdb
+C:\Projects\Cognicient\LinkManager\LinkManager\Cores\DataCore\DataCore\bin\Debug\Spss.xml
+C:\Projects\Cognicient\LinkManager\LinkManager\Cores\DataCore\DataCore\obj\Debug\DataCore.csprojResolveAssemblyReference.cache
+C:\Projects\Cognicient\LinkManager\LinkManager\Cores\DataCore\DataCore\obj\Debug\Interop.MDMLib.dll
+C:\Projects\Cognicient\LinkManager\LinkManager\Cores\DataCore\DataCore\obj\Debug\Interop.MRDSCReg.dll
+C:\Projects\Cognicient\LinkManager\LinkManager\Cores\DataCore\DataCore\obj\Debug\Interop.MRLIBVERLib.dll
+C:\Projects\Cognicient\LinkManager\LinkManager\Cores\DataCore\DataCore\obj\Debug\DataCore.csproj.ResolveComReference.cache
+C:\Projects\Cognicient\LinkManager\LinkManager\Cores\DataCore\DataCore\obj\Debug\DataReader.dll
+C:\Projects\Cognicient\LinkManager\LinkManager\Cores\DataCore\DataCore\obj\Debug\DataReader.pdb

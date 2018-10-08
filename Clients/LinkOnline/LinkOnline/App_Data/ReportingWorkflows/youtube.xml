@@ -1,0 +1,30 @@
+<Workflow>
+  <Default>
+    <Selection Name="AgeofRespondent" Id="52b9444f-a2a0-42d5-9464-2773ee2461c7">
+      <VariableFilter Name="" VariableName="AgeofRespondent" IsTaxonomy="True" Mode="Multi">
+      </VariableFilter>
+    </Selection>
+    <Selection Name="Country" Id="6991d81a-cda1-40f4-b230-910828baa906">
+      <VariableFilter Name="" VariableName="Country" IsTaxonomy="True" Mode="Multi">
+      </VariableFilter>
+    </Selection>
+  </Default>
+  <HierarchyWorkflow IdHierarchy="cb9e4442-0c37-4ce5-a5d8-ae4771c60798">
+    <Selection Name="Country" Id="9e64272b-4977-4aed-92a0-ae51a23119e3">
+      <VariableFilter Name="" VariableName="Country" IsTaxonomy="True" Mode="Multi">
+      </VariableFilter>
+    </Selection>
+  </HierarchyWorkflow>
+  <HierarchyWorkflow IdHierarchy="2625efcc-05ed-4ce3-976f-d6a3b642c1eb">
+    <Selection Name="MonthofData" Id="86acf6a4-72e7-4303-92c6-05d09a648c1d">
+      <VariableFilter Name="" VariableName="MonthofData" IsTaxonomy="True" Mode="Multi">
+      </VariableFilter>
+    </Selection>
+  </HierarchyWorkflow>
+  <HierarchyWorkflow IdHierarchy="99b9203f-3ef8-41cd-9fd0-57bac2cdb72d">
+    <Selection Name="CampaignModule" Id="e108eefc-4538-4352-a876-db558ea92ebe">
+      <VariableFilter Name="" VariableName="CampaignModule" IsTaxonomy="True" Mode="Multi">
+      </VariableFilter>
+    </Selection>
+  </HierarchyWorkflow>
+</Workflow>

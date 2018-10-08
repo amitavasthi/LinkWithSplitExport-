@@ -1,0 +1,8 @@
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at Azure_Switch.Classes.SwitchHandler.Download(String server, String url, Byte[] data) in C:\Projects\Blueocean\Link\LinkManager\Clients\Azure Switch\Azure Switch\Classes\SwitchHandler.cs:line 199
+   at Azure_Switch.Classes.SwitchHandler.Switch(String server, String url, String parameters) in C:\Projects\Blueocean\Link\LinkManager\Clients\Azure Switch\Azure Switch\Classes\SwitchHandler.cs:line 118
+   at Azure_Switch.Default.ProcessRequest() in C:\Projects\Blueocean\Link\LinkManager\Clients\Azure Switch\Azure Switch\Default.aspx.cs:line 207

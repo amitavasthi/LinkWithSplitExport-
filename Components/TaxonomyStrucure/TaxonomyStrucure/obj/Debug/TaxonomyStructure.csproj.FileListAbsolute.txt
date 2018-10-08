@@ -1,0 +1,15 @@
+C:\Projects\Cognicient\LinkManager\LinkManager\Components\TaxonomyStrucure\TaxonomyStrucure\bin\Debug\TaxonomyStructure.dll
+C:\Projects\Cognicient\LinkManager\LinkManager\Components\TaxonomyStrucure\TaxonomyStrucure\bin\Debug\TaxonomyStructure.pdb
+C:\Projects\Cognicient\LinkManager\LinkManager\Components\TaxonomyStrucure\TaxonomyStrucure\bin\Debug\ApplicationUtilities.dll
+C:\Projects\Cognicient\LinkManager\LinkManager\Components\TaxonomyStrucure\TaxonomyStrucure\bin\Debug\WebUtilities.dll
+C:\Projects\Cognicient\LinkManager\LinkManager\Components\TaxonomyStrucure\TaxonomyStrucure\bin\Debug\SpreadsheetGear.dll
+C:\Projects\Cognicient\LinkManager\LinkManager\Components\TaxonomyStrucure\TaxonomyStrucure\bin\Debug\DatabaseCore.dll
+C:\Projects\Cognicient\LinkManager\LinkManager\Components\TaxonomyStrucure\TaxonomyStrucure\bin\Debug\PermissionCore.dll
+C:\Projects\Cognicient\LinkManager\LinkManager\Components\TaxonomyStrucure\TaxonomyStrucure\bin\Debug\ApplicationUtilities.pdb
+C:\Projects\Cognicient\LinkManager\LinkManager\Components\TaxonomyStrucure\TaxonomyStrucure\bin\Debug\WebUtilities.pdb
+C:\Projects\Cognicient\LinkManager\LinkManager\Components\TaxonomyStrucure\TaxonomyStrucure\bin\Debug\SpreadsheetGear.xml
+C:\Projects\Cognicient\LinkManager\LinkManager\Components\TaxonomyStrucure\TaxonomyStrucure\bin\Debug\DatabaseCore.pdb
+C:\Projects\Cognicient\LinkManager\LinkManager\Components\TaxonomyStrucure\TaxonomyStrucure\bin\Debug\PermissionCore.pdb
+C:\Projects\Cognicient\LinkManager\LinkManager\Components\TaxonomyStrucure\TaxonomyStrucure\obj\Debug\TaxonomyStructure.csprojResolveAssemblyReference.cache
+C:\Projects\Cognicient\LinkManager\LinkManager\Components\TaxonomyStrucure\TaxonomyStrucure\obj\Debug\TaxonomyStructure.dll
+C:\Projects\Cognicient\LinkManager\LinkManager\Components\TaxonomyStrucure\TaxonomyStrucure\obj\Debug\TaxonomyStructure.pdb

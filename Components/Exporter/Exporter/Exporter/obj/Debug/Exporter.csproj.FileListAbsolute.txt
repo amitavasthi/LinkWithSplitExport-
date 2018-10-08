@@ -1,0 +1,42 @@
+C:\Projects\Cognicient\LinkManager\LinkManager\Components\Exporter\Exporter\Exporter\bin\Debug\LiNK Excel Export.dll
+C:\Projects\Cognicient\LinkManager\LinkManager\Components\Exporter\Exporter\Exporter\bin\Debug\LiNK Excel Export.pdb
+C:\Projects\Cognicient\LinkManager\LinkManager\Components\Exporter\Exporter\Exporter\obj\Debug\LiNK Excel Export.dll
+C:\Projects\Cognicient\LinkManager\LinkManager\Components\Exporter\Exporter\Exporter\obj\Debug\LiNK Excel Export.pdb
+C:\Projects\Cognicient\LinkManager\LinkManager\Components\Exporter\Exporter\Exporter\obj\Debug\Exporter.csprojResolveAssemblyReference.cache
+C:\Projects\Cognicient\LinkManager\LinkManager\Components\Exporter\Exporter\Exporter\bin\Debug\ApplicationUtilities.dll
+C:\Projects\Cognicient\LinkManager\LinkManager\Components\Exporter\Exporter\Exporter\bin\Debug\ApplicationUtilities.pdb
+C:\Projects\Cognicient\LinkManager\LinkManager\Components\Exporter\Exporter\Exporter\bin\Debug\Crosstables.dll
+C:\Projects\Cognicient\LinkManager\LinkManager\Components\Exporter\Exporter\Exporter\bin\Debug\WebUtilities.dll
+C:\Projects\Cognicient\LinkManager\LinkManager\Components\Exporter\Exporter\Exporter\bin\Debug\DatabaseCore.dll
+C:\Projects\Cognicient\LinkManager\LinkManager\Components\Exporter\Exporter\Exporter\bin\Debug\DataCore.dll
+C:\Projects\Cognicient\LinkManager\LinkManager\Components\Exporter\Exporter\Exporter\bin\Debug\PermissionCore.dll
+C:\Projects\Cognicient\LinkManager\LinkManager\Components\Exporter\Exporter\Exporter\bin\Debug\Crosstables.pdb
+C:\Projects\Cognicient\LinkManager\LinkManager\Components\Exporter\Exporter\Exporter\bin\Debug\WebUtilities.pdb
+C:\Projects\Cognicient\LinkManager\LinkManager\Components\Exporter\Exporter\Exporter\bin\Debug\DatabaseCore.pdb
+C:\Projects\Cognicient\LinkManager\LinkManager\Components\Exporter\Exporter\Exporter\bin\Debug\DataCore.pdb
+C:\Projects\Cognicient\LinkManager\LinkManager\Components\Exporter\Exporter\Exporter\bin\Debug\PermissionCore.pdb
+C:\Projects\Cognicient\LinkManager\LinkManager\Components\Exporter\Exporter\Exporter\bin\Debug\SpreadsheetGear2012.Core.dll
+C:\Projects\Cognicient\LinkManager\LinkManager\Components\Exporter\Exporter\Exporter\bin\Debug\SpreadsheetGear2012.Core.xml
+C:\Projects\Cognicient\LinkManager\LinkManager\Components\Exporter\Exporter\Exporter\bin\Debug\VariableSelector.dll
+C:\Projects\Cognicient\LinkManager\LinkManager\Components\Exporter\Exporter\Exporter\bin\Debug\VariableSelector.pdb
+C:\Projects\Blueocean\Link\LinkLibraries\LinkManager\Components\Exporter\Exporter\Exporter\obj\Debug\Exporter.csprojResolveAssemblyReference.cache
+C:\Projects\Blueocean\Link\LinkLibraries\LinkManager\Components\Exporter\Exporter\Exporter\obj\Debug\LiNK Excel Export.dll
+C:\Projects\Blueocean\Link\LinkLibraries\LinkManager\Components\Exporter\Exporter\Exporter\obj\Debug\LiNK Excel Export.pdb
+C:\Projects\Blueocean\Link\LinkLibraries\LinkManager\Components\Exporter\Exporter\Exporter\bin\Debug\LiNK Excel Export.dll
+C:\Projects\Blueocean\Link\LinkLibraries\LinkManager\Components\Exporter\Exporter\Exporter\bin\Debug\LiNK Excel Export.pdb
+C:\Projects\Blueocean\Link\LinkLibraries\LinkManager\Components\Exporter\Exporter\Exporter\bin\Debug\ApplicationUtilities.dll
+C:\Projects\Blueocean\Link\LinkLibraries\LinkManager\Components\Exporter\Exporter\Exporter\bin\Debug\Crosstables.dll
+C:\Projects\Blueocean\Link\LinkLibraries\LinkManager\Components\Exporter\Exporter\Exporter\bin\Debug\SpreadsheetGear2012.Core.dll
+C:\Projects\Blueocean\Link\LinkLibraries\LinkManager\Components\Exporter\Exporter\Exporter\bin\Debug\WebUtilities.dll
+C:\Projects\Blueocean\Link\LinkLibraries\LinkManager\Components\Exporter\Exporter\Exporter\bin\Debug\DatabaseCore.dll
+C:\Projects\Blueocean\Link\LinkLibraries\LinkManager\Components\Exporter\Exporter\Exporter\bin\Debug\DataCore.dll
+C:\Projects\Blueocean\Link\LinkLibraries\LinkManager\Components\Exporter\Exporter\Exporter\bin\Debug\VariableSelector.dll
+C:\Projects\Blueocean\Link\LinkLibraries\LinkManager\Components\Exporter\Exporter\Exporter\bin\Debug\PermissionCore.dll
+C:\Projects\Blueocean\Link\LinkLibraries\LinkManager\Components\Exporter\Exporter\Exporter\bin\Debug\ApplicationUtilities.pdb
+C:\Projects\Blueocean\Link\LinkLibraries\LinkManager\Components\Exporter\Exporter\Exporter\bin\Debug\Crosstables.pdb
+C:\Projects\Blueocean\Link\LinkLibraries\LinkManager\Components\Exporter\Exporter\Exporter\bin\Debug\SpreadsheetGear2012.Core.xml
+C:\Projects\Blueocean\Link\LinkLibraries\LinkManager\Components\Exporter\Exporter\Exporter\bin\Debug\WebUtilities.pdb
+C:\Projects\Blueocean\Link\LinkLibraries\LinkManager\Components\Exporter\Exporter\Exporter\bin\Debug\DatabaseCore.pdb
+C:\Projects\Blueocean\Link\LinkLibraries\LinkManager\Components\Exporter\Exporter\Exporter\bin\Debug\DataCore.pdb
+C:\Projects\Blueocean\Link\LinkLibraries\LinkManager\Components\Exporter\Exporter\Exporter\bin\Debug\VariableSelector.pdb
+C:\Projects\Blueocean\Link\LinkLibraries\LinkManager\Components\Exporter\Exporter\Exporter\bin\Debug\PermissionCore.pdb

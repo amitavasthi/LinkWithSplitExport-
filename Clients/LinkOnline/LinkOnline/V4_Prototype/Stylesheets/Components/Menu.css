@@ -1,0 +1,46 @@
+﻿.MenuItem {
+    cursor:pointer;
+    white-space:nowrap;
+    transition:background-color .5s;
+}
+.MenuItem_Active,
+.MenuItem:hover {
+    background-color:#FCB041;
+}
+
+.MenuItemIcon {
+    float:left;
+    width:50px;
+    height:50px;
+}
+.MenuItemIcon img {
+    max-width:30px;
+    max-height:30px;
+    margin:10px;
+}
+
+.MenuItemText {
+    display:inline-block;
+    color:#FFFFFF;
+    padding: 16px;
+}
+
+
+.SubMenu {
+    /*box-shadow: 5px 0px 5px -5px #000000;*/
+    box-shadow: 0px 0px 5px 0px #000000;
+    background:#555555;
+    transition:width .5s, min-width .5s, max-width .5s;
+}
+
+.SubMenuItem {
+    cursor:pointer;
+    color:#FFFFFF;
+    padding:10px;
+    transition:background-color .5s;
+}
+
+.SubMenuItem_Active,
+.SubMenuItem:hover {
+    background-color:#666666;
+}

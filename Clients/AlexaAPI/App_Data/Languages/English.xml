@@ -1,0 +1,23 @@
+﻿<Labels>
+  <!-- ##### ALEXA Labels ##### -->
+
+  <Label Name="Type_ValueChange_Increase">higher</Label>
+  <Label Name="Type_ValueChange_Decrease">lower</Label>
+  <Label Name="Type_ValueChange_Increased_Increase">increased</Label>
+  <Label Name="Type_ValueChange_Increased_Decrease">decreased</Label>
+  <Label Name="Type_ValueChange_Up_Increase">went up</Label>
+  <Label Name="Type_ValueChange_Up_Decrease">went down</Label>
+
+  <Label Name="Error_VariableNotExists">Sorry, I couldn't find this variable in the database.</Label>
+  <Label Name="Error_ValueNotFound">Sorry, I couldn't find a value for the requested query.</Label>
+
+  <Label Name="___Output_HighestValue">The {3} {4} of {0} is {1} with a share of {2} percent.</Label>
+  <Label Name="Output_HighestValue">The {0} with the {3} {4} is {1} with a share of {2} percent.</Label>
+  <Label Name="Output_Value">The {0} {2} is {1}.</Label>
+  <Label Name="Output_Value2">{0} has a mean score of {1}.</Label>
+  <Label Name="Output_Difference">The {0} is {2} {4} {1} in {3}.</Label>
+  <Label Name="Output_Difference2">The {0} {1} by {2} percent in {3}.</Label>
+  <Label Name="Output_Difference_NoChange">The {0} has not changed in {1}.</Label>
+
+  
+</Labels>

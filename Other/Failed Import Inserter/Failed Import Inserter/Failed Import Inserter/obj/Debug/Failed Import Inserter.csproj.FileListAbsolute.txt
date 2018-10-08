@@ -1,0 +1,6 @@
+C:\Projects\Blueocean\Link\LinkManager\Other\Failed Import Inserter\Failed Import Inserter\Failed Import Inserter\bin\Debug\Failed Import Inserter.exe.config
+C:\Projects\Blueocean\Link\LinkManager\Other\Failed Import Inserter\Failed Import Inserter\Failed Import Inserter\bin\Debug\Failed Import Inserter.exe
+C:\Projects\Blueocean\Link\LinkManager\Other\Failed Import Inserter\Failed Import Inserter\Failed Import Inserter\bin\Debug\Failed Import Inserter.pdb
+C:\Projects\Blueocean\Link\LinkManager\Other\Failed Import Inserter\Failed Import Inserter\Failed Import Inserter\obj\Debug\Failed Import Inserter.csprojResolveAssemblyReference.cache
+C:\Projects\Blueocean\Link\LinkManager\Other\Failed Import Inserter\Failed Import Inserter\Failed Import Inserter\obj\Debug\Failed Import Inserter.exe
+C:\Projects\Blueocean\Link\LinkManager\Other\Failed Import Inserter\Failed Import Inserter\Failed Import Inserter\obj\Debug\Failed Import Inserter.pdb

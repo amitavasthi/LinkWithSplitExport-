@@ -1,0 +1,119 @@
+﻿/*.LinkBiScores {
+    position:absolute;
+}*/
+.Content {
+    overflow:hidden;
+}
+
+.TableLinkBiDefinition {
+    height:100%;
+    width:100%;
+}
+
+.TableLinkBiDefinition .TableRowHeadline td {
+    padding: 20px;
+    font-size:16pt;
+    cursor:pointer;
+}
+
+.TableLinkBiDefinition .TableRowNew td {
+    padding: 20px;
+    background:#FFFFFF;
+    font-size:20pt;
+    color:#000000;
+}
+
+.TableLinkBiDefinition .TableRowNew .VariableSelectionItem, 
+.TableLinkBiDefinition .TableRowNew .HoverBoxVariableSelectionCategories  {
+    font-size:12pt;
+}
+
+.TableLinkBiDefinition .TableCellDimension, 
+.TableLinkBiDefinition .TableCellHeadlineDimensions {
+    border-right:1px solid #FFFFFF;
+}
+
+.TableLinkBiDefinition .TableCellDimension,
+.TableLinkBiDefinition .TableCellMeasure {
+    width:50%;
+}
+
+.PanelDimensions, .PanelMeasures {
+    overflow-y:auto;
+    overflow-x:hidden;
+}
+
+.TableLinkBiDefinition td {
+    text-align: center;
+}
+
+.TableCellMeasure, .TableCellMeasureScores, .LinkBiSelector {
+    color: #FFFFFF;
+}
+
+
+/* ##### SavedDefinitions.aspx ##### */
+
+.LinkBiDefinitionSelector {
+    padding:1em 0px 1em 0px;
+    cursor:pointer;
+}
+
+.LinkBiDefinitionSelector_Active {
+    background:#FFFFFF;
+}
+
+.LinkBiDefinitionSelector img {
+    height:70px;
+}
+
+.LinkBiDefinitionSelector td {
+    padding-left:0.5em;
+}
+
+.LinkBiDefinitionSelector .TableCellName {
+    font-size:16pt;
+}
+
+.LinkBiDefinitionSelector .TableCellStatus {
+    font-size:11pt;
+    font-weight:bold;
+}
+
+
+.LinkBiDefinitionProperties {
+    margin-bottom:2em;
+}
+
+.LinkBiDefinitionProperties td {
+    padding:5px;
+}
+
+.LinkBiServerConnection {
+    float:left;
+    
+    margin:1em;
+    padding:1em;
+    
+    color:#FFFFFF;
+    box-shadow: 0px 0px 2px 0px #444444;
+    background:#666666;
+}
+
+.BtnUpdate {
+    cursor:pointer;
+    background:#62C14C !important;
+    border:none !important;
+    
+    padding:1em;
+    color:#FFFFFF;
+}
+
+.BtnUpdate:hover {
+    box-shadow:0px 0px 2px 0px #62C14C;
+}
+
+
+.LinkBiServerConnectionMessage {
+    box-shadow:0px 0px 5px 0px #444444;
+}

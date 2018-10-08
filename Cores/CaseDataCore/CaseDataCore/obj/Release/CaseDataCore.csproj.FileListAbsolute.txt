@@ -1,0 +1,5 @@
+C:\Projects\Blueocean\Link\LinkManager\Cores\CaseDataCore\CaseDataCore\bin\Release\CaseDataCore.dll
+C:\Projects\Blueocean\Link\LinkManager\Cores\CaseDataCore\CaseDataCore\bin\Release\CaseDataCore.pdb
+C:\Projects\Blueocean\Link\LinkManager\Cores\CaseDataCore\CaseDataCore\obj\Release\CaseDataCore.csprojResolveAssemblyReference.cache
+C:\Projects\Blueocean\Link\LinkManager\Cores\CaseDataCore\CaseDataCore\obj\Release\CaseDataCore.dll
+C:\Projects\Blueocean\Link\LinkManager\Cores\CaseDataCore\CaseDataCore\obj\Release\CaseDataCore.pdb

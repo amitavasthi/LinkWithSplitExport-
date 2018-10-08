@@ -1,0 +1,25 @@
+﻿.CategorySearchResults {
+    margin:1em;
+    overflow:auto;
+}
+.CategorySearchResults table {
+    width:100%;
+    border-bottom:1px solid #FFFFFF;
+}
+.CategorySearchResults .CategorySearchResultVariable {
+    color:#FFFFFF;
+    padding:0px !important;
+    padding-left:5px !important;
+}
+
+.CategorySearchResults table td {
+}
+
+.CategorySearch .CancelCircle {
+    position:absolute;
+}
+
+.CategorySearch .OkCircle {
+    position:absolute;
+    margin-left: 1035px;
+}

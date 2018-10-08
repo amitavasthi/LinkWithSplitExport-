@@ -1,0 +1,140 @@
+﻿/*.WorkflowSelector .WorkflowHover{
+    height:490px;
+    max-height:490px;
+}*/
+#workflowOnHover .WorkflowSelector
+{
+    height:270px !important;
+    max-height:270px !important;
+    overflow-y:auto;
+    pointer-events:none;
+}
+.WorkflowPinned .WorkflowContainer {
+    position:relative;
+    z-index:1;
+}
+.WorkflowPinned .BtnWorkflowShowPreview {
+    display:none;
+}
+.WorkflowPinned .Workflow {
+    height: 324px !important;
+    white-space:nowrap;
+}
+.WorkflowPinned {
+    border-top-width:2px;
+    border-top-style:solid;
+}
+.WorkflowPinned .BtnWorkflowPin {
+    margin-top:-20px;
+}
+.BtnWorkflowPin {
+    float:left;
+    cursor:pointer;
+}
+
+
+.WorkflowContainer {
+    position:absolute;
+    bottom:0px;
+    width:100%;
+    text-align:center;
+    z-index:9998;
+}
+
+.Workflow {
+    width:100%;
+    height:0px;
+    overflow:hidden;
+}
+
+.WorkflowSelection {
+    /*float:left;*/
+    display:inline-block;
+    font-size:15pt;
+    cursor:pointer;
+
+    border-right-style:solid;
+    border-right-width:2px;
+}
+
+.WorkflowSelection:last-child {
+    border-right-style:none;
+    border-right-width:0px;
+}
+
+
+.WorkflowSelectionSelector {
+    font-size:12pt;
+    overflow:hidden;
+
+    background-color:#FFFFFF;
+}
+
+.WorkflowSelectionSelectorLabel {
+    padding:10px;
+}
+
+.WorkflowSelectionSelectorPreview {
+    margin-top:5px;
+    font-size:12pt;
+    font-weight:bold;
+    font-family:SegoeUIBold;
+    overflow:hidden;
+}
+
+.WorkflowSelectionPreviewItem {
+    padding:2px;
+}
+
+.WorkflowSelectorItem_Active {
+    color:#FFFFFF;
+}
+
+.WorkflowSelectionPreviewItem img {
+    margin-top:5px;
+}
+
+.WorkflowSelectionVariable,
+.WorkflowSelectionProject,
+.WorkflowSelectionHierarchy {
+    text-align:left;
+    padding:0.5em;
+    margin-left:3px;
+}
+
+.WorkflowSelector {
+    width:100%;
+    height:300px;
+    overflow:auto;
+}
+
+.WorkflowSelectorItem {
+    font-size:10pt;
+    font-weight:bold;
+    cursor:pointer;
+    display:inherit;
+    width:70%;
+
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+.WorkflowSelectorItem:hover {
+    color:#FFFFFF;
+}
+
+
+.BtnWorkflowShowPreview {
+    cursor:pointer;
+    text-align:center;
+    display: inline-block;
+    margin:auto;
+}
+.WorkflowSelectorSection{
+    /*pointer-events: none;*/
+        top: 0;
+   margin-left: 100px;
+
+}

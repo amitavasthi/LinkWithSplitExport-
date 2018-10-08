@@ -1,0 +1,14 @@
+<Home>
+  <Section Name="Top" Dock="Top">
+    <Section Name="News" Dock="Left" SectionCount="2" Title="HomeTitleNews">
+      <Module Name="News"></Module>
+    </Section>
+    <Section Name="Chart" Dock="Right" SectionCount="2" Title="HomeTitleChart">
+      <Module Name="Chart">
+      </Module>
+    </Section>
+  </Section>
+  <Section Name="RecentUsed" Dock="Bottom" Height="200" Title="HomeTitleRecentUsed">
+    <Module Name="RecentUsed"></Module>
+  </Section>
+</Home>

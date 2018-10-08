@@ -1,0 +1,191 @@
+﻿@font-face {
+    font-family: SegoeUILight;
+    src: url('/Stylesheets/SegoeUI/segoeuil.ttf');
+}
+
+@font-face {
+    font-family: SegoeUILight;
+    src: url('/Stylesheets/SegoeUI/segoeuil.eot');
+}
+
+@font-face {
+    font-family: SegoeUIBold;
+    src: url('/Stylesheets/SegoeUI/segoeuib.ttf');
+}
+
+@font-face {
+    font-family: SegoeUIBold;
+    src: url('/Stylesheets/SegoeUI/segoeuib.eot');
+}
+
+
+html, body, form {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+body {
+    font-family: SegoeUILight !important;
+}
+
+.AdTracker {
+    margin: 0px;
+}
+
+.noMargin {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
+.Section {
+    float: left;
+    height: auto;
+}
+
+.SectionContent {
+    height: 250px;
+    overflow: auto;
+    margin-bottom: 30px;
+}
+
+
+.AdTracker h1 {
+    margin: 10px;
+    font-weight: normal;
+    font-size: 24px !important;
+}
+
+.Color1, .Color1 a {
+    color: #6CAEE0;
+}
+
+.MainHeading {
+    font-family: SegoeUILight !important;
+    font-size: 32px;
+}
+
+.CriteriaText {
+    font-family: SegoeUILight !important;
+    font-size: 16px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+
+.Heading {
+    font-family: SegoeUILight !important;
+    font-size: 28px;
+}
+
+.ulClass li:before {
+    content: '\2713';
+    display: inline-block;
+    color: #6CAEE0;
+    padding: 0 6px 0 0;
+}
+
+.ulClass li {
+    list-style-type: none;
+    font-family: SegoeUILight !important;
+    font-size: 18px;
+}
+
+.table > thead > tr > th {
+    vertical-align: middle !important;
+}
+
+.th1 {
+    background-color: gray;
+    color: white;
+    min-width: 160px;
+}
+
+.th2 {
+    background-color: lightgray;
+    min-width: 100px;
+    text-align: center;
+}
+
+.th3 {
+    background-color: gold;
+    min-width: 80px;
+    text-align: center;
+}
+
+.tdClassHead {
+    text-align: left;
+    min-width: 160px;
+    font-weight: bold;
+}
+
+.tdClass {
+    text-align: center;
+    min-width: 100px;
+    min-height:80px;
+}
+
+.trClass {
+    vertical-align: top;
+    text-align: center;
+}
+
+.labelClass {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 25px;
+}
+
+
+.dataTables_scrollBody {
+    height: 70px !important;
+}
+
+.lblName {
+    font-size: 20px;
+}
+
+.ddlFont {
+    font-size: 20px;
+    margin-top: 5px;
+    margin-left: 30px;
+}
+
+.multiSelect {
+    font-size: 20px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+/*.dataTables_wrapper {
+    _height: 50px;
+    min-height: 50px;
+}*/
+select {
+    font-family: 'SegoeUILight !important';
+}
+
+/*select option {
+        background-color: #B7D8F0;
+        color: #FFFFFF;
+    }*/
+.fixed_height {
+    height: 300px;
+}
+
+
+
+/*.dataTables_wrapper {
+    position: relative;
+    clear: both;
+    width: auto;
+    min-height : 300px;
+    margin-left: 0px;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    background-color: white;
+    zoom: 1;
+}*/

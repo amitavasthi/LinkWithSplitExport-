@@ -1,0 +1,4 @@
+﻿<Navigation>
+  <MenuItem Row="0" Position="0" Name="Crosstable" OnClick="javascript:UpdateSetting('DisplayType', 'Crosstable', false, true);" Icon="/Images/Icons/LinkReporterSettings/Views/Crosstable.png"></MenuItem>
+  <MenuItem Row="1" Position="0" Name="WordCloud" OnClick="javascript:UpdateSetting('DisplayType', 'WordCloud', false, true);" Icon="/Images/Icons/LinkReporterSettings/Views/WordCloud.png"></MenuItem>
+</Navigation>

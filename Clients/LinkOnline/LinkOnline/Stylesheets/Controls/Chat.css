@@ -1,0 +1,37 @@
+﻿.Chat {
+    overflow:auto;
+}
+
+.ChatContainer input[type=text] {
+    width: 95%;
+}
+
+.ChatMessage {
+    background:#F9EBD4;
+    padding:0.5em;
+    margin:1em;
+
+    width:80%;
+
+    overflow:hidden;
+    border-radius: 4px;
+}
+
+.ChatMessage0 {
+    background:#F9EBD4;
+    float:right;
+}
+.ChatMessage1 {
+    background:#D4EAF9;
+    float:left;
+}
+
+.ChatMessage .ChatMessageHeadline img {
+    height:40px;
+    margin-right:10px;
+}
+
+.ChatMessage .ChatMessageContent {
+    padding:5px;
+    color:#444444;
+}

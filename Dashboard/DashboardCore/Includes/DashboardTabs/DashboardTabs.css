@@ -1,0 +1,28 @@
+DashboardTab {
+    display:none;
+}
+
+body {
+    padding-top:40px;
+}
+
+.DashboardTabSelection {
+    background:#444444;
+    position:fixed;
+    top:0px;
+    left:0px;
+    width:100%;
+}
+
+.DashboardTabSelector {
+    display:inline-block;
+    padding:10px 20px 10px 20px;
+    cursor:pointer;
+    color:#FFFFFF;
+}
+
+.DashboardTabSelector_Active {
+    background:#FFFFFF;
+    color:#444444;
+    box-shadow:0px 0px 3px 0px #FFFFFF;
+}

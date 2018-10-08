@@ -1,0 +1,46 @@
+<Clients>
+  <Client Name="linkmanager" Host="LinkManager.tokyo.local" Database="LinkManager" Color1="#6CAEE0" Color2="#FCB040" CreatedDate="11-04-2014">
+  </Client>
+  <Client Name="hotel" Host="hotel.tokyo.local" Database="Hotel" Color1="#6CAEE0" Color2="#FCB040" CreatedDate="11-04-2014">
+  </Client>
+  <Client Name="msadtest" Host="msadtest.tokyo.local" Database="msadtest" Color1="#6CAEE0" Color2="#FCB040" CreatedDate="11-04-2014">
+  </Client>
+  <Client Name="intelapj" CaseDataLocation="File" Host="intelapj.tokyo.local" Database="intelapj" Color1="#6CAEE0" Color2="#FCB040" CreatedDate="11-04-2014">
+  </Client>
+  <Client Name="youtube" Host="youtube.tokyo.local" Database="Alpha_Youtube" Color1="#6CAEE0" Color2="#FCB040" CreatedDate="11-04-2014">
+  </Client>
+  <Client Name="microsoft" Host="microsoft.tokyo.local" Database="Alpha_Microsoft" Color1="#6CAEE0" Color2="#FCB040" CreatedDate="11-04-2014">
+  </Client>
+  <Client Name="iheartmedia" Host="iheartmedia.tokyo.local" Database="iheartmedia" Color1="#6CAEE0" Color2="#FCB040" CreatedDate="11-04-2014">
+  </Client>
+  <Client Name="demo" Host="demo.blueoceanmilink.com" Database="Demo" Color1="#6CAEE0" Color2="#FCB040" CreatedDate="11-04-2014">
+  </Client>
+  <Client Name="gfk" Host="gfk.cognicient.biz" Database="GFK" Color1="#6CAEE0" Color2="#FCB040" CreatedDate="11-04-2014">
+  </Client>
+  <Client Name="msi" Host="msi.tokyo.local" Database="msi" Color1="#6CAEE0" Color2="#FCB040" CreatedDate="11-04-2014">
+  </Client>
+  <Client Name="unilever" Host="unilever.tokyo.local" Database="Unilever" Color1="#6CAEE0" Color2="#FCB040" CreatedDate="11-04-2014">
+  </Client>
+  <Client Name="orc" Host="orc.tokyo.local" Database="Alpha_ORC" Color1="#6CAEE0" Color2="#FCB040" CreatedDate="15-09-2015">
+  </Client>
+  <Client Name="pilot5" Host="pilot5.tokyo.local" Database="pilot5" Color1="#6CAEE0" Color2="#FCB040" CreatedDate="15-09-2015">
+  </Client>
+  <Client Name="demoevent" Host="demoevent.tokyo.local" Database="Alpha_Demoevent" Color1="#6CAEE0" Color2="#FCB040" CreatedDate="15-09-2015">
+  </Client>
+  <Client Name="museum" CaseDataLocation="Sql" Host="museum.tokyo.local" Database="Museum" Color1="#6CAEE0" Color2="#FCB040" CreatedDate="15-09-2015">
+  </Client>
+  <Client Name="pilot1" CaseDataLocation="Sql" Host="pilot1.tokyo.local" Database="pilot1_msadtest" Color1="#6CAEE0" Color2="#FCB040" CreatedDate="15-09-2015">
+  </Client>
+  <Client Name="aps" CaseDataLocation="Sql" Host="aps.tokyo.local" Database="aps" Color1="#6CAEE0" Color2="#FCB040" CreatedDate="15-09-2015">
+  </Client>
+  <Client Name="iff" CaseDataLocation="File" Host="iff.tokyo.local" Database="iff" Color1="#6CAEE0" Color2="#FCB040" CreatedDate="15-09-2015">
+  </Client>
+  <!--<Client Name="localhost" Host="localhost" Database="Amazon" Color1="#6CAEE0" Color2="#FCB040" CreatedDate="15-09-2015">
+  </Client>-->
+  <Client Name="localhost" Host="localhost" Database="Survey" Color1="#6CAEE0" Color2="#FCB040" CreatedDate="15-09-2015" CaseDataVersion="38">
+  </Client>
+  <!--<Client Name="localhost" Host="localhost" Database="pilot12" Color1="#6CAEE0" Color2="#FCB040" CreatedDate="15-09-2015">
+  </Client>-->
+  <Client Name="172" Host="http://172.16.0.219/" Database="hallandpartnersEquation" Color1="#6CAEE0" Color2="#FCB040" CreatedDate="15-09-2015" CaseDataVersion="15">
+  </Client>
+</Clients>

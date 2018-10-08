@@ -1,0 +1,40 @@
+﻿<Labels>
+  <!-- ##### Language related specifications ##### -->
+ <Label Name="Base">Total</Label>
+  <Label Name="BaseTop">Base</Label>
+ <Label Name="BaseUnweightedTop">
+    Total<br>
+      <span style="font-size:10.5px;">
+        (unweighted)
+      </span>
+    </br>
+  </Label>
+  <Label Name="BaseEffectiveTop">
+    Total<br>
+      <span style="font-size:10.5px;">
+        (Effective)
+      </span>
+    </br>
+  </Label>
+<Label Name="BaseUnweightedLeft">
+    Base<br>
+      <span style="font-size:10.5px;float:left;">
+        (unweighted)
+      </span>
+    </br>
+  </Label>
+  <Label Name="BaseAnsweringLeft">
+    Base<br>
+      <span style="font-size:10.5px;">
+        (answering)
+      </span>
+    </br>
+  </Label>
+  <Label Name="BaseTotalLeft">
+    Base<br>
+      <span style="font-size:10.5px;">
+        (total)
+      </span>
+    </br>
+  </Label>
+</Labels>

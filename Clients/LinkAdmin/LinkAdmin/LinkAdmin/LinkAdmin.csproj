@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\..\..\..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\..\..\..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="..\..\..\..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props" Condition="Exists('..\..\..\..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A400298D-DE4E-4549-B445-9AE4CB0B0B44}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LinkAdmin</RootNamespace>
+    <AssemblyName>LinkAdmin</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Data\DefaultUsers.xml" />
+    <Content Include="App_Data\Servers.xml" />
+    <Content Include="App_Data\Whitelist.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Default.aspx" />
+    <Content Include="packages.config" />
+    <Content Include="Navigation.ashx" />
+    <Content Include="Handlers\GlobalHandler.ashx" />
+    <Content Include="Handlers\LanguageManager.ashx" />
+    <Content Include="Handlers\Public.ashx" />
+    <Content Include="Pages\Console.ascx" />
+    <Content Include="Pages\Default.ascx" />
+    <Content Include="Pages\Overview.ascx" />
+    <Content Include="Scripts\Pages\Default.js" />
+    <Content Include="Scripts\Pages\ServerBenchmark\Data.json" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Data\Languages\English.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_Data\Permissions.xml" />
+    <Content Include="DATA\[dbo].[Users].xml" />
+    <Content Include="Global.asax" />
+    <Content Include="Images\Navigation\Clients.png" />
+    <Content Include="Images\Navigation\Default.png" />
+    <Content Include="Images\Navigation\Portals.png" />
+    <Content Include="Images\Test\Ocean.jpg" />
+    <Content Include="Pages\Infastructure.ascx" />
+    <Content Include="Pages\Instances.ascx" />
+    <Content Include="Pages\Login.aspx" />
+    <Content Include="Pages\Clients.ascx" />
+    <Content Include="Pages\ServerBenchmark.ascx" />
+    <Content Include="Pages\Servers.ascx" />
+    <Content Include="Pages\Test.ascx" />
+    <Content Include="Scripts\Components\Ajax.js" />
+    <Content Include="Scripts\Components\LanguageManager.js" />
+    <Content Include="Scripts\Controls\Box.js" />
+    <Content Include="Scripts\Controls\Button2.js" />
+    <Content Include="Scripts\Core\Global.js" />
+    <Content Include="Scripts\JQuery\jquery-1.8.1.min.js" />
+    <Content Include="Scripts\Pages\Clients.js" />
+    <Content Include="Scripts\Pages\Instances.js" />
+    <Content Include="Scripts\Pages\ServerBenchmark\d3.min.js" />
+    <Content Include="Scripts\Pages\ServerBenchmark\dimple.v2.1.6.min.js" />
+    <Content Include="Scripts\Pages\ServerBenchmark\jquery.min.js" />
+    <Content Include="Scripts\Pages\Servers.js" />
+    <Content Include="Stylesheets\Components\Loading.css" />
+    <Content Include="Stylesheets\Controls\Box.css" />
+    <Content Include="Stylesheets\Core\Global.css" />
+    <Content Include="Stylesheets\Pages\Instances.css" />
+    <Content Include="Stylesheets\Pages\Login.css" />
+    <Content Include="Stylesheets\Pages\Clients.css" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes\BaseAdminPage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Classes\InstanceCollection.cs" />
+    <Compile Include="Classes\LinkAdminCore.cs" />
+    <Compile Include="Classes\StoredPortalCredentials.cs" />
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Handlers\GlobalHandler.ashx.cs">
+      <DependentUpon>GlobalHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Handlers\LanguageManager.ashx.cs">
+      <DependentUpon>LanguageManager.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Handlers\Public.ashx.cs">
+      <DependentUpon>Public.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Navigation.ashx.cs">
+      <DependentUpon>Navigation.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Console.ascx.cs">
+      <DependentUpon>Console.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Console.ascx.designer.cs">
+      <DependentUpon>Console.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Default.ascx.cs">
+      <DependentUpon>Default.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Default.ascx.designer.cs">
+      <DependentUpon>Default.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Infastructure.ascx.cs">
+      <DependentUpon>Infastructure.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Infastructure.ascx.designer.cs">
+      <DependentUpon>Infastructure.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Instances.ascx.cs">
+      <DependentUpon>Instances.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Instances.ascx.designer.cs">
+      <DependentUpon>Instances.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Clients.ascx.cs">
+      <DependentUpon>Clients.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Clients.ascx.designer.cs">
+      <DependentUpon>Clients.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Overview.ascx.cs">
+      <DependentUpon>Overview.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Overview.ascx.designer.cs">
+      <DependentUpon>Overview.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\ServerBenchmark.ascx.cs">
+      <DependentUpon>ServerBenchmark.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\ServerBenchmark.ascx.designer.cs">
+      <DependentUpon>ServerBenchmark.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Servers.ascx.cs">
+      <DependentUpon>Servers.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Servers.ascx.designer.cs">
+      <DependentUpon>Servers.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Test.ascx.cs">
+      <DependentUpon>Test.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Test.ascx.designer.cs">
+      <DependentUpon>Test.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\Components\ApplicationUtilities\ApplicationUtilities.csproj">
+      <Project>{2f85d9a6-33bf-4401-b2b2-635a7c78918d}</Project>
+      <Name>ApplicationUtilities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\Components\PermissionCore\PermissionCore\PermissionCore.csproj">
+      <Project>{cd93b57a-c620-4b5a-8324-90a272d158e7}</Project>
+      <Name>PermissionCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\Components\WebUtilities\WebUtilities.csproj">
+      <Project>{852825b2-b334-439e-8d4b-44b97c5e9de5}</Project>
+      <Name>WebUtilities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\Cores\DatabaseCore\DatabaseCore.csproj">
+      <Project>{d17e9d03-d024-4420-837f-a0a869c1c6a5}</Project>
+      <Name>DatabaseCore</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Fileadmin\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>51373</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:49826/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\..\..\..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\..\..\..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props'))" />
+    <Error Condition="!Exists('..\..\..\..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\..\..\..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

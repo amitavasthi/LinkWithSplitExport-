@@ -1,0 +1,102 @@
+﻿
+@font-face {
+    font-family: SegoeUILight;
+    src: url('/Stylesheets/SegoeUI/segoeuil.ttf');
+}
+
+@font-face {
+    font-family: SegoeUILight;
+    src: url('/Stylesheets/SegoeUI/segoeuil.eot');
+}
+
+@font-face {
+    font-family: SegoeUIBold;
+    src: url('/Stylesheets/SegoeUI/segoeuib.ttf');
+}
+
+@font-face {
+    font-family: SegoeUIBold;
+    src: url('/Stylesheets/SegoeUI/segoeuib.eot');
+}
+
+body {
+    font-family: SegoeUILight;
+    font-size: 10pt;
+}
+
+.modalBackground {
+    background-color: Black;
+    filter: alpha(opacity=60);
+    opacity: 0.6;
+}
+
+.modalPopup {
+    background-color: #FFFFFF;
+    width: 300px;
+    border: 3px solid #6CAEE0;
+    /*border-radius: 12px;*/
+    padding: 0;
+    font-family: SegoeUILight;
+    font-size: 10pt;
+}
+
+    .modalPopup .header {
+        font-family: SegoeUILight;
+        font-size: 12pt;
+        background-color: #6CAEE0;
+        height: 30px;
+        color: White;
+        line-height: 30px;
+        text-align: center;
+        font-weight: bold;
+        /*border-top-left-radius: 6px;
+        border-top-right-radius: 6px;*/
+    }
+
+    .modalPopup .body {
+        font-family: SegoeUILight;
+        font-size: 10pt;
+        padding: 10px;
+        min-height: 40px;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .modalPopup .footer {
+        padding: 6px;
+    }
+
+    .modalPopup .yes, .modalPopup .no {
+        font-family: SegoeUILight;
+        font-size: 10pt;
+        height: 23px;
+        color: White;
+        line-height: 23px;
+        text-align: center;
+        font-weight: bold;
+        cursor: pointer;
+        border-radius: 4px;
+        padding-top:0px;
+    }
+
+    .modalPopup .yes {
+        background-color: #6CAEE0;
+        border: 1px solid #0DA9D0;
+    }
+
+        .modalPopup .yes hover {
+            background: #6CAEE0;
+            color: #FFFFFF;
+            border: 1px solid #0DA9D0;
+        }
+
+    .modalPopup .no {
+        background-color: #6CAEE0;
+        border: 1px solid #5C5C5C;
+    }
+
+        .modalPopup .no hover {
+            background: #6CAEE0;
+            color: #FFFFFF;
+            border: 1px solid #0DA9D0;
+        }

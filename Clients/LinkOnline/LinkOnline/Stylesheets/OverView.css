@@ -1,0 +1,161 @@
+﻿@font-face {
+    font-family: SegoeUILight;
+    src: url('/Stylesheets/SegoeUI/segoeuil.ttf');
+}
+
+@font-face {
+    font-family: SegoeUILight;
+    src: url('/Stylesheets/SegoeUI/segoeuil.eot');
+}
+
+@font-face {
+    font-family: SegoeUIBold;
+    src: url('/Stylesheets/SegoeUI/segoeuib.ttf');
+}
+
+@font-face {
+    font-family: SegoeUIBold;
+    src: url('/Stylesheets/SegoeUI/segoeuib.eot');
+}
+
+#Content {
+    clear: both;
+}
+
+body {
+    font-family: SegoeUILight;
+}
+
+#upleft {
+    border: none;
+    border-right: 0px solid #98C6E9 !important;
+    float: left;
+}
+
+#upright {
+    border: none;
+    border-left: 0px solid #98C6E9 !important;
+    float: right;
+}
+
+#bottomleft {
+    border: none;
+    border-top: 0px solid #98C6E9 !important;
+    border-right: 0px solid #98C6E9 !important;
+    margin-top: 0px;
+}
+
+#bottomright {
+    border: 0px solid red;
+}
+
+.overview {
+    border: none;
+    border-left: 0px solid #98C6E9 !important;
+    margin-top: -15px;
+}
+
+.news {
+    border: none;
+    border-right: 0px solid #98C6E9 !important;
+    margin-top: -15px;
+}
+
+.mostrecent {
+    border: none;
+    height: auto;
+}
+
+#cphContent_pnlRssFeeds {
+    clear: both;
+    margin-left: 20px;
+    margin-top: 0px;
+    /*height: 230px;
+    width:490px;*/
+}
+
+#cphContent_tblNews {
+    clear: both;
+    /*height: 230px;*/
+}
+
+#cphContent_tdClientNewsFromXML {
+    clear: both;
+    vertical-align: middle;
+    margin-top: 0px;
+}
+
+#cphContent_NewsFromXML {
+    clear: both;
+    vertical-align: middle;
+}
+
+#cphContent_pnlRecentUsed {
+    clear: both;
+    margin-left: 10px;
+    margin-top: 0px;
+    height: 220px;
+}
+
+.newsTitle {
+    font-size: 15pt;
+    font-weight: 600;
+    text-align: left;
+    clear: both;
+}
+
+.newsTable {
+    clear: both;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+.RecentItem {
+    float: left;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    padding-top: 0px;
+}
+
+.newsSubText {
+    font-size: 8pt;
+    text-align: right;
+}
+
+.newsText {
+    clear: both;
+    font-size: 9pt;
+    padding-right: 30px;
+    text-indent: 50px;
+    padding-top: 5px;
+}
+
+.newsHeading {
+    clear: both;
+    font-size: 10pt;
+    font-weight: bold;
+}
+
+.smallText {
+    clear: both;
+    font-size: 8pt;
+}
+
+.noMsg {
+    font-size: 15px;
+    font-weight: bold;
+    padding-left: 100px;
+    padding-top: 30px;
+}
+
+#Footer {
+    float: right !important;
+}
+
+.outerContent {
+    overflow-y: auto;
+    overflow-x:hidden;
+    width:98%;
+}

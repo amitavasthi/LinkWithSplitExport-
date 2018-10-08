@@ -1,0 +1,16 @@
+.cm-s-default .cm-variable-3,
+.cm-s-default .cm-keyword {
+    color:#1E00FF;
+}
+
+.cm-class {
+    color:#2B91B6;
+}
+
+.cm-placeholder {
+    color:#008000;
+}
+
+.cm-number {
+    color:#000000 !important;
+}

@@ -1,0 +1,6 @@
+C:\Projects\Blueocean\Link\LinkManager\Tools\V3.5.0 to V3.5.1 Folder structure migration\Folder structure migration\Folder structure migration\bin\Debug\Folder structure migration.exe.config
+C:\Projects\Blueocean\Link\LinkManager\Tools\V3.5.0 to V3.5.1 Folder structure migration\Folder structure migration\Folder structure migration\bin\Debug\Folder structure migration.exe
+C:\Projects\Blueocean\Link\LinkManager\Tools\V3.5.0 to V3.5.1 Folder structure migration\Folder structure migration\Folder structure migration\bin\Debug\Folder structure migration.pdb
+C:\Projects\Blueocean\Link\LinkManager\Tools\V3.5.0 to V3.5.1 Folder structure migration\Folder structure migration\Folder structure migration\obj\Debug\Folder structure migration.csprojResolveAssemblyReference.cache
+C:\Projects\Blueocean\Link\LinkManager\Tools\V3.5.0 to V3.5.1 Folder structure migration\Folder structure migration\Folder structure migration\obj\Debug\Folder structure migration.exe
+C:\Projects\Blueocean\Link\LinkManager\Tools\V3.5.0 to V3.5.1 Folder structure migration\Folder structure migration\Folder structure migration\obj\Debug\Folder structure migration.pdb

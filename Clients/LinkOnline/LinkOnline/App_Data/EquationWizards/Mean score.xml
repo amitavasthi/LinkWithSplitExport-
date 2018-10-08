@@ -1,0 +1,14 @@
+<EquationWizard>
+  <Properties>
+    <Section>Analytics</Section>
+    <Name>Mean score</Name>
+    <Description>Mean score description</Description>
+  </Properties>
+  <Equation>
+    <PlaceHolder Name="PlaceHolderVariable" Type="Variable" Repeat="Category" Delimiter="+">
+      <![CDATA[
+        ([@Variable.@Category] * @CategoryValue / [@Variable])
+      ]]>
+    </PlaceHolder>
+  </Equation>
+</EquationWizard>

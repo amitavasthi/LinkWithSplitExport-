@@ -1,0 +1,22 @@
+﻿.TableCellMailRecipient {
+    cursor:pointer;
+    padding:10px;
+    transition:background-color .5s;
+}
+.TableCellMailRecipient:hover{
+    background-color:#E6E6E6;
+}
+
+.TableCellLogDate {
+    padding:5px;
+}
+
+.TableCellLog_Neutral {
+    color:#ffac00;
+}
+.TableCellLog_Error {
+    color:#ff0000;
+}
+.TableCellLog_Successful {
+    color:#6cc74c;
+}

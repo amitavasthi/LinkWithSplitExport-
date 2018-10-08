@@ -1,0 +1,76 @@
+﻿body {
+}
+
+.Headline {
+    text-align: center;
+    border-bottom: none;
+}
+
+.LoginBox {
+    text-align: left;
+    padding: 2em;
+    display: inline-block;
+}
+
+.Footer {
+    text-align: center;
+}
+
+.LoginButton {
+    height: 95px;
+    width: 120px;
+    border: none !important;
+    background: #FCB040 !important;
+    font-size: 30pt;
+    cursor: pointer;
+}
+
+.LoginText {
+    font-size: 20pt;
+    color: #FFFFFF;
+}
+
+input[type=text], input[type=password] {
+    width: 200px;
+    font-size: 16pt;
+    font-family: SegoeUILight;
+}
+
+input[type=button], input[type=submit] {
+    color: #FFFFFF;
+    border: 1px solid #41719C;
+    margin: 3px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: SegoeUILight;
+}
+
+    input[type=button], input[type=submit]:hover {
+        border: 1px solid #FCB040;
+    }
+
+.MsgLabel {
+    margin-left: 0px;
+}
+
+.ForgotButton {
+    height: 35px;
+    width: 135px;
+    border: none !important;
+    font-size: 11pt;
+    cursor: pointer;
+}
+
+.LoginBtn {
+    height: 35px;
+    width: 70px;
+    border: none !important;
+    font-size: 11pt;
+    cursor: pointer;
+}
+
+    .LoginBtn:hover {
+        border: 1px solid #FCB040;
+        background-color: #FCB040 !important;
+    }

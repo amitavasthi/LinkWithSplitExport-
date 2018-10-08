@@ -1,0 +1,2215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+Diese Datei wird vom Veröffentlichungs-/Packvorgang Ihres Webprojekts verwendet. Sie können das Verhalten dieses Vorgangs anpassen,
+indem Sie diese MSBuild-Datei bearbeiten. Besuchen Sie "http://go.microsoft.com/fwlink/?LinkID=208121", um weitere Informationen zu erhalten. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\arun.k\Desktop\Release</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="App_Data/Charts/Area.html">
+      <publishTime>10/27/2015 15:46:58</publishTime>
+    </File>
+    <File Include="App_Data/Charts/Bar.html">
+      <publishTime>11/02/2015 17:33:41</publishTime>
+    </File>
+    <File Include="App_Data/Charts/Column.html">
+      <publishTime>11/02/2015 18:06:30</publishTime>
+    </File>
+    <File Include="App_Data/Charts/Line.html">
+      <publishTime>11/02/2015 17:48:30</publishTime>
+    </File>
+    <File Include="App_Data/Charts/Pie.html">
+      <publishTime>10/27/2015 15:52:06</publishTime>
+    </File>
+    <File Include="App_Data/Charts/WordCloud.html">
+      <publishTime>10/18/2015 23:10:24</publishTime>
+    </File>
+    <File Include="App_Data/Clients.xml">
+      <publishTime>10/16/2015 19:34:49</publishTime>
+    </File>
+    <File Include="App_Data/ColorScheme.css">
+      <publishTime>07/21/2015 14:39:16</publishTime>
+    </File>
+    <File Include="App_Data/CustomCharts/CustomChart.html">
+      <publishTime>07/21/2015 14:39:15</publishTime>
+    </File>
+    <File Include="App_Data/CustomCharts/CustomChartInit.html">
+      <publishTime>07/21/2015 14:39:15</publishTime>
+    </File>
+    <File Include="App_Data/DataStorage/CreateResponseIndex.sql">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="App_Data/DataStorage/CreateResponseIndexPOSTGRE.sql">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="App_Data/DataStorage/CreateResponses.sql">
+      <publishTime>10/16/2015 14:09:45</publishTime>
+    </File>
+    <File Include="App_Data/DataStorage/CreateResponsesPOSTGRE.sql">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="App_Data/DataStorage/RebuildResponseIndex.sql">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="App_Data/DataStorage/ResponsesSchema.xml">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="App_Data/ExportDefinition.xml">
+      <publishTime>07/01/2015 12:33:05</publishTime>
+    </File>
+    <File Include="App_Data/HierarchySelectorDefault.css">
+      <publishTime>09/03/2015 10:42:26</publishTime>
+    </File>
+    <File Include="App_Data/HierarchySelectors/LinkManager.xml">
+      <publishTime>08/31/2015 11:08:26</publishTime>
+    </File>
+    <File Include="App_Data/HierarchySelectors/msi.xml">
+      <publishTime>08/31/2015 11:08:26</publishTime>
+    </File>
+    <File Include="App_Data/HierarchySelectors/Youtube.xml">
+      <publishTime>09/03/2015 10:42:26</publishTime>
+    </File>
+    <File Include="App_Data/HomePage.xml">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="App_Data/Homescreen.xml">
+      <publishTime>07/01/2015 12:33:05</publishTime>
+    </File>
+    <File Include="App_Data/HomeScreen/HomeScreen.xml">
+      <publishTime>06/22/2015 11:49:47</publishTime>
+    </File>
+    <File Include="App_Data/Languages/English.xml">
+      <publishTime>10/12/2015 14:05:01</publishTime>
+    </File>
+    <File Include="App_Data/LinkBiDefinition.xml">
+      <publishTime>07/14/2015 15:25:14</publishTime>
+    </File>
+    <File Include="App_Data/LinkBiSettingsMenu.xml">
+      <publishTime>06/03/2015 16:43:01</publishTime>
+    </File>
+    <File Include="App_Data/LinkReporterSettingsMenu.xml">
+      <publishTime>10/26/2015 20:06:44</publishTime>
+    </File>
+    <File Include="App_Data/MailTemplates/CMUserTemplate.html">
+      <publishTime>12/17/2014 19:20:08</publishTime>
+    </File>
+    <File Include="App_Data/MailTemplates/ContactChange.html">
+      <publishTime>01/09/2015 15:23:42</publishTime>
+    </File>
+    <File Include="App_Data/MailTemplates/English/CMUserTemplate.html">
+      <publishTime>07/21/2015 14:39:15</publishTime>
+    </File>
+    <File Include="App_Data/MailTemplates/English/ContactChange.html">
+      <publishTime>07/21/2015 14:39:15</publishTime>
+    </File>
+    <File Include="App_Data/MailTemplates/English/Feedback.html">
+      <publishTime>08/14/2015 12:32:14</publishTime>
+    </File>
+    <File Include="App_Data/MailTemplates/English/ForgotPassword.html">
+      <publishTime>07/21/2015 14:39:15</publishTime>
+    </File>
+    <File Include="App_Data/MailTemplates/English/LinkBiExportFinished.html">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="App_Data/MailTemplates/English/MailTemplate.html">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="App_Data/MailTemplates/English/ModifyOwnerTemplate.html">
+      <publishTime>06/15/2015 15:54:43</publishTime>
+    </File>
+    <File Include="App_Data/MailTemplates/English/PasswordChange.html">
+      <publishTime>07/21/2015 14:39:15</publishTime>
+    </File>
+    <File Include="App_Data/MailTemplates/English/UploadFinished.html">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="App_Data/MailTemplates/English/YourTemplate.html">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="App_Data/MailTemplates/MailTemplate.html">
+      <publishTime>11/06/2014 12:16:21</publishTime>
+    </File>
+    <File Include="App_Data/MailTemplates/ModifyOwnerTemplate.html">
+      <publishTime>01/12/2015 13:57:35</publishTime>
+    </File>
+    <File Include="App_Data/MailTemplates/PasswordChange.html">
+      <publishTime>01/02/2015 17:50:01</publishTime>
+    </File>
+    <File Include="App_Data/MailTemplates/YourTemplate.html">
+      <publishTime>11/06/2014 12:15:46</publishTime>
+    </File>
+    <File Include="App_Data/Navigation.xml">
+      <publishTime>10/28/2015 19:52:18</publishTime>
+    </File>
+    <File Include="App_Data/News/News.xml">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="App_Data/Permissions.xml">
+      <publishTime>10/29/2015 00:23:08</publishTime>
+    </File>
+    <File Include="App_Data/RecentUsedDetails.xml">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="App_Data/ReportDefinition.xml">
+      <publishTime>09/15/2015 09:28:06</publishTime>
+    </File>
+    <File Include="App_Data/ReportingWorkflows/192.xml">
+      <publishTime>01/09/2015 17:36:31</publishTime>
+    </File>
+    <File Include="App_Data/ReportingWorkflows/gfk.xml">
+      <publishTime>01/09/2015 17:36:31</publishTime>
+    </File>
+    <File Include="App_Data/ReportingWorkflows/linkmanager.xml">
+      <publishTime>06/22/2015 11:49:47</publishTime>
+    </File>
+    <File Include="App_Data/ReportingWorkflows/linkwebapp.xml">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="App_Data/ReportingWorkflows/microsoft.xml">
+      <publishTime>01/09/2015 17:36:31</publishTime>
+    </File>
+    <File Include="App_Data/ReportingWorkflows/microsoftv3.xml">
+      <publishTime>01/09/2015 17:36:31</publishTime>
+    </File>
+    <File Include="App_Data/ReportingWorkflows/microsoftv3test.xml">
+      <publishTime>12/09/2014 10:48:32</publishTime>
+    </File>
+    <File Include="App_Data/ReportingWorkflows/msadtest.xml">
+      <publishTime>10/07/2015 09:55:02</publishTime>
+    </File>
+    <File Include="App_Data/ReportingWorkflows/msi.xml">
+      <publishTime>08/31/2015 11:08:26</publishTime>
+    </File>
+    <File Include="App_Data/ReportingWorkflows/youtube.xml">
+      <publishTime>09/15/2015 09:28:06</publishTime>
+    </File>
+    <File Include="App_Data/ReportingWorkflows/youtubev3.xml">
+      <publishTime>01/09/2015 17:36:31</publishTime>
+    </File>
+    <File Include="App_Data/RSVGConverter/chartExport.svg">
+      <publishTime>11/02/2015 16:59:59</publishTime>
+    </File>
+    <File Include="App_Data/RSVGConverter/rsvg-convert.exe">
+      <publishTime>04/03/2015 19:05:02</publishTime>
+    </File>
+    <File Include="App_Data/Settings.xml">
+      <publishTime>09/15/2015 10:11:41</publishTime>
+    </File>
+    <File Include="App_Data/TaxonomyStructure.xml">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="App_Data/TextAggregation.xml">
+      <publishTime>10/20/2015 19:32:45</publishTime>
+    </File>
+    <File Include="App_Data/Views/Crosstable.xml">
+      <publishTime>07/01/2015 12:33:04</publishTime>
+    </File>
+    <File Include="App_Data/Views/Views.xml">
+      <publishTime>10/26/2015 20:17:45</publishTime>
+    </File>
+    <File Include="App_Data/Views/Views2.xml">
+      <publishTime>08/03/2015 10:44:16</publishTime>
+    </File>
+    <File Include="App_Data/Views/ViewsText.xml">
+      <publishTime>07/14/2015 15:25:14</publishTime>
+    </File>
+    <File Include="App_Data/WeightingDefaults/youtube.xml">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="bin/AjaxControlToolkit.DLL">
+      <publishTime>07/22/2015 15:16:50</publishTime>
+    </File>
+    <File Include="bin/ApplicationUtilities.dll">
+      <publishTime>11/02/2015 15:55:38</publishTime>
+    </File>
+    <File Include="bin/ApplicationUtilities.pdb">
+      <publishTime>10/28/2014 11:03:07</publishTime>
+    </File>
+    <File Include="bin/BenchmarkTest.dll">
+      <publishTime>07/22/2015 15:16:50</publishTime>
+    </File>
+    <File Include="bin/CDT.ColorPickerExtender.dll">
+      <publishTime>07/22/2015 15:16:50</publishTime>
+    </File>
+    <File Include="bin/ClientBackup.dll">
+      <publishTime>11/02/2015 15:55:39</publishTime>
+    </File>
+    <File Include="bin/Crosstables.dll">
+      <publishTime>11/02/2015 18:08:08</publishTime>
+    </File>
+    <File Include="bin/Crosstables.pdb">
+      <publishTime>10/28/2014 15:39:58</publishTime>
+    </File>
+    <File Include="bin/CsQuery.dll">
+      <publishTime>07/22/2015 15:16:50</publishTime>
+    </File>
+    <File Include="bin/DataAnalyser.dll">
+      <publishTime>11/02/2015 18:08:08</publishTime>
+    </File>
+    <File Include="bin/DatabaseCore.dll">
+      <publishTime>11/02/2015 15:55:38</publishTime>
+    </File>
+    <File Include="bin/DatabaseCore.pdb">
+      <publishTime>10/28/2014 11:03:06</publishTime>
+    </File>
+    <File Include="bin/DataCore.dll">
+      <publishTime>11/02/2015 18:08:07</publishTime>
+    </File>
+    <File Include="bin/DataCore.pdb">
+      <publishTime>10/28/2014 15:39:58</publishTime>
+    </File>
+    <File Include="bin/DataReader.dll">
+      <publishTime>11/02/2015 15:55:39</publishTime>
+    </File>
+    <File Include="bin/DataReader.pdb">
+      <publishTime>10/28/2014 11:03:07</publishTime>
+    </File>
+    <File Include="bin/Homescreen.dll">
+      <publishTime>11/02/2015 18:08:09</publishTime>
+    </File>
+    <File Include="bin/HtmlAgilityPack.dll">
+      <publishTime>07/22/2015 15:16:50</publishTime>
+    </File>
+    <File Include="bin/LiNK Excel Export.dll">
+      <publishTime>01/09/2015 17:44:23</publishTime>
+    </File>
+    <File Include="bin/LinkBi.dll">
+      <publishTime>11/02/2015 18:08:08</publishTime>
+    </File>
+    <File Include="bin/LinkOnline.dll">
+      <publishTime>11/02/2015 18:08:10</publishTime>
+    </File>
+    <File Include="bin/LinkOnline.pdb">
+      <publishTime>10/28/2014 15:40:00</publishTime>
+    </File>
+    <File Include="bin/MasterPage.dll">
+      <publishTime>11/02/2015 18:08:07</publishTime>
+    </File>
+    <File Include="bin/MasterPage.pdb">
+      <publishTime>10/28/2014 15:39:57</publishTime>
+    </File>
+    <File Include="bin/Mono.Security.dll">
+      <publishTime>07/22/2015 15:16:50</publishTime>
+    </File>
+    <File Include="bin/Npgsql.dll">
+      <publishTime>07/22/2015 15:16:50</publishTime>
+    </File>
+    <File Include="bin/PermissionCore.dll">
+      <publishTime>11/02/2015 15:55:37</publishTime>
+    </File>
+    <File Include="bin/PermissionCore.pdb">
+      <publishTime>10/10/2014 09:20:41</publishTime>
+    </File>
+    <File Include="bin/PreMailer.dll">
+      <publishTime>01/09/2015 17:44:23</publishTime>
+    </File>
+    <File Include="bin/ProjectHierarchy.dll">
+      <publishTime>07/22/2015 15:16:50</publishTime>
+    </File>
+    <File Include="bin/Resources/EquationEvaluatorSource.cs">
+      <publishTime>08/18/2015 16:26:02</publishTime>
+    </File>
+    <File Include="bin/Resources/EquationValidatorConfiguration.xml">
+      <publishTime>08/31/2015 11:11:40</publishTime>
+    </File>
+    <File Include="bin/SpreadsheetGear.dll">
+      <publishTime>01/09/2015 17:44:23</publishTime>
+    </File>
+    <File Include="bin/SpreadsheetGear2012.Core.dll">
+      <publishTime>07/22/2015 15:16:50</publishTime>
+    </File>
+    <File Include="bin/SpreadsheetGear2012.Drawing.dll">
+      <publishTime>07/22/2015 15:16:50</publishTime>
+    </File>
+    <File Include="bin/SpreadsheetGear2012.Windows.WPF.dll">
+      <publishTime>07/22/2015 15:16:50</publishTime>
+    </File>
+    <File Include="bin/Spss.dll">
+      <publishTime>07/22/2015 15:16:50</publishTime>
+    </File>
+    <File Include="bin/VariableSelector.dll">
+      <publishTime>11/02/2015 18:08:07</publishTime>
+    </File>
+    <File Include="bin/WebUtilities.dll">
+      <publishTime>11/02/2015 18:08:06</publishTime>
+    </File>
+    <File Include="bin/WebUtilities.pdb">
+      <publishTime>10/28/2014 15:39:58</publishTime>
+    </File>
+    <File Include="Classes/Controls/EquationDefinition.ascx">
+      <publishTime>10/07/2015 09:55:03</publishTime>
+    </File>
+    <File Include="Classes/Controls/HierarchySelector.ascx">
+      <publishTime>09/15/2015 09:28:08</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>05/21/2015 18:22:06</publishTime>
+    </File>
+    <File Include="Fileadmin/DatabaseChangeLogs/20141006/Variable.xml">
+      <publishTime>11/06/2014 12:15:41</publishTime>
+    </File>
+    <File Include="Fileadmin/DataChecks/00384b95-8d92-4147-bd3c-4949bcceb4c7.xml">
+      <publishTime>12/12/2014 09:10:46</publishTime>
+    </File>
+    <File Include="Fileadmin/DataChecks/79384b95-8d92-4147-bd3c-4949bcceb4c7.xml">
+      <publishTime>12/12/2014 09:10:46</publishTime>
+    </File>
+    <File Include="Fileadmin/DataChecks/7c384b95-8d92-4147-bd3c-4949bcceb4c7.xml">
+      <publishTime>12/12/2014 09:10:46</publishTime>
+    </File>
+    <File Include="Fileadmin/ReportDefinitions/69384b95-8d92-4147-bd3c-4949bcceb4c7.xml">
+      <publishTime>01/09/2015 17:36:31</publishTime>
+    </File>
+    <File Include="Fileadmin/SavedReports/69384b95-8d92-4147-bd3c-4949bcceb4c7/Large table test.lor">
+      <publishTime>12/12/2014 09:10:30</publishTime>
+    </File>
+    <File Include="Fileadmin/SavedReports/69384b95-8d92-4147-bd3c-4949bcceb4c7/Mean score test.lor">
+      <publishTime>12/12/2014 09:10:30</publishTime>
+    </File>
+    <File Include="Fileadmin/SavedReports/69384b95-8d92-4147-bd3c-4949bcceb4c7/testdemo.lor">
+      <publishTime>12/12/2014 09:10:30</publishTime>
+    </File>
+    <File Include="Fileadmin/SavedReports/ed4c69bf-788a-4dfe-8169-7436238ee17d/test.lor">
+      <publishTime>12/01/2014 12:58:03</publishTime>
+    </File>
+    <File Include="Fileadmin/SavedReports/ed4c69bf-788a-4dfe-8169-7436238ee17d/test1.lor">
+      <publishTime>12/01/2014 12:58:03</publishTime>
+    </File>
+    <File Include="Fileadmin/SavedReports/ed4c69bf-788a-4dfe-8169-7436238ee17d/test2.lor">
+      <publishTime>12/01/2014 12:58:03</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>05/21/2015 18:22:06</publishTime>
+    </File>
+    <File Include="Handlers/ChartHandler.ashx">
+      <publishTime>06/22/2015 11:49:42</publishTime>
+    </File>
+    <File Include="Handlers/CustomCharts.ashx">
+      <publishTime>07/21/2015 14:39:14</publishTime>
+    </File>
+    <File Include="Handlers/GlobalHandler.ashx">
+      <publishTime>05/21/2015 18:22:07</publishTime>
+    </File>
+    <File Include="Handlers/HomeHandler.ashx">
+      <publishTime>05/21/2015 18:22:07</publishTime>
+    </File>
+    <File Include="Handlers/HomePageHandler.ashx">
+      <publishTime>05/21/2015 18:22:07</publishTime>
+    </File>
+    <File Include="Handlers/LanguageManager.ashx">
+      <publishTime>05/21/2015 18:22:07</publishTime>
+    </File>
+    <File Include="Handlers/LinkBi.ashx">
+      <publishTime>05/21/2015 18:22:07</publishTime>
+    </File>
+    <File Include="Handlers/LinkBiExternal.ashx">
+      <publishTime>05/21/2015 18:22:07</publishTime>
+    </File>
+    <File Include="Handlers/LinkManagerHandler.ashx">
+      <publishTime>07/28/2015 16:55:52</publishTime>
+    </File>
+    <File Include="Handlers/LinkOverview.ashx">
+      <publishTime>05/21/2015 18:22:07</publishTime>
+    </File>
+    <File Include="Handlers/ProjectHierarchyManager.ashx">
+      <publishTime>05/21/2015 18:22:07</publishTime>
+    </File>
+    <File Include="Handlers/QAHandler.ashx">
+      <publishTime>06/11/2015 10:42:43</publishTime>
+    </File>
+    <File Include="Handlers/RSVGExport.ashx">
+      <publishTime>09/07/2015 10:08:54</publishTime>
+    </File>
+    <File Include="Handlers/StudyTaxonomyStructure.ashx">
+      <publishTime>05/21/2015 18:22:07</publishTime>
+    </File>
+    <File Include="Handlers/Support.ashx">
+      <publishTime>08/10/2015 11:32:16</publishTime>
+    </File>
+    <File Include="Handlers/TaxonomyHandler.ashx">
+      <publishTime>12/01/2014 11:42:00</publishTime>
+    </File>
+    <File Include="Handlers/VariableSelector.ashx">
+      <publishTime>05/21/2015 18:22:07</publishTime>
+    </File>
+    <File Include="Handlers/WebUtilitiesHandler.ashx">
+      <publishTime>05/21/2015 18:22:07</publishTime>
+    </File>
+    <File Include="Handlers/WorkflowDefinitionHandler.ashx">
+      <publishTime>05/21/2015 18:22:07</publishTime>
+    </File>
+    <File Include="Images/Backgrounds/Error.png">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Images/Backgrounds/ReporterTab.png">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Images/Backgrounds/ReporterTabContainer.png">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Images/Backgrounds/ReporterTab_Active.png">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Images/Backgrounds/Tabs_Old.rar">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Images/Backgrounds/Warning.png">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Images/blank.gif">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Images/ClientLogos/default.png">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Images/ClientLogos/localhost.png">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Images/ClientLogos/noimage.png">
+      <publishTime>12/09/2014 16:20:21</publishTime>
+    </File>
+    <File Include="Images/close.png">
+      <publishTime>05/21/2015 18:22:07</publishTime>
+    </File>
+    <File Include="Images/Components/ColorPicker/blank.gif">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Images/Components/ColorPicker/colorpicker_background.png">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Images/Components/ColorPicker/colorpicker_hex.png">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Images/Components/ColorPicker/colorpicker_hsb_b.png">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Images/Components/ColorPicker/colorpicker_hsb_h.png">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Images/Components/ColorPicker/colorpicker_hsb_s.png">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Images/Components/ColorPicker/colorpicker_indic.gif">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Images/Components/ColorPicker/colorpicker_overlay.png">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Images/Components/ColorPicker/colorpicker_rgb_b.png">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Images/Components/ColorPicker/colorpicker_rgb_g.png">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Images/Components/ColorPicker/colorpicker_rgb_r.png">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Images/Components/ColorPicker/colorpicker_select.gif">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Images/Components/ColorPicker/colorpicker_submit.png">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Images/Components/ColorPicker/custom_background.png">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Images/Components/ColorPicker/custom_hex.png">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Images/Components/ColorPicker/custom_hsb_b.png">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Images/Components/ColorPicker/custom_hsb_h.png">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Images/Components/ColorPicker/custom_hsb_s.png">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Images/Components/ColorPicker/custom_indic.gif">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Images/Components/ColorPicker/custom_rgb_b.png">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Images/Components/ColorPicker/custom_rgb_g.png">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Images/Components/ColorPicker/custom_rgb_r.png">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Images/Components/ColorPicker/custom_submit.png">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Images/Components/ColorPicker/select.png">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Images/Components/ColorPicker/select2.png">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Images/Components/ColorPicker/select_v1.png">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Images/Components/ColorPicker/slider.png">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Images/Icons/add.PNG">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Images/Icons/Add2.png">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Images/Icons/Add3.png">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Images/Icons/Add4.png">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Images/Icons/Add5.png">
+      <publishTime>10/07/2015 09:55:04</publishTime>
+    </File>
+    <File Include="Images/Icons/Arrow.png">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Images/Icons/ArrowLeft.png">
+      <publishTime>09/15/2015 09:28:12</publishTime>
+    </File>
+    <File Include="Images/Icons/Back.png">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Images/Icons/Back2.png">
+      <publishTime>07/01/2015 12:33:02</publishTime>
+    </File>
+    <File Include="Images/Icons/Back_Hover.png">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Images/Icons/Bin.png">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Images/Icons/Bin_Hover.png">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Images/Icons/BoxClose.png">
+      <publishTime>05/21/2015 18:22:07</publishTime>
+    </File>
+    <File Include="Images/Icons/BoxClose_Hover.png">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Images/Icons/Boxes/checkbox/Active.png">
+      <publishTime>08/18/2015 16:25:58</publishTime>
+    </File>
+    <File Include="Images/Icons/Boxes/checkbox/ActiveHover.png">
+      <publishTime>08/18/2015 16:25:58</publishTime>
+    </File>
+    <File Include="Images/Icons/Boxes/checkbox/checkbox.rar">
+      <publishTime>08/18/2015 16:25:58</publishTime>
+    </File>
+    <File Include="Images/Icons/Boxes/checkbox/Colored.rar">
+      <publishTime>05/21/2015 18:22:07</publishTime>
+    </File>
+    <File Include="Images/Icons/Boxes/checkbox/Hover.png">
+      <publishTime>08/18/2015 16:25:58</publishTime>
+    </File>
+    <File Include="Images/Icons/Boxes/checkbox/Inactive.png">
+      <publishTime>08/18/2015 16:25:58</publishTime>
+    </File>
+    <File Include="Images/Icons/Boxes/checkbox/mouse over off.png">
+      <publishTime>08/18/2015 16:25:58</publishTime>
+    </File>
+    <File Include="Images/Icons/Boxes/checkbox/mouse over on.png">
+      <publishTime>08/18/2015 16:25:58</publishTime>
+    </File>
+    <File Include="Images/Icons/Boxes/checkbox/off.png">
+      <publishTime>08/18/2015 16:25:58</publishTime>
+    </File>
+    <File Include="Images/Icons/Boxes/checkbox/on.png">
+      <publishTime>08/18/2015 16:25:58</publishTime>
+    </File>
+    <File Include="Images/Icons/Charts/customcharts.png">
+      <publishTime>06/12/2015 15:23:21</publishTime>
+    </File>
+    <File Include="Images/Icons/Charts/play.png">
+      <publishTime>05/21/2015 18:22:07</publishTime>
+    </File>
+    <File Include="Images/Icons/ClientManager/Add New User.png">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Images/Icons/ClientManager/admin.png">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Images/Icons/ClientManager/Createusergroup.png">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Images/Icons/ClientManager/Home Management.png">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Images/Icons/ClientManager/Manage User Groups.png">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Images/Icons/ClientManager/Manage Users.png">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Images/Icons/ClientManager/Managedashboards.png">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Images/Icons/ClientManager/Managenews.png">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Images/Icons/ClientManager/ManageUserGroups.png">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Images/Icons/ClientManager/Portal settings.png">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Images/Icons/Close.png">
+      <publishTime>05/21/2015 18:22:07</publishTime>
+    </File>
+    <File Include="Images/Icons/Close_Hover.png">
+      <publishTime>05/21/2015 18:22:07</publishTime>
+    </File>
+    <File Include="Images/Icons/Cloud/.bmp.png">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Images/Icons/Cloud/.doc.png">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Images/Icons/Cloud/.docx.png">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Images/Icons/Cloud/.jpeg.png">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Images/Icons/Cloud/.jpg.png">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Images/Icons/Cloud/.lor.png">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Images/Icons/Cloud/.pdf.PNG">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Images/Icons/Cloud/.png.png">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Images/Icons/Cloud/.pptx.png">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Images/Icons/Cloud/.xls.png">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Images/Icons/Cloud/.xlsx.png">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Images/Icons/Cloud/Delete.png">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Images/Icons/Cloud/Directory - Kopie.png">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Images/Icons/Cloud/Directory.png">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Images/Icons/Cloud/Download.png">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Images/Icons/Cloud/NewDirectory.png">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Images/Icons/Cloud/NewDirectory_Hover.png">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Images/Icons/Cloud/Run.png">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Images/Icons/Cloud/Unknown.png">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Images/Icons/Cloud/Upload.png">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Images/Icons/Collapse.png">
+      <publishTime>06/16/2015 10:43:13</publishTime>
+    </File>
+    <File Include="Images/Icons/DataAnalyser/Compare.PNG">
+      <publishTime>09/16/2015 15:10:02</publishTime>
+    </File>
+    <File Include="Images/Icons/DataAnalyser/Export.PNG">
+      <publishTime>09/16/2015 15:10:03</publishTime>
+    </File>
+    <File Include="Images/Icons/DataAnalyser/Weights.PNG">
+      <publishTime>09/29/2015 11:20:14</publishTime>
+    </File>
+    <File Include="Images/Icons/DataManagement/DataAnalyser/Compare.png">
+      <publishTime>09/07/2015 15:04:44</publishTime>
+    </File>
+    <File Include="Images/Icons/DataManagement/DataAnalyser/Export.png">
+      <publishTime>09/07/2015 15:05:24</publishTime>
+    </File>
+    <File Include="Images/Icons/DataManagement/DataAnalyser/Weights.png">
+      <publishTime>09/07/2015 15:04:30</publishTime>
+    </File>
+    <File Include="Images/Icons/DataManagement/DataAnalyzer.png">
+      <publishTime>09/15/2015 11:37:40</publishTime>
+    </File>
+    <File Include="Images/Icons/DataManagement/DataAnalyzer/document.png">
+      <publishTime>09/09/2015 20:43:28</publishTime>
+    </File>
+    <File Include="Images/Icons/DataManagement/DataAnalyzer/studies.png">
+      <publishTime>09/09/2015 20:43:28</publishTime>
+    </File>
+    <File Include="Images/Icons/DataManagement/DataAnalyzer/weights.png">
+      <publishTime>09/09/2015 20:43:28</publishTime>
+    </File>
+    <File Include="Images/Icons/DataManagement/DataAnalyzer_old.png">
+      <publishTime>09/07/2015 15:05:24</publishTime>
+    </File>
+    <File Include="Images/Icons/DataManagement/Delete.png">
+      <publishTime>09/07/2015 19:32:34</publishTime>
+    </File>
+    <File Include="Images/Icons/DataManagement/DownloadAssignment.png">
+      <publishTime>06/29/2015 15:11:04</publishTime>
+    </File>
+    <File Include="Images/Icons/DataManagement/ModifyVariables.png">
+      <publishTime>09/15/2015 11:36:22</publishTime>
+    </File>
+    <File Include="Images/Icons/DataManagement/ModifyVariables_old.png">
+      <publishTime>06/16/2015 21:26:36</publishTime>
+    </File>
+    <File Include="Images/Icons/DataManagement/Move.png">
+      <publishTime>09/15/2015 11:36:30</publishTime>
+    </File>
+    <File Include="Images/Icons/DataManagement/Move_old.png">
+      <publishTime>09/07/2015 19:32:48</publishTime>
+    </File>
+    <File Include="Images/Icons/DataManagement/Online.png">
+      <publishTime>09/15/2015 11:36:40</publishTime>
+    </File>
+    <File Include="Images/Icons/DataManagement/ProgressBackground.png">
+      <publishTime>09/10/2015 21:09:46</publishTime>
+    </File>
+    <File Include="Images/Icons/DataManagement/SetHierarchyFilter.png">
+      <publishTime>09/15/2015 11:36:54</publishTime>
+    </File>
+    <File Include="Images/Icons/DataManagement/SetHierarchyFilter_new.png">
+      <publishTime>09/14/2015 17:10:16</publishTime>
+    </File>
+    <File Include="Images/Icons/DataManagement/SetHierarchyFilter_old.png">
+      <publishTime>09/15/2015 09:28:11</publishTime>
+    </File>
+    <File Include="Images/Icons/DataManagement/Status/ImportFailed.png">
+      <publishTime>09/15/2015 11:38:04</publishTime>
+    </File>
+    <File Include="Images/Icons/DataManagement/Status/Importing.png">
+      <publishTime>09/15/2015 11:40:54</publishTime>
+    </File>
+    <File Include="Images/Icons/DataManagement/Status/Linking.png">
+      <publishTime>09/15/2015 11:36:02</publishTime>
+    </File>
+    <File Include="Images/Icons/DataManagement/Status/linking_old.png">
+      <publishTime>09/08/2015 14:55:18</publishTime>
+    </File>
+    <File Include="Images/Icons/DataManagement/Status/online.png">
+      <publishTime>09/15/2015 11:36:40</publishTime>
+    </File>
+    <File Include="Images/Icons/DataManagement/Status/online_old.png">
+      <publishTime>09/08/2015 14:41:28</publishTime>
+    </File>
+    <File Include="Images/Icons/DataManagement/Status/QA.png">
+      <publishTime>09/15/2015 11:36:46</publishTime>
+    </File>
+    <File Include="Images/Icons/DataManagement/Status/QA_old.png">
+      <publishTime>09/08/2015 14:44:28</publishTime>
+    </File>
+    <File Include="Images/Icons/DataManagement/Status/StudyStatusOnline.png">
+      <publishTime>09/08/2015 14:41:28</publishTime>
+    </File>
+    <File Include="Images/Icons/DataManagement/Status/StudyStatusQA.png">
+      <publishTime>09/08/2015 14:44:28</publishTime>
+    </File>
+    <File Include="Images/Icons/DataManagement/Status/StudyStatusUnlinked.png">
+      <publishTime>09/08/2015 14:44:44</publishTime>
+    </File>
+    <File Include="Images/Icons/DataManagement/Status/StudyStatusUnlinkedlinking.png">
+      <publishTime>09/08/2015 14:55:18</publishTime>
+    </File>
+    <File Include="Images/Icons/DataManagement/Status/Unlinked.png">
+      <publishTime>09/15/2015 11:37:16</publishTime>
+    </File>
+    <File Include="Images/Icons/DataManagement/Status/unlinked_old.png">
+      <publishTime>09/08/2015 14:44:44</publishTime>
+    </File>
+    <File Include="Images/Icons/DataManagement/UploadStudy.png">
+      <publishTime>09/10/2015 20:41:52</publishTime>
+    </File>
+    <File Include="Images/Icons/DataManagement/ViewGrid.png">
+      <publishTime>09/15/2015 11:37:06</publishTime>
+    </File>
+    <File Include="Images/Icons/DataManagement/ViewGrid_old.png">
+      <publishTime>09/10/2015 20:41:06</publishTime>
+    </File>
+    <File Include="Images/Icons/DataManagement/ViewItems.png">
+      <publishTime>09/15/2015 11:36:12</publishTime>
+    </File>
+    <File Include="Images/Icons/DataManagement/ViewItems_old.png">
+      <publishTime>09/10/2015 20:40:06</publishTime>
+    </File>
+    <File Include="Images/Icons/DataManagement1/DataAnalyser/Compare.png">
+      <publishTime>09/07/2015 15:04:44</publishTime>
+    </File>
+    <File Include="Images/Icons/DataManagement1/DataAnalyser/Export.png">
+      <publishTime>09/07/2015 15:05:24</publishTime>
+    </File>
+    <File Include="Images/Icons/DataManagement1/DataAnalyser/Weights.png">
+      <publishTime>09/07/2015 15:04:30</publishTime>
+    </File>
+    <File Include="Images/Icons/DataManagement1/DataAnalyzer.png">
+      <publishTime>09/14/2015 17:13:24</publishTime>
+    </File>
+    <File Include="Images/Icons/DataManagement1/DataAnalyzer/document.png">
+      <publishTime>09/09/2015 20:43:28</publishTime>
+    </File>
+    <File Include="Images/Icons/DataManagement1/DataAnalyzer/studies.png">
+      <publishTime>09/09/2015 20:43:28</publishTime>
+    </File>
+    <File Include="Images/Icons/DataManagement1/DataAnalyzer/weights.png">
+      <publishTime>09/09/2015 20:43:28</publishTime>
+    </File>
+    <File Include="Images/Icons/DataManagement1/DataAnalyzer_old.png">
+      <publishTime>09/07/2015 15:05:24</publishTime>
+    </File>
+    <File Include="Images/Icons/DataManagement1/Delete.png">
+      <publishTime>09/07/2015 19:32:34</publishTime>
+    </File>
+    <File Include="Images/Icons/DataManagement1/DownloadAssignment.png">
+      <publishTime>06/29/2015 15:11:04</publishTime>
+    </File>
+    <File Include="Images/Icons/DataManagement1/ModifyVariables.png">
+      <publishTime>09/14/2015 17:08:04</publishTime>
+    </File>
+    <File Include="Images/Icons/DataManagement1/ModifyVariables_old.png">
+      <publishTime>06/16/2015 21:26:36</publishTime>
+    </File>
+    <File Include="Images/Icons/DataManagement1/Move.png">
+      <publishTime>09/14/2015 17:14:32</publishTime>
+    </File>
+    <File Include="Images/Icons/DataManagement1/Move_old.png">
+      <publishTime>09/07/2015 19:32:48</publishTime>
+    </File>
+    <File Include="Images/Icons/DataManagement1/ProgressBackground.png">
+      <publishTime>09/10/2015 21:09:46</publishTime>
+    </File>
+    <File Include="Images/Icons/DataManagement1/SetHierarchyFilter.png">
+      <publishTime>09/14/2015 17:10:16</publishTime>
+    </File>
+    <File Include="Images/Icons/DataManagement1/SetHierarchyFilter_old.png">
+      <publishTime>06/29/2015 15:10:50</publishTime>
+    </File>
+    <File Include="Images/Icons/DataManagement1/Status/linking.png">
+      <publishTime>09/08/2015 14:55:18</publishTime>
+    </File>
+    <File Include="Images/Icons/DataManagement1/Status/online.png">
+      <publishTime>09/08/2015 14:41:28</publishTime>
+    </File>
+    <File Include="Images/Icons/DataManagement1/Status/QA.png">
+      <publishTime>09/08/2015 14:44:28</publishTime>
+    </File>
+    <File Include="Images/Icons/DataManagement1/Status/StudyStatusOnline.png">
+      <publishTime>09/08/2015 14:41:28</publishTime>
+    </File>
+    <File Include="Images/Icons/DataManagement1/Status/StudyStatusQA.png">
+      <publishTime>09/08/2015 14:44:28</publishTime>
+    </File>
+    <File Include="Images/Icons/DataManagement1/Status/StudyStatusUnlinked.png">
+      <publishTime>09/08/2015 14:44:44</publishTime>
+    </File>
+    <File Include="Images/Icons/DataManagement1/Status/StudyStatusUnlinkedlinking.png">
+      <publishTime>09/08/2015 14:55:18</publishTime>
+    </File>
+    <File Include="Images/Icons/DataManagement1/Status/unlinked.png">
+      <publishTime>09/08/2015 14:44:44</publishTime>
+    </File>
+    <File Include="Images/Icons/DataManagement1/UploadStudy.png">
+      <publishTime>09/10/2015 20:41:52</publishTime>
+    </File>
+    <File Include="Images/Icons/DataManagement1/ViewGrid.png">
+      <publishTime>09/14/2015 17:10:28</publishTime>
+    </File>
+    <File Include="Images/Icons/DataManagement1/ViewGrid_old.png">
+      <publishTime>09/10/2015 20:41:06</publishTime>
+    </File>
+    <File Include="Images/Icons/DataManagement1/ViewItems.png">
+      <publishTime>09/14/2015 17:07:46</publishTime>
+    </File>
+    <File Include="Images/Icons/DataManagement1/ViewItems_old.png">
+      <publishTime>09/10/2015 20:40:06</publishTime>
+    </File>
+    <File Include="Images/Icons/Delete.png">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Images/Icons/Delete2.png">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Images/Icons/DropDown.png">
+      <publishTime>05/21/2015 18:22:07</publishTime>
+    </File>
+    <File Include="Images/Icons/Equation/ExpandEditor.png">
+      <publishTime>08/31/2015 11:07:54</publishTime>
+    </File>
+    <File Include="Images/Icons/Equation/InsertCondition.png">
+      <publishTime>08/26/2015 13:36:30</publishTime>
+    </File>
+    <File Include="Images/Icons/Equation/InsertMethod.png">
+      <publishTime>08/18/2015 16:25:58</publishTime>
+    </File>
+    <File Include="Images/Icons/Equation/InsertPlaceHolder.png">
+      <publishTime>08/18/2015 16:25:58</publishTime>
+    </File>
+    <File Include="Images/Icons/Equation/Validate.png">
+      <publishTime>08/18/2015 16:25:58</publishTime>
+    </File>
+    <File Include="Images/Icons/Error.png">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Images/Icons/Expand - Kopie.png">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Images/Icons/Expand.png">
+      <publishTime>06/16/2015 10:43:14</publishTime>
+    </File>
+    <File Include="Images/Icons/Expand2.png">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Images/Icons/ExpandH.png">
+      <publishTime>06/11/2015 10:42:43</publishTime>
+    </File>
+    <File Include="Images/Icons/ExpandSmall - Kopie.png">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Images/Icons/ExpandSmall.png">
+      <publishTime>05/21/2015 18:22:07</publishTime>
+    </File>
+    <File Include="Images/Icons/Expand_Hover.png">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Images/Icons/Filter.png">
+      <publishTime>07/01/2015 12:33:02</publishTime>
+    </File>
+    <File Include="Images/Icons/Filter_Active.png">
+      <publishTime>06/22/2015 11:49:45</publishTime>
+    </File>
+    <File Include="Images/Icons/Hide.png">
+      <publishTime>05/21/2015 18:22:07</publishTime>
+    </File>
+    <File Include="Images/Icons/HideVariableSelection.png">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Images/Icons/Home/chart1.PNG">
+      <publishTime>11/27/2014 12:33:49</publishTime>
+    </File>
+    <File Include="Images/Icons/Home/chart2.PNG">
+      <publishTime>11/27/2014 12:34:32</publishTime>
+    </File>
+    <File Include="Images/Icons/Home/report1.png">
+      <publishTime>11/26/2014 11:35:49</publishTime>
+    </File>
+    <File Include="Images/Icons/Home/report2.png">
+      <publishTime>11/26/2014 11:34:15</publishTime>
+    </File>
+    <File Include="Images/Icons/Home/rssfeed.jpg">
+      <publishTime>11/25/2014 13:54:47</publishTime>
+    </File>
+    <File Include="Images/Icons/icon_colorpicker.gif">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Images/Icons/LinkBi/Download.png">
+      <publishTime>07/01/2015 12:33:03</publishTime>
+    </File>
+    <File Include="Images/Icons/LinkBi/Server.png">
+      <publishTime>07/01/2015 12:33:03</publishTime>
+    </File>
+    <File Include="Images/Icons/LinkBiSelectorToolTip.png">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Images/Icons/LinkReporterSettings/Collapser.png">
+      <publishTime>06/16/2015 10:43:14</publishTime>
+    </File>
+    <File Include="Images/Icons/LinkReporterSettings/Expander.png">
+      <publishTime>06/16/2015 10:43:14</publishTime>
+    </File>
+    <File Include="Images/Icons/LinkReporterSettings/Export.png">
+      <publishTime>10/28/2015 16:09:54</publishTime>
+    </File>
+    <File Include="Images/Icons/LinkReporterSettings/Hierarchy.png">
+      <publishTime>10/28/2015 16:42:48</publishTime>
+    </File>
+    <File Include="Images/Icons/LinkReporterSettings/New.png">
+      <publishTime>10/28/2015 15:59:08</publishTime>
+    </File>
+    <File Include="Images/Icons/LinkReporterSettings/Save.png">
+      <publishTime>10/28/2015 16:11:22</publishTime>
+    </File>
+    <File Include="Images/Icons/LinkReporterSettings/SaveAllTabs.png">
+      <publishTime>05/21/2015 18:22:07</publishTime>
+    </File>
+    <File Include="Images/Icons/LinkReporterSettings/SaveTab.png">
+      <publishTime>05/21/2015 18:22:07</publishTime>
+    </File>
+    <File Include="Images/Icons/LinkReporterSettings/Settings.png">
+      <publishTime>10/28/2015 16:13:08</publishTime>
+    </File>
+    <File Include="Images/Icons/LinkReporterSettings/Tools.png">
+      <publishTime>10/28/2015 16:29:38</publishTime>
+    </File>
+    <File Include="Images/Icons/LinkReporterSettings/View.png">
+      <publishTime>10/28/2015 16:09:00</publishTime>
+    </File>
+    <File Include="Images/Icons/LinkReporterSettings/Views/Area.png">
+      <publishTime>07/01/2015 12:33:03</publishTime>
+    </File>
+    <File Include="Images/Icons/LinkReporterSettings/Views/Bar.png">
+      <publishTime>07/01/2015 12:33:03</publishTime>
+    </File>
+    <File Include="Images/Icons/LinkReporterSettings/Views/Column.png">
+      <publishTime>07/01/2015 12:33:03</publishTime>
+    </File>
+    <File Include="Images/Icons/LinkReporterSettings/Views/Crosstable.png">
+      <publishTime>07/01/2015 12:33:03</publishTime>
+    </File>
+    <File Include="Images/Icons/LinkReporterSettings/Views/Line.png">
+      <publishTime>07/01/2015 12:33:03</publishTime>
+    </File>
+    <File Include="Images/Icons/LinkReporterSettings/Views/Pie.png">
+      <publishTime>07/28/2015 16:55:52</publishTime>
+    </File>
+    <File Include="Images/Icons/LinkReporterSettings/Views/View.png">
+      <publishTime>07/01/2015 12:33:03</publishTime>
+    </File>
+    <File Include="Images/Icons/LinkReporterSettings/Views/WordCloud.png">
+      <publishTime>07/14/2015 15:25:16</publishTime>
+    </File>
+    <File Include="Images/Icons/Loading.gif">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Images/Icons/maximise.png">
+      <publishTime>05/21/2015 18:22:07</publishTime>
+    </File>
+    <File Include="Images/Icons/Menu.png">
+      <publishTime>05/21/2015 18:22:07</publishTime>
+    </File>
+    <File Include="Images/Icons/Menu/CombineWithGroup.png">
+      <publishTime>07/07/2015 12:44:43</publishTime>
+    </File>
+    <File Include="Images/Icons/Menu/CreateNewGroup.png">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Images/Icons/Menu/Delete.png">
+      <publishTime>07/07/2015 12:44:43</publishTime>
+    </File>
+    <File Include="Images/Icons/Menu/DeleteReporterTab.png">
+      <publishTime>07/07/2015 12:44:43</publishTime>
+    </File>
+    <File Include="Images/Icons/Menu/RemoveFromGroup.png">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Images/Icons/Menu/RenameReporterTab.png">
+      <publishTime>07/07/2015 12:44:43</publishTime>
+    </File>
+    <File Include="Images/Icons/Menu_Active.png">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Images/Icons/Menu_Hover.png">
+      <publishTime>05/21/2015 18:22:07</publishTime>
+    </File>
+    <File Include="Images/Icons/Navigation/Admin.png">
+      <publishTime>07/01/2015 12:33:02</publishTime>
+    </File>
+    <File Include="Images/Icons/Navigation/Admin_Active.png">
+      <publishTime>06/03/2015 16:43:03</publishTime>
+    </File>
+    <File Include="Images/Icons/Navigation/Assistance.png">
+      <publishTime>09/15/2015 11:37:24</publishTime>
+    </File>
+    <File Include="Images/Icons/Navigation/Back.png">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Images/Icons/Navigation/Collapse.png">
+      <publishTime>07/14/2015 15:25:16</publishTime>
+    </File>
+    <File Include="Images/Icons/Navigation/Dashboards.png">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Images/Icons/Navigation/Debug.png">
+      <publishTime>07/01/2015 12:33:02</publishTime>
+    </File>
+    <File Include="Images/Icons/Navigation/Expand.png">
+      <publishTime>07/14/2015 15:25:16</publishTime>
+    </File>
+    <File Include="Images/Icons/Navigation/Expand2.png">
+      <publishTime>07/14/2015 15:25:16</publishTime>
+    </File>
+    <File Include="Images/Icons/Navigation/Home.png">
+      <publishTime>07/01/2015 12:33:02</publishTime>
+    </File>
+    <File Include="Images/Icons/Navigation/Library.png">
+      <publishTime>07/01/2015 12:33:02</publishTime>
+    </File>
+    <File Include="Images/Icons/Navigation/Logout.png">
+      <publishTime>06/03/2015 16:43:03</publishTime>
+    </File>
+    <File Include="Images/Icons/Navigation/Logout_Active.png">
+      <publishTime>06/03/2015 16:43:03</publishTime>
+    </File>
+    <File Include="Images/Icons/Navigation/Production.png">
+      <publishTime>07/01/2015 12:33:02</publishTime>
+    </File>
+    <File Include="Images/Icons/Navigation/Production_Active.png">
+      <publishTime>06/03/2015 16:43:03</publishTime>
+    </File>
+    <File Include="Images/Icons/Navigation/Reporter.png">
+      <publishTime>07/01/2015 12:33:02</publishTime>
+    </File>
+    <File Include="Images/Icons/Navigation/Reporter_Active.png">
+      <publishTime>06/03/2015 16:43:03</publishTime>
+    </File>
+    <File Include="Images/Icons/Navigation/Services.png">
+      <publishTime>07/01/2015 12:33:02</publishTime>
+    </File>
+    <File Include="Images/Icons/Navigation/Services_Active.png">
+      <publishTime>06/03/2015 16:43:03</publishTime>
+    </File>
+    <File Include="Images/Icons/Navigation/Settings.png">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Images/Icons/Navigation/Settings2.png">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Images/Icons/Navigation/UserInfo.png">
+      <publishTime>06/16/2015 10:43:13</publishTime>
+    </File>
+    <File Include="Images/Icons/Navigation/_Back.png">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Images/Icons/OkCircle.png">
+      <publishTime>08/05/2015 10:42:51</publishTime>
+    </File>
+    <File Include="Images/Icons/remove.PNG">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Images/Icons/ReporterAddTab.png">
+      <publishTime>06/12/2015 15:23:21</publishTime>
+    </File>
+    <File Include="Images/Icons/Right.png">
+      <publishTime>05/21/2015 18:22:07</publishTime>
+    </File>
+    <File Include="Images/Icons/Search.png">
+      <publishTime>07/21/2015 14:39:14</publishTime>
+    </File>
+    <File Include="Images/Icons/Search2.png">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Images/Icons/Search_Hover.png">
+      <publishTime>07/21/2015 14:39:14</publishTime>
+    </File>
+    <File Include="Images/Icons/SelectVariable.png">
+      <publishTime>07/01/2015 12:33:02</publishTime>
+    </File>
+    <File Include="Images/Icons/SelectVariable_Hover.png">
+      <publishTime>06/11/2015 10:42:43</publishTime>
+    </File>
+    <File Include="Images/Icons/Show.png">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Images/Icons/SignOff.png">
+      <publishTime>06/22/2015 11:49:45</publishTime>
+    </File>
+    <File Include="Images/Icons/SignOff_Hover.png">
+      <publishTime>06/22/2015 11:49:45</publishTime>
+    </File>
+    <File Include="Images/Icons/Success.png">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Images/Icons/Swiper.png">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Images/Icons/Switch.png">
+      <publishTime>06/11/2015 10:42:43</publishTime>
+    </File>
+    <File Include="Images/Icons/Switch_Hover.png">
+      <publishTime>06/11/2015 10:42:43</publishTime>
+    </File>
+    <File Include="Images/Icons/ToolTipBottom.png">
+      <publishTime>07/01/2015 12:33:02</publishTime>
+    </File>
+    <File Include="Images/Icons/ToolTipLeft.png">
+      <publishTime>06/22/2015 11:49:45</publishTime>
+    </File>
+    <File Include="Images/Icons/ToolTipTop.png">
+      <publishTime>06/22/2015 11:49:43</publishTime>
+    </File>
+    <File Include="Images/Icons/TreeViewNodeCollapse - Copy.png">
+      <publishTime>05/21/2015 18:22:07</publishTime>
+    </File>
+    <File Include="Images/Icons/TreeViewNodeCollapse.png">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Images/Icons/TreeViewNodeExpand - Copy.png">
+      <publishTime>05/21/2015 18:22:07</publishTime>
+    </File>
+    <File Include="Images/Icons/TreeViewNodeExpand.png">
+      <publishTime>05/21/2015 18:22:07</publishTime>
+    </File>
+    <File Include="Images/Icons/VariableSelector/1.png">
+      <publishTime>07/01/2015 12:33:02</publishTime>
+    </File>
+    <File Include="Images/Icons/VariableSelector/1_Hover.png">
+      <publishTime>07/01/2015 12:33:02</publishTime>
+    </File>
+    <File Include="Images/Icons/VariableSelector/Categorize.png">
+      <publishTime>06/16/2015 10:43:13</publishTime>
+    </File>
+    <File Include="Images/Icons/VariableSelector/CategoryDragHandle.png">
+      <publishTime>07/01/2015 12:33:02</publishTime>
+    </File>
+    <File Include="Images/Icons/VariableSelector/CategoryDragHandle2.png">
+      <publishTime>07/01/2015 12:33:02</publishTime>
+    </File>
+    <File Include="Images/Icons/VariableSelector/CategoryDragHandle2_Hover.png">
+      <publishTime>07/01/2015 12:33:02</publishTime>
+    </File>
+    <File Include="Images/Icons/VariableSelector/CategoryDragHandle_Hover.png">
+      <publishTime>07/01/2015 12:33:02</publishTime>
+    </File>
+    <File Include="Images/Icons/VariableSelector/Down.png">
+      <publishTime>05/21/2015 18:22:07</publishTime>
+    </File>
+    <File Include="Images/Icons/VariableSelector/Multi.png">
+      <publishTime>07/01/2015 12:33:02</publishTime>
+    </File>
+    <File Include="Images/Icons/VariableSelector/Multi_Hover.png">
+      <publishTime>07/01/2015 12:33:02</publishTime>
+    </File>
+    <File Include="Images/Icons/VariableSelector/Numeric.png">
+      <publishTime>07/01/2015 12:33:02</publishTime>
+    </File>
+    <File Include="Images/Icons/VariableSelector/Numeric_Hover.png">
+      <publishTime>07/01/2015 12:33:02</publishTime>
+    </File>
+    <File Include="Images/Icons/VariableSelector/ScoreDragHandle.png">
+      <publishTime>05/21/2015 18:22:07</publishTime>
+    </File>
+    <File Include="Images/Icons/VariableSelector/ScoreGroup.png">
+      <publishTime>07/01/2015 12:33:02</publishTime>
+    </File>
+    <File Include="Images/Icons/VariableSelector/Single.png">
+      <publishTime>07/01/2015 12:33:02</publishTime>
+    </File>
+    <File Include="Images/Icons/VariableSelector/Single_Hover.png">
+      <publishTime>07/01/2015 12:33:02</publishTime>
+    </File>
+    <File Include="Images/Icons/VariableSelector/Text.png">
+      <publishTime>07/01/2015 12:33:02</publishTime>
+    </File>
+    <File Include="Images/Icons/VariableSelector/Text_Hover.png">
+      <publishTime>07/01/2015 12:33:02</publishTime>
+    </File>
+    <File Include="Images/Icons/VariableSelector/Up.png">
+      <publishTime>05/21/2015 18:22:07</publishTime>
+    </File>
+    <File Include="Images/Icons/VariableSelector/VariableDragHandle.png">
+      <publishTime>05/21/2015 18:22:07</publishTime>
+    </File>
+    <File Include="Images/Icons/VariableSelector/VariableSide.png">
+      <publishTime>05/21/2015 18:22:07</publishTime>
+    </File>
+    <File Include="Images/Icons/VariableSelector/VariableTop.png">
+      <publishTime>05/21/2015 18:22:07</publishTime>
+    </File>
+    <File Include="Images/Icons/VariableSide.png">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Images/Icons/Warning.png">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Images/Icons/Warning2.png">
+      <publishTime>07/01/2015 12:33:02</publishTime>
+    </File>
+    <File Include="Images/Icons/Weighting.png">
+      <publishTime>07/01/2015 12:33:02</publishTime>
+    </File>
+    <File Include="Images/Icons/Weighting_Active.png">
+      <publishTime>07/01/2015 12:33:02</publishTime>
+    </File>
+    <File Include="Images/Icons/Weighting_Hover.png">
+      <publishTime>06/11/2015 10:42:43</publishTime>
+    </File>
+    <File Include="Images/Icons/_Expand_Hover.png">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Images/LinkBi/Interfaces/csv.png">
+      <publishTime>05/21/2015 18:22:07</publishTime>
+    </File>
+    <File Include="Images/LinkBi/Interfaces/csv_Hover.png">
+      <publishTime>05/21/2015 18:22:07</publishTime>
+    </File>
+    <File Include="Images/LinkBi/Interfaces/Excel.png">
+      <publishTime>05/21/2015 18:22:07</publishTime>
+    </File>
+    <File Include="Images/LinkBi/Interfaces/Excel_Hover.png">
+      <publishTime>05/21/2015 18:22:07</publishTime>
+    </File>
+    <File Include="Images/LinkBi/Interfaces/PowerBi.png">
+      <publishTime>01/09/2015 17:36:31</publishTime>
+    </File>
+    <File Include="Images/LinkBi/Interfaces/Tableau.png">
+      <publishTime>01/09/2015 17:36:31</publishTime>
+    </File>
+    <File Include="Images/LinkBi/Interfaces/Xml.png">
+      <publishTime>05/21/2015 18:22:07</publishTime>
+    </File>
+    <File Include="Images/LinkBi/Interfaces/Xml_hover.png">
+      <publishTime>05/21/2015 18:22:07</publishTime>
+    </File>
+    <File Include="Images/Logos/Blueocean.png">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Images/Logos/Link.png">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Images/Support/icons.png">
+      <publishTime>08/03/2015 12:11:16</publishTime>
+    </File>
+    <File Include="Images/Support/pin.PNG">
+      <publishTime>08/03/2015 12:06:37</publishTime>
+    </File>
+    <File Include="Images/Support/remove.PNG">
+      <publishTime>08/03/2015 12:06:37</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>11/25/2014 15:34:20</publishTime>
+    </File>
+    <File Include="Pages/Account/ChangeContact.aspx">
+      <publishTime>07/03/2015 11:39:11</publishTime>
+    </File>
+    <File Include="Pages/Account/ChangePassword.aspx">
+      <publishTime>07/03/2015 11:39:11</publishTime>
+    </File>
+    <File Include="Pages/Account/Home.aspx">
+      <publishTime>05/22/2015 16:02:36</publishTime>
+    </File>
+    <File Include="Pages/AgencyManagementSystem/Overview.aspx">
+      <publishTime>08/12/2015 14:27:51</publishTime>
+    </File>
+    <File Include="Pages/AgencyManagementSystem/Variables.aspx">
+      <publishTime>07/03/2015 11:39:11</publishTime>
+    </File>
+    <File Include="Pages/Backup.aspx">
+      <publishTime>07/21/2015 14:39:14</publishTime>
+    </File>
+    <File Include="Pages/ChangePassword.aspx">
+      <publishTime>01/05/2015 12:34:09</publishTime>
+    </File>
+    <File Include="Pages/ChartDev/ChartDevSite.aspx">
+      <publishTime>05/27/2015 11:45:51</publishTime>
+    </File>
+    <File Include="Pages/ClientManager/AllocateModules.aspx">
+      <publishTime>11/19/2014 16:57:55</publishTime>
+    </File>
+    <File Include="Pages/ClientManager/AllocateRolePermission.aspx">
+      <publishTime>09/01/2015 16:23:50</publishTime>
+    </File>
+    <File Include="Pages/ClientManager/AllocateUserModule.aspx">
+      <publishTime>11/15/2014 11:58:05</publishTime>
+    </File>
+    <File Include="Pages/ClientManager/ChartsDetails.aspx">
+      <publishTime>09/01/2015 16:24:23</publishTime>
+    </File>
+    <File Include="Pages/ClientManager/ClientManagementNestedMaster.master">
+      <publishTime>10/07/2014 11:11:14</publishTime>
+    </File>
+    <File Include="Pages/ClientManager/ClientManagerHome.aspx">
+      <publishTime>09/01/2015 16:24:54</publishTime>
+    </File>
+    <File Include="Pages/ClientManager/ClientSettings.aspx">
+      <publishTime>09/01/2015 16:58:45</publishTime>
+    </File>
+    <File Include="Pages/ClientManager/CreateGroup.aspx">
+      <publishTime>09/01/2015 16:25:26</publishTime>
+    </File>
+    <File Include="Pages/ClientManager/CreateNewUser.aspx">
+      <publishTime>12/17/2014 16:40:02</publishTime>
+    </File>
+    <File Include="Pages/ClientManager/CreateUser.aspx">
+      <publishTime>09/01/2015 17:10:53</publishTime>
+    </File>
+    <File Include="Pages/ClientManager/DashboardItems.aspx">
+      <publishTime>09/01/2015 16:25:52</publishTime>
+    </File>
+    <File Include="Pages/ClientManager/HomeManagement.aspx">
+      <publishTime>12/30/2014 17:08:34</publishTime>
+    </File>
+    <File Include="Pages/ClientManager/HomeScreenManagement.aspx">
+      <publishTime>09/01/2015 16:21:03</publishTime>
+    </File>
+    <File Include="Pages/ClientManager/ManageGroup.aspx">
+      <publishTime>09/01/2015 16:26:01</publishTime>
+    </File>
+    <File Include="Pages/ClientManager/ManageNews.aspx">
+      <publishTime>09/01/2015 16:26:13</publishTime>
+    </File>
+    <File Include="Pages/ClientManager/ManageUserGroupsHome.aspx">
+      <publishTime>09/01/2015 16:26:24</publishTime>
+    </File>
+    <File Include="Pages/ClientManager/ManageUsers.aspx">
+      <publishTime>09/01/2015 17:15:24</publishTime>
+    </File>
+    <File Include="Pages/ClientManager/ManageUsersHome.aspx">
+      <publishTime>11/17/2014 18:50:47</publishTime>
+    </File>
+    <File Include="Pages/ClientManager/ModifyUser.aspx">
+      <publishTime>09/15/2015 09:28:10</publishTime>
+    </File>
+    <File Include="Pages/ClientManager/NewsDetails.aspx">
+      <publishTime>09/01/2015 16:26:55</publishTime>
+    </File>
+    <File Include="Pages/ClientManager/RoleManagement.aspx">
+      <publishTime>11/06/2014 12:15:42</publishTime>
+    </File>
+    <File Include="Pages/ClientManager/UserManagement.aspx">
+      <publishTime>11/13/2014 11:45:34</publishTime>
+    </File>
+    <File Include="Pages/ClientManager/UsersHome.aspx">
+      <publishTime>09/01/2015 16:27:03</publishTime>
+    </File>
+    <File Include="Pages/ClientManager/Workgroups.aspx">
+      <publishTime>09/15/2015 09:28:10</publishTime>
+    </File>
+    <File Include="Pages/CustomCharts/Builder.aspx">
+      <publishTime>07/14/2015 15:25:15</publishTime>
+    </File>
+    <File Include="Pages/CustomCharts/ChartsHome.aspx">
+      <publishTime>07/03/2015 11:39:11</publishTime>
+    </File>
+    <File Include="Pages/Dashboards.aspx">
+      <publishTime>07/14/2015 15:25:15</publishTime>
+    </File>
+    <File Include="Pages/DataCheck.aspx">
+      <publishTime>11/06/2014 12:15:42</publishTime>
+    </File>
+    <File Include="Pages/DataManagement/HierarchyFilter.aspx">
+      <publishTime>10/08/2015 11:01:54</publishTime>
+    </File>
+    <File Include="Pages/DataManagement/Overview.aspx">
+      <publishTime>10/08/2015 11:01:54</publishTime>
+    </File>
+    <File Include="Pages/Debug.aspx">
+      <publishTime>05/21/2015 18:22:07</publishTime>
+    </File>
+    <File Include="Pages/Default.aspx">
+      <publishTime>07/03/2015 11:39:11</publishTime>
+    </File>
+    <File Include="Pages/Dummy.Master">
+      <publishTime>05/21/2015 18:22:07</publishTime>
+    </File>
+    <File Include="Pages/ErrorPage.aspx">
+      <publishTime>05/21/2015 18:22:07</publishTime>
+    </File>
+    <File Include="Pages/ForgotPassword.aspx">
+      <publishTime>07/03/2015 11:39:11</publishTime>
+    </File>
+    <File Include="Pages/Home.aspx">
+      <publishTime>12/30/2014 11:24:54</publishTime>
+    </File>
+    <File Include="Pages/HomePage.aspx">
+      <publishTime>12/29/2014 18:40:58</publishTime>
+    </File>
+    <File Include="Pages/HomeScreen.aspx">
+      <publishTime>12/30/2014 16:51:05</publishTime>
+    </File>
+    <File Include="Pages/LandingPage.aspx">
+      <publishTime>12/29/2014 16:50:02</publishTime>
+    </File>
+    <File Include="Pages/LinkBi/LinkBi.aspx">
+      <publishTime>09/28/2015 09:30:43</publishTime>
+    </File>
+    <File Include="Pages/LinkBi/SavedDefinitions.aspx">
+      <publishTime>10/12/2015 14:05:02</publishTime>
+    </File>
+    <File Include="Pages/LinkBi/SelectInterface.aspx">
+      <publishTime>10/12/2015 14:05:02</publishTime>
+    </File>
+    <File Include="Pages/LinkBi/Status.aspx">
+      <publishTime>10/12/2015 14:05:02</publishTime>
+    </File>
+    <File Include="Pages/LinkCloud.aspx">
+      <publishTime>10/07/2015 09:55:04</publishTime>
+    </File>
+    <File Include="Pages/LinkManager/LinkManager.aspx">
+      <publishTime>08/12/2015 14:27:51</publishTime>
+    </File>
+    <File Include="Pages/LinkManager/ManualLinkManager.aspx">
+      <publishTime>11/02/2015 14:20:51</publishTime>
+    </File>
+    <File Include="Pages/LinkManager/Test.aspx">
+      <publishTime>09/03/2015 10:42:25</publishTime>
+    </File>
+    <File Include="Pages/LinkOverview.aspx">
+      <publishTime>05/26/2015 11:53:00</publishTime>
+    </File>
+    <File Include="Pages/LinkReporter/Crosstabs.aspx">
+      <publishTime>11/02/2015 15:42:33</publishTime>
+    </File>
+    <File Include="Pages/LinkReporter/ReportDefinitionError.aspx">
+      <publishTime>05/21/2015 18:22:07</publishTime>
+    </File>
+    <File Include="Pages/Login.aspx">
+      <publishTime>09/16/2015 20:55:38</publishTime>
+    </File>
+    <File Include="Pages/PasswordAssistance.aspx">
+      <publishTime>07/03/2015 11:39:11</publishTime>
+    </File>
+    <File Include="Pages/QA/Logs.aspx">
+      <publishTime>06/11/2015 13:46:24</publishTime>
+    </File>
+    <File Include="Pages/QA/Overview.aspx">
+      <publishTime>08/31/2015 11:07:54</publishTime>
+    </File>
+    <File Include="Pages/ResetPassword.aspx">
+      <publishTime>07/03/2015 11:39:11</publishTime>
+    </File>
+    <File Include="Pages/Services/Exports.aspx">
+      <publishTime>07/03/2015 11:39:11</publishTime>
+    </File>
+    <File Include="Pages/TaxonomyManager/TaxonomyManager.aspx">
+      <publishTime>10/07/2015 09:55:04</publishTime>
+    </File>
+    <File Include="Pages/TaxonomyManager/WorkflowDefinition.aspx">
+      <publishTime>10/08/2015 11:01:54</publishTime>
+    </File>
+    <File Include="Pages/Test.aspx">
+      <publishTime>12/12/2014 15:13:40</publishTime>
+    </File>
+    <File Include="Pages/Uploader/Uploader.aspx">
+      <publishTime>01/09/2015 17:36:30</publishTime>
+    </File>
+    <File Include="Scripts/Ajax.js">
+      <publishTime>09/28/2015 09:30:41</publishTime>
+    </File>
+    <File Include="Scripts/BootStrap/bootstrap.min.js">
+      <publishTime>09/01/2015 16:20:29</publishTime>
+    </File>
+    <File Include="Scripts/Box.js">
+      <publishTime>12/15/2014 09:40:14</publishTime>
+    </File>
+    <File Include="Scripts/Boxes.js">
+      <publishTime>11/06/2014 12:15:41</publishTime>
+    </File>
+    <File Include="Scripts/ChartExport/canvg.js">
+      <publishTime>08/31/2015 13:36:02</publishTime>
+    </File>
+    <File Include="Scripts/ChartExport/FileSaver.js">
+      <publishTime>08/27/2015 11:54:01</publishTime>
+    </File>
+    <File Include="Scripts/ChartExport/html2canvas.js">
+      <publishTime>08/27/2015 11:54:01</publishTime>
+    </File>
+    <File Include="Scripts/ChartExport/jspdf.js">
+      <publishTime>08/27/2015 17:46:41</publishTime>
+    </File>
+    <File Include="Scripts/ChartExport/rgbcolor.js">
+      <publishTime>09/02/2015 10:04:46</publishTime>
+    </File>
+    <File Include="Scripts/ChartExportMenu/dropdown.js">
+      <publishTime>09/22/2015 14:13:11</publishTime>
+    </File>
+    <File Include="Scripts/ColorConverter.js">
+      <publishTime>12/15/2014 23:08:17</publishTime>
+    </File>
+    <File Include="Scripts/colorpicker.js">
+      <publishTime>11/06/2014 12:15:40</publishTime>
+    </File>
+    <File Include="Scripts/Controls/Box.js">
+      <publishTime>08/31/2015 11:07:52</publishTime>
+    </File>
+    <File Include="Scripts/Controls/Boxes.js">
+      <publishTime>08/18/2015 16:25:56</publishTime>
+    </File>
+    <File Include="Scripts/Controls/CategorySearch.js">
+      <publishTime>09/28/2015 09:30:41</publishTime>
+    </File>
+    <File Include="Scripts/Controls/Chat.js">
+      <publishTime>07/03/2015 11:39:10</publishTime>
+    </File>
+    <File Include="Scripts/Controls/ColorConverter.js">
+      <publishTime>07/03/2015 11:39:10</publishTime>
+    </File>
+    <File Include="Scripts/Controls/colorpicker.js">
+      <publishTime>07/03/2015 11:39:10</publishTime>
+    </File>
+    <File Include="Scripts/Controls/Dragable.js">
+      <publishTime>07/03/2015 11:39:10</publishTime>
+    </File>
+    <File Include="Scripts/Controls/Grid.js">
+      <publishTime>07/21/2015 14:39:16</publishTime>
+    </File>
+    <File Include="Scripts/Controls/HoverBox.js">
+      <publishTime>07/03/2015 11:39:10</publishTime>
+    </File>
+    <File Include="Scripts/Controls/JavascriptBox.js">
+      <publishTime>08/18/2015 16:25:56</publishTime>
+    </File>
+    <File Include="Scripts/Controls/Navigation.js">
+      <publishTime>07/03/2015 11:39:10</publishTime>
+    </File>
+    <File Include="Scripts/Controls/NavigationMenu.js">
+      <publishTime>07/03/2015 11:39:10</publishTime>
+    </File>
+    <File Include="Scripts/Controls/OptionSwipe.js">
+      <publishTime>07/03/2015 11:39:10</publishTime>
+    </File>
+    <File Include="Scripts/Controls/PopUp.js">
+      <publishTime>07/07/2015 12:49:09</publishTime>
+    </File>
+    <File Include="Scripts/Controls/ProgressBar.js">
+      <publishTime>07/03/2015 11:39:10</publishTime>
+    </File>
+    <File Include="Scripts/Controls/RightPanel.js">
+      <publishTime>09/15/2015 09:28:07</publishTime>
+    </File>
+    <File Include="Scripts/Controls/SearchBox.js">
+      <publishTime>07/03/2015 11:39:10</publishTime>
+    </File>
+    <File Include="Scripts/Controls/ToolTip.js">
+      <publishTime>08/12/2015 14:27:51</publishTime>
+    </File>
+    <File Include="Scripts/Controls/TreeView.js">
+      <publishTime>09/15/2015 09:28:07</publishTime>
+    </File>
+    <File Include="Scripts/D3JS/d3.layout.cloud.js">
+      <publishTime>07/01/2015 12:33:00</publishTime>
+    </File>
+    <File Include="Scripts/D3JS/d3.min.js">
+      <publishTime>07/01/2015 12:33:00</publishTime>
+    </File>
+    <File Include="Scripts/D3JS/d3.tip.v0.6.3.js">
+      <publishTime>07/01/2015 12:33:00</publishTime>
+    </File>
+    <File Include="Scripts/D3JS/download.pl">
+      <publishTime>05/02/2014 15:55:00</publishTime>
+    </File>
+    <File Include="Scripts/D3JS/html2canvas.min.js">
+      <publishTime>08/12/2015 09:12:00</publishTime>
+    </File>
+    <File Include="Scripts/D3JS/vkbeautify.0.99.00.beta.js">
+      <publishTime>05/02/2014 15:55:00</publishTime>
+    </File>
+    <File Include="Scripts/D3JS/wheelMenu.js">
+      <publishTime>07/14/2015 15:25:15</publishTime>
+    </File>
+    <File Include="Scripts/DataTable/Ajax.js">
+      <publishTime>01/19/2015 14:26:48</publishTime>
+    </File>
+    <File Include="Scripts/DataTable/d3.min.js">
+      <publishTime>06/26/2015 09:06:40</publishTime>
+    </File>
+    <File Include="Scripts/DataTable/dataTables.fixedColumns.js">
+      <publishTime>06/12/2015 17:58:31</publishTime>
+    </File>
+    <File Include="Scripts/DataTable/dataTables.tableTools.min.js">
+      <publishTime>06/24/2015 11:20:26</publishTime>
+    </File>
+    <File Include="Scripts/DataTable/jquery-2.1.1.min.js">
+      <publishTime>06/24/2015 09:39:15</publishTime>
+    </File>
+    <File Include="Scripts/DataTable/jquery.dataTables.min.js">
+      <publishTime>06/12/2015 17:49:26</publishTime>
+    </File>
+    <File Include="Scripts/DataTable/jquery.sumoselect.min.js">
+      <publishTime>06/24/2015 19:36:53</publishTime>
+    </File>
+    <File Include="Scripts/DataTable/UnderScore.js">
+      <publishTime>03/05/2015 16:19:37</publishTime>
+    </File>
+    <File Include="Scripts/Dragable.js">
+      <publishTime>11/06/2014 12:15:41</publishTime>
+    </File>
+    <File Include="Scripts/eye.js">
+      <publishTime>05/21/2015 18:22:04</publishTime>
+    </File>
+    <File Include="Scripts/Filters.js">
+      <publishTime>01/09/2015 17:36:31</publishTime>
+    </File>
+    <File Include="Scripts/Grid.js">
+      <publishTime>11/06/2014 12:15:41</publishTime>
+    </File>
+    <File Include="Scripts/HomePage.js">
+      <publishTime>05/21/2015 18:22:03</publishTime>
+    </File>
+    <File Include="Scripts/HoverBox.js">
+      <publishTime>01/09/2015 17:36:31</publishTime>
+    </File>
+    <File Include="Scripts/JavascriptBox.js">
+      <publishTime>12/19/2014 14:54:06</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.js">
+      <publishTime>05/21/2015 18:22:03</publishTime>
+    </File>
+    <File Include="Scripts/jquery-ui.min.js">
+      <publishTime>05/21/2015 18:22:03</publishTime>
+    </File>
+    <File Include="Scripts/jquery.dragsort.js">
+      <publishTime>05/21/2015 18:22:03</publishTime>
+    </File>
+    <File Include="Scripts/jquery.js">
+      <publishTime>05/21/2015 18:22:03</publishTime>
+    </File>
+    <File Include="Scripts/jquery.sortable.js">
+      <publishTime>05/21/2015 18:22:04</publishTime>
+    </File>
+    <File Include="Scripts/jquery.sortable.min.js">
+      <publishTime>05/21/2015 18:22:03</publishTime>
+    </File>
+    <File Include="Scripts/JQuery/AwesomeCloud/jquery.awesomeCloud-0.2.js">
+      <publishTime>05/21/2015 18:22:03</publishTime>
+    </File>
+    <File Include="Scripts/JQuery/AwesomeCloud/jquery.awesomeCloud-0.2.min.js">
+      <publishTime>05/21/2015 18:22:03</publishTime>
+    </File>
+    <File Include="Scripts/JQuery/CodeMirror/Addons/merge/merge.css">
+      <publishTime>08/18/2015 16:25:56</publishTime>
+    </File>
+    <File Include="Scripts/JQuery/CodeMirror/Addons/merge/merge.js">
+      <publishTime>08/18/2015 16:25:56</publishTime>
+    </File>
+    <File Include="Scripts/JQuery/CodeMirror/autocomplete/anyword-hint.js">
+      <publishTime>08/18/2015 16:25:56</publishTime>
+    </File>
+    <File Include="Scripts/JQuery/CodeMirror/autocomplete/show-hint.css">
+      <publishTime>08/18/2015 16:25:56</publishTime>
+    </File>
+    <File Include="Scripts/JQuery/CodeMirror/autocomplete/show-hint.js">
+      <publishTime>08/18/2015 16:25:56</publishTime>
+    </File>
+    <File Include="Scripts/JQuery/CodeMirror/autocomplete/variables-hint.js">
+      <publishTime>08/18/2015 16:25:56</publishTime>
+    </File>
+    <File Include="Scripts/JQuery/CodeMirror/codemirror.css">
+      <publishTime>08/18/2015 16:25:56</publishTime>
+    </File>
+    <File Include="Scripts/JQuery/CodeMirror/codemirror.js">
+      <publishTime>08/18/2015 16:25:56</publishTime>
+    </File>
+    <File Include="Scripts/JQuery/CodeMirror/equation.js">
+      <publishTime>08/18/2015 16:25:56</publishTime>
+    </File>
+    <File Include="Scripts/JQuery/CodeMirror/javascript.js">
+      <publishTime>08/18/2015 16:25:56</publishTime>
+    </File>
+    <File Include="Scripts/JQuery/CodeMirror/mathematica.js">
+      <publishTime>08/18/2015 16:25:56</publishTime>
+    </File>
+    <File Include="Scripts/JQuery/CodeMirror/sql.js">
+      <publishTime>08/18/2015 16:25:56</publishTime>
+    </File>
+    <File Include="Scripts/JQuery/CodeMirror/vb.js">
+      <publishTime>08/18/2015 16:25:56</publishTime>
+    </File>
+    <File Include="Scripts/JQuery/CodeMirror/xml.js">
+      <publishTime>08/18/2015 16:25:56</publishTime>
+    </File>
+    <File Include="Scripts/JQuery/jquery-1.7.2.js">
+      <publishTime>05/21/2015 18:22:03</publishTime>
+    </File>
+    <File Include="Scripts/JQuery/jquery-1.8.1.min.js">
+      <publishTime>05/21/2015 18:22:03</publishTime>
+    </File>
+    <File Include="Scripts/JQuery/jquery-ui-1.7.2.custom.min.js">
+      <publishTime>05/21/2015 18:22:03</publishTime>
+    </File>
+    <File Include="Scripts/JQuery/jquery.foggy.min.js">
+      <publishTime>05/21/2015 18:22:03</publishTime>
+    </File>
+    <File Include="Scripts/LanguageManager.js">
+      <publishTime>05/21/2015 18:22:03</publishTime>
+    </File>
+    <File Include="Scripts/layout.js">
+      <publishTime>05/21/2015 18:22:03</publishTime>
+    </File>
+    <File Include="Scripts/LinkBi.js">
+      <publishTime>01/09/2015 17:36:31</publishTime>
+    </File>
+    <File Include="Scripts/Main.js">
+      <publishTime>10/12/2015 14:05:01</publishTime>
+    </File>
+    <File Include="Scripts/Menu.js">
+      <publishTime>07/14/2015 15:25:15</publishTime>
+    </File>
+    <File Include="Scripts/Modules/EquationDefinition.js">
+      <publishTime>10/07/2015 09:55:03</publishTime>
+    </File>
+    <File Include="Scripts/Modules/Filters.js">
+      <publishTime>09/28/2015 09:30:42</publishTime>
+    </File>
+    <File Include="Scripts/Modules/ReportDefinition.js">
+      <publishTime>09/15/2015 09:28:07</publishTime>
+    </File>
+    <File Include="Scripts/Modules/ReportTabs.js">
+      <publishTime>08/06/2015 15:31:37</publishTime>
+    </File>
+    <File Include="Scripts/Modules/SavedReports.js">
+      <publishTime>09/29/2015 11:32:19</publishTime>
+    </File>
+    <File Include="Scripts/Modules/SessionTimeout.js">
+      <publishTime>07/16/2015 10:08:14</publishTime>
+    </File>
+    <File Include="Scripts/Modules/SignificanceTest.js">
+      <publishTime>07/03/2015 11:39:10</publishTime>
+    </File>
+    <File Include="Scripts/Modules/VariableSearch.js">
+      <publishTime>10/12/2015 14:05:01</publishTime>
+    </File>
+    <File Include="Scripts/Modules/VariableSelection.js">
+      <publishTime>07/03/2015 11:39:10</publishTime>
+    </File>
+    <File Include="Scripts/Modules/VariableSelector.js">
+      <publishTime>08/26/2015 13:36:27</publishTime>
+    </File>
+    <File Include="Scripts/Modules/WeightingFilters.js">
+      <publishTime>07/14/2015 15:25:15</publishTime>
+    </File>
+    <File Include="Scripts/Modules/Workflow.js">
+      <publishTime>10/08/2015 11:01:53</publishTime>
+    </File>
+    <File Include="Scripts/Overview.js">
+      <publishTime>06/08/2015 14:27:46</publishTime>
+    </File>
+    <File Include="Scripts/Pages/LinkBi.js">
+      <publishTime>07/14/2015 15:25:15</publishTime>
+    </File>
+    <File Include="Scripts/Pages/ManualLinkManager.js">
+      <publishTime>11/02/2015 14:20:51</publishTime>
+    </File>
+    <File Include="Scripts/ProgressBar.js">
+      <publishTime>12/11/2014 10:34:41</publishTime>
+    </File>
+    <File Include="Scripts/ProjectHierarchyManager.js">
+      <publishTime>05/21/2015 18:22:03</publishTime>
+    </File>
+    <File Include="Scripts/ReportDefinition.js">
+      <publishTime>01/09/2015 17:36:31</publishTime>
+    </File>
+    <File Include="Scripts/SearchBox.js">
+      <publishTime>11/06/2014 12:15:40</publishTime>
+    </File>
+    <File Include="Scripts/SignificanceTest.js">
+      <publishTime>12/04/2014 11:45:16</publishTime>
+    </File>
+    <File Include="Scripts/StudyTaxonomyStructure.js">
+      <publishTime>05/21/2015 18:22:04</publishTime>
+    </File>
+    <File Include="Scripts/Support/feedback.js">
+      <publishTime>09/01/2015 15:47:25</publishTime>
+    </File>
+    <File Include="Scripts/Support/html2canvas.js">
+      <publishTime>08/18/2015 10:07:11</publishTime>
+    </File>
+    <File Include="Scripts/Support/jquery-latest.js">
+      <publishTime>08/07/2015 12:45:25</publishTime>
+    </File>
+    <File Include="Scripts/Support/jquery.js">
+      <publishTime>08/03/2015 12:47:08</publishTime>
+    </File>
+    <File Include="Scripts/Support/Support.js">
+      <publishTime>08/05/2015 16:02:58</publishTime>
+    </File>
+    <File Include="Scripts/TaxonomyManager.js">
+      <publishTime>01/02/2015 18:07:20</publishTime>
+    </File>
+    <File Include="Scripts/TipGallery.js">
+      <publishTime>05/25/2015 09:57:46</publishTime>
+    </File>
+    <File Include="Scripts/ToolTip.js">
+      <publishTime>01/09/2015 17:36:31</publishTime>
+    </File>
+    <File Include="Scripts/utils.js">
+      <publishTime>05/21/2015 18:22:03</publishTime>
+    </File>
+    <File Include="Scripts/VariableSelection.js">
+      <publishTime>01/09/2015 17:36:31</publishTime>
+    </File>
+    <File Include="Scripts/WeightingFilters.js">
+      <publishTime>12/04/2014 11:45:16</publishTime>
+    </File>
+    <File Include="Scripts/Workflow.js">
+      <publishTime>12/19/2014 14:54:06</publishTime>
+    </File>
+    <File Include="Scripts/_VariableSelection.js">
+      <publishTime>05/21/2015 18:22:04</publishTime>
+    </File>
+    <File Include="Stylesheets/BootStrap/bootstrap.min.css">
+      <publishTime>09/01/2015 16:18:34</publishTime>
+    </File>
+    <File Include="Stylesheets/BootStrap/bootstrap.vertical-tabs.min.css">
+      <publishTime>06/11/2015 17:40:30</publishTime>
+    </File>
+    <File Include="Stylesheets/BootStrap/dataTables.fixedColumns.css">
+      <publishTime>06/22/2015 15:04:14</publishTime>
+    </File>
+    <File Include="Stylesheets/BootStrap/dataTables.tableTools.min.css">
+      <publishTime>06/24/2015 11:16:43</publishTime>
+    </File>
+    <File Include="Stylesheets/BootStrap/jquery.dataTables.css">
+      <publishTime>06/22/2015 15:04:19</publishTime>
+    </File>
+    <File Include="Stylesheets/BootStrap/spinners.css">
+      <publishTime>06/24/2015 11:17:46</publishTime>
+    </File>
+    <File Include="Stylesheets/Box.css">
+      <publishTime>12/15/2014 23:08:18</publishTime>
+    </File>
+    <File Include="Stylesheets/colorpicker.css">
+      <publishTime>11/06/2014 12:16:07</publishTime>
+    </File>
+    <File Include="Stylesheets/ColorSchemeTemp.css">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Stylesheets/Controls/Box.css">
+      <publishTime>07/28/2015 16:55:50</publishTime>
+    </File>
+    <File Include="Stylesheets/Controls/CategorySearch.css">
+      <publishTime>09/03/2015 10:42:26</publishTime>
+    </File>
+    <File Include="Stylesheets/Controls/Chat.css">
+      <publishTime>07/03/2015 11:39:09</publishTime>
+    </File>
+    <File Include="Stylesheets/Controls/colorpicker.css">
+      <publishTime>07/29/2015 16:20:25</publishTime>
+    </File>
+    <File Include="Stylesheets/Controls/Grid.css">
+      <publishTime>07/28/2015 16:55:50</publishTime>
+    </File>
+    <File Include="Stylesheets/Controls/HoverBox.css">
+      <publishTime>07/03/2015 11:39:09</publishTime>
+    </File>
+    <File Include="Stylesheets/Controls/Loading.css">
+      <publishTime>07/03/2015 11:39:09</publishTime>
+    </File>
+    <File Include="Stylesheets/Controls/NavigationMenu.css">
+      <publishTime>07/03/2015 11:39:09</publishTime>
+    </File>
+    <File Include="Stylesheets/Controls/OptionSwipe.css">
+      <publishTime>07/03/2015 11:39:09</publishTime>
+    </File>
+    <File Include="Stylesheets/Controls/PopUp.css">
+      <publishTime>07/03/2015 11:39:09</publishTime>
+    </File>
+    <File Include="Stylesheets/Controls/ProgressBar.css">
+      <publishTime>07/03/2015 11:39:09</publishTime>
+    </File>
+    <File Include="Stylesheets/Controls/ToolTip.css">
+      <publishTime>08/18/2015 16:25:59</publishTime>
+    </File>
+    <File Include="Stylesheets/Controls/TreeView.css">
+      <publishTime>09/15/2015 09:28:16</publishTime>
+    </File>
+    <File Include="Stylesheets/Controls/wheelStyles.css">
+      <publishTime>07/14/2015 15:25:14</publishTime>
+    </File>
+    <File Include="Stylesheets/Crosstables.css">
+      <publishTime>01/09/2015 17:36:35</publishTime>
+    </File>
+    <File Include="Stylesheets/Filter.css">
+      <publishTime>12/04/2014 11:45:15</publishTime>
+    </File>
+    <File Include="Stylesheets/Grid.css">
+      <publishTime>11/06/2014 12:16:06</publishTime>
+    </File>
+    <File Include="Stylesheets/Home.css">
+      <publishTime>12/29/2014 09:28:25</publishTime>
+    </File>
+    <File Include="Stylesheets/HomeScreen.css">
+      <publishTime>12/16/2014 16:44:30</publishTime>
+    </File>
+    <File Include="Stylesheets/HoverBox.css">
+      <publishTime>11/18/2014 16:37:05</publishTime>
+    </File>
+    <File Include="Stylesheets/JQuery/jqueryui/ui-lightness/images/ui-bg_diagonals-thick_18_b81900_40x40.png">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Stylesheets/JQuery/jqueryui/ui-lightness/images/ui-bg_diagonals-thick_20_666666_40x40.png">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Stylesheets/JQuery/jqueryui/ui-lightness/images/ui-bg_flat_10_000000_40x100.png">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Stylesheets/JQuery/jqueryui/ui-lightness/images/ui-bg_glass_100_f6f6f6_1x400.png">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Stylesheets/JQuery/jqueryui/ui-lightness/images/ui-bg_glass_100_fdf5ce_1x400.png">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Stylesheets/JQuery/jqueryui/ui-lightness/images/ui-bg_glass_65_ffffff_1x400.png">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Stylesheets/JQuery/jqueryui/ui-lightness/images/ui-bg_gloss-wave_35_f6a828_500x100.png">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Stylesheets/JQuery/jqueryui/ui-lightness/images/ui-bg_highlight-soft_100_eeeeee_1x100.png">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Stylesheets/JQuery/jqueryui/ui-lightness/images/ui-bg_highlight-soft_75_ffe45c_1x100.png">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Stylesheets/JQuery/jqueryui/ui-lightness/images/ui-icons_222222_256x240.png">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Stylesheets/JQuery/jqueryui/ui-lightness/images/ui-icons_228ef1_256x240.png">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Stylesheets/JQuery/jqueryui/ui-lightness/images/ui-icons_ef8c08_256x240.png">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Stylesheets/JQuery/jqueryui/ui-lightness/images/ui-icons_ffd27a_256x240.png">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Stylesheets/JQuery/jqueryui/ui-lightness/images/ui-icons_ffffff_256x240.png">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Stylesheets/JQuery/jqueryui/ui-lightness/jquery-ui-1.7.2.custom.css">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Stylesheets/layout.css">
+      <publishTime>05/21/2015 18:22:09</publishTime>
+    </File>
+    <File Include="Stylesheets/LinkBi.css">
+      <publishTime>01/09/2015 17:36:35</publishTime>
+    </File>
+    <File Include="Stylesheets/LinkCloud.css">
+      <publishTime>11/21/2014 10:43:19</publishTime>
+    </File>
+    <File Include="Stylesheets/Loading.css">
+      <publishTime>12/19/2014 14:54:05</publishTime>
+    </File>
+    <File Include="Stylesheets/Login.css">
+      <publishTime>01/09/2015 16:54:18</publishTime>
+    </File>
+    <File Include="Stylesheets/Main.css">
+      <publishTime>10/27/2015 18:40:02</publishTime>
+    </File>
+    <File Include="Stylesheets/Menu.css">
+      <publishTime>05/25/2015 09:57:45</publishTime>
+    </File>
+    <File Include="Stylesheets/Modules/Crosstables.css">
+      <publishTime>07/08/2015 12:39:02</publishTime>
+    </File>
+    <File Include="Stylesheets/Modules/EquationDefinition.css">
+      <publishTime>09/03/2015 10:42:26</publishTime>
+    </File>
+    <File Include="Stylesheets/Modules/Filter.css">
+      <publishTime>07/28/2015 16:55:50</publishTime>
+    </File>
+    <File Include="Stylesheets/Modules/ReportTabs.css">
+      <publishTime>07/03/2015 11:39:09</publishTime>
+    </File>
+    <File Include="Stylesheets/Modules/SessionTimeout.css">
+      <publishTime>07/14/2015 15:25:14</publishTime>
+    </File>
+    <File Include="Stylesheets/Modules/VariableSearch.css">
+      <publishTime>07/03/2015 11:39:09</publishTime>
+    </File>
+    <File Include="Stylesheets/Modules/VariableSelector.css">
+      <publishTime>07/03/2015 11:39:09</publishTime>
+    </File>
+    <File Include="Stylesheets/Modules/VariableSelector2.css">
+      <publishTime>07/03/2015 11:39:09</publishTime>
+    </File>
+    <File Include="Stylesheets/Modules/Workflow.css">
+      <publishTime>08/31/2015 11:08:35</publishTime>
+    </File>
+    <File Include="Stylesheets/OverView.css">
+      <publishTime>06/22/2015 11:49:48</publishTime>
+    </File>
+    <File Include="Stylesheets/Pages/ClientManager.css">
+      <publishTime>07/03/2015 11:39:09</publishTime>
+    </File>
+    <File Include="Stylesheets/Pages/Homescreen.css">
+      <publishTime>07/03/2015 11:39:09</publishTime>
+    </File>
+    <File Include="Stylesheets/Pages/LinkBi.css">
+      <publishTime>07/14/2015 15:25:14</publishTime>
+    </File>
+    <File Include="Stylesheets/Pages/LinkCloud.css">
+      <publishTime>07/03/2015 11:39:09</publishTime>
+    </File>
+    <File Include="Stylesheets/Pages/Login.css">
+      <publishTime>07/03/2015 11:39:09</publishTime>
+    </File>
+    <File Include="Stylesheets/Pages/ManualLinkManager.css">
+      <publishTime>11/02/2015 14:20:51</publishTime>
+    </File>
+    <File Include="Stylesheets/ProgressBar.css">
+      <publishTime>01/09/2015 17:36:35</publishTime>
+    </File>
+    <File Include="Stylesheets/SegoeUI/segoepr.ttf">
+      <publishTime>05/21/2015 18:22:09</publishTime>
+    </File>
+    <File Include="Stylesheets/SegoeUI/segoeprb.ttf">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Stylesheets/SegoeUI/segoesc.ttf">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Stylesheets/SegoeUI/segoescb.ttf">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Stylesheets/SegoeUI/segoeui.ttf">
+      <publishTime>05/21/2015 18:22:09</publishTime>
+    </File>
+    <File Include="Stylesheets/SegoeUI/segoeuib.eot">
+      <publishTime>11/25/2014 09:31:25</publishTime>
+    </File>
+    <File Include="Stylesheets/SegoeUI/segoeuib.ttf">
+      <publishTime>05/21/2015 18:22:09</publishTime>
+    </File>
+    <File Include="Stylesheets/SegoeUI/segoeuii.ttf">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Stylesheets/SegoeUI/segoeuil.eot">
+      <publishTime>11/25/2014 09:31:25</publishTime>
+    </File>
+    <File Include="Stylesheets/SegoeUI/segoeuil.ttf">
+      <publishTime>05/21/2015 18:22:09</publishTime>
+    </File>
+    <File Include="Stylesheets/SegoeUI/segoeuisl.ttf">
+      <publishTime>05/21/2015 18:22:09</publishTime>
+    </File>
+    <File Include="Stylesheets/SegoeUI/segoeuiz.ttf">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Stylesheets/SegoeUI/seguisb.ttf">
+      <publishTime>05/21/2015 18:22:09</publishTime>
+    </File>
+    <File Include="Stylesheets/SegoeUI/seguisym.ttf">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Stylesheets/Support/feedback.css">
+      <publishTime>09/03/2015 12:20:40</publishTime>
+    </File>
+    <File Include="Stylesheets/TaxonomyVariableControlStyles.css">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Stylesheets/ToolTip.css">
+      <publishTime>01/09/2015 17:36:35</publishTime>
+    </File>
+    <File Include="Stylesheets/UserRole.css">
+      <publishTime>05/21/2015 18:22:08</publishTime>
+    </File>
+    <File Include="Stylesheets/Workflow.css">
+      <publishTime>12/09/2014 10:48:33</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>09/08/2015 14:44:52</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

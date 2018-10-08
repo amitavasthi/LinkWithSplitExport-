@@ -1,0 +1,269 @@
+﻿
+
+/* ##### Color definitions ##### */
+
+
+.Color1, .Color1 a {
+    color:###MAINCOLOR###;
+}
+.Color1I {
+    color:###MAINCOLOR### !important;
+}
+
+.Color2, .Color2 a {
+    color:###SECONDARYCOLOR###;
+}
+
+.WhiteColor {
+    color:#FFFFFF;
+}
+
+.BorderColor1 {
+    border-color:###MAINCOLOR###;
+}
+
+.BorderColor5 {
+    BorderColor7:###COLOR5###;
+}
+
+.BorderColor7 {
+    border-color:###COLOR7###;
+}
+
+.BorderColor9 {
+    border-color:###COLOR9###;
+}
+
+/* Main color */
+.BackgroundColor1, ._BackgroundColor1, .BackgroundColor3, .BackgroundColor6, .BackgroundColor10 {
+    background-color:###MAINCOLOR###;
+}
+.BackgroundColor1I {
+    background-color:###MAINCOLOR### !important;
+}
+
+._BackgroundColor1:hover {
+    background-color:###COLOR9###;
+}
+
+.BackgroundColor_1 {
+    background-color:rgb(151,175,176);
+}
+
+/* Standard version of the secondary color. */
+.BackgroundColor2, ._BackgroundColor2 {
+    background:###SECONDARYCOLOR###;
+}
+
+/* Light version of the secondary color. */
+.BackgroundColor20, ._BackgroundColor20 {
+    background:###SECONDARYCOLOR2###;
+}
+
+/* Secondary color with mouse over of light version of secondary color. */
+._BackgroundColor2:hover {
+    background:###SECONDARYCOLOR2###;
+}
+
+/* light version of secondary color with mouse over of secondary color. */
+._BackgroundColor20:hover {
+    background:###SECONDARYCOLOR###;
+}
+
+/* Very light version of the secondary color. */
+.BackgroundColor21 {
+    background:###SECONDARYCOLOR3###;
+}
+
+/* Main color with mouse over of secondary color. */
+.BackgroundColor3:hover {
+    background:###SECONDARYCOLOR###;
+}
+
+/* Mouse over with main color. */
+.BackgroundColor4:hover {
+    background:###MAINCOLOR###;
+    color:#FFFFFF;
+}
+
+/* Light version of main color. */
+.BackgroundColor5, .BackgroundColor6:hover {
+    background-color:###COLOR5###;
+}
+
+/* Light version of main color. */
+.BackgroundColor5I {
+    background-color:###COLOR5### !important;
+}
+
+/* mouse over with light version of main color. */
+.BackgroundColor5H:hover {
+    background-color:###COLOR5###;
+}
+
+/* Very very light version of the main color. */
+.BackgroundColor7,
+.BackgroundColor7H1 {
+    background-color:###COLOR7###;
+}
+
+/* Very very light version of the main color. */
+.BackgroundColor7H1:hover {
+    background-color:#f1f7fb;
+}
+
+/* Very very light version of the main color. */
+.BackgroundColor7I {
+    background-color:###COLOR7### !important;
+}
+
+ ._BackgroundColor7:hover {
+    background-color:###COLOR9### !important;
+}
+
+/* Gray-ish version for non selected workflow */
+.BackgroundColor8 {
+    background-color:#97AFB0;
+}
+.BackgroundColor8I {
+    background-color:#97AFB0 !important;
+}
+
+/* Very light version of the main color. */
+.BackgroundColor9, ._BackgroundColor9 {
+    background-color:###COLOR9###;
+}
+.BackgroundColor9I {
+    background-color:###COLOR9### !important;
+}
+
+/* Very light version of the main color. */
+._BackgroundColor9:hover {
+    background-color:###COLOR7###;
+}
+
+/* Main color with mouse over of color 5. */
+.BackgroundColor10:hover {
+    background:###COLOR5###;
+}
+
+.BackgroundColor12 {
+    background-color:#C9DAE6;
+}
+
+.BackgroundColor12I {
+    background-color:#C9DAE6 !important;
+}
+
+
+.GrayBackgroundColor1 {
+    background:#cccccc;
+}
+
+.GrayBackgroundColor5 {
+    background:#F6F6F6;
+}
+
+.GrayBackgroundColor9 {
+    background:#FFFFFF;
+}
+
+
+.BackgroundColor11 {
+    background:#BFE6EA;
+}
+
+.GreenBackground,
+.GreenBackground3:hover {
+    background-color:#61CF71;
+}
+
+.GreenBackground2 {
+    background-color:#70AD47;
+}
+
+.GreenBackground2I {
+    background-color:#70AD47 !important;
+}
+
+.GreenBackground3 {
+    background-color:#70AD47;
+}
+
+.RedBackground {
+    background:#FF0303;
+}
+
+.GrayBackground {
+    background:#CCCCCC;
+}
+
+.DarkGrayBackground {
+    background:#444444;
+}
+
+.DarkGrayBackgroundI {
+    background-color:#444444 !important;
+}
+
+.LightGrayBackground {
+    background:#F6F6F6;
+}
+
+.WhiteBackground {
+   background:#FFFFFF;
+}
+
+.PurpleBackground {
+    background:#9C54B8;
+}
+
+
+.GridHeadlineItem {
+}
+
+.GridHeadlineItemSearch {
+}
+
+.GridRow_Active .GridRowItem {
+    background:###COLOR9###;
+}
+
+
+input[type=button], input[type=submit] {
+    background:###MAINCOLOR###;
+}
+
+input[type=button]:hover, input[type=submit]:hover {
+    background:###SECONDARYCOLOR###;
+}
+
+/* ##### Scroll bar styles ##### */
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+::-webkit-scrollbar-track {
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #75747A;
+    border-radius:4px;
+}
+::-webkit-scrollbar-thumb:hover {
+    visibility:visible;
+}
+
+body {
+	scrollbar-face-color: #444444;
+	scrollbar-shadow-color: #444444;
+	scrollbar-highlight-color: #444444;
+	scrollbar-3dlight-color: #444444;
+	scrollbar-darkshadow-color: #FFFFFF;
+	scrollbar-track-color: #FFFFFF;
+	/*scrollbar-arrow-color: ###MAINCOLOR###;*/
+    scrollbar-arrow-color: #FFFFFF;
+}

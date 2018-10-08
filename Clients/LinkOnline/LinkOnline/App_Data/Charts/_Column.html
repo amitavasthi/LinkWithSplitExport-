@@ -1,0 +1,62 @@
+﻿<html>
+<head>
+    <title></title>
+    <script src="/Scripts/D3JS/d3.min.js"></script>
+    <script src="/Scripts/D3JS/d3.tip.v0.6.3.js"></script>
+    <script src="/Scripts/Ajax.js"></script>
+    <script src="/Scripts/Main.js"></script>
+    <script src="/Scripts/PageResize.js"></script>
+
+    <script src="/Scripts/JQuery/jquery-1.8.1.min.js"></script>
+
+    <script src="/Scripts/Modules/Charting/ChartingBase.js"></script>
+    <script src="/Scripts/Modules/Charting/MultiSeriesChart.js"></script>
+    <script src="/Scripts/Modules/Charting/Column.js"></script>
+    <!--<script src="/Scripts/Modules/Charting/Line.js"></script>--> 
+    <!--<link rel="stylesheet" type="text/css" href="/Stylesheets/Modules/Charting/Line.css" />-->
+    <link rel="stylesheet" type="text/css" href="/Stylesheets/Modules/Charting/Column.css" />
+
+    <link href="/Stylesheets/font-awesome.min.css" rel="stylesheet" />
+
+    <link rel="stylesheet" type="text/css" href="/Stylesheets/Main.css" />
+
+</head>
+<body>
+    <div id="chartContainer" class="minheight" style="height:100%;">
+        <img src="/Images/Icons/Back2.png" id="btnPreviousData" class="BtnPreviousData" style="display:none" />
+        <div style="margin-top:0;position:relative;top:0;left:2%">
+            <!--<button id="down" class="exportBtn">Bottom</button><button id="top" class="exportBtn">Top</button><button id="hide" class="exportBtn">Hide</button>-->
+        </div>
+        <!--<button id="png" class="exportBtn">PNG</button><button id="jpeg" class="exportBtn">JPEG</button><button id="pdf" class="exportBtn">PDF</button>-->
+        <!--<div id="drop_down" class="dropdown">
+            <a class="account" style="width:2px;"><i class="fa fa-download"></i></a>
+            <div class="submenu">
+                <ul class="root">
+                    <li><a id="png" class="exportBtn">PNG</a></li>
+                    <li><a id="jpeg" class="exportBtn">JPEG</a> </li>
+                    <li><a id="pdf" class="exportBtn">PDF</a></li>
+                </ul>
+            </div>
+        </div>-->
+
+        <div id="ChartTitle" class="ChartTitle">
+            ###TITLE###
+        </div>
+        <svg id="svgelement" class="chart" style="background-color:#ffffff;height:100%;font-family:Segoe UI;"></svg>
+    </div>
+    <!-- Hidden <FORM> to submit the SVG data to the server, which will convert it to SVG/PDF/PNG downloadable file.
+    The form is populated and submitted by the JavaScript below. -->
+    <!--<form id="svgform" method="post" action="/Handlers/RSVGExport.ashx">
+        <input type="hidden" id="output_format" name="output_format" value="">
+        <input type="hidden" id="data" name="data" value="">
+        <input type="hidden" id="type" name="type" value="">
+    </form>-->
+    <script type="text/javascript">
+        chart.DecimalPlaces = ###DECIMALPLACES###;
+        chart.Source = "###SOURCE###";
+        chart.PathDimensions = "###PATH###";
+
+        chart.Init();
+    </script>
+</body>
+</html>

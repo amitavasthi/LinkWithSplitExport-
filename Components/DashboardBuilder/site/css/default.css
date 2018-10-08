@@ -1,0 +1,64 @@
+﻿body{
+    color:#444444;
+   margin:0;
+   padding:0;
+}
+.ds-0{
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
+}
+.ds-1 {
+    box-shadow: 0px 1.5px 3px rgba(0,0,0,0.24), 0px 3px 8px rgba(0,0,0,0.05);
+}
+.ds-2 {
+    box-shadow: 0px 4px 7px rgba(0,0,0,0.23), 0px 8px 25px rgba(0,0,0,0.05);
+}
+.ds-3 {
+    box-shadow: 0px 7px 10px rgba(0,0,0,0.3), 0px 10px 50px rgba(0,0,0,0.12);
+}
+.ds-4 {
+    box-shadow: 0px 10px 15px rgba(0,0,0,0.28), 0px 15px 60px rgba(0,0,0,0.18);
+}
+.dsb-2 {
+    box-shadow: 0px 4px 7px rgba(0,0,100,0.23), 0px 8px 25px rgba(0,0,100,0.05);
+}
+.nosel {
+    -webkit-touch-callout: none;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+
+}
+.nano{
+    height: 280px;
+}
+.fldlst{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    cursor:pointer;
+}
+.fldlst li{
+    padding:0 0 0 6px;
+    margin:0;
+
+    height:20px;
+    line-height:20px;
+
+    text-wrap:none;
+    flex-wrap:nowrap;
+
+    overflow:hidden;
+}
+.gridbox div{
+  -webkit-box-sizing: content-box !important;
+     -moz-box-sizing: content-box !important;
+          box-sizing: content-box !important;
+}
+.gridbox .slick-row.odd, .gridbox .slick-row.even{
+    background-color:#ffffff;
+
+}
+a, button, ul, li, span, .nano-content {
+    outline:none !important;
+}

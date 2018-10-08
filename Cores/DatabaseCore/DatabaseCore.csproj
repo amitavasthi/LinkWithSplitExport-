@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D17E9D03-D024-4420-837F-A0A869C1C6A5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DatabaseCore</RootNamespace>
+    <AssemblyName>DatabaseCore</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ApplicationUtilities">
+      <HintPath>..\..\Components\ApplicationUtilities\bin\Debug\ApplicationUtilities.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\..\packages\Microsoft.Office.Interop.Excel.15.0.4795.1000\lib\net20\Microsoft.Office.Interop.Excel.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Npgsql, Version=2.0.11.94, Culture=neutral, PublicKeyToken=5d8b90d52f46fda7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\LinkManager SVN\Includes\Npgsql2.0.11.94-bin-ms.net4.0\Npgsql.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BaseClasses\BaseCollection.cs" />
+    <Compile Include="BaseClasses\BaseCore.cs" />
+    <Compile Include="BaseClasses\BaseItem.cs" />
+    <Compile Include="BaseClasses\ResponseCollection.cs" />
+    <Compile Include="BaseClasses\StorageMethods\Database.cs" />
+    <Compile Include="BaseClasses\StorageMethods\StorageMethod.cs" />
+    <Compile Include="BaseClasses\StorageMethods\Xml.cs" />
+    <Compile Include="Core.cs" />
+    <Compile Include="Items\Hierarchy.cs" />
+    <Compile Include="Items\ScoreGroupLink.cs" />
+    <Compile Include="Items\QALog.cs" />
+    <Compile Include="Items\UserValidationFieldValue.cs" />
+    <Compile Include="Items\TaxonomyCategoryHierarchy.cs" />
+    <Compile Include="Items\TaxonomyVariableHierarchy.cs" />
+    <Compile Include="Items\UserWorkgroup.cs" />
+    <Compile Include="Items\WorkgroupHierarchy.cs" />
+    <Compile Include="Items\Workgroup.cs" />
+    <Compile Include="Items\SupportModule.cs" />
+    <Compile Include="Items\TaxonomyCategoryLink.cs" />
+    <Compile Include="Items\TaxonomyChapterLabel.cs" />
+    <Compile Include="Items\TaxonomyChapter.cs" />
+    <Compile Include="Items\VariableLink.cs" />
+    <Compile Include="Items\CategoryLink.cs" />
+    <Compile Include="Items\ClientRemovalDetail.cs" />
+    <Compile Include="Items\TaxonomyCategory.cs" />
+    <Compile Include="Items\TaxonomyVariable.cs" />
+    <Compile Include="Items\TaxonomyCategoryLabel.cs" />
+    <Compile Include="Items\TaxonomyVariableLabel.cs" />
+    <Compile Include="UserManagement\Role.cs" />
+    <Compile Include="UserManagement\RolePermission.cs" />
+    <Compile Include="UserManagement\UserCollection.cs" />
+    <Compile Include="UserManagement\UserRole.cs" />
+    <Compile Include="UserManagement\User.cs" />
+    <Compile Include="UserManagement\Company.cs" />
+    <Compile Include="Items\Category.cs" />
+    <Compile Include="Items\CategoryLabel.cs" />
+    <Compile Include="Items\Study.cs" />
+    <Compile Include="Items\Respondent.cs" />
+    <Compile Include="Items\Response.cs" />
+    <Compile Include="Items\Variable.cs" />
+    <Compile Include="Items\VariableLabel.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

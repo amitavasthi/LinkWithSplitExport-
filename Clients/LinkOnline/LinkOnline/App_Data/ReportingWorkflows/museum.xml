@@ -1,0 +1,12 @@
+<Workflow>
+  <Default>
+    <Selection Name="gender" Id="0fa3379f-ff04-41e8-9c65-01f1ca728c8c">
+      <VariableFilter Name="" VariableName="gender" IsTaxonomy="True" Mode="Multi">
+      </VariableFilter>
+    </Selection>
+    <Selection Name="Rating birds" Id="8bcd0cb9-f195-4806-80ef-6fc7d8948ad8">
+      <VariableFilter Name="" VariableName="rating_ent_Birds_Column" IsTaxonomy="True" Mode="Multi">
+      </VariableFilter>
+    </Selection>
+  </Default>
+</Workflow>

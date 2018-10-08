@@ -1,0 +1,13 @@
+﻿<Directories>
+  <Directory Path="Fileadmin\Chat\{0}"></Directory>
+  <Directory Path="Fileadmin\Cloud\{0}"></Directory>
+  <Directory Path="Fileadmin\DashboardItems\{0}"></Directory>
+  <File Path="Fileadmin\HomeDefinitions\{0}.xml"></File>
+  <Directory Path="Fileadmin\HomeDefinitions\{0}"></Directory>
+  <Directory Path="Fileadmin\LinkBiDefinitions\{0}"></Directory>
+  <File Path="Fileadmin\News\{0}.xml"></File>
+  <Directory Path="Fileadmin\ReportDefinitions\{0}"></Directory>
+  <Directory Path="Fileadmin\SavedLinkBiDefinitions\{0}"></Directory>
+  <Directory Path="Fileadmin\SavedReports\{0}"></Directory>
+  <!--<Directory Path="Fileadmin\UserImages\{0}.png" FormatValue0="User"></Directory>-->
+</Directories>

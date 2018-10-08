@@ -1,0 +1,7 @@
+C:\Users\Timon\Desktop\LiNK Excel Export\PreMailer\bin\Debug\PreMailer.dll
+C:\Users\Timon\Desktop\LiNK Excel Export\PreMailer\bin\Debug\PreMailer.pdb
+C:\Users\Timon\Desktop\LiNK Excel Export\PreMailer\bin\Debug\CsQuery.dll
+C:\Users\Timon\Desktop\LiNK Excel Export\PreMailer\bin\Debug\CsQuery.pdb
+C:\Users\Timon\Desktop\LiNK Excel Export\PreMailer\bin\Debug\CsQuery.xml
+C:\Users\Timon\Desktop\LiNK Excel Export\PreMailer\obj\Debug\PreMailer.dll
+C:\Users\Timon\Desktop\LiNK Excel Export\PreMailer\obj\Debug\PreMailer.pdb

@@ -1,0 +1,14 @@
+﻿<Permissions>
+  <Products>
+    <Product Name="LinkOnline">
+      <Sections>
+        <Section Id="11" Name="test"></Section>
+      </Sections>
+      <Permissions>
+        <Permission Id="1110" Name="test" Section="11"></Permission>
+      </Permissions>
+      <Pages>
+      </Pages>
+    </Product>
+  </Products>
+</Permissions>

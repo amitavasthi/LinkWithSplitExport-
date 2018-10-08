@@ -1,0 +1,1148 @@
+﻿<html>
+<head>
+    <title></title>
+    <script src="/Scripts/D3JS/d3.min.js"></script>
+    <script src="/Scripts/D3JS/d3.tip.v0.6.3.js"></script>
+    <script src="/Scripts/Ajax.js"></script>
+    <script src="/Scripts/Main.js"></script>
+    <script src="/Scripts/PageResize.js"></script>
+
+    <script src="/Scripts/JQuery/jquery-1.8.1.min.js"></script>
+
+    <!--For Export-->
+    <script src="/Scripts/ChartExport/canvg.js"></script>
+    <script src="/Scripts/ChartExport/FileSaver.js"></script>
+    <script src="/Scripts/ChartExport/html2canvas.js"></script>
+    <script src="/Scripts/ChartExport/jspdf.js"></script>
+    <script src="/Scripts/ChartExport/rgbcolor.js"></script>
+    <link href="/Stylesheets/ChartExportMenu/dropdown.css" rel="stylesheet" />
+    <script src="/Scripts/ChartExportMenu/dropdown.js"></script>
+
+    <link href="/Stylesheets/font-awesome.min.css" rel="stylesheet" />
+
+    <link rel="stylesheet" type="text/css" href="/Stylesheets/Main.css" />
+    <style type="text/css">
+        @font-face {
+            font-family: Segoe UI;
+            src: url('/Stylesheets/Segoe UI/Segoe UI.ttf');
+        }
+
+        @font-face {
+            font-family: Segoe UI;
+            src: url('/Stylesheets/Segoe UI/Segoe UI.eot');
+        }
+
+        body {
+            font-family: Segoe UI;
+        }
+
+        .chart .legend {
+            fill: #000000;
+            font: 12px;
+            text-anchor: start;
+        }
+
+        .chart text {
+            fill: #000000;
+            font: 12px;
+            text-anchor: middle;
+            /*text-anchor: end;*/
+        }
+
+        .chart .label {
+            fill: #000000;
+            text-anchor: end;
+        }
+
+        .axis path,
+        .axis line {
+            fill: none;
+            stroke: #444444;
+            stroke-width: 2px;
+            shape-rendering: crispEdges;
+        }
+
+        .x.axis path {
+        }
+
+        .line {
+            fill: none;
+            stroke: #444444;
+            stroke-width: 1.5px;
+        }
+
+        .tick {
+            fill: #000000 !important;
+            font-size: 12px;
+        }
+
+        .y.axis .tick {
+            fill: #000000 !important;
+            font-size: 12px;
+        }
+
+        .ChartTitle {
+            text-align: center;
+            color: #444444;
+            /*font-size: 16pt;*/
+        }
+
+        svg {
+            overflow: visible;
+            background-color: #ffffff;
+            height: 100%;
+        }
+
+        .exportBtn {
+            font: 10px SegoeUIBold;
+            padding: 3px;
+            margin-left: 3px;
+        }
+
+        path {
+            fill: none;
+        }
+
+        link.style {
+            fill: none;
+        }
+
+        /********************************************/
+        .d3-tip {
+            line-height: 1;
+            padding: 12px;
+            background: rgba(0, 0, 0, 0.8);
+            color: #fff;
+            border-radius: 2px;
+            /*font-size: 10px;*/
+        }
+
+
+        .circle .ToolTip {
+            display: none;
+        }
+
+        .circle:hover .ToolTip {
+            display: block;
+        }
+
+
+        /******************************************/
+
+        .Tooltips {
+            display: none;
+        }
+
+        .chart g:hover .Tooltips {
+            display: block;
+        }
+
+        div.tooltips {
+            position: absolute;
+            text-align: center;
+            /*width: 40px;
+            height: 30px;*/
+            padding: 2px;
+            font: 12px;
+            /*background: rgba(255, 255, 255, 0.8);
+            border: 2px solid steelblue;
+            border-radius: 4px;
+            box-shadow: #333333 0px 0px 10px;*/
+            pointer-events: none;
+        }
+
+
+        #drop_down {
+            position: relative;
+            top: 0%;
+            left: 90%;
+        }
+
+        .minheight {
+            min-height: 500px;
+        }
+    </style>
+
+</head>
+<body>
+    <div id="chartContainer" class="minheight" style="height:100%;">
+        <!--<div style="margin-top:0;position:relative;top:0;left:90%"><button id="png" class="exportBtn">PNG</button><button id="jpeg" class="exportBtn">JPEG</button><button id="pdf" class="exportBtn">PDF</button></div>-->
+        <div id="drop_down" class="dropdown">
+            <a class="account" style="width:2px;"><i class=" fa fa-download"></i></a>
+
+            <div class="submenu">
+                <ul class="root">
+                    <li><a id="png" class="exportBtn">PNG</a></li>
+                    <li><a id="jpeg" class="exportBtn">JPEG</a> </li>
+                    <li><a id="pdf" class="exportBtn">PDF</a></li>
+
+                </ul>
+            </div>
+
+
+        </div>
+        <div id="ChartTitle" class="ChartTitle">
+            <!--###TITLE###-->
+        </div>
+    </div>
+    <!-- Hidden <FORM> to submit the SVG data to the server, which will convert it to SVG/PDF/PNG downloadable file.
+    The form is populated and submitted by the JavaScript below. -->
+    <form id="svgform" method="post" action="/Handlers/RSVGExport.ashx">
+        <input type="hidden" id="output_format" name="output_format" value="">
+        <input type="hidden" id="data" name="data" value="">
+        <input type="hidden" id="type" name="type" value="">
+    </form>
+    <script type="text/javascript">
+        var loc = window.parent.location.href;
+        var _source = "###SOURCE###";
+        var chartContainer;
+        var chartHeight;
+        var chartWidth;
+        var x; var y;
+        var color;
+        var formatPercent;
+        var xAxis;
+        var yAxis;
+        var div; var margin;
+        var tip; var countlabel;
+
+        function loadchart(doAnimations) {
+
+            chartContainer = document.getElementById("chartContainer");
+            //chartHeight = document.body.offsetHeight - 80;
+            //chartWidth = document.body.offsetWidth;
+            chartWidth = chartContainer.parentNode.offsetWidth - 80;
+            chartHeight = chartContainer.parentNode.parentNode.offsetHeight - 100;
+            if (chartHeight <= 150) {
+                chartHeight = chartContainer.offsetHeight - 100;
+            }
+            if (window.location.toString().search("LinkReporter/Crosstabs.aspx") != -1)
+                chartHeight = window.innerHeight - 200;
+            //margin = { top: 20, right: 20, bottom: 20, left: 60 },
+            //   width = chartWidth - margin.left - margin.right,
+            //   height = chartHeight - margin.top - margin.bottom;
+            margin = { top: 20, right: 50, bottom: 10, left: 80 };
+            width = chartWidth;
+            height = chartHeight;
+
+            BuildChart(
+               _source,
+               "###PATH###",
+               "Variable",
+               doAnimations
+           );
+        }
+
+
+        function BuildChart(source, pathDimensions, pathMeasures, onFinish, doAnimations) {
+
+            if (doAnimations == undefined)
+                doAnimations = true;
+
+            x = d3.scale.ordinal()
+               .rangeRoundBands([0, width - 100], .1);
+
+            y = d3.scale.linear();
+            //// .range([height, 0]);
+
+            formatPercent = d3.format(".0%");
+
+            xAxis = d3.svg.axis()
+               .scale(x)
+               .orient("bottom");
+
+            yAxis = d3.svg.axis()
+               .scale(y)
+               .orient("left")
+               .tickFormat(formatPercent);
+
+            div = d3.select("body").append("div")
+                      .attr("class", "tooltip")
+                      .style("opacity", 0);
+
+            d3.json("/Handlers/ChartHandler.ashx?Method=GetData&NoCache=" + (new Date()).getTime() + "&Renderer=MultiSeries&Source=" + source + "&PathDimensions=" + pathDimensions + "&PathMeasures=" + pathMeasures,
+                function (error, data) {
+                    if (error) throw error;
+
+                    if (data.length > 0)
+                        window.parent.document.getElementById("cphContent_pnlGoButton").className = "GoButton2";
+                    else
+                        window.parent.document.getElementById("cphContent_pnlGoButton").className = "GoButton2 GreenBackground2I";
+
+                    d3.select("svg").remove();
+
+                    var svg = d3.select("#chartContainer").append("svg")
+                              .style("font-family", "Segoe UI")
+                              .style("background-color", "white")
+                              .attr("width", width)
+                              .attr("height", height + margin.top + margin.bottom + 100)
+                              .append("g")
+                              .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+
+                    /*For removing the NaN values from the data*/
+                    data = $.each(data, function (i, d) {
+                        if (true) {
+                            $.each(d, function (j, k) {
+                                if (k === "NaN") {
+                                    delete d[j];
+                                }
+                            })
+                        }
+                    });
+                    /*Ends here*/
+                    var countlegend = 0; //legend count
+                    var arrylegend = [];
+                    tip = d3.tip()
+                    .attr('class', 'd3-tip')
+                    .offset([-1, 0])
+                    .html(function (d, i) {
+                        if (arrylegend[i] == undefined) { arrylegend[i] = ""; }
+
+                        //var text = $.trim(htmlDecode(arrylegend[i]));
+                        var text = $.trim(htmlDecode(arrylegend[i].slice(1, arrylegend[i].length)));
+
+                        if (text.indexOf("###SPLIT###") != -1) {
+                            text = text.replace("###SPLIT###", "<br />");
+                        }
+
+                        return text + ": " + RoundValue(realvalues[i]) + "%";
+                        /*
+                        // for showing large tip value into multiple lines
+                        if (arrylegend[i] == undefined) { arrylegend[i] = ""; }
+
+                        if ((arrylegend[i] + ": " + RoundValue(realvalues[i]) + "%").length > 30) {
+                            var str = arrylegend[i] + ": " + RoundValue(realvalues[i]) + "%";
+                            var index = (str.length) / 2;
+                            index = (str.substr(0, index)).lastIndexOf(" "); // index += (str.length) / 2;
+                            return str.substr(0, index) + '<br/>' + str.substr(index);
+                        }
+                        else {
+                            return arrylegend[i] + ": " + RoundValue(realvalues[i]) + "%";
+                        }*/
+                    })
+
+                    svg.call(tip);
+                    /*For removing the NaN values from the data*/
+                    //var emptyLable = 0;
+                    //var z = 0;
+                    //data = $.each(data, function (i, d) {
+                    //    $.each(d, function (j, k) {
+                    //        if ((z != 0) && (z != 1)) {
+                    //            if (k === "NaN") {
+                    //                delete d[j];
+                    //            }
+                    //            if (k > 0) { emptyLable = 1; } else { if (emptyLable == 0) { emptyLable = 0; } }
+                    //        }
+                    //        z++;
+                    //    }); z = 0;
+                    //    if ((emptyLable == 0) && (emptyLable == 0)) { $.each(data[i], function (l, d) { delete data[i][l]; });  delete data[i] } emptyLable = 0;
+                    //});
+                    // alert(emptyLable);
+                    // For removing labels which having all null values
+                    var ndata = [];
+                    $.each(data, function (key, value) {
+                        if (JSON.stringify(value) != null) { ndata.push(value); }
+                    });
+                    data = ndata;
+                    /*Ends here*/
+
+                    //For removing legends having 0 value
+                    var arryEmptylabel = [];
+                    var arryEmptyvalues = [];
+                    var arryResult = [];
+
+                    $.each(data, function (i, d) {
+                        if (i == 0) {
+                            $.each(d, function (j, k) {
+                                arryEmptylabel.push(JSON.stringify(j));
+                                arryEmptyvalues.push(JSON.stringify(k));
+                            })
+                        }
+                    });
+
+                    var c = 0;
+
+                    $.each(data, function (i, d) {
+                        $.each(d, function (j, k) {
+                            if ((k > 0) && ((c != 0) && (c != 1))) {
+                                arryResult.push(arryEmptylabel[c].substring(2).substr(0, arryEmptylabel[c].substring(2).length - 1))
+                            }; c++;
+                        })
+                        c = 0;
+                    });
+
+
+                    var legendCnt = 0;
+                    $.each(arryEmptylabel, function (i, d) { legendCnt += d.length; });
+                    legendCnt = legendCnt + arryEmptylabel.length * (5 + 13 + 25);
+
+                    //ends here
+
+                    var circleresultcx = new Array();
+                    var circleresultcy = new Array();
+                    var j = 0;
+
+                    var line = d3.svg.line()
+                        .interpolate("linear")
+                        .x(function (d, i) {
+                            circleresultcx[j] = (x(d.dimension) + (x.rangeBand() / 2));
+                            return x(d.dimension) + (x.rangeBand() / 2);
+                        })
+                        .y(function (d, i) {
+                            circleresultcy[j] = RoundValue(y(RoundValue(d.value) / 100)); j++;
+                            return RoundValue(y(RoundValue(d.value) / 100));
+                        });
+
+
+                    _line = d3.svg.line()
+                        .interpolate("linear")
+                        .x(function (d, i) {
+                            return x(d.dimension) + (x.rangeBand() / 2);
+                        })
+                        .y(function (d, i) {
+                            return i % 2 == 0 ? 0 : height;
+                        });
+
+
+                    var labels = new Object();
+
+                    for (var i = 0; i < data.length; i++) {
+                        labels[data[i].dimension] = data[i].Label;
+                    }
+
+
+                    //color.domain(d3.keys(data[0]).filter(function (key) { return key !== "dimension" && key !== "Label" && key.search("XPATH") == -1 && key.search("Color_") == -1; }));
+
+                    var ageNames = d3.keys(data[0]).filter(function (key) { return key !== "dimension" && key !== "Label" && key.search("XPATH") == -1 && key.search("Color_") == -1; });
+
+                    var reallable = [];
+
+
+                    data.forEach(function (d) {
+                        d.name = d.dimension;
+                        d.values = ageNames.map(function (name) {
+                            return {
+                                dimension: d.dimension,
+                                name: name,
+                                value: +d[name],
+                                path: d["XPATH" + name],
+                                color: d["Color_" + name],
+                            };
+                        });
+                    });
+
+
+                    var maxlabel = 0;
+                    countlabel = 0;
+
+                    data.forEach(function (d) {
+                        countlabel++;
+                        if (d.Label.length > maxlabel) { maxlabel = d.Label.length }
+                    });
+
+
+                    x.domain(data.map(function (d) {
+                        reallable.push(d.dimension);
+                        return d.dimension;
+                    }));
+
+                    y.domain([0, d3.max(data, function (d) {
+                        return d3.max(d.values, function (d) {
+                            if (!isNaN(d.value / 100)) {
+                                return RoundValue(d.value) / 100;
+                            }
+                        });
+                    })]);
+
+                    var rotate;
+                    var fetchcountries = [];
+
+                    var a = document.getElementById('drop_down');
+                    if (loc.indexOf("Crosstabs") > -1) {
+                        a.style.display = 'block';
+                    }
+                    else {
+                        a.style.display = 'none';
+                    }
+                    // for horizantal legends at bottom
+                    //var cntlRow = RoundValue(legendCnt / width);
+                    //if (cntlRow === 0) {
+                    //    var lines = ((height + margin.bottom - 15) / 15) + 1;
+                    //}
+                    //else if (cntlRow >= 1) {
+                    //    var lines = ((height + margin.bottom - 15) / 15 - 1)
+                    //}
+                    //else {
+                    //    var lines = ((height + margin.bottom  - 15) / 15)
+                    //};
+
+                    var lines = ((height + margin.top + margin.bottom - 15) / 15) - 1;
+                    // var lines = (height) / 15;  // This for calculating the legend position based on Screensize.
+
+
+
+                    var legendWidth = 0;
+                    var xSpacing = 20;
+                    var ySpacing = 20;
+
+                    for (var i = 0; i < ageNames.length; i++) {
+                        legendWidth += GetTextWidth(ageNames[i]);
+                        legendWidth += xSpacing;
+                    }
+
+                    var lineCount = RoundUp(legendWidth / window.innerWidth);
+
+                    var legendX = 0;
+                    var legendY = 0;
+
+                    var legendXOffset = 0; (width / -2) + 5;
+                    var legendYOffset = height + 70;
+                    legendYOffset -= ySpacing * (lineCount);
+
+                    svg.append("g").attr("class", "legends").attr("transform", function () {
+                        return "translate(" + 0 + "," + legendYOffset + ")";
+                    });
+
+
+                    var legendRectSize = 13;
+                    var legendSpacing = 3;
+                    var col = -width; // for legends starting position
+                    var yline = 10;
+                    var col1 = width - 100;
+                    var legend = svg.select(".legends").selectAll(".legend")
+                                 .data(ageNames.slice())
+                                 .enter().append("g")
+                                 .attr("class", "legend")
+                                 .attr("transform", function (d, i) {
+
+                                     var x = legendX;
+                                     var y = legendY;
+
+                                     legendX += GetTextWidth(d) + xSpacing;
+
+                                     if (legendX > (window.innerWidth - 100)) {
+                                         legendX = 0;
+                                         legendY += ySpacing;
+
+                                         x = legendX;
+                                         y = legendY;
+
+                                         legendX += GetTextWidth(d) + xSpacing;
+                                     }
+
+                                     return "translate(" + (x + legendXOffset) + "," + (y) + ")";
+                                 });
+
+                    legend.append("circle")
+                        .attr("r", "5")
+                        .attr("x", width)
+                        .attr("width", 12)
+                        .attr("height", 12)
+                        .style("fill", function (d, i) {
+                            return data[0]["Color" + d];
+                        })
+                        //.style("fill", color)
+                        //.style("Opacity", function (d, i) { if (htmlDecode(d.slice(1, d.length).length) == 0) { return 0; } else { return 1; } })
+                        .style("Opacity", function (d, i) { if (($.inArray(htmlDecode(d.slice(1, d.length)), arryResult) > -1)) { if (htmlDecode(d.slice(1, d.length).length) == 0) { return 0; } else { return 1; } } else { return 0; } })
+                        .style("display", function (d) {
+                            return d == "" ? "none" : "";
+                        });
+
+                    var arrylegends = [];
+                    legend.append("text")
+                        .attr("x", 13)
+                        //.attr("y", 6)
+                        .attr("dy", ".35em")
+                        .attr("text-anchor", "start")
+                        .attr("font-size", "10pt")
+                        .text(function (d) {
+                            if (($.inArray(htmlDecode(d.slice(1, d.length)), arryResult) > -1)) {
+                                if (htmlDecode(d.slice(1, d.length).length) == 0) {
+                                    return;
+                                } else {
+                                    var text = d;
+                                    arrylegends.push(d);
+
+                                    if (d.indexOf("###SPLIT###") != -1) {
+                                        text = d.split('###SPLIT###')[1];
+                                    }
+                                    else {
+                                        text = $.trim(htmlDecode(d.slice(1, d.length)));
+                                    }
+
+                                    return $.trim(text);
+                                }
+                            } else {
+                                return;
+                            }
+                            // return htmlDecode(d.slice(1, d.length));
+                        })
+                    .on('mouseover', function (d, i) {
+                        var line = document.getElementById("line" + i);
+                        if (line != undefined) {
+                            line.style.strokeWidth = "5";
+                            //line.style.fillOpacity = "";
+                        }
+                    })
+                    .on('mouseout', function (d, i) {
+                        var line = document.getElementById("line" + i);
+                        if (line != undefined) {
+                            line.style.strokeWidth = "2";
+                        }
+                    });
+
+                    $.each(arrylegends, function (i, d) {
+                        for (var i = 0; i < countlabel; i++) { arrylegend.push(d); }
+                    })
+
+                    /*For claculating wraptextcount*/
+                    var wCount = 0;
+                    if ($(window).width() <= 1207) {
+                        if (countlabel < 5) { wCount = 20; } else if ((countlabel > 5) && (countlabel <= 10)) { wCount = 16 }
+                        else { wCount = 10 }
+                    }
+                    else {
+                        if (countlabel < 5) { wCount = 30 } else if ((countlabel > 5) && (countlabel <= 10)) { wCount = 17 }
+                        else { wCount = 13 }
+                    }
+
+                    /* ends here*/
+
+                    /*maxlabel = (maxlabel * 11 / wCount); //if (maxlabel > 30) { maxlabel = 30; }
+                    if (countlabel > 10) {
+                        height = height + margin.top - maxlabel - 24;
+                    }
+                    else if ((countlabel > 5) && (countlabel <= 7)) {
+                        height = height + margin.top - maxlabel - 3
+                    }
+                    else if ((countlabel > 7) && (countlabel <= 10)) {
+                        if (wCount > 15) {
+                            height = height + margin.top - maxlabel - 24;
+                        }
+                        else {
+                            height = height + margin.top - maxlabel - 3
+                        }
+                    }
+                    else {
+                        height = height + margin.top - maxlabel - 3
+                    }*/
+
+
+                    var rotate = 0;
+
+                    while (true) {
+                        var result = true;
+                        for (var i = 0; i < data.length; i++) {
+                            var textDimensions = GetTextWidth(data[i].Label, rotate);
+
+                            if (textDimensions.width > x.rangeBand()) {
+                                result = false;
+                                rotate -= 1;
+                                break;
+                            }
+                        }
+
+                        if (result || rotate <= -90)
+                            break;
+                    }
+
+                    if (Math.abs(rotate) < 5)
+                        rotate = 0;
+
+                    var labelsHeight = 0;
+                    var labelsWidth = 0;
+
+                    for (var i = 0; i < data.length; i++) {
+                        var textDimensions = GetTextWidth(data[i].Label, rotate);
+
+                        if (textDimensions.height > labelsHeight)
+                            labelsHeight = textDimensions.height;
+
+                        if (textDimensions.width > labelsWidth)
+                            labelsWidth = textDimensions.width;
+                    }
+
+                    labelsHeight += 10;
+
+
+                    if (labelsHeight > 125)
+                        labelsHeight = 125;
+                    if ((labelsHeight > 20) && (labelsHeight < 45))
+                        labelsHeight = 45;
+
+
+                    //height = height + margin.top - maxlabel-3;
+                    y.range([(legendYOffset - labelsHeight), 40]);
+
+                    var maxYRange = d3.max(data, function (d) {
+                        return d3.max(d.values, function (d) {
+                            if (!isNaN(d.value / 100)) {
+                                return RoundValue(d.value) / 100;
+                            }
+                        });
+                    })
+                    /*This is for calculationg if values less than 5*/
+                    var nticks = 0;
+                    if (maxYRange > .07) { nticks = 10; } else { nticks = 5; }
+
+                    yAxis = d3.svg.axis()
+                       .scale(y)
+                       .orient("left")
+                        .ticks(nticks)
+                       .tickFormat(formatPercent);
+
+
+                    svg.append("g")
+                        .attr("class", "x axis")
+                        .attr("transform", "translate(0," + (legendYOffset - labelsHeight) + ")")
+                        .call(xAxis)
+                    .selectAll(".tick")
+                    .selectAll("text")
+                        .style("fill", "#000000")
+                        .style("font-size", "12px")
+                        .style("text-anchor", function () {
+                            if (Math.abs(rotate) > 5)
+                                return "end";
+                            else
+                                return "middle";
+                        })
+                        .attr("transform", function (d, i) {
+                            return "rotate(" + rotate + ")";
+                        })
+                    .text(function (d) {
+                        return labels[d];
+                    });
+                    //.html(function (d) {
+                    //    return labels[d];
+                    //});;
+
+                    svg.append("g")
+                        .attr("class", "y axis")
+                        .call(yAxis)
+                        .append("text")
+                        .attr("transform", "rotate(-90)")
+                        .attr("y", 6)
+                        .attr("dy", ".71em")
+                        .style("fill", "#000000")
+                        .style("stroke", "#000000;")
+                        .style("font-size", "12px")
+                        .style("text-anchor", "end")
+                        .text("");
+
+
+                    var results = new Array();
+                    var city = svg.selectAll(".city")
+                        .data(ageNames)
+                        .enter().append("g")
+                        .attr("class", "city");
+
+                    var realvalues = [];
+                    var realcolor = [];
+                    var vartemp = 0;
+
+                    city.append("path")
+                       .attr("class", "line")
+                       .attr("id", function (d, i) {
+                           return "line" + i;
+                       })
+                       .attr("d", function (d, i) {
+                           //return line(d);
+                           if (!doAnimations) {
+                               var result = new Array();
+                               for (var i = 0; i < data.length; i++) {
+                                   if (!isNaN(data[i][d])) {
+                                       result.push({
+                                           dimension: data[i].dimension,
+                                           value: data[i][d]
+                                       });
+                                       realvalues.push(RoundValue(data[i][d]));
+                                   }
+                               }
+                               return line(result);
+
+
+                               var result = new Array();
+                               for (var i = 0; i < data.length; i++) {
+                                   if (!isNaN(data[i][d])) {
+                                       result.push({
+                                           dimension: data[i].dimension,
+                                           value: data[i][d]
+                                       });
+                                       results[i] = data[i][d];
+                                       fetchcountries.push(d);
+                                   }
+                               }
+                               return _line(result);
+                           }
+                       })
+                        .style("stroke", function (d, i) {
+                            for (var i = 0; i < data.length; i++) {
+                                if (!isNaN(data[i][d])) {
+                                    realcolor.push(data[i]["Color" + d]);
+                                    return data[i]["Color" + d];
+                                    //realcolor.push(color(d));
+                                    //return (color(d));
+                                }
+                            }
+                        })
+                        .transition().delay(200).duration(500).attr("d", function (d, i) {
+                            if (doAnimations == false)
+                                return 0;
+                            var result = new Array();
+                            for (var i = 0; i < data.length; i++) {
+                                if (!isNaN(data[i][d])) {
+                                    result.push({
+                                        dimension: data[i].dimension,
+                                        value: data[i][d]
+                                    });
+                                    realvalues.push(RoundValue(data[i][d]));
+                                }
+                            }
+
+                            /* For removing lines which having all the values zero  */
+
+                            $.each(result, function (i, d) {
+                                if (d.value == 0) {
+                                    if (vartemp == data.length - 1) {
+                                        if (i == data.length - 1) {
+                                            result = "";
+                                        }
+                                    }
+                                    else {
+                                        if (d.value == 0) {
+                                            vartemp++;
+                                        }
+                                        else {
+                                            vartemp = 0;
+                                        }
+                                    }
+                                }
+                            });
+                            vartemp = 0;
+                            return line(result);
+                        });
+
+
+                    svg.selectAll(".tick text")
+                    .call(wrap, wCount);
+
+                    function wrap(text, width) {
+
+                        text.each(function () {
+                            var text = d3.select(this);
+                            var words = text.text().split(/\s+/).reverse();
+                            var word,
+                               line = [],
+                               lineNumber = 0,
+                               lineHeight = 1.1, // ems
+                               y = text.attr("y"),
+                               x = text.attr("x"),
+                               dy = parseFloat(text.attr("dy")),
+                               tspan = text.text(null).append("tspan").attr("x", x).attr("y", y).attr("dy", dy + "em");
+                            while (word = words.pop()) {
+                                line.push(word);
+                                tspan.text(line.join(" "));
+                                if (tspan.node().getComputedTextLength() > width * 8) {
+                                    line.pop();
+                                    tspan.text(line.join(" "));
+                                    line = [word];
+                                    tspan = text.append("tspan").attr("x", x).attr("y", y).attr("dy", ++lineNumber * lineHeight + dy + "em").text(word);
+                                }
+                            }
+                        });
+                    }
+                    var finalcirclearray = [];
+                    for (i = 0; i < circleresultcy.length; i++) {
+                        finalcirclearray.push("{cx:" + circleresultcx[i] + ",cy :" + circleresultcy[i] + "}");
+
+                    }
+
+                    /*this is to get the circle color as line color*/
+                    var finalcolor = [];
+                    var start = 0;
+                    for (var i = start; i < realcolor.length; i++) {
+                        for (var j = 1; j <= reallable.length; j++) {
+                            finalcolor.push(realcolor[i]);
+                        }
+                    }
+
+
+                    /*this is to append points to the line charts*/
+                    svg.selectAll(".circle")
+                        .data(finalcirclearray)
+                        .enter()
+                        .append("svg:circle")
+                        .attr("class", "circle")
+                        .attr("id", function (d, i) { return i; })
+                        .attr("cx", function (d, i) { return circleresultcx[i] })
+                        .attr("cy", function (d, i) { return circleresultcy[i] })
+                        .attr("r", function (d, i) {
+                            if (!isNaN(circleresultcy[i])) {
+                                if (!isNaN(circleresultcx[i])) { return 3 }
+                            } else { return 0 }
+                        })
+                        .style("fill", function (d, i) {
+                            if (!isNaN(circleresultcy[i])) { return (finalcolor[i]); }
+                        })
+
+                    .on('mouseover', tip.show)
+                    .on('mouseout', tip.hide)
+
+
+                    // start for removing overlapping values in export
+
+                    var arrycx = [];
+                    var arrycy = [];
+                    var arrycv = [];
+                    var drealvalues = realvalues.slice();
+                    $.each($(".circle"), function (i, d) {
+                        arrycx.push($(this).attr("cx"));
+                        arrycy.push($(this).attr("cy"));
+                        arrycv.push(realvalues[i]);
+                    })
+                    var temp = 0;
+                    for (var i = 0; i < arrycx.length; i++) {
+                        for (var j = 0; j < arrycx.length; j++) {
+                            if ((arrycx[i] == arrycx[j]) && (arrycy[i] == arrycy[j]) && (arrycv[i] == arrycv[j])) {
+                                if (temp == 0) {
+                                    temp++;
+                                }
+                                else {
+                                    drealvalues[j] = "";
+                                }
+                            }
+                        }
+                        temp = 0;
+                    }
+
+                    // end for removing overlapping values in export
+
+
+                    $.each($("circle"), function (i) {
+                        svg.append("svg:text")
+                            .attr("class", "tooltips")
+                             .attr("x", function () { return circleresultcx[i] + 5 })
+
+                        .attr("y", function (d) { if (!isNaN(circleresultcy[i])) { return circleresultcy[i] - 5; } })
+                             .text(function (d) {
+                                 if (drealvalues[i] != "NaN%") {
+                                     if ((drealvalues[i] != 0) && (!isNaN(drealvalues[i]))) {
+                                         return ((RoundValue((drealvalues[i])) + "%"))
+                                     }
+                                 }
+                             })
+                        .style("font-size", "10px")
+                    })
+
+                    if (loc.indexOf("Crosstabs") > -1) {
+                        svg.append("text")
+                             .text(htmlDecode("###TITLE###"))
+                             .attr("x", width / 2)
+                             .style("text-anchor", "middle")
+                             .attr("y", "-3")
+                             .attr("class", "ChartTitle")
+                               .style("font-size", function () { if (htmlDecode("###TITLE###").length > 100) { return "11px"; } else { return "16px"; } })
+                    }
+                    else {
+                        svg.append("text")
+                              .text(htmlDecode("###TITLE###"))
+                             .attr("x", width / 2)
+                            .style("text-anchor", "middle")
+                             .attr("y", "-3")
+                             .attr("class", "ChartTitle")
+                               .style("font-size", function () { if (htmlDecode("###TITLE###").length > 100) { return "11px"; } else { return "16px"; } });
+                    }
+                    if (onFinish != undefined)
+                        onFinish();
+                });
+        }
+
+        loadchart();
+
+        $(window).load(function () {
+            var canvas;
+
+            $("#png").click(function () {
+                PrepareExport(function () {
+                    d3.selectAll("path").attr("fill", "none");
+                    d3.selectAll(".tick line, path.domain").attr("stroke", "#444444").style("font-size", "12px").style("font-family", "Segoe UI");
+                    d3.selectAll(".line").style("stroke-width", "3px");
+                    d3.selectAll(".tick text").style("font-size", "12px").style("font-family", "Segoe UI");
+                    d3.selectAll(".legendtext").style("font-size", "12px").style("font-family", "Segoe UI");
+                    //d3.selectAll(".ChartTitle").style("font-size", "10px").style("font-family", "Segoe UI");
+                    var svg = document.querySelector("svg");
+                    var serializer = new XMLSerializer();
+                    var svgString = serializer.serializeToString(svg);
+                    canvas = document.createElement('canvas');
+                    canvas.height = svg.getAttribute('height');
+                    canvas.width = svg.getAttribute('width');
+                    canvg(canvas, svgString);
+                    var form = document.getElementById("svgform");
+                    form['output_format'].value = "png";
+                    form['data'].value = encodeURIComponent(svgString);
+                    form['type'].value = "LineChart";
+                    form.submit();
+                    PostExport();
+                });
+            });
+
+            $("#jpeg").click(function () {
+                PrepareExport(function () {
+                    d3.selectAll("path").attr("fill", "none");
+                    d3.selectAll(".tick line, path.domain").attr("stroke", "#444444").style("font-size", "12px").style("font-family", "Segoe UI");
+                    d3.selectAll(".line").style("stroke-width", "3px");
+                    d3.selectAll(".tick text").style("font-size", "12px").style("font-family", "Segoe UI");
+                    d3.selectAll(".legendtext").style("font-size", "12px").style("font-family", "Segoe UI");
+                    //d3.selectAll(".ChartTitle").style("font-size", "10px").style("font-family", "Segoe UI");
+                    var svg = document.querySelector("svg");
+                    var serializer = new XMLSerializer();
+                    var svgString = serializer.serializeToString(svg);
+                    canvas = document.createElement('canvas');
+                    canvas.height = svg.getAttribute('height');
+                    canvas.width = svg.getAttribute('width');
+                    canvg(canvas, svgString);
+                    var form = document.getElementById("svgform");
+                    form['output_format'].value = "jpeg";
+                    form['data'].value = encodeURIComponent(svgString);
+                    form['type'].value = "LineChart";
+                    form.submit();
+                    PostExport();
+                });
+            });
+
+            $("#pdf").click(function () {
+                PrepareExport(function () {
+                    d3.selectAll("path").attr("fill", "none");
+                    d3.selectAll(".tick line, path.domain").attr("stroke", "#444444").style("font-size", "12px").style("font-family", "Segoe UI");
+                    d3.selectAll(".line").style("stroke-width", "3px");
+                    d3.selectAll(".tick text").style("font-size", "12px").style("font-family", "Segoe UI");
+                    d3.selectAll(".legendtext").style("font-size", "12px").style("font-family", "Segoe UI");
+                    //d3.selectAll(".ChartTitle").style("font-size", "10px").style("font-family", "Segoe UI");
+                    var pdf1;
+                    var canvas;
+                    var svg = document.querySelector("svg");
+                    var serializer = new XMLSerializer();
+                    var svgString = serializer.serializeToString(svg);
+                    canvas = document.createElement('canvas');
+                    canvas.height = svg.getAttribute('height');
+                    canvas.width = svg.getAttribute('width');
+                    canvg(canvas, svgString);
+                    var form = document.getElementById("svgform");
+                    form['output_format'].value = "pdf";
+                    form['data'].value = encodeURIComponent(svgString);
+                    form['type'].value = "LineChart";
+                    form.submit();
+                    PostExport();
+                });
+            });
+        });
+        function PrepareExport(onFinish) {
+            var _source = "###SOURCE###";
+            var chartContainer = document.getElementById("chartContainer");
+            var legends = d3.select("#chartContainer").select("svg").selectAll(".legend").selectAll("g").length;
+
+            chartWidth = (countlabel * legends) * 15;
+            //chartHeight = window.innerHeight - 200;
+            //if (chartWidth < chartContainer.parentNode.offsetWidth - 80) {
+            //    chartWidth = chartContainer.parentNode.offsetWidth - 80;
+            //    chartHeight = window.innerHeight - 200;
+            //}
+            chartHeight = 1080;
+            if (chartWidth < chartContainer.parentNode.offsetWidth - 60) {
+                chartWidth = chartContainer.parentNode.offsetWidth - 60;
+                chartHeight = chartContainer.parentNode.parentNode.offsetHeight - 100;
+            }
+            margin = { top: 20, right: 20, bottom: 30, left: 60 },
+            width = chartWidth,
+            height = chartHeight - margin.top - margin.bottom;
+
+
+            BuildChart(
+                _source,
+               "###PATH###",
+               "Variable",
+                onFinish,
+                false
+            );
+            loadchart();
+        }
+
+        function GetTextWidth(text, rotate) {
+            if (text.indexOf("###SPLIT###") != -1) {
+                text = text.split('###SPLIT###')[1];
+            }
+
+            var test = document.createElement("div");
+            test.style.display = "inline-block";
+            test.style.fontFamily = "Segoe UI";
+            test.style.fontSize = "10pt";
+            test.innerHTML = text;
+
+            document.body.appendChild(test)
+            var result = test.offsetWidth+15;
+
+            if (rotate != undefined) {
+                if (rotate != 0) {
+                    // convert degrees to radians.
+                    var r = rotate * 0.0174533;
+
+                    result = new Object();
+
+                    // This one doesn't work:
+                    //result = Math.abs(test.offsetWidth * Math.sin(r)) + Math.abs(test.offsetHeight * Math.cos(r));
+                    result.width = 0 + (test.offsetWidth - 0) * Math.cos(r) + (test.offsetHeight - 0) * Math.sin(r);
+                    result.height = 0 - (test.offsetWidth - 0) * Math.sin(r) + (test.offsetHeight - 0) * Math.cos(r);
+                }
+                else {
+                    result = { width: test.offsetWidth, height: test.offsetHeight };
+                }
+            }
+
+            document.body.removeChild(test);
+
+            return result;
+        }
+
+        function RoundUp(value) {
+            if (value - parseInt(value) > 0.0) {
+                return parseInt(value) + 1;
+            }
+            else {
+                return parseInt(value);
+            }
+        }
+
+        function PostExport() {
+            chartContainer = document.getElementById("chartContainer");
+            chartHeight = document.body.offsetHeight - 80;
+            chartWidth = document.body.offsetWidth;
+            if (window.location.toString().search("LinkReporter/Crosstabs.aspx") != -1)
+                chartHeight = window.innerHeight - 200;
+
+            margin = { top: 20, right: 20, bottom: 30, left: 60 },
+            width = chartWidth - margin.left - margin.right,
+            height = chartHeight - margin.top - margin.bottom;
+
+            //BuildChart(
+            //   _source,
+            //   "###PATH###",
+            //   "Variable",
+            //    undefined,
+            //    true
+            //);
+        }
+
+        var decimalPlaces = "###DECIMALPLACES###";
+        function RoundValue(value) {
+            var v = 1;
+
+            for (var i = 0; i < decimalPlaces; i++) {
+                v *= 10;
+            }
+
+            return Math.round(value * v) / v;
+        }
+    </script>
+</body>
+</html>

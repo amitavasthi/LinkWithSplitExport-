@@ -1,0 +1,50 @@
+﻿svg.pie { max-height: 100%; }
+
+svg.pie path {
+	stroke-width: 1;
+    stroke:#CCCCCC;
+}
+
+circle.center {
+	stroke-width: 1;
+    stroke:#CCCCCC;
+	fill: #FFFFFF !important;
+}
+
+svg.pie .slice0 {
+	fill: #F6F6F6;
+}
+
+svg.pie .slice1 {
+	fill: #F6F6F6;
+}
+
+svg.pie .slice2 {
+	fill: #F6F6F6;
+}
+
+svg.pie .slice3 {
+	fill: #F6F6F6;
+}
+
+svg.pie .slice4 {
+	fill: #F6F6F6;
+}
+
+svg.pie .slice5 {
+	fill: #F6F6F6;
+}
+
+svg.pie text {
+	font-family: arial;
+	fill: white;
+	text-shadow: 1px 1px 1px #888;
+}
+
+svg.pie text.centerText {
+	font-size: 1.3em;
+}
+
+svg.pie .selected text.icon {
+	font-size: 1.3em;
+}

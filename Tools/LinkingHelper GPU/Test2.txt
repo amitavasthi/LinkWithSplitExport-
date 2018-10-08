@@ -1,0 +1,1000 @@
+resp id
+survnum
+weight1
+panel assignment
+age - age
+gender - gender
+en01cty - country
+zip - dma list
+q3b - decision maker in household
+q2_fam - brand familiarity - xfinity from comcast
+q2_fam - brand familiarity - directv
+q2_fam - brand familiarity - dish network
+q2_fam - brand familiarity - verizon
+q2_fam - brand familiarity - at&t
+q2_fam - brand familiarity - centurylink
+q2_fam - brand familiarity - verizon fios
+q2_fam - brand familiarity - vonage
+q2_fam - brand familiarity - at&t u-verse
+q2_fam - brand familiarity - verizon fios tv
+q2_fam - brand familiarity - centurylink prism
+qs5 - cable service provider
+qs22 - paid television subscription
+qs23 - paid television service in home
+qs23 - paid television service in home
+directv/non-directv user
+qs25 - premium services ownership
+qd33pre - on demand service access
+qs9 - switch to xfinity from comcast
+qs12 - provider of internet connection
+qs12 - provider of internet connection
+qs14a - willingness to switch to xfinity from comcast high speed internet
+qs15a - current phone service provider
+qs15a - current phone service provider
+qs18 - willingness to switch to comcast home phone service
+complete rejecters of comcast
+respondent's audience assignment
+cell assignment
+tv ownership
+rated uverse
+rated fios
+rated centurylink or centurylink prism
+q3pre - pre brand commitment - xfinity from comcast
+q3pre - pre brand commitment - directv
+q3pre - pre brand commitment - dish network
+q3pre - pre brand commitment - at&t
+q3pre - pre brand commitment - at&t u-verse
+q3pre - pre brand commitment - verizon fios tv
+q3pre - pre brand commitment - verizon
+q3pre - pre brand commitment - centurylink
+q3pre - pre brand commitment - centurylink prism
+q3pre - pre brand commitment - satellite
+q3pre - pre brand commitment - verizon fios
+q6pre - pre brand imagery - xfinity from comcast - provides reliable service
+q6pre - pre brand imagery - xfinity from comcast - provides superior quality products/services
+q6pre - pre brand imagery - xfinity from comcast - values their customers
+q6pre - pre brand imagery - xfinity from comcast - provides good value for the money
+q6pre - pre brand imagery - xfinity from comcast - offers products and features that i can't get from other providers
+q6pre - pre brand imagery - xfinity from comcast - continually improves products/services
+q6pre - pre brand imagery - xfinity from comcast - has products and services that work well together
+q6pre - pre brand imagery - xfinity from comcast -  is honest and trustworthy
+q6pre - pre brand imagery - xfinity from comcast - provides a superior entertainment experience
+q6pre - pre brand imagery - xfinity from comcast - is a technologically advanced company
+q6pre - pre brand imagery - xfinity from comcast - offers products and services that simplify my life
+q6pre - pre brand imagery - xfinity from comcast - has the best selection of current programming  on demand
+q6pre - pre brand imagery - xfinity from comcast - provides more ways to access on demand: tv, computer, and mobile devices
+q6pre - pre brand imagery - xfinity from comcast - provides more ways to enjoy more entertainment than other providers
+q6pre - pre brand imagery - xfinity from comcast - provides excellent customer service
+q6pre - pre brand imagery - xfinity from comcast - offers the best picture quality
+q6pre - pre brand imagery - xfinity from comcast - provides innovative ways to connect with others
+q6pre - pre brand imagery - directv - provides reliable service
+q6pre - pre brand imagery - directv - provides superior quality products/services
+q6pre - pre brand imagery - directv - values their customers
+q6pre - pre brand imagery - directv - provides good value for the money
+q6pre - pre brand imagery - directv - offers products and features that i can't get from other providers
+q6pre - pre brand imagery - directv - continually improves products/services
+q6pre - pre brand imagery - directv - has products and services that work well together
+q6pre - pre brand imagery - directv -  is honest and trustworthy
+q6pre - pre brand imagery - directv - provides a superior entertainment experience
+q6pre - pre brand imagery - directv - is a technologically advanced company
+q6pre - pre brand imagery - directv - offers products and services that simplify my life
+q6pre - pre brand imagery - directv - has the best selection of current programming  on demand
+q6pre - pre brand imagery - directv - provides more ways to access on demand: tv, computer, and mobile devices
+q6pre - pre brand imagery - directv - provides more ways to enjoy more entertainment than other providers
+q6pre - pre brand imagery - directv - provides excellent customer service
+q6pre - pre brand imagery - directv - offers the best picture quality
+q6pre - pre brand imagery - directv - provides innovative ways to connect with others
+q6pre - pre brand imagery - dish network - provides reliable service
+q6pre - pre brand imagery - dish network - provides superior quality products/services
+q6pre - pre brand imagery - dish network - values their customers
+q6pre - pre brand imagery - dish network - provides good value for the money
+q6pre - pre brand imagery - dish network - offers products and features that i can't get from other providers
+q6pre - pre brand imagery - dish network - continually improves products/services
+q6pre - pre brand imagery - dish network - has products and services that work well together
+q6pre - pre brand imagery - dish network -  is honest and trustworthy
+q6pre - pre brand imagery - dish network - provides a superior entertainment experience
+q6pre - pre brand imagery - dish network - is a technologically advanced company
+q6pre - pre brand imagery - dish network - offers products and services that simplify my life
+q6pre - pre brand imagery - dish network - has the best selection of current programming  on demand
+q6pre - pre brand imagery - dish network - provides more ways to access on demand: tv, computer, and mobile devices
+q6pre - pre brand imagery - dish network - provides more ways to enjoy more entertainment than other providers
+q6pre - pre brand imagery - dish network - provides excellent customer service
+q6pre - pre brand imagery - dish network - offers the best picture quality
+q6pre - pre brand imagery - dish network - provides innovative ways to connect with others
+q6pre - pre brand imagery - at&t - provides reliable service
+q6pre - pre brand imagery - at&t - provides superior quality products/services
+q6pre - pre brand imagery - at&t - values their customers
+q6pre - pre brand imagery - at&t - provides good value for the money
+q6pre - pre brand imagery - at&t - offers products and features that i can't get from other providers
+q6pre - pre brand imagery - at&t - continually improves products/services
+q6pre - pre brand imagery - at&t - has products and services that work well together
+q6pre - pre brand imagery - at&t -  is honest and trustworthy
+q6pre - pre brand imagery - at&t - provides a superior entertainment experience
+q6pre - pre brand imagery - at&t - is a technologically advanced company
+q6pre - pre brand imagery - at&t - offers products and services that simplify my life
+q6pre - pre brand imagery - at&t - has the best selection of current programming  on demand
+q6pre - pre brand imagery - at&t - provides more ways to access on demand: tv, computer, and mobile devices
+q6pre - pre brand imagery - at&t - provides more ways to enjoy more entertainment than other providers
+q6pre - pre brand imagery - at&t - provides excellent customer service
+q6pre - pre brand imagery - at&t - offers the best picture quality
+q6pre - pre brand imagery - at&t - provides innovative ways to connect with others
+q6pre - pre brand imagery - at&t u-verse - provides reliable service
+q6pre - pre brand imagery - at&t u-verse - provides superior quality products/services
+q6pre - pre brand imagery - at&t u-verse - values their customers
+q6pre - pre brand imagery - at&t u-verse - provides good value for the money
+q6pre - pre brand imagery - at&t u-verse - offers products and features that i can't get from other providers
+q6pre - pre brand imagery - at&t u-verse - continually improves products/services
+q6pre - pre brand imagery - at&t u-verse - has products and services that work well together
+q6pre - pre brand imagery - at&t u-verse -  is honest and trustworthy
+q6pre - pre brand imagery - at&t u-verse - provides a superior entertainment experience
+q6pre - pre brand imagery - at&t u-verse - is a technologically advanced company
+q6pre - pre brand imagery - at&t u-verse - offers products and services that simplify my life
+q6pre - pre brand imagery - at&t u-verse - has the best selection of current programming  on demand
+q6pre - pre brand imagery - at&t u-verse - provides more ways to access on demand: tv, computer, and mobile devices
+q6pre - pre brand imagery - at&t u-verse - provides more ways to enjoy more entertainment than other providers
+q6pre - pre brand imagery - at&t u-verse - provides excellent customer service
+q6pre - pre brand imagery - at&t u-verse - offers the best picture quality
+q6pre - pre brand imagery - at&t u-verse - provides innovative ways to connect with others
+q6pre - pre brand imagery - verizon fios tv - provides reliable service
+q6pre - pre brand imagery - verizon fios tv - provides superior quality products/services
+q6pre - pre brand imagery - verizon fios tv - values their customers
+q6pre - pre brand imagery - verizon fios tv - provides good value for the money
+q6pre - pre brand imagery - verizon fios tv - offers products and features that i can't get from other providers
+q6pre - pre brand imagery - verizon fios tv - continually improves products/services
+q6pre - pre brand imagery - verizon fios tv - has products and services that work well together
+q6pre - pre brand imagery - verizon fios tv -  is honest and trustworthy
+q6pre - pre brand imagery - verizon fios tv - provides a superior entertainment experience
+q6pre - pre brand imagery - verizon fios tv - is a technologically advanced company
+q6pre - pre brand imagery - verizon fios tv - offers products and services that simplify my life
+q6pre - pre brand imagery - verizon fios tv - has the best selection of current programming  on demand
+q6pre - pre brand imagery - verizon fios tv - provides more ways to access on demand: tv, computer, and mobile devices
+q6pre - pre brand imagery - verizon fios tv - provides more ways to enjoy more entertainment than other providers
+q6pre - pre brand imagery - verizon fios tv - provides excellent customer service
+q6pre - pre brand imagery - verizon fios tv - offers the best picture quality
+q6pre - pre brand imagery - verizon fios tv - provides innovative ways to connect with others
+q6pre - pre brand imagery - verizon - provides reliable service
+q6pre - pre brand imagery - verizon - provides superior quality products/services
+q6pre - pre brand imagery - verizon - values their customers
+q6pre - pre brand imagery - verizon - provides good value for the money
+q6pre - pre brand imagery - verizon - offers products and features that i can't get from other providers
+q6pre - pre brand imagery - verizon - continually improves products/services
+q6pre - pre brand imagery - verizon - has products and services that work well together
+q6pre - pre brand imagery - verizon -  is honest and trustworthy
+q6pre - pre brand imagery - verizon - provides a superior entertainment experience
+q6pre - pre brand imagery - verizon - is a technologically advanced company
+q6pre - pre brand imagery - verizon - offers products and services that simplify my life
+q6pre - pre brand imagery - verizon - has the best selection of current programming  on demand
+q6pre - pre brand imagery - verizon - provides more ways to access on demand: tv, computer, and mobile devices
+q6pre - pre brand imagery - verizon - provides more ways to enjoy more entertainment than other providers
+q6pre - pre brand imagery - verizon - provides excellent customer service
+q6pre - pre brand imagery - verizon - offers the best picture quality
+q6pre - pre brand imagery - verizon - provides innovative ways to connect with others
+q6pre - pre brand imagery - centurylink - provides reliable service
+q6pre - pre brand imagery - centurylink - provides superior quality products/services
+q6pre - pre brand imagery - centurylink - values their customers
+q6pre - pre brand imagery - centurylink - provides good value for the money
+q6pre - pre brand imagery - centurylink - offers products and features that i can't get from other providers
+q6pre - pre brand imagery - centurylink - continually improves products/services
+q6pre - pre brand imagery - centurylink - has products and services that work well together
+q6pre - pre brand imagery - centurylink -  is honest and trustworthy
+q6pre - pre brand imagery - centurylink - provides a superior entertainment experience
+q6pre - pre brand imagery - centurylink - is a technologically advanced company
+q6pre - pre brand imagery - centurylink - offers products and services that simplify my life
+q6pre - pre brand imagery - centurylink - has the best selection of current programming  on demand
+q6pre - pre brand imagery - centurylink - provides more ways to access on demand: tv, computer, and mobile devices
+q6pre - pre brand imagery - centurylink - provides more ways to enjoy more entertainment than other providers
+q6pre - pre brand imagery - centurylink - provides excellent customer service
+q6pre - pre brand imagery - centurylink - offers the best picture quality
+q6pre - pre brand imagery - centurylink - provides innovative ways to connect with others
+q6pre - pre brand imagery - centurylink prism - provides reliable service
+q6pre - pre brand imagery - centurylink prism - provides superior quality products/services
+q6pre - pre brand imagery - centurylink prism - values their customers
+q6pre - pre brand imagery - centurylink prism - provides good value for the money
+q6pre - pre brand imagery - centurylink prism - offers products and features that i can't get from other providers
+q6pre - pre brand imagery - centurylink prism - continually improves products/services
+q6pre - pre brand imagery - centurylink prism - has products and services that work well together
+q6pre - pre brand imagery - centurylink prism -  is honest and trustworthy
+q6pre - pre brand imagery - centurylink prism - provides a superior entertainment experience
+q6pre - pre brand imagery - centurylink prism - is a technologically advanced company
+q6pre - pre brand imagery - centurylink prism - offers products and services that simplify my life
+q6pre - pre brand imagery - centurylink prism - has the best selection of current programming  on demand
+q6pre - pre brand imagery - centurylink prism - provides more ways to access on demand: tv, computer, and mobile devices
+q6pre - pre brand imagery - centurylink prism - provides more ways to enjoy more entertainment than other providers
+q6pre - pre brand imagery - centurylink prism - provides excellent customer service
+q6pre - pre brand imagery - centurylink prism - offers the best picture quality
+q6pre - pre brand imagery - centurylink prism - provides innovative ways to connect with others
+q6pre - pre brand imagery - satellite - provides reliable service
+q6pre - pre brand imagery - satellite - provides superior quality products/services
+q6pre - pre brand imagery - satellite - values their customers
+q6pre - pre brand imagery - satellite - provides good value for the money
+q6pre - pre brand imagery - satellite - offers products and features that i can't get from other providers
+q6pre - pre brand imagery - satellite - continually improves products/services
+q6pre - pre brand imagery - satellite - has products and services that work well together
+q6pre - pre brand imagery - satellite -  is honest and trustworthy
+q6pre - pre brand imagery - satellite - provides a superior entertainment experience
+q6pre - pre brand imagery - satellite - is a technologically advanced company
+q6pre - pre brand imagery - satellite - offers products and services that simplify my life
+q6pre - pre brand imagery - satellite - has the best selection of current programming  on demand
+q6pre - pre brand imagery - satellite - provides more ways to access on demand: tv, computer, and mobile devices
+q6pre - pre brand imagery - satellite - provides more ways to enjoy more entertainment than other providers
+q6pre - pre brand imagery - satellite - provides excellent customer service
+q6pre - pre brand imagery - satellite - offers the best picture quality
+q6pre - pre brand imagery - satellite - provides innovative ways to connect with others
+q6pre - pre brand imagery - verizon fios - provides reliable service
+q6pre - pre brand imagery - verizon fios - provides superior quality products/services
+q6pre - pre brand imagery - verizon fios - values their customers
+q6pre - pre brand imagery - verizon fios - provides good value for the money
+q6pre - pre brand imagery - verizon fios - offers products and features that i can't get from other providers
+q6pre - pre brand imagery - verizon fios - continually improves products/services
+q6pre - pre brand imagery - verizon fios - has products and services that work well together
+q6pre - pre brand imagery - verizon fios -  is honest and trustworthy
+q6pre - pre brand imagery - verizon fios - provides a superior entertainment experience
+q6pre - pre brand imagery - verizon fios - is a technologically advanced company
+q6pre - pre brand imagery - verizon fios - offers products and services that simplify my life
+q6pre - pre brand imagery - verizon fios - has the best selection of current programming  on demand
+q6pre - pre brand imagery - verizon fios - provides more ways to access on demand: tv, computer, and mobile devices
+q6pre - pre brand imagery - verizon fios - provides more ways to enjoy more entertainment than other providers
+q6pre - pre brand imagery - verizon fios - provides excellent customer service
+q6pre - pre brand imagery - verizon fios - offers the best picture quality
+q6pre - pre brand imagery - verizon fios - provides innovative ways to connect with others
+q4pre - pre brand dynamism - xfinity from comcast
+q4pre - pre brand dynamism - directv
+q4pre - pre brand dynamism - dish network
+q4pre - pre brand dynamism - at&t
+q4pre - pre brand dynamism - at&t u-verse
+q4pre - pre brand dynamism - verizon fios tv
+q4pre - pre brand dynamism - verizon
+q4pre - pre brand dynamism - centurylink
+q4pre - pre brand dynamism - centurylink prism
+q4pre - pre brand dynamism - satellite
+q4pre - pre brand dynamism - verizon fios
+q5pre - pre brand involvement - xfinity from comcast
+q5pre - pre brand involvement - directv
+q5pre - pre brand involvement - dish network
+q5pre - pre brand involvement - at&t
+q5pre - pre brand involvement - at&t u-verse
+q5pre - pre brand involvement - verizon fios tv
+q5pre - pre brand involvement - verizon
+q5pre - pre brand involvement - centurylink
+q5pre - pre brand involvement - centurylink prism
+q5pre - pre brand involvement - satellite
+q5pre - pre brand involvement - verizon fios
+q7pre - pre brand personality - xfinity from comcast - innovative
+q7pre - pre brand personality - xfinity from comcast - likable
+q7pre - pre brand personality - xfinity from comcast - cool
+q7pre - pre brand personality - xfinity from comcast - is for someone like me
+q7pre - pre brand personality - xfinity from comcast - enthusiastic
+q7pre - pre brand personality - xfinity from comcast - confident
+q7pre - pre brand personality - xfinity from comcast - a leader
+q7pre - pre brand personality - xfinity from comcast - current
+q7pre - pre brand personality - xfinity from comcast - old fashioned
+q7pre - pre brand personality - xfinity from comcast - boring
+q7pre - pre brand personality - xfinity from comcast - unique
+q7pre - pre brand personality - xfinity from comcast - different
+q7pre - pre brand personality - directv - innovative
+q7pre - pre brand personality - directv - likable
+q7pre - pre brand personality - directv - cool
+q7pre - pre brand personality - directv - is for someone like me
+q7pre - pre brand personality - directv - enthusiastic
+q7pre - pre brand personality - directv - confident
+q7pre - pre brand personality - directv - a leader
+q7pre - pre brand personality - directv - current
+q7pre - pre brand personality - directv - old fashioned
+q7pre - pre brand personality - directv - boring
+q7pre - pre brand personality - directv - unique
+q7pre - pre brand personality - directv - different
+q7pre - pre brand personality - dish network - innovative
+q7pre - pre brand personality - dish network - likable
+q7pre - pre brand personality - dish network - cool
+q7pre - pre brand personality - dish network - is for someone like me
+q7pre - pre brand personality - dish network - enthusiastic
+q7pre - pre brand personality - dish network - confident
+q7pre - pre brand personality - dish network - a leader
+q7pre - pre brand personality - dish network - current
+q7pre - pre brand personality - dish network - old fashioned
+q7pre - pre brand personality - dish network - boring
+q7pre - pre brand personality - dish network - unique
+q7pre - pre brand personality - dish network - different
+q7pre - pre brand personality - at&t - innovative
+q7pre - pre brand personality - at&t - likable
+q7pre - pre brand personality - at&t - cool
+q7pre - pre brand personality - at&t - is for someone like me
+q7pre - pre brand personality - at&t - enthusiastic
+q7pre - pre brand personality - at&t - confident
+q7pre - pre brand personality - at&t - a leader
+q7pre - pre brand personality - at&t - current
+q7pre - pre brand personality - at&t - old fashioned
+q7pre - pre brand personality - at&t - boring
+q7pre - pre brand personality - at&t - unique
+q7pre - pre brand personality - at&t - different
+q7pre - pre brand personality - at&t u-verse - innovative
+q7pre - pre brand personality - at&t u-verse - likable
+q7pre - pre brand personality - at&t u-verse - cool
+q7pre - pre brand personality - at&t u-verse - is for someone like me
+q7pre - pre brand personality - at&t u-verse - enthusiastic
+q7pre - pre brand personality - at&t u-verse - confident
+q7pre - pre brand personality - at&t u-verse - a leader
+q7pre - pre brand personality - at&t u-verse - current
+q7pre - pre brand personality - at&t u-verse - old fashioned
+q7pre - pre brand personality - at&t u-verse - boring
+q7pre - pre brand personality - at&t u-verse - unique
+q7pre - pre brand personality - at&t u-verse - different
+q7pre - pre brand personality - verizon fios tv - innovative
+q7pre - pre brand personality - verizon fios tv - likable
+q7pre - pre brand personality - verizon fios tv - cool
+q7pre - pre brand personality - verizon fios tv - is for someone like me
+q7pre - pre brand personality - verizon fios tv - enthusiastic
+q7pre - pre brand personality - verizon fios tv - confident
+q7pre - pre brand personality - verizon fios tv - a leader
+q7pre - pre brand personality - verizon fios tv - current
+q7pre - pre brand personality - verizon fios tv - old fashioned
+q7pre - pre brand personality - verizon fios tv - boring
+q7pre - pre brand personality - verizon fios tv - unique
+q7pre - pre brand personality - verizon fios tv - different
+q7pre - pre brand personality - verizon - innovative
+q7pre - pre brand personality - verizon - likable
+q7pre - pre brand personality - verizon - cool
+q7pre - pre brand personality - verizon - is for someone like me
+q7pre - pre brand personality - verizon - enthusiastic
+q7pre - pre brand personality - verizon - confident
+q7pre - pre brand personality - verizon - a leader
+q7pre - pre brand personality - verizon - current
+q7pre - pre brand personality - verizon - old fashioned
+q7pre - pre brand personality - verizon - boring
+q7pre - pre brand personality - verizon - unique
+q7pre - pre brand personality - verizon - different
+q7pre - pre brand personality - centurylink - innovative
+q7pre - pre brand personality - centurylink - likable
+q7pre - pre brand personality - centurylink - cool
+q7pre - pre brand personality - centurylink - is for someone like me
+q7pre - pre brand personality - centurylink - enthusiastic
+q7pre - pre brand personality - centurylink - confident
+q7pre - pre brand personality - centurylink - a leader
+q7pre - pre brand personality - centurylink - current
+q7pre - pre brand personality - centurylink - old fashioned
+q7pre - pre brand personality - centurylink - boring
+q7pre - pre brand personality - centurylink - unique
+q7pre - pre brand personality - centurylink - different
+q7pre - pre brand personality - centurylink prism - innovative
+q7pre - pre brand personality - centurylink prism - likable
+q7pre - pre brand personality - centurylink prism - cool
+q7pre - pre brand personality - centurylink prism - is for someone like me
+q7pre - pre brand personality - centurylink prism - enthusiastic
+q7pre - pre brand personality - centurylink prism - confident
+q7pre - pre brand personality - centurylink prism - a leader
+q7pre - pre brand personality - centurylink prism - current
+q7pre - pre brand personality - centurylink prism - old fashioned
+q7pre - pre brand personality - centurylink prism - boring
+q7pre - pre brand personality - centurylink prism - unique
+q7pre - pre brand personality - centurylink prism - different
+q7pre - pre brand personality - satellite - innovative
+q7pre - pre brand personality - satellite - likable
+q7pre - pre brand personality - satellite - cool
+q7pre - pre brand personality - satellite - is for someone like me
+q7pre - pre brand personality - satellite - enthusiastic
+q7pre - pre brand personality - satellite - confident
+q7pre - pre brand personality - satellite - a leader
+q7pre - pre brand personality - satellite - current
+q7pre - pre brand personality - satellite - old fashioned
+q7pre - pre brand personality - satellite - boring
+q7pre - pre brand personality - satellite - unique
+q7pre - pre brand personality - satellite - different
+q7pre - pre brand personality - verizon fios - innovative
+q7pre - pre brand personality - verizon fios - likable
+q7pre - pre brand personality - verizon fios - cool
+q7pre - pre brand personality - verizon fios - is for someone like me
+q7pre - pre brand personality - verizon fios - enthusiastic
+q7pre - pre brand personality - verizon fios - confident
+q7pre - pre brand personality - verizon fios - a leader
+q7pre - pre brand personality - verizon fios - current
+q7pre - pre brand personality - verizon fios - old fashioned
+q7pre - pre brand personality - verizon fios - boring
+q7pre - pre brand personality - verizon fios - unique
+q7pre - pre brand personality - verizon fios - different
+q8pre - pre brand persuasion - xfinity from comcast
+q8pre - pre brand persuasion - directv
+q8pre - pre brand persuasion - dish network
+q8pre - pre brand persuasion - at&t
+q8pre - pre brand persuasion - at&t u-verse
+q8pre - pre brand persuasion - verizon fios tv
+q8pre - pre brand persuasion - verizon
+q8pre - pre brand persuasion - centurylink
+q8pre - pre brand persuasion - centurylink prism
+q8pre - pre brand persuasion - satellite
+q8pre - pre brand persuasion - verizon fios
+q9pre - pre brand advocacy - xfinity from comcast
+q9pre - pre brand advocacy - directv
+q9pre - pre brand advocacy - dish network
+q9pre - pre brand advocacy - at&t
+q9pre - pre brand advocacy - at&t u-verse
+q9pre - pre brand advocacy - verizon fios tv
+q9pre - pre brand advocacy - verizon
+q9pre - pre brand advocacy - centurylink
+q9pre - pre brand advocacy - centurylink prism
+q9pre - pre brand advocacy - satellite
+q9pre - pre brand advocacy - verizon fios
+qad1 - see ad clearly
+qad1a - hear ad clearly
+qad2 - ad recognition
+qad2a - brand linkage
+qad3 - stand out
+qad4a - main message 1
+qad4b - main message 2
+qad5 - likes
+qad5a - dislikes
+qad6a - aided message - xfinity is imagining new ways to access and enjoy entertainment
+qad6a - aided message - xfinity is imagining new ways to connect to the people and the things i love
+qad6a - aided message - xfinity lets me enjoy entertainment where and how i want
+qad6a - aided message - xfinity offers the latest technology that is continually evolving
+qad6a - aided message - xfinity makes my entertainment easy, simple and awesome
+qad6aa - aided message - xfinity on demand lets you watch your favorite shows from anywhere.
+qad6ab - aided message - xfinity on demand lets you watch on any device.
+qad6ac - aided message - xfinity on demand has something for everyone to watch.
+qad6ad - aided message - xfinity on demand gives you more ways to enjoy more entertainment.
+qad6ae - aided message - xfinity on demand goes beyond my current expectations.
+qad6c - aided message cell 2 - xfinity is imagining new ways to access and enjoy entertainment
+qad6c - aided message cell 2 - xfinity offers the latest technology that is continually evolving
+qad6c - aided message cell 2 - xfinity lets me watch my favorite entertainment where and how i want
+qad6c - aided message cell 2 - xfinity makes enjoying entertainment easy, simple and awesome
+qad6c - aided message cell 2 - xfinity is making "tv" into more than it's ever been before
+qad6b - aided message cell 3 - xfinity is imagining new ways for people to connect
+qad6b - aided message cell 3 - xfinity offers the latest technology that is continually evolving
+qad6b - aided message cell 3 - xfinity lets me connect to people where and how i want
+qad6b - aided message cell 3 - xfinity makes staying in touch easy, simple and awesome
+qad6b - aided message cell 3 - xfinity is making the "home phone" into more than it's ever been before
+qad6d - aided message cell 4 - xfinity is imagining new ways to access and enjoy entertainment
+qad6d - aided message cell 4 - xfinity offers the latest technology that is continually evolving
+qad6d - aided message cell 4 - xfinity offers technology that makes it easy to enjoy the entertainment i love
+qad6d - aided message cell 4 - xfinity makes enjoying entertainment easy, simple and awesome
+qad6d - aided message cell 4 - xfinity is making "tv" into more than it's ever been before
+qad6d - aided message cell 4 - xfinity is making it easier to find entertainment you will love
+qad6d - aided message cell 4 - xfinity is making it easier to share entertainment with your friends
+qad6d - aided message cell 4 - xfinity offers technology that is totally transforming your entertainment experience
+qad7a - ad believability - xfinity is imagining new ways to access and enjoy entertainment
+qad7a - ad believability - xfinity is imagining new ways to connect to the people and the things i love
+qad7a - ad believability - xfinity lets me enjoy entertainment where and how i want
+qad7a - ad believability - xfinity offers the latest technology that is continually evolving
+qad7a - ad believability - xfinity makes my entertainment easy, simple and awesome
+qad7c - ad believability - cell 2 - xfinity is imagining new ways to access and enjoy entertainment
+qad7c - ad believability - cell 2 - xfinity offers the latest technology that is continually evolving
+qad7c - ad believability - cell 2 - xfinity lets me watch my favorite entertainment where and how i want
+qad7c - ad believability - cell 2 - xfinity makes enjoying entertainment easy, simple and awesome
+qad7c - ad believability - cell 2 - xfinity is making "tv" into more than it's ever been before
+qad7b - ad believability - cell 3 - xfinity is imagining new ways for people to connect
+qad7b - ad believability - cell 3 - xfinity offers the latest technology that is continually evolving
+qad7b - ad believability - cell 3 - xfinity lets me connect to people where and how i want
+qad7b - ad believability - cell 3 - xfinity makes staying in touch easy, simple and awesome
+qad7b - ad believability - cell 3 - xfinity is making the "home phone" into more than it's ever been before
+qad7d - ad believability - cell 4 - xfinity is imagining new ways to access and enjoy entertainment
+qad7d - ad believability - cell 4 - xfinity offers the latest technology that is continually evolving
+qad7d - ad believability - cell 4 - xfinity offers technology that makes it easy to enjoy the entertainment i love
+qad7d - ad believability - cell 4 - xfinity makes enjoying entertainment easy, simple and awesome
+qad7d - ad believability - cell 4 - xfinity is making "tv" into more than it's ever been before
+qad7d - ad believability - cell 4 - xfinity is making it easier to find entertainment you will love
+qad7d - ad believability - cell 4 - xfinity is making it easier to share entertainment with your friends
+qad7d - ad believability - cell 4 - xfinity offers technology that is totally transforming your entertainment experience
+qad7aa - ad believability - xfinity on demand lets you watch your favorite shows from anywhere.
+qad7ab - ad believability - xfinity on demand lets you watch on any device.
+qad7ac - ad believability - xfinity on demand has something for everyone to watch.
+qad7ad - ad believability - xfinity on demand gives you more ways to enjoy more entertainment.
+qad7ae - ad believability - xfinity on demand goes beyond my current expectations.
+qad8a - ad importance - xfinity is imagining new ways to access and enjoy entertainment
+qad8a - ad importance - xfinity is imagining new ways to connect to the people and the things i love
+qad8a - ad importance - xfinity lets me enjoy entertainment where and how i want
+qad8a - ad importance - xfinity offers the latest technology that is continually evolving
+qad8a - ad importance - xfinity makes my entertainment easy, simple and awesome
+qad8c - ad importance - cell 2 - xfinity is imagining new ways to access and enjoy entertainment
+qad8c - ad importance - cell 2 - xfinity offers the latest technology that is continually evolving
+qad8c - ad importance - cell 2 - xfinity lets me watch my favorite entertainment where and how i want
+qad8c - ad importance - cell 2 - xfinity makes enjoying entertainment easy, simple and awesome
+qad8c - ad importance - cell 2 - xfinity is making "tv" into more than it's ever been before
+qad8b - ad importance - cell 3 - xfinity is imagining new ways for people to connect
+qad8b - ad importance - cell 3 - xfinity offers the latest technology that is continually evolving
+qad8b - ad importance - cell 3 - xfinity lets me connect to people where and how i want
+qad8b - ad importance - cell 3 - xfinity makes staying in touch easy, simple and awesome
+qad8b - ad importance - cell 3 - xfinity is making the "home phone" into more than it's ever been before
+qad8d - ad importance - cell 4 - xfinity is imagining new ways to access and enjoy entertainment
+qad8d - ad importance - cell 4 - xfinity offers the latest technology that is continually evolving
+qad8d - ad importance - cell 4 - xfinity offers technology that makes it easy to enjoy the entertainment i love
+qad8d - ad importance - cell 4 - xfinity makes enjoying entertainment easy, simple and awesome
+qad8d - ad importance - cell 4 - xfinity is making "tv" into more than it's ever been before
+qad8d - ad importance - cell 4 - xfinity is making it easier to find entertainment you will love
+qad8d - ad importance - cell 4 - xfinity is making it easier to share entertainment with your friends
+qad8d - ad importance - cell 4 - xfinity offers technology that is totally transforming your entertainment experience
+qad8aa - ad importance - xfinity on demand lets you watch your favorite shows from anywhere.
+qad8ab - ad importance - xfinity on demand lets you watch on any device.
+qad8ac - ad importance - xfinity on demand has something for everyone to watch.
+qad8ad - ad importance - xfinity on demand gives you more ways to enjoy more entertainment.
+qad8ae - ad importance - xfinity on demand goes beyond my current expectations.
+qad9 - ad involvement
+qad10 - ad salience
+qad11a - ad persuasion (interest) - xfinity from comcast brand
+aaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaa
+qad14 - slogan recognition
+qad15 - slogan recall
+qad16 - slogan likeability
+qad17 - slogan fit
+qad18 - customer subscription intent for xfinity from comcast services
+qad18b - customer subscription intent for additional xfinity from comcast services
+qad19 - non-customers purchase intent for comcast services
+qad19a - non comcast customer paid tv, internet or phone continued service
+qad19b - have/had comcast service in the past.
+it1 - interest trace - seconds - 0
+it1 - interest trace - seconds - 1
+it1 - interest trace - seconds - 2
+it1 - interest trace - seconds - 3
+it1 - interest trace - seconds - 4
+it1 - interest trace - seconds - 5
+it1 - interest trace - seconds - 6
+it1 - interest trace - seconds - 7
+it1 - interest trace - seconds - 8
+it1 - interest trace - seconds - 9
+it1 - interest trace - seconds - 10
+it1 - interest trace - seconds - 11
+it1 - interest trace - seconds - 12
+it1 - interest trace - seconds - 13
+it1 - interest trace - seconds - 14
+it1 - interest trace - seconds - 15
+it1 - interest trace - seconds - 16
+it1 - interest trace - seconds - 17
+it1 - interest trace - seconds - 18
+it1 - interest trace - seconds - 19
+it1 - interest trace - seconds - 20
+it1 - interest trace - seconds - 21
+it1 - interest trace - seconds - 22
+it1 - interest trace - seconds - 23
+it1 - interest trace - seconds - 24
+it1 - interest trace - seconds - 25
+it1 - interest trace - seconds - 26
+it1 - interest trace - seconds - 27
+it1 - interest trace - seconds - 28
+it1 - interest trace - seconds - 29
+it1 - interest trace - seconds - 30
+it1 - interest trace - seconds - 31
+it1 - interest trace - seconds - 32
+it1 - interest trace - seconds - 33
+it1 - interest trace - seconds - 34
+it1 - interest trace - seconds - 35
+it1 - interest trace - seconds - 36
+it1 - interest trace - seconds - 37
+it1 - interest trace - seconds - 38
+it1 - interest trace - seconds - 39
+it1 - interest trace - seconds - 40
+it1 - interest trace - seconds - 41
+it1 - interest trace - seconds - 42
+it1 - interest trace - seconds - 43
+it1 - interest trace - seconds - 44
+it1 - interest trace - seconds - 45
+it1 - interest trace - seconds - 46
+it1 - interest trace - seconds - 47
+it1 - interest trace - seconds - 48
+it1 - interest trace - seconds - 49
+it1 - interest trace - seconds - 50
+it1 - interest trace - seconds - 51
+it1 - interest trace - seconds - 52
+it1 - interest trace - seconds - 53
+it1 - interest trace - seconds - 54
+it1 - interest trace - seconds - 55
+it1 - interest trace - seconds - 56
+it1 - interest trace - seconds - 57
+it1 - interest trace - seconds - 58
+it1 - interest trace - seconds - 59
+it1 - interest trace - seconds - 60
+it1 - interest trace - seconds - 61
+it1 - interest trace - seconds - 62
+it1 - interest trace - seconds - 63
+it1 - interest trace - seconds - 64
+it1 - interest trace - seconds - 65
+it1 - interest trace - seconds - 66
+it1 - interest trace - seconds - 67
+it1 - interest trace - seconds - 68
+it1 - interest trace - seconds - 69
+it1 - interest trace - seconds - 70
+it1 - interest trace - xod - seconds - 0
+it1 - interest trace - xod - seconds - 1
+it1 - interest trace - xod - seconds - 2
+it1 - interest trace - xod - seconds - 3
+it1 - interest trace - xod - seconds - 4
+it1 - interest trace - xod - seconds - 5
+it1 - interest trace - xod - seconds - 6
+it1 - interest trace - xod - seconds - 7
+it1 - interest trace - xod - seconds - 8
+it1 - interest trace - xod - seconds - 9
+it1 - interest trace - xod - seconds - 10
+it1 - interest trace - xod - seconds - 11
+it1 - interest trace - xod - seconds - 12
+it1 - interest trace - xod - seconds - 13
+it1 - interest trace - xod - seconds - 14
+it1 - interest trace - xod - seconds - 15
+it1 - interest trace - xod - seconds - 16
+it1 - interest trace - xod - seconds - 17
+it1 - interest trace - xod - seconds - 18
+it1 - interest trace - xod - seconds - 19
+it1 - interest trace - xod - seconds - 20
+it1 - interest trace - xod - seconds - 21
+it1 - interest trace - xod - seconds - 22
+it1 - interest trace - xod - seconds - 23
+it1 - interest trace - xod - seconds - 24
+it1 - interest trace - xod - seconds - 25
+it1 - interest trace - xod - seconds - 26
+it1 - interest trace - xod - seconds - 27
+it1 - interest trace - xod - seconds - 28
+it1 - interest trace - xod - seconds - 29
+it1 - interest trace - xod - seconds - 30
+qit2 - audio visual check
+q3post - post brand commitment - xfinity from comcast
+q3post - post brand commitment - directv
+q3post - post brand commitment - dish network
+q3post - post brand commitment - at&t
+q3post - post brand commitment - at&t u-verse
+q3post - post brand commitment - verizon fios tv
+q3post - post brand commitment - verizon
+q3post - post brand commitment - centurylink
+q3post - post brand commitment - centurylink prism
+q3post - post brand commitment - satellite
+q3post - post brand commitment - verizon fios
+q6post - post brand imagery - xfinity from comcast - provides reliable service
+q6post - post brand imagery - xfinity from comcast - provides superior quality products/services
+q6post - post brand imagery - xfinity from comcast - values their customers
+q6post - post brand imagery - xfinity from comcast - provides good value for the money
+q6post - post brand imagery - xfinity from comcast - offers products and features that i can't get from other providers
+q6post - post brand imagery - xfinity from comcast - continually improves products/services
+q6post - post brand imagery - xfinity from comcast - has products and services that work well together
+q6post - post brand imagery - xfinity from comcast -  is honest and trustworthy
+q6post - post brand imagery - xfinity from comcast - provides a superior entertainment experience
+q6post - post brand imagery - xfinity from comcast - is a technologically advanced company
+q6post - post brand imagery - xfinity from comcast - offers products and services that simplify my life
+q6post - post brand imagery - xfinity from comcast - has the best selection of current programming  on demand
+q6post - post brand imagery - xfinity from comcast - provides more ways to access on demand: tv, computer, and mobile devices
+q6post - post brand imagery - xfinity from comcast - provides more ways to enjoy more entertainment than other providers
+q6post - post brand imagery - xfinity from comcast - provides excellent customer service
+q6post - post brand imagery - xfinity from comcast - offers the best picture quality
+q6post - post brand imagery - xfinity from comcast - provides innovative ways to connect with others
+q6post - post brand imagery - directv - provides reliable service
+q6post - post brand imagery - directv - provides superior quality products/services
+q6post - post brand imagery - directv - values their customers
+q6post - post brand imagery - directv - provides good value for the money
+q6post - post brand imagery - directv - offers products and features that i can't get from other providers
+q6post - post brand imagery - directv - continually improves products/services
+q6post - post brand imagery - directv - has products and services that work well together
+q6post - post brand imagery - directv -  is honest and trustworthy
+q6post - post brand imagery - directv - provides a superior entertainment experience
+q6post - post brand imagery - directv - is a technologically advanced company
+q6post - post brand imagery - directv - offers products and services that simplify my life
+q6post - post brand imagery - directv - has the best selection of current programming  on demand
+q6post - post brand imagery - directv - provides more ways to access on demand: tv, computer, and mobile devices
+q6post - post brand imagery - directv - provides more ways to enjoy more entertainment than other providers
+q6post - post brand imagery - directv - provides excellent customer service
+q6post - post brand imagery - directv - offers the best picture quality
+q6post - post brand imagery - directv - provides innovative ways to connect with others
+q6post - post brand imagery - dish network - provides reliable service
+q6post - post brand imagery - dish network - provides superior quality products/services
+q6post - post brand imagery - dish network - values their customers
+q6post - post brand imagery - dish network - provides good value for the money
+q6post - post brand imagery - dish network - offers products and features that i can't get from other providers
+q6post - post brand imagery - dish network - continually improves products/services
+q6post - post brand imagery - dish network - has products and services that work well together
+q6post - post brand imagery - dish network -  is honest and trustworthy
+q6post - post brand imagery - dish network - provides a superior entertainment experience
+q6post - post brand imagery - dish network - is a technologically advanced company
+q6post - post brand imagery - dish network - offers products and services that simplify my life
+q6post - post brand imagery - dish network - has the best selection of current programming  on demand
+q6post - post brand imagery - dish network - provides more ways to access on demand: tv, computer, and mobile devices
+q6post - post brand imagery - dish network - provides more ways to enjoy more entertainment than other providers
+q6post - post brand imagery - dish network - provides excellent customer service
+q6post - post brand imagery - dish network - offers the best picture quality
+q6post - post brand imagery - dish network - provides innovative ways to connect with others
+q6post - post brand imagery - at&t - provides reliable service
+q6post - post brand imagery - at&t - provides superior quality products/services
+q6post - post brand imagery - at&t - values their customers
+q6post - post brand imagery - at&t - provides good value for the money
+q6post - post brand imagery - at&t - offers products and features that i can't get from other providers
+q6post - post brand imagery - at&t - continually improves products/services
+q6post - post brand imagery - at&t - has products and services that work well together
+q6post - post brand imagery - at&t -  is honest and trustworthy
+q6post - post brand imagery - at&t - provides a superior entertainment experience
+q6post - post brand imagery - at&t - is a technologically advanced company
+q6post - post brand imagery - at&t - offers products and services that simplify my life
+q6post - post brand imagery - at&t - has the best selection of current programming  on demand
+q6post - post brand imagery - at&t - provides more ways to access on demand: tv, computer, and mobile devices
+q6post - post brand imagery - at&t - provides more ways to enjoy more entertainment than other providers
+q6post - post brand imagery - at&t - provides excellent customer service
+q6post - post brand imagery - at&t - offers the best picture quality
+q6post - post brand imagery - at&t - provides innovative ways to connect with others
+q6post - post brand imagery - at&t u-verse - provides reliable service
+q6post - post brand imagery - at&t u-verse - provides superior quality products/services
+q6post - post brand imagery - at&t u-verse - values their customers
+q6post - post brand imagery - at&t u-verse - provides good value for the money
+q6post - post brand imagery - at&t u-verse - offers products and features that i can't get from other providers
+q6post - post brand imagery - at&t u-verse - continually improves products/services
+q6post - post brand imagery - at&t u-verse - has products and services that work well together
+q6post - post brand imagery - at&t u-verse -  is honest and trustworthy
+q6post - post brand imagery - at&t u-verse - provides a superior entertainment experience
+q6post - post brand imagery - at&t u-verse - is a technologically advanced company
+q6post - post brand imagery - at&t u-verse - offers products and services that simplify my life
+q6post - post brand imagery - at&t u-verse - has the best selection of current programming  on demand
+q6post - post brand imagery - at&t u-verse - provides more ways to access on demand: tv, computer, and mobile devices
+q6post - post brand imagery - at&t u-verse - provides more ways to enjoy more entertainment than other providers
+q6post - post brand imagery - at&t u-verse - provides excellent customer service
+q6post - post brand imagery - at&t u-verse - offers the best picture quality
+q6post - post brand imagery - at&t u-verse - provides innovative ways to connect with others
+q6post - post brand imagery - verizon fios tv - provides reliable service
+q6post - post brand imagery - verizon fios tv - provides superior quality products/services
+q6post - post brand imagery - verizon fios tv - values their customers
+q6post - post brand imagery - verizon fios tv - provides good value for the money
+q6post - post brand imagery - verizon fios tv - offers products and features that i can't get from other providers
+q6post - post brand imagery - verizon fios tv - continually improves products/services
+q6post - post brand imagery - verizon fios tv - has products and services that work well together
+q6post - post brand imagery - verizon fios tv -  is honest and trustworthy
+q6post - post brand imagery - verizon fios tv - provides a superior entertainment experience
+q6post - post brand imagery - verizon fios tv - is a technologically advanced company
+q6post - post brand imagery - verizon fios tv - offers products and services that simplify my life
+q6post - post brand imagery - verizon fios tv - has the best selection of current programming  on demand
+q6post - post brand imagery - verizon fios tv - provides more ways to access on demand: tv, computer, and mobile devices
+q6post - post brand imagery - verizon fios tv - provides more ways to enjoy more entertainment than other providers
+q6post - post brand imagery - verizon fios tv - provides excellent customer service
+q6post - post brand imagery - verizon fios tv - offers the best picture quality
+q6post - post brand imagery - verizon fios tv - provides innovative ways to connect with others
+q6post - post brand imagery - verizon - provides reliable service
+q6post - post brand imagery - verizon - provides superior quality products/services
+q6post - post brand imagery - verizon - values their customers
+q6post - post brand imagery - verizon - provides good value for the money
+q6post - post brand imagery - verizon - offers products and features that i can't get from other providers
+q6post - post brand imagery - verizon - continually improves products/services
+q6post - post brand imagery - verizon - has products and services that work well together
+q6post - post brand imagery - verizon -  is honest and trustworthy
+q6post - post brand imagery - verizon - provides a superior entertainment experience
+q6post - post brand imagery - verizon - is a technologically advanced company
+q6post - post brand imagery - verizon - offers products and services that simplify my life
+q6post - post brand imagery - verizon - has the best selection of current programming  on demand
+q6post - post brand imagery - verizon - provides more ways to access on demand: tv, computer, and mobile devices
+q6post - post brand imagery - verizon - provides more ways to enjoy more entertainment than other providers
+q6post - post brand imagery - verizon - provides excellent customer service
+q6post - post brand imagery - verizon - offers the best picture quality
+q6post - post brand imagery - verizon - provides innovative ways to connect with others
+q6post - post brand imagery - centurylink - provides reliable service
+q6post - post brand imagery - centurylink - provides superior quality products/services
+q6post - post brand imagery - centurylink - values their customers
+q6post - post brand imagery - centurylink - provides good value for the money
+q6post - post brand imagery - centurylink - offers products and features that i can't get from other providers
+q6post - post brand imagery - centurylink - continually improves products/services
+q6post - post brand imagery - centurylink - has products and services that work well together
+q6post - post brand imagery - centurylink -  is honest and trustworthy
+q6post - post brand imagery - centurylink - provides a superior entertainment experience
+q6post - post brand imagery - centurylink - is a technologically advanced company
+q6post - post brand imagery - centurylink - offers products and services that simplify my life
+q6post - post brand imagery - centurylink - has the best selection of current programming  on demand
+q6post - post brand imagery - centurylink - provides more ways to access on demand: tv, computer, and mobile devices
+q6post - post brand imagery - centurylink - provides more ways to enjoy more entertainment than other providers
+q6post - post brand imagery - centurylink - provides excellent customer service
+q6post - post brand imagery - centurylink - offers the best picture quality
+q6post - post brand imagery - centurylink - provides innovative ways to connect with others
+q6post - post brand imagery - centurylink prism - provides reliable service
+q6post - post brand imagery - centurylink prism - provides superior quality products/services
+q6post - post brand imagery - centurylink prism - values their customers
+q6post - post brand imagery - centurylink prism - provides good value for the money
+q6post - post brand imagery - centurylink prism - offers products and features that i can't get from other providers
+q6post - post brand imagery - centurylink prism - continually improves products/services
+q6post - post brand imagery - centurylink prism - has products and services that work well together
+q6post - post brand imagery - centurylink prism -  is honest and trustworthy
+q6post - post brand imagery - centurylink prism - provides a superior entertainment experience
+q6post - post brand imagery - centurylink prism - is a technologically advanced company
+q6post - post brand imagery - centurylink prism - offers products and services that simplify my life
+q6post - post brand imagery - centurylink prism - has the best selection of current programming  on demand
+q6post - post brand imagery - centurylink prism - provides more ways to access on demand: tv, computer, and mobile devices
+q6post - post brand imagery - centurylink prism - provides more ways to enjoy more entertainment than other providers
+q6post - post brand imagery - centurylink prism - provides excellent customer service
+q6post - post brand imagery - centurylink prism - offers the best picture quality
+q6post - post brand imagery - centurylink prism - provides innovative ways to connect with others
+q6post - post brand imagery - satellite - provides reliable service
+q6post - post brand imagery - satellite - provides superior quality products/services
+q6post - post brand imagery - satellite - values their customers
+q6post - post brand imagery - satellite - provides good value for the money
+q6post - post brand imagery - satellite - offers products and features that i can't get from other providers
+q6post - post brand imagery - satellite - continually improves products/services
+q6post - post brand imagery - satellite - has products and services that work well together
+q6post - post brand imagery - satellite -  is honest and trustworthy
+q6post - post brand imagery - satellite - provides a superior entertainment experience
+q6post - post brand imagery - satellite - is a technologically advanced company
+q6post - post brand imagery - satellite - offers products and services that simplify my life
+q6post - post brand imagery - satellite - has the best selection of current programming  on demand
+q6post - post brand imagery - satellite - provides more ways to access on demand: tv, computer, and mobile devices
+q6post - post brand imagery - satellite - provides more ways to enjoy more entertainment than other providers
+q6post - post brand imagery - satellite - provides excellent customer service
+q6post - post brand imagery - satellite - offers the best picture quality
+q6post - post brand imagery - satellite - provides innovative ways to connect with others
+q6post - post brand imagery - verizon fios - provides reliable service
+q6post - post brand imagery - verizon fios - provides superior quality products/services
+q6post - post brand imagery - verizon fios - values their customers
+q6post - post brand imagery - verizon fios - provides good value for the money
+q6post - post brand imagery - verizon fios - offers products and features that i can't get from other providers
+q6post - post brand imagery - verizon fios - continually improves products/services
+q6post - post brand imagery - verizon fios - has products and services that work well together
+q6post - post brand imagery - verizon fios -  is honest and trustworthy
+q6post - post brand imagery - verizon fios - provides a superior entertainment experience
+q6post - post brand imagery - verizon fios - is a technologically advanced company
+q6post - post brand imagery - verizon fios - offers products and services that simplify my life
+q6post - post brand imagery - verizon fios - has the best selection of current programming  on demand
+q6post - post brand imagery - verizon fios - provides more ways to access on demand: tv, computer, and mobile devices
+q6post - post brand imagery - verizon fios - provides excellent customer service
+q6post - post brand imagery - verizon fios - offers the best picture quality
+q6post - post brand imagery - verizon fios - provides innovative ways to connect with others
+q4post - post brand dynamism - xfinity from comcast
+q4post - post brand dynamism - directv
+q4post - post brand dynamism - dish network
+q4post - post brand dynamism - at&t
+q4post - post brand dynamism - at&t u-verse
+q4post - post brand dynamism - verizon fios tv
+q4post - post brand dynamism - verizon
+q4post - post brand dynamism - centurylink
+q4post - post brand dynamism - centurylink prism
+q4post - post brand dynamism - satellite
+q4post - post brand dynamism - verizon fios
+q5post - post brand involvement - xfinity from comcast
+q5post - post brand involvement - directv
+q5post - post brand involvement - dish network
+q5post - post brand involvement - at&t
+q5post - post brand involvement - at&t u-verse
+q5post - post brand involvement - verizon fios tv
+q5post - post brand involvement - verizon
+q5post - post brand involvement - centurylink
+q5post - post brand involvement - centurylink prism
+q5post - post brand involvement - satellite
+q5post - post brand involvement - verizon fios
+q7post - post brand personality - xfinity from comcast - innovative
+q7post - post brand personality - xfinity from comcast - likable
+q7post - post brand personality - xfinity from comcast - cool
+q7post - post brand personality - xfinity from comcast - is for someone like me
+q7post - post brand personality - xfinity from comcast - enthusiastic
+q7post - post brand personality - xfinity from comcast - confident
+q7post - post brand personality - xfinity from comcast - a leader
+q7post - post brand personality - xfinity from comcast - current
+q7post - post brand personality - xfinity from comcast - old fashioned
+q7post - post brand personality - xfinity from comcast - boring
+q7post - post brand personality - xfinity from comcast - unique
+q7post - post brand personality - xfinity from comcast - different
+q7post - post brand personality - directv - innovative
+q7post - post brand personality - directv - likable
+q7post - post brand personality - directv - cool
+q7post - post brand personality - directv - is for someone like me
+q7post - post brand personality - directv - enthusiastic
+q7post - post brand personality - directv - confident
+q7post - post brand personality - directv - a leader
+q7post - post brand personality - directv - current
+q7post - post brand personality - directv - old fashioned
+q7post - post brand personality - directv - boring
+q7post - post brand personality - directv - unique
+q7post - post brand personality - directv - different
+q7post - post brand personality - dish network - innovative
+q7post - post brand personality - dish network - likable
+q7post - post brand personality - dish network - cool
+q7post - post brand personality - dish network - is for someone like me
+q7post - post brand personality - dish network - enthusiastic
+q7post - post brand personality - dish network - confident
+q7post - post brand personality - dish network - a leader
+q7post - post brand personality - dish network - current
+q7post - post brand personality - dish network - old fashioned
+q7post - post brand personality - dish network - boring
+q7post - post brand personality - dish network - unique
+q7post - post brand personality - dish network - different
+q7post - post brand personality - at&t - innovative
+q7post - post brand personality - at&t - likable
+q7post - post brand personality - at&t - cool
+q7post - post brand personality - at&t - is for someone like me
+q7post - post brand personality - at&t - enthusiastic
+q7post - post brand personality - at&t - confident
+q7post - post brand personality - at&t - a leader
+q7post - post brand personality - at&t - current
+q7post - post brand personality - at&t - old fashioned
+q7post - post brand personality - at&t - boring
+q7post - post brand personality - at&t - unique
+q7post - post brand personality - at&t - different
+q7post - post brand personality - at&t u-verse - innovative
+q7post - post brand personality - at&t u-verse - likable
+q7post - post brand personality - at&t u-verse - cool
+q7post - post brand personality - at&t u-verse - is for someone like me
+q7post - post brand personality - at&t u-verse - enthusiastic
+q7post - post brand personality - at&t u-verse - confident
+q7post - post brand personality - at&t u-verse - a leader
+q7post - post brand personality - at&t u-verse - current
+q7post - post brand personality - at&t u-verse - old fashioned
+q7post - post brand personality - at&t u-verse - boring
+q7post - post brand personality - at&t u-verse - unique
+q7post - post brand personality - at&t u-verse - different
+q7post - post brand personality - verizon fios tv - innovative
+q7post - post brand personality - verizon fios tv - likable
+q7post - post brand personality - verizon fios tv - cool
+q7post - post brand personality - verizon fios tv - is for someone like me
+q7post - post brand personality - verizon fios tv - enthusiastic
+q7post - post brand personality - verizon fios tv - confident
+q7post - post brand personality - verizon fios tv - a leader
+q7post - post brand personality - verizon fios tv - current
+q7post - post brand personality - verizon fios tv - old fashioned
+q7post - post brand personality - verizon fios tv - boring
+q7post - post brand personality - verizon fios tv - unique
+q7post - post brand personality - verizon fios tv - different
+q7post - post brand personality - verizon - innovative
+q7post - post brand personality - verizon - likable
+q7post - post brand personality - verizon - cool
+q7post - post brand personality - verizon - is for someone like me
+q7post - post brand personality - verizon - enthusiastic
+q7post - post brand personality - verizon - confident
+q7post - post brand personality - verizon - a leader
+q7post - post brand personality - verizon - current
+q7post - post brand personality - verizon - old fashioned
+q7post - post brand personality - verizon - boring
+q7post - post brand personality - verizon - unique
+q7post - post brand personality - verizon - different
+q7post - post brand personality - centurylink - innovative
+q7post - post brand personality - centurylink - likable
+q7post - post brand personality - centurylink - cool
+q7post - post brand personality - centurylink - is for someone like me
+q7post - post brand personality - centurylink - enthusiastic
+q7post - post brand personality - centurylink - confident
+q7post - post brand personality - centurylink - a leader
+q7post - post brand personality - centurylink - current
+q7post - post brand personality - centurylink - old fashioned
+q7post - post brand personality - centurylink - boring
+q7post - post brand personality - centurylink - unique
+q7post - post brand personality - centurylink - different
+q7post - post brand personality - centurylink prism - innovative
+q7post - post brand personality - centurylink prism - likable
+q7post - post brand personality - centurylink prism - cool
+q7post - post brand personality - centurylink prism - is for someone like me
+q7post - post brand personality - centurylink prism - enthusiastic
+q7post - post brand personality - centurylink prism - confident
+q7post - post brand personality - centurylink prism - a leader
+q7post - post brand personality - centurylink prism - current
+q7post - post brand personality - centurylink prism - old fashioned
+q7post - post brand personality - centurylink prism - boring
+q7post - post brand personality - centurylink prism - unique
+q7post - post brand personality - centurylink prism - different
+q7post - post brand personality - satellite - innovative
+q7post - post brand personality - satellite - likable
+q7post - post brand personality - satellite - cool
+q7post - post brand personality - satellite - is for someone like me
+q7post - post brand personality - satellite - enthusiastic
+q7post - post brand personality - satellite - confident
+q7post - post brand personality - satellite - a leader
+q7post - post brand personality - satellite - current
+q7post - post brand personality - satellite - old fashioned
+q7post - post brand personality - satellite - boring
+q7post - post brand personality - satellite - unique
+q7post - post brand personality - satellite - different
+q7post - post brand personality - verizon fios - innovative
+q7post - post brand personality - verizon fios - likable
+q7post - post brand personality - verizon fios - cool
+q7post - post brand personality - verizon fios - is for someone like me
+q7post - post brand personality - verizon fios - enthusiastic
+q7post - post brand personality - verizon fios - confident
+q7post - post brand personality - verizon fios - a leader
+q7post - post brand personality - verizon fios - current
+q7post - post brand personality - verizon fios - old fashioned
+q7post - post brand personality - verizon fios - boring
+q7post - post brand personality - verizon fios - unique
+q7post - post brand personality - verizon fios - different
+q8post - post brand persuasion - xfinity from comcast
+q8post - post brand persuasion - directv
+q8post - post brand persuasion - dish network
+q8post - post brand persuasion - at&t
+q8post - post brand persuasion - at&t u-verse
+q8post - post brand persuasion - verizon fios tv
+q8post - post brand persuasion - verizon
+q8post - post brand persuasion - centurylink
+q8post - post brand persuasion - centurylink prism
+q8post - post brand persuasion - satellite
+q8post - post brand persuasion - verizon fios
+q9post - post brand advocacy - xfinity from comcast
+q9post - post brand advocacy - directv
+q9post - post brand advocacy - dish network
+q9post - post brand advocacy - at&t
+q9post - post brand advocacy - at&t u-verse
+q9post - post brand advocacy - verizon fios tv
+q9post - post brand advocacy - verizon
+q9post - post brand advocacy - centurylink
+q9post - post brand advocacy - centurylink prism
+q9post - post brand advocacy - satellite
+q9post - post brand advocacy - verizon fios
+qad40a - in market for new service - television
+qad40b - in market for new service - internet

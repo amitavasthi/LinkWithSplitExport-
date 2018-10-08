@@ -1,0 +1,13 @@
+E:\BlueoceanLink\LinkLibraries\LinkManager\Clients\Backup\bin\Release\FileSystem.xml
+E:\BlueoceanLink\LinkLibraries\LinkManager\Clients\Backup\bin\Release\Backup.exe.config
+E:\BlueoceanLink\LinkLibraries\LinkManager\Clients\Backup\bin\Release\Backup.exe
+E:\BlueoceanLink\LinkLibraries\LinkManager\Clients\Backup\bin\Release\Backup.pdb
+E:\BlueoceanLink\LinkLibraries\LinkManager\Clients\Backup\obj\Release\Backup.exe
+E:\BlueoceanLink\LinkLibraries\LinkManager\Clients\Backup\obj\Release\Backup.pdb
+C:\Projects\Blueocean\Link\LinkManager\Clients\Backup\bin\Release\FileSystem.xml
+C:\Projects\Blueocean\Link\LinkManager\Clients\Backup\bin\Release\Backup.exe.config
+C:\Projects\Blueocean\Link\LinkManager\Clients\Backup\bin\Release\Backup.exe
+C:\Projects\Blueocean\Link\LinkManager\Clients\Backup\bin\Release\Backup.pdb
+C:\Projects\Blueocean\Link\LinkManager\Clients\Backup\obj\Release\Backup.csprojResolveAssemblyReference.cache
+C:\Projects\Blueocean\Link\LinkManager\Clients\Backup\obj\Release\Backup.exe
+C:\Projects\Blueocean\Link\LinkManager\Clients\Backup\obj\Release\Backup.pdb

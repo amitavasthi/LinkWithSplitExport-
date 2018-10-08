@@ -1,0 +1,14 @@
+<Workflow>
+  <Selection Name="Country">
+    <VariableFilter Name="select Country" VariableName="Country" IsTaxonomy="True" Mode="Multi">
+    </VariableFilter>
+  </Selection>
+  <Selection Name="Device Category Brand">
+    <VariableFilter Name="select Device Category Brand" VariableName="DeviceCategoryBrandPlural" IsTaxonomy="True" Mode="Multi">
+    </VariableFilter>
+  </Selection>
+  <Selection Name="AdName">
+    <VariableFilter Name="select AdName" VariableName="AdName" IsTaxonomy="True" Mode="Multi">
+    </VariableFilter>
+  </Selection>
+</Workflow>

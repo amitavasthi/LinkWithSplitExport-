@@ -1,0 +1,13 @@
+<Workflow>
+  <Selection Name="hierarchy">
+    <HierarchyFilter Name="select hierarchy"></HierarchyFilter>
+  </Selection>
+  <Selection Name="Month">
+    <VariableFilter Name="select Month" VariableName="Month" IsTaxonomy="True" Mode="Multi">
+    </VariableFilter>
+  </Selection>
+  <Selection Name="Gender">
+    <VariableFilter Name="select Gender" VariableName="Gender" IsTaxonomy="True" Mode="Multi">
+    </VariableFilter>
+  </Selection>
+</Workflow>

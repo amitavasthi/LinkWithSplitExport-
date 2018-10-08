@@ -1,0 +1,27 @@
+﻿<Report>
+  <Properties>
+    <ServerConnections></ServerConnections>
+    <LatestUpdate></LatestUpdate>
+  </Properties>
+  <Settings>
+    <Setting Name="IdLanguage">2057</Setting>
+    <Setting Name="AggregateNonQAData">false</Setting>
+    <Setting Name="ExportPercentage">true</Setting>
+    <Setting Name="HideEmpty">False</Setting>
+    <Setting Name="SignificanceTestLevel">90</Setting>
+    <Setting Name="SignificanceTestType">0</Setting>
+  </Settings>
+  <WeightingVariables>
+  </WeightingVariables>
+  <Filters>
+    <Operator Type="AND">
+    </Operator>
+  </Filters>
+  <Dimensions>
+  </Dimensions>
+  <Workflow>
+  </Workflow>
+  <Measures>
+  </Measures>
+
+</Report>

@@ -1,0 +1,26 @@
+<Report DataRequest="21.10.2014 11:19:12" DataCalculationTime="00:00:00.0000000" DataPreperationTime="00:00:00.0000000">
+  <Filters>
+    <Operator Type="AND">
+    </Operator>
+  </Filters>
+  <Settings>
+    <Setting Name="RepeatHeader">True</Setting>
+    <Setting Name="TableWidth">900</Setting>
+    <Setting Name="DecimalPlaces">0</Setting>
+    <Setting Name="SignificanceTest">False</Setting>
+    <Setting Name="SigDiffEffectiveBase">False</Setting>
+    <Setting Name="HideEmpty">False</Setting>
+    <Setting Name="DataCheckEnabled">False</Setting>
+    <Setting Name="SignificanceTestLevel">90</Setting>
+    <Setting Name="SignificanceTestType">0</Setting>
+    <Setting Name="IdLanguage">2057</Setting>
+  </Settings>
+  <WeightingVariables>
+  </WeightingVariables>
+  <Workflow>
+  </Workflow>
+  <Variables Position="Left">
+  </Variables>
+  <Variables Position="Top">
+  </Variables>
+</Report>

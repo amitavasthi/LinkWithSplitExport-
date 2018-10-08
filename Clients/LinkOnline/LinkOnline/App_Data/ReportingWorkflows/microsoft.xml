@@ -1,0 +1,17 @@
+﻿<Workflow>
+  <Default>
+    <Selection Name="country">
+      <VariableFilter Name="select country" VariableName="Country" IsTaxonomy="True" Mode="Multi"></VariableFilter>
+    </Selection>
+    <Selection Name="timeperiod">
+      <VariableFilter Name="select timeperiod" VariableName="YearandWave" IsTaxonomy="True" Mode="Single"></VariableFilter>
+    </Selection>
+    <Selection Name="developer type">
+      <VariableFilter Name="select developer type - at work" VariableName="CodingExecutedAtWork" IsTaxonomy="True" Mode="Single"></VariableFilter>
+      <VariableFilter Name="select developer type - outside work" VariableName="CodingExecutedOutsideofWork" IsTaxonomy="True" Mode="Single"></VariableFilter>
+    </Selection>
+    <Selection Name="developer filter">
+      <VariableFilter Name="path qualification" VariableName="PathQualification" IsTaxonomy="True"></VariableFilter>
+    </Selection>
+  </Default>
+</Workflow>

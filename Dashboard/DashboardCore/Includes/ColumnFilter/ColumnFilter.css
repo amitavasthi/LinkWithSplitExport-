@@ -1,0 +1,16 @@
+.ColumnFilterHeader {
+    cursor:pointer;
+}
+
+.ColumnFilterContainer {
+    position:absolute;
+    background:#366092;
+    margin:-10px;
+    padding:10px;
+}
+
+.ColumnFilterContainer td {
+    background:none !important;
+    border:none !important;
+    padding:0px !important;
+}

@@ -1,0 +1,41 @@
+﻿<Navigation>
+  <NavigationItem CssClass="NavigationItem" CssClassActive="NavigationItem_Active" Name="navHome" Target="/Pages/Default.aspx" Icon="/Images/Icons/Navigation/Home.png"></NavigationItem>
+  <NavigationItem CssClass="NavigationItem" CssClassActive="NavigationItem_Active" Name="navAdmin" Icon="/Images/Icons/Navigation/Admin.png">
+    <NavigationItem CssClass="NavigationItem BackgroundColor7I" CssClassActive="NavigationItem_Active BackgroundColor7I" Name="navAddUser" Target="/Pages/ClientManager/CreateUser.aspx"></NavigationItem>
+    <NavigationItem CssClass="NavigationItem BackgroundColor7I" CssClassActive="NavigationItem_Active BackgroundColor7I" Name="navHomeManagement" Target="/Pages/ClientManager/HomeScreenManagement.aspx"></NavigationItem>
+    <NavigationItem CssClass="NavigationItem BackgroundColor7I" CssClassActive="NavigationItem_Active BackgroundColor7I" Name="navManageUsers" Target="/Pages/ClientManager/ManageUsers.aspx"></NavigationItem>
+    <NavigationItem CssClass="NavigationItem BackgroundColor7I" CssClassActive="NavigationItem_Active BackgroundColor7I" Name="navManageUserGroups" Target="/Pages/ClientManager/ManageUserGroupsHome.aspx"></NavigationItem>
+    <NavigationItem CssClass="NavigationItem BackgroundColor7I" CssClassActive="NavigationItem_Active BackgroundColor7I" Name="navManageWorkgroups" Target="/Pages/ClientManager/Workgroups.aspx"></NavigationItem>
+    <NavigationItem CssClass="NavigationItem BackgroundColor7I" CssClassActive="NavigationItem_Active BackgroundColor7I" Name="navPortalSettings" Target="/Pages/ClientManager/ClientSettings.aspx"></NavigationItem>
+  </NavigationItem>
+  <NavigationItem CssClass="NavigationItem" CssClassActive="NavigationItem_Active" Name="navProduction" Icon="/Images/Icons/Navigation/Production.png">
+    <NavigationItem CssClass="NavigationItem BackgroundColor7I" CssClassActive="NavigationItem_Active BackgroundColor7I" Name="navDataManagement">
+      <NavigationItem CssClass="NavigationItem BackgroundColor12I" CssClassActive="NavigationItem_Active BackgroundColor12I" Name="navAMS" Target="/Pages/AgencyManagementSystem/Overview.aspx"></NavigationItem>
+      <NavigationItem CssClass="NavigationItem BackgroundColor12I" CssClassActive="NavigationItem_Active BackgroundColor12I" Name="navData" Target="/Pages/DataManagement/Overview.aspx"></NavigationItem>
+      <NavigationItem CssClass="NavigationItem BackgroundColor12I" CssClassActive="NavigationItem_Active BackgroundColor12I" Name="navLinkManager" Target="/Pages/LinkManager/LinkManager.aspx"></NavigationItem>
+      <NavigationItem CssClass="NavigationItem BackgroundColor12I" CssClassActive="NavigationItem_Active BackgroundColor12I" Name="navBackup" Target="/Pages/Backup.aspx"></NavigationItem>
+    </NavigationItem>
+    <NavigationItem CssClass="NavigationItem BackgroundColor7I" CssClassActive="NavigationItem_Active BackgroundColor7I" Name="navDesign">
+      <NavigationItem CssClass="NavigationItem BackgroundColor12I" CssClassActive="NavigationItem_Active BackgroundColor12I" Name="navTaxonomy" Target="/Pages/TaxonomyManager/TaxonomyManager.aspx"></NavigationItem>
+      <NavigationItem CssClass="NavigationItem BackgroundColor12I" CssClassActive="NavigationItem_Active BackgroundColor12I" Name="navWorkflowDefinition" Target="/Pages/TaxonomyManager/WorkflowDefinition.aspx"></NavigationItem>
+    </NavigationItem>
+  </NavigationItem>
+  <NavigationItem CssClass="NavigationItem" CssClassActive="NavigationItem_Active" Name="navLibrary" Target="/Pages/LinkCloud.aspx" Icon="/Images/Icons/Navigation/Library.png"></NavigationItem>
+  <NavigationItem CssClass="NavigationItem" CssClassActive="NavigationItem_Active" Name="navReporting" Icon="/Images/Icons/Navigation/Reporter.png">
+    <NavigationItem CssClass="NavigationItem BackgroundColor7I" CssClassActive="NavigationItem_Active BackgroundColor7I" Name="navDashboards" Target="/Pages/CustomCharts/ChartsHome.aspx"></NavigationItem>
+    <NavigationItem CssClass="NavigationItem BackgroundColor7I" CssClassActive="NavigationItem_Active BackgroundColor7I" Name="navReporter" Target="/Pages/LinkReporter/Crosstabs.aspx"></NavigationItem>
+  </NavigationItem>
+  <NavigationItem CssClass="NavigationItem" CssClassActive="NavigationItem_Active" Name="navServices" Icon="/Images/Icons/Navigation/Services.png">
+    <NavigationItem CssClass="NavigationItem BackgroundColor7I" CssClassActive="NavigationItem_Active BackgroundColor7I" Name="navLinkBi">
+      <NavigationItem CssClass="NavigationItem BackgroundColor12I" CssClassActive="NavigationItem_Active BackgroundColor12I" Name="navNewReport" Target="/Pages/LinkBi/LinkBi.aspx"></NavigationItem>
+      <NavigationItem CssClass="NavigationItem BackgroundColor12I" CssClassActive="NavigationItem_Active BackgroundColor12I" Name="navSavedDefinitions" Target="/Pages/LinkBi/SavedDefinitions.aspx"></NavigationItem>
+    </NavigationItem>
+    <NavigationItem CssClass="NavigationItem BackgroundColor7I" CssClassActive="NavigationItem_Active BackgroundColor7I" Target="/Pages/Services/Exports.aspx" Name="navExports"></NavigationItem>
+  </NavigationItem>
+
+  <NavigationItem CssClass="NavigationItem" CssClassActive="NavigationItem_Active" Name="logs" Icon="/Images/Icons/Navigation/Log.png">
+    <NavigationItem CssClass="NavigationItem BackgroundColor12I" CssClassActive="NavigationItem_Active BackgroundColor12I" Name="logger" Target="/Pages/Logs/LoggedUsers.aspx"></NavigationItem>
+  </NavigationItem>
+  
+  <NavigationItem CssClass="NavigationItem NavigationItem_Debug" CssClassActive="NavigationItem_Debug NavigationItem_Active" Name="navDebug" Target="/Pages/Debug.aspx" Icon="/Images/Icons/Navigation/Debug.png"></NavigationItem>
+</Navigation>

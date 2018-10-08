@@ -1,0 +1,40 @@
+﻿.OptionSwiper .Swiper {
+    cursor:pointer;
+}
+
+.OptionSwiper {
+    box-shadow:0px 0px 2px 0px #444444;
+    display:inline-block;
+    height:50px;
+}
+
+.OptionSwiper .Options {
+    display:none;
+    float:left;
+    white-space:nowrap;
+    overflow:hidden;
+    position:absolute;
+}
+
+.OptionSwiper .Options .Option {
+    cursor:pointer;
+    color:#FFFFFF;
+    font-weight:bold;
+    padding:14px;
+    padding-bottom:15px;
+    white-space:nowrap;
+    display:inline-block;
+}
+
+.OptionSwiper .Options .Option a {
+    color:#FFFFFF;
+    text-decoration:none;
+}
+
+.OptionSwiperBottom .Options .Option {
+    display:block;
+}
+
+.OptionSwiper .Options .Option:hover {
+    opacity:0.9;
+}

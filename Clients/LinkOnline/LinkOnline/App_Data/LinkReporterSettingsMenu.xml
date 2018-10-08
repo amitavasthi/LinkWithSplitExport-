@@ -1,0 +1,22 @@
+﻿<Navigation>
+  <MenuItem Row="0" Position="0" Name="New" OnClick="javascript:ClearReportDefinition();" Icon="/Images/Icons/LinkReporterSettings/New.png"></MenuItem>
+  <MenuItem Row="0" Position="1" Name="View" Icon="/Images/Icons/LinkReporterSettings/View.png">
+    <MenuItem Row="0" Position="0" Name="Crosstable" OnClick="javascript:UpdateSetting('DisplayType', 'Crosstable', false, true);" Icon="/Images/Icons/LinkReporterSettings/Views/Crosstable.png"></MenuItem>
+    <MenuItem Row="0" Position="2" Name="Line" OnClick="javascript:UpdateSetting('DisplayType', 'Line', false, true);" Icon="/Images/Icons/LinkReporterSettings/Views/Line.png"></MenuItem>
+    <MenuItem Row="1" Position="0" Name="Bar" OnClick="javascript:UpdateSetting('DisplayType', 'Bar', false, true);" Icon="/Images/Icons/LinkReporterSettings/Views/Bar.png"></MenuItem>
+    <MenuItem Row="1" Position="1" Name="Area" OnClick="javascript:UpdateSetting('DisplayType', 'Area', false, true);" Icon="/Images/Icons/LinkReporterSettings/Views/Area.png"></MenuItem>
+    <MenuItem Row="1" Position="2" Name="Column" OnClick="javascript:UpdateSetting('DisplayType', 'Column', false, true);" Icon="/Images/Icons/LinkReporterSettings/Views/Column.png"></MenuItem>
+  </MenuItem>
+  <MenuItem Row="0" Position="2" Name="Settings" Icon="/Images/Icons/LinkReporterSettings/Settings.png" OnClick="javascript:InitDragBox('boxSettingsControl')">
+  </MenuItem>
+  <MenuItem Row="1" Position="0" Name="Export" Icon="/Images/Icons/LinkReporterSettings/Export.png">
+    <MenuItem Row="0" Position="0" Name="ExportSingle" OnClick="javascript:ExportTable();" Icon="/Images/Icons/LinkReporterSettings/Export.png"></MenuItem>
+    <MenuItem Row="1" Position="1" Name="ExportAllTabs" OnClick="javascript:ExportAllTabs();" Icon="/Images/Icons/LinkReporterSettings/Export.png"></MenuItem>
+  </MenuItem>
+  <MenuItem Row="1" Position="1" Name="Save" Icon="/Images/Icons/LinkReporterSettings/Save.png">
+    <MenuItem Row="0" Position="2" Name="SaveTab" Icon="/Images/Icons/LinkReporterSettings/SaveTab.png" IdContentPanel="pnlSaveTab">
+    </MenuItem>
+    <MenuItem Row="1" Position="2" Name="SaveAllTabs" Icon="/Images/Icons/LinkReporterSettings/SaveAllTabs.png" IdContentPanel="pnlSaveAllTabs">
+    </MenuItem>
+  </MenuItem>
+</Navigation>

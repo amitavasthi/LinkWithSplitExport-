@@ -1,0 +1,18 @@
+<HiddenFilters>
+  <VariableFilter Name="" VariableName="Quarter" IsTaxonomy="True" Mode="Multi" IdVariable="1514a0ac-9882-4370-9e1c-9b494759c5e1">
+    <Workgroup name="Administrators" Id="00000000-0000-0000-0000-000000000000">     
+    </Workgroup>
+    <Workgroup name="AmazonLiNK" Id="DA760412-12DB-4505-B41C-E78F6E9E816A">      
+      <Category Id="4879051B-35DE-413C-BB94-133F11F4454D">
+      </Category>
+      <Category Id="2EF69FCC-5DCF-4F9A-BF08-194AD92E6625">
+      </Category>
+      <Category Id="942C458D-DEA3-4BCC-AA71-CE91C968C625">
+      </Category>
+      <Category Id="B01C3897-46F5-4C90-AE84-D690DAE8F6C3">
+      </Category>
+      <Category Id="C93B02F9-3F00-42C9-A012-DD71DDEB4688">
+      </Category>
+    </Workgroup>
+  </VariableFilter>
+</HiddenFilters>

@@ -1,0 +1,91 @@
+﻿
+
+/* ##### Color definitions ##### */
+
+
+.Color1 {
+    color:#6CAEE0;
+}
+
+.Color2 {
+    color:#FCB040;
+}
+
+.BorderColor1 {
+    border-color:#6CAEE0;
+}
+
+.BorderColor7 {
+    border-color:#E2EFF9;
+}
+
+/* Main color */
+.BackgroundColor1, .BackgroundColor3, .BackgroundColor6 {
+    background-color:#6CAEE0;
+}
+
+.BackgroundColor_1 {
+    background-color:rgb(151,175,176);
+}
+
+/* Standard version of the secondary color. */
+.BackgroundColor2 {
+    background:#FCB040;
+}
+
+/* Main color with mouse over of secondary color. */
+.BackgroundColor3:hover {
+    background:#FCB040;
+}
+
+/* Mouse over with main color. */
+.BackgroundColor4:hover {
+    background:#6CAEE0;
+    color:#FFFFFF;
+}
+
+/* Light version of main color. */
+.BackgroundColor5, .BackgroundColor6:hover {
+    background:#98C6E9;
+}
+
+/* Very very light version of the main color. */
+.BackgroundColor7 {
+    background:#E2EFF9;
+}
+
+/* Gray-ish version for non selected workflow */
+.BackgroundColor8 {
+    background:#97AFB0;
+}
+
+/* Very light version of the main color. */
+.BackgroundColor9 {
+    background:#B7D8F0;
+}
+
+/* ##### Scroll bar styles ##### */
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+::-webkit-scrollbar-track {
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #FCB040;
+}
+::-webkit-scrollbar-thumb:hover {
+	background-color: #FCB040;
+}
+
+body {
+	scrollbar-face-color: #FCB040;
+	scrollbar-shadow-color: #FCB040;
+	scrollbar-highlight-color:#FCB040;
+	scrollbar-3dlight-color: #FCB040;
+	scrollbar-darkshadow-color: #FFFFFF;
+	scrollbar-track-color: #FFFFFF;
+	scrollbar-arrow-color: #6CAEE0;
+}

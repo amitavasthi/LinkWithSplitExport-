@@ -1,0 +1,32 @@
+﻿.ToolTip {
+    position:absolute;
+    z-index:99998;
+}
+
+.ToolTipLeft {
+    background:url('/Images/Icons/ToolTipLeft.png') no-repeat center left;
+    padding-left:14px;
+}
+
+.ToolTipTop {
+    background:url('/Images/Icons/ToolTipTop.png') no-repeat top center;
+    padding-top:14px;
+}
+
+.ToolTipBottom {
+    background:url('/Images/Icons/ToolTipBottom.png') no-repeat bottom center;
+    padding-bottom:14px;
+}
+
+.ToolTipText {
+    background:#323232;
+    color:#FFFFFF;
+    border-color:#323232 !important;
+
+    border-width:1px;
+    border-style:solid;
+
+    max-width:400px;
+
+    padding:0.5em;
+}

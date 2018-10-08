@@ -1,0 +1,6 @@
+<Workflow>
+  <Selection Name="study">
+    <VariableFilter Name="select study" VariableName="StudyLink" IsTaxonomy="True" Mode="Multi">
+    </VariableFilter>
+  </Selection>
+</Workflow>

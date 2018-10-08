@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HomeScreen>
+  <div class="container-fluid">
+    <div class="row draggable">
+      <div class="col-xs-12" id="draggable" style="margin-top:20px;">
+        <div id="upleft" class="col-sm-6 news" >
+          <span style='color:#6CAEE0;margin-left:0px;' class="newsTitle">L</span>
+          <span style='color:#FCB040' class="newsTitle">i</span>
+          <span style='color:#6CAEE0' class="newsTitle">NK</span>
+          <span style='color:#6CAEE0' class="newsTitle"> announcements</span>
+          <Module Name="News">NewsPart</Module>
+        </div>
+        <div class="col-sm-6 overview" id="upright">
+          <span style='color:#6CAEE0;margin-left:0px;' class="newsTitle">L</span>
+          <span style='color:#FCB040' class="newsTitle">i</span>
+          <span style='color:#6CAEE0' class="newsTitle">NK</span>
+          <span style='color:#6CAEE0' class="newsTitle"> overview </span>
+          <span style="float:right;">
+            <a href="LinkOverview.aspx">
+              <img src="../Images/Icons/Home/edit.png" style="height:20px;margin-top:5px;" />
+            </a>
+          </span>
+          <Module Name="DashBoards">ChartPart</Module>
+        </div>
+        <div id="bottomleft" class="col-sm-12 mostrecent">
+          <span style='color:#6CAEE0;margin-left:0px;' class="newsTitle">L</span>
+          <span style='color:#FCB040' class="newsTitle">i</span>
+          <span style='color:#6CAEE0' class="newsTitle">NK</span>
+          <span style='color:#6CAEE0;margin-left:0px;' class="newsTitle"> most recent used</span>
+          <Module Name="MostRecent" DisplayReporterReports="true" DisplayLinkBiReports="true" DisplayCustomChartReports="true">MostRecentPart</Module>
+        </div>
+      </div>     
+    </div>   
+    <div class="row">
+      <div class="col-xs-12 Footer" style="margin-bottom:0px;">
+        <a href="http://www.blueoceanmi.com" target="_blank"><img id="imgCopyright" src="/Images/Logos/Blueocean.png"/></a>
+      </div>
+    </div>
+    <script>
+       function savedReportsClick(elem) {
+      window.location = savedReportsClickJS(elem);
+      return false;
+      }
+    </script>
+    <!--<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <script>
+      $(document).ready(function () {
+      $(".draggable").sortable({
+      handle: ".handle",
+      start: function (event, ui) {
+      $(this).css("z-index", "999999");
+      },
+
+      update: saveOrder
+
+      //stop: saveOrder
+      //stop: function (event, ui) {
+      //    $('.draggable div.col-sm-6:first').addClass('col-sm-6 news order1');
+      //    $('.draggable div.col-sm-6:last').addClass('col-sm-6 mostrecent order3');
+      //    var i = 1;
+      //    $('.draggable div.col-sm-6').each(function () {
+      //        $(this).addClass('order' + i);
+      //        i++;
+      //    })
+      //}
+      });
+
+      //$('.draggable.grid li').droppable({ drop: saveOrder });
+
+      });
+
+      saveOrder = function (event, ui) {
+
+      // var data = $(this).sortable('serialize');
+      var data = $(this).sortable('toArray').toString();
+
+      saveDivOrder(data);
+      }
+
+      function savedReportsClick(elem) {
+      window.location = savedReportsClickJS(elem);
+      return false;
+      }
+
+    </script>-->
+  </div>
+  <ChartType>bar</ChartType>
+</HomeScreen>

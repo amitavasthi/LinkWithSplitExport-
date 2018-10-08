@@ -1,0 +1,382 @@
+[
+  {
+    "Filter1": "25",
+    "Value": "00.118",
+    "Label": "US - West"
+  },
+  {
+    "Filter1": "50",
+    "Value": "00.768",
+    "Label": "US - West"
+  },
+  {
+    "Filter1": "75",
+    "Value": "01.068",
+    "Label": "US - West"
+  },
+  {
+    "Filter1": "100",
+    "Value": "01.856",
+    "Label": "US - West"
+  },
+  {
+    "Filter1": "125",
+    "Value": "02.487",
+    "Label": "US - West"
+  },
+  {
+    "Filter1": "150",
+    "Value": "03.859",
+    "Label": "US - West"
+  },
+  {
+    "Filter1": "175",
+    "Value": "04.951",
+    "Label": "US - West"
+  },
+  {
+    "Filter1": "200",
+    "Value": "06.348",
+    "Label": "US - West"
+  },
+  {
+    "Filter1": "225",
+    "Value": "07.117",
+    "Label": "US - West"
+  },
+  {
+    "Filter1": "250",
+    "Value": "08.095",
+    "Label": "US - West"
+  },
+  {
+    "Filter1": "275",
+    "Value": "08.771",
+    "Label": "US - West"
+  },
+  {
+    "Filter1": "300",
+    "Value": "11.204",
+    "Label": "US - West"
+  },
+  {
+    "Filter1": "325",
+    "Value": "11.830",
+    "Label": "US - West"
+  },
+  {
+    "Filter1": "350",
+    "Value": "12.293",
+    "Label": "US - West"
+  },
+  {
+    "Filter1": "375",
+    "Value": "12.211",
+    "Label": "US - West"
+  },
+  {
+    "Filter1": "400",
+    "Value": "12.249",
+    "Label": "US - West"
+  },
+  {
+    "Filter1": "425",
+    "Value": "14.566",
+    "Label": "US - West"
+  },
+  {
+    "Filter1": "450",
+    "Value": "15.107",
+    "Label": "US - West"
+  },
+  {
+    "Filter1": "475",
+    "Value": "14.590",
+    "Label": "US - West"
+  },
+  {
+    "Filter1": "25",
+    "Value": "00.296",
+    "Label": "EU - West"
+  },
+  {
+    "Filter1": "50",
+    "Value": "01.222",
+    "Label": "EU - West"
+  },
+  {
+    "Filter1": "75",
+    "Value": "01.827",
+    "Label": "EU - West"
+  },
+  {
+    "Filter1": "100",
+    "Value": "03.015",
+    "Label": "EU - West"
+  },
+  {
+    "Filter1": "125",
+    "Value": "04.521",
+    "Label": "EU - West"
+  },
+  {
+    "Filter1": "150",
+    "Value": "06.540",
+    "Label": "EU - West"
+  },
+  {
+    "Filter1": "175",
+    "Value": "08.898",
+    "Label": "EU - West"
+  },
+  {
+    "Filter1": "200",
+    "Value": "09.909",
+    "Label": "EU - West"
+  },
+  {
+    "Filter1": "225",
+    "Value": "12.145",
+    "Label": "EU - West"
+  },
+  {
+    "Filter1": "250",
+    "Value": "14.081",
+    "Label": "EU - West"
+  },
+  {
+    "Filter1": "275",
+    "Value": "15.057",
+    "Label": "EU - West"
+  },
+  {
+    "Filter1": "300",
+    "Value": "15.582",
+    "Label": "EU - West"
+  },
+  {
+    "Filter1": "325",
+    "Value": "17.196",
+    "Label": "EU - West"
+  },
+  {
+    "Filter1": "350",
+    "Value": "19.047",
+    "Label": "EU - West"
+  },
+  {
+    "Filter1": "375",
+    "Value": "20.898",
+    "Label": "EU - West"
+  },
+  {
+    "Filter1": "400",
+    "Value": "17.542",
+    "Label": "EU - West"
+  },
+  {
+    "Filter1": "425",
+    "Value": "23.430",
+    "Label": "EU - West"
+  },
+  {
+    "Filter1": "450",
+    "Value": "22.250",
+    "Label": "EU - West"
+  },
+  {
+    "Filter1": "475",
+    "Value": "26.640",
+    "Label": "EU - West"
+  },
+  {
+    "Filter1": "25",
+    "Value": "01.241",
+    "Label": "Alpha"
+  },
+  {
+    "Filter1": "50",
+    "Value": "02.969",
+    "Label": "Alpha"
+  },
+  {
+    "Filter1": "75",
+    "Value": "04.707",
+    "Label": "Alpha"
+  },
+  {
+    "Filter1": "100",
+    "Value": "06.755",
+    "Label": "Alpha"
+  },
+  {
+    "Filter1": "125",
+    "Value": "08.087",
+    "Label": "Alpha"
+  },
+  {
+    "Filter1": "150",
+    "Value": "11.165",
+    "Label": "Alpha"
+  },
+  {
+    "Filter1": "175",
+    "Value": "12.361",
+    "Label": "Alpha"
+  },
+  {
+    "Filter1": "200",
+    "Value": "13.596",
+    "Label": "Alpha"
+  },
+  {
+    "Filter1": "225",
+    "Value": "16.531",
+    "Label": "Alpha"
+  },
+  {
+    "Filter1": "250",
+    "Value": "18.582",
+    "Label": "Alpha"
+  },
+  {
+    "Filter1": "275",
+    "Value": "20.755",
+    "Label": "Alpha"
+  },
+  {
+    "Filter1": "300",
+    "Value": "22.259",
+    "Label": "Alpha"
+  },
+  {
+    "Filter1": "325",
+    "Value": "34.248",
+    "Label": "Alpha"
+  },
+  {
+    "Filter1": "350",
+    "Value": "35.943",
+    "Label": "Alpha"
+  },
+  {
+    "Filter1": "375",
+    "Value": "37.837",
+    "Label": "Alpha"
+  },
+  {
+    "Filter1": "400",
+    "Value": "38.440",
+    "Label": "Alpha"
+  },
+  {
+    "Filter1": "425",
+    "Value": "50.211",
+    "Label": "Alpha"
+  },
+  {
+    "Filter1": "450",
+    "Value": "47.764",
+    "Label": "Alpha"
+  },
+  {
+    "Filter1": "475",
+    "Value": "53.594",
+    "Label": "Alpha"
+  },
+  {
+    "Filter1": "25",
+    "Value": "00.047",
+    "Label": "Konstantin dev"
+  },
+  {
+    "Filter1": "50",
+    "Value": "01.289",
+    "Label": "Konstantin dev"
+  },
+  {
+    "Filter1": "75",
+    "Value": "03.791",
+    "Label": "Konstantin dev"
+  },
+  {
+    "Filter1": "100",
+    "Value": "04.754",
+    "Label": "Konstantin dev"
+  },
+  {
+    "Filter1": "125",
+    "Value": "07.308",
+    "Label": "Konstantin dev"
+  },
+  {
+    "Filter1": "150",
+    "Value": "07.705",
+    "Label": "Konstantin dev"
+  },
+  {
+    "Filter1": "175",
+    "Value": "09.146",
+    "Label": "Konstantin dev"
+  },
+  {
+    "Filter1": "200",
+    "Value": "12.272",
+    "Label": "Konstantin dev"
+  },
+  {
+    "Filter1": "225",
+    "Value": "14.127",
+    "Label": "Konstantin dev"
+  },
+  {
+    "Filter1": "250",
+    "Value": "12.688",
+    "Label": "Konstantin dev"
+  },
+  {
+    "Filter1": "275",
+    "Value": "17.228",
+    "Label": "Konstantin dev"
+  },
+  {
+    "Filter1": "300",
+    "Value": "18.400",
+    "Label": "Konstantin dev"
+  },
+  {
+    "Filter1": "325",
+    "Value": "19.934",
+    "Label": "Konstantin dev"
+  },
+  {
+    "Filter1": "350",
+    "Value": "25.137",
+    "Label": "Konstantin dev"
+  },
+  {
+    "Filter1": "375",
+    "Value": "23.100",
+    "Label": "Konstantin dev"
+  },
+  {
+    "Filter1": "400",
+    "Value": "25.929",
+    "Label": "Konstantin dev"
+  },
+  {
+    "Filter1": "425",
+    "Value": "22.740",
+    "Label": "Konstantin dev"
+  },
+  {
+    "Filter1": "450",
+    "Value": "33.627",
+    "Label": "Konstantin dev"
+  },
+  {
+    "Filter1": "475",
+    "Value": "28.266",
+    "Label": "Konstantin dev"
+  }
+]

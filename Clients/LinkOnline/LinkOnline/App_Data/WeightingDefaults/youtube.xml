@@ -1,0 +1,22 @@
+<WeightingVariables>
+  <Operator Id="a2955d3f-85ef-45e4-8ac6-2ee52c7f46b4" Type="AND" WeightingVariable="8f0c2e9f-8edf-48dd-b1bc-e6a04c4b908b">
+    <Operator Id="c295563f-85ef-45e4-8ac6-2ee52c7f46b4" Type="AND">
+      <TaxonomyCategory Id="866b154e-07b1-4b96-a685-5e6ffa65f5c2">
+      </TaxonomyCategory>
+    </Operator>
+    <Operator Id="afee2c4c-7592-4ee7-9bf2-0fc2ac44d19e" Type="OR">
+      <TaxonomyCategory Id="9b264316-b71a-464b-bc15-4c02ae064059">
+      </TaxonomyCategory>
+      <TaxonomyCategory Id="e30a7d44-430d-4493-8284-d2c97d4e740a">
+      </TaxonomyCategory>
+      <TaxonomyCategory Id="7cae731b-d165-4c65-93f1-55df885d0358">
+      </TaxonomyCategory>
+      <TaxonomyCategory Id="c79fb387-2d6b-40b1-a763-a532bbd99d34">
+      </TaxonomyCategory>
+      <TaxonomyCategory Id="f3f79241-c201-40f1-a504-2082b9afed04">
+      </TaxonomyCategory>
+      <TaxonomyCategory Id="958ff8ea-fa2f-42a4-9570-37fc86be6160">
+      </TaxonomyCategory>
+    </Operator>
+  </Operator>
+</WeightingVariables>

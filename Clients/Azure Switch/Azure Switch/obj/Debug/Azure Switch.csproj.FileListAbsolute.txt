@@ -1,0 +1,120 @@
+C:\Projects\Blueocean\Link\LinkManager\Clients\Azure Switch\Azure Switch\obj\Debug\Azure Switch.csprojResolveAssemblyReference.cache
+C:\Projects\Blueocean\Link\LinkManager\Clients\Azure Switch\Azure Switch\bin\roslyn\csc.exe
+C:\Projects\Blueocean\Link\LinkManager\Clients\Azure Switch\Azure Switch\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Projects\Blueocean\Link\LinkManager\Clients\Azure Switch\Azure Switch\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Projects\Blueocean\Link\LinkManager\Clients\Azure Switch\Azure Switch\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Projects\Blueocean\Link\LinkManager\Clients\Azure Switch\Azure Switch\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Projects\Blueocean\Link\LinkManager\Clients\Azure Switch\Azure Switch\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Projects\Blueocean\Link\LinkManager\Clients\Azure Switch\Azure Switch\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Projects\Blueocean\Link\LinkManager\Clients\Azure Switch\Azure Switch\bin\roslyn\System.Collections.Immutable.dll
+C:\Projects\Blueocean\Link\LinkManager\Clients\Azure Switch\Azure Switch\bin\roslyn\System.Reflection.Metadata.dll
+C:\Projects\Blueocean\Link\LinkManager\Clients\Azure Switch\Azure Switch\bin\roslyn\vbc.exe
+C:\Projects\Blueocean\Link\LinkManager\Clients\Azure Switch\Azure Switch\bin\roslyn\VBCSCompiler.exe
+C:\Projects\Blueocean\Link\LinkManager\Clients\Azure Switch\Azure Switch\bin\roslyn\VBCSCompiler.exe.config
+C:\Projects\Blueocean\Link\LinkManager\Clients\Azure Switch\Azure Switch\bin\Azure Switch.dll
+C:\Projects\Blueocean\Link\LinkManager\Clients\Azure Switch\Azure Switch\bin\Azure Switch.pdb
+C:\Projects\Blueocean\Link\LinkManager\Clients\Azure Switch\Azure Switch\obj\Debug\Azure Switch.dll
+C:\Projects\Blueocean\Link\LinkManager\Clients\Azure Switch\Azure Switch\obj\Debug\Azure Switch.pdb
+C:\Projects\Blueocean\Link\LinkManager\Clients\Azure Switch\Azure Switch\bin\Azure Switch.dll.config
+C:\Projects\Blueocean\Link\LinkManager\Clients\Azure Switch\Azure Switch\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Projects\Blueocean\Link\LinkManager\Clients\Azure Switch\Azure Switch\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Projects\Blueocean\Link\LinkManager\Clients\Azure Switch\Azure Switch\bin\RDotNet.dll
+C:\Projects\Blueocean\Link\LinkManager\Clients\Azure Switch\Azure Switch\bin\RDotNet.NativeLibrary.dll
+C:\Projects\Blueocean\Link\LinkManager\Clients\Azure Switch\Azure Switch\bin\RDotNet.xml
+C:\Projects\Blueocean\Link\LinkManager\Clients\Azure Switch\Azure Switch\bin\RDotNet.NativeLibrary.xml
+C:\Projects\Blueocean\Link\LinkManager\Clients\Azure Switch\Azure Switch\bin\ApplicationUtilities.dll
+C:\Projects\Blueocean\Link\LinkManager\Clients\Azure Switch\Azure Switch\bin\DatabaseCore.dll
+C:\Projects\Blueocean\Link\LinkManager\Clients\Azure Switch\Azure Switch\bin\SpreadsheetGear2012.Core.dll
+C:\Projects\Blueocean\Link\LinkManager\Clients\Azure Switch\Azure Switch\bin\Microsoft.Web.Administration.dll
+C:\Projects\Blueocean\Link\LinkManager\Clients\Azure Switch\Azure Switch\bin\ApplicationUtilities.pdb
+C:\Projects\Blueocean\Link\LinkManager\Clients\Azure Switch\Azure Switch\bin\DatabaseCore.pdb
+D:\svnHead\LinkManager\Clients\Azure Switch\Azure Switch\bin\roslyn\csc.exe
+D:\svnHead\LinkManager\Clients\Azure Switch\Azure Switch\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\svnHead\LinkManager\Clients\Azure Switch\Azure Switch\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\svnHead\LinkManager\Clients\Azure Switch\Azure Switch\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\svnHead\LinkManager\Clients\Azure Switch\Azure Switch\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\svnHead\LinkManager\Clients\Azure Switch\Azure Switch\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\svnHead\LinkManager\Clients\Azure Switch\Azure Switch\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\svnHead\LinkManager\Clients\Azure Switch\Azure Switch\bin\roslyn\System.Collections.Immutable.dll
+D:\svnHead\LinkManager\Clients\Azure Switch\Azure Switch\bin\roslyn\System.Reflection.Metadata.dll
+D:\svnHead\LinkManager\Clients\Azure Switch\Azure Switch\bin\roslyn\vbc.exe
+D:\svnHead\LinkManager\Clients\Azure Switch\Azure Switch\bin\roslyn\VBCSCompiler.exe
+D:\svnHead\LinkManager\Clients\Azure Switch\Azure Switch\bin\roslyn\VBCSCompiler.exe.config
+D:\svnHead\LinkManager\Clients\Azure Switch\Azure Switch\bin\Azure Switch.dll.config
+D:\svnHead\LinkManager\Clients\Azure Switch\Azure Switch\bin\Azure Switch.dll
+D:\svnHead\LinkManager\Clients\Azure Switch\Azure Switch\bin\Azure Switch.pdb
+D:\svnHead\LinkManager\Clients\Azure Switch\Azure Switch\bin\ApplicationUtilities.dll
+D:\svnHead\LinkManager\Clients\Azure Switch\Azure Switch\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\svnHead\LinkManager\Clients\Azure Switch\Azure Switch\bin\RDotNet.dll
+D:\svnHead\LinkManager\Clients\Azure Switch\Azure Switch\bin\RDotNet.NativeLibrary.dll
+D:\svnHead\LinkManager\Clients\Azure Switch\Azure Switch\bin\DatabaseCore.dll
+D:\svnHead\LinkManager\Clients\Azure Switch\Azure Switch\bin\SpreadsheetGear2012.Core.dll
+D:\svnHead\LinkManager\Clients\Azure Switch\Azure Switch\bin\Microsoft.Web.Administration.dll
+D:\svnHead\LinkManager\Clients\Azure Switch\Azure Switch\bin\ApplicationUtilities.pdb
+D:\svnHead\LinkManager\Clients\Azure Switch\Azure Switch\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\svnHead\LinkManager\Clients\Azure Switch\Azure Switch\bin\RDotNet.xml
+D:\svnHead\LinkManager\Clients\Azure Switch\Azure Switch\bin\RDotNet.NativeLibrary.xml
+D:\svnHead\LinkManager\Clients\Azure Switch\Azure Switch\bin\DatabaseCore.pdb
+D:\svnHead\LinkManager\Clients\Azure Switch\Azure Switch\obj\Debug\Azure Switch.csprojResolveAssemblyReference.cache
+D:\svnHead\LinkManager\Clients\Azure Switch\Azure Switch\obj\Debug\Azure Switch.dll
+D:\svnHead\LinkManager\Clients\Azure Switch\Azure Switch\obj\Debug\Azure Switch.pdb
+D:\LinkLibraries\LinkManager\Clients\Azure Switch\Azure Switch\bin\roslyn\csc.exe
+D:\LinkLibraries\LinkManager\Clients\Azure Switch\Azure Switch\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\LinkLibraries\LinkManager\Clients\Azure Switch\Azure Switch\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\LinkLibraries\LinkManager\Clients\Azure Switch\Azure Switch\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\LinkLibraries\LinkManager\Clients\Azure Switch\Azure Switch\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\LinkLibraries\LinkManager\Clients\Azure Switch\Azure Switch\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\LinkLibraries\LinkManager\Clients\Azure Switch\Azure Switch\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\LinkLibraries\LinkManager\Clients\Azure Switch\Azure Switch\bin\roslyn\System.Collections.Immutable.dll
+D:\LinkLibraries\LinkManager\Clients\Azure Switch\Azure Switch\bin\roslyn\System.Reflection.Metadata.dll
+D:\LinkLibraries\LinkManager\Clients\Azure Switch\Azure Switch\bin\roslyn\vbc.exe
+D:\LinkLibraries\LinkManager\Clients\Azure Switch\Azure Switch\bin\roslyn\VBCSCompiler.exe
+D:\LinkLibraries\LinkManager\Clients\Azure Switch\Azure Switch\bin\roslyn\VBCSCompiler.exe.config
+D:\LinkLibraries\LinkManager\Clients\Azure Switch\Azure Switch\bin\Azure Switch.dll.config
+D:\LinkLibraries\LinkManager\Clients\Azure Switch\Azure Switch\bin\Azure Switch.dll
+D:\LinkLibraries\LinkManager\Clients\Azure Switch\Azure Switch\bin\Azure Switch.pdb
+D:\LinkLibraries\LinkManager\Clients\Azure Switch\Azure Switch\bin\ApplicationUtilities.dll
+D:\LinkLibraries\LinkManager\Clients\Azure Switch\Azure Switch\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\LinkLibraries\LinkManager\Clients\Azure Switch\Azure Switch\bin\RDotNet.dll
+D:\LinkLibraries\LinkManager\Clients\Azure Switch\Azure Switch\bin\RDotNet.NativeLibrary.dll
+D:\LinkLibraries\LinkManager\Clients\Azure Switch\Azure Switch\bin\DatabaseCore.dll
+D:\LinkLibraries\LinkManager\Clients\Azure Switch\Azure Switch\bin\SpreadsheetGear2012.Core.dll
+D:\LinkLibraries\LinkManager\Clients\Azure Switch\Azure Switch\bin\Microsoft.Web.Administration.dll
+D:\LinkLibraries\LinkManager\Clients\Azure Switch\Azure Switch\bin\ApplicationUtilities.pdb
+D:\LinkLibraries\LinkManager\Clients\Azure Switch\Azure Switch\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\LinkLibraries\LinkManager\Clients\Azure Switch\Azure Switch\bin\RDotNet.xml
+D:\LinkLibraries\LinkManager\Clients\Azure Switch\Azure Switch\bin\RDotNet.NativeLibrary.xml
+D:\LinkLibraries\LinkManager\Clients\Azure Switch\Azure Switch\bin\DatabaseCore.pdb
+D:\LinkLibraries\LinkManager\Clients\Azure Switch\Azure Switch\obj\Debug\Azure Switch.csprojResolveAssemblyReference.cache
+D:\LinkLibraries\LinkManager\Clients\Azure Switch\Azure Switch\obj\Debug\Azure Switch.dll
+D:\LinkLibraries\LinkManager\Clients\Azure Switch\Azure Switch\obj\Debug\Azure Switch.pdb
+D:\BMI\AM\newLinkLib\LinkManager\Clients\Azure Switch\Azure Switch\bin\roslyn\csc.exe
+D:\BMI\AM\newLinkLib\LinkManager\Clients\Azure Switch\Azure Switch\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\BMI\AM\newLinkLib\LinkManager\Clients\Azure Switch\Azure Switch\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\BMI\AM\newLinkLib\LinkManager\Clients\Azure Switch\Azure Switch\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\BMI\AM\newLinkLib\LinkManager\Clients\Azure Switch\Azure Switch\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\BMI\AM\newLinkLib\LinkManager\Clients\Azure Switch\Azure Switch\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\BMI\AM\newLinkLib\LinkManager\Clients\Azure Switch\Azure Switch\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\BMI\AM\newLinkLib\LinkManager\Clients\Azure Switch\Azure Switch\bin\roslyn\System.Collections.Immutable.dll
+D:\BMI\AM\newLinkLib\LinkManager\Clients\Azure Switch\Azure Switch\bin\roslyn\System.Reflection.Metadata.dll
+D:\BMI\AM\newLinkLib\LinkManager\Clients\Azure Switch\Azure Switch\bin\roslyn\vbc.exe
+D:\BMI\AM\newLinkLib\LinkManager\Clients\Azure Switch\Azure Switch\bin\roslyn\VBCSCompiler.exe
+D:\BMI\AM\newLinkLib\LinkManager\Clients\Azure Switch\Azure Switch\bin\roslyn\VBCSCompiler.exe.config
+D:\BMI\AM\newLinkLib\LinkManager\Clients\Azure Switch\Azure Switch\bin\Azure Switch.dll.config
+D:\BMI\AM\newLinkLib\LinkManager\Clients\Azure Switch\Azure Switch\bin\Azure Switch.dll
+D:\BMI\AM\newLinkLib\LinkManager\Clients\Azure Switch\Azure Switch\bin\Azure Switch.pdb
+D:\BMI\AM\newLinkLib\LinkManager\Clients\Azure Switch\Azure Switch\bin\ApplicationUtilities.dll
+D:\BMI\AM\newLinkLib\LinkManager\Clients\Azure Switch\Azure Switch\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\BMI\AM\newLinkLib\LinkManager\Clients\Azure Switch\Azure Switch\bin\RDotNet.dll
+D:\BMI\AM\newLinkLib\LinkManager\Clients\Azure Switch\Azure Switch\bin\RDotNet.NativeLibrary.dll
+D:\BMI\AM\newLinkLib\LinkManager\Clients\Azure Switch\Azure Switch\bin\DatabaseCore.dll
+D:\BMI\AM\newLinkLib\LinkManager\Clients\Azure Switch\Azure Switch\bin\SpreadsheetGear2012.Core.dll
+D:\BMI\AM\newLinkLib\LinkManager\Clients\Azure Switch\Azure Switch\bin\Microsoft.Web.Administration.dll
+D:\BMI\AM\newLinkLib\LinkManager\Clients\Azure Switch\Azure Switch\bin\ApplicationUtilities.pdb
+D:\BMI\AM\newLinkLib\LinkManager\Clients\Azure Switch\Azure Switch\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\BMI\AM\newLinkLib\LinkManager\Clients\Azure Switch\Azure Switch\bin\RDotNet.xml
+D:\BMI\AM\newLinkLib\LinkManager\Clients\Azure Switch\Azure Switch\bin\RDotNet.NativeLibrary.xml
+D:\BMI\AM\newLinkLib\LinkManager\Clients\Azure Switch\Azure Switch\bin\DatabaseCore.pdb
+D:\BMI\AM\newLinkLib\LinkManager\Clients\Azure Switch\Azure Switch\obj\Debug\Azure Switch.csprojResolveAssemblyReference.cache
+D:\BMI\AM\newLinkLib\LinkManager\Clients\Azure Switch\Azure Switch\obj\Debug\Azure Switch.dll
+D:\BMI\AM\newLinkLib\LinkManager\Clients\Azure Switch\Azure Switch\obj\Debug\Azure Switch.pdb

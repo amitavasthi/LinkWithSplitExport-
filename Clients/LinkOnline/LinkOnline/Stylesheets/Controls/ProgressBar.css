@@ -1,0 +1,14 @@
+﻿.ProgressContainer {
+    border-width:1px;
+    border-style:solid;
+
+    display:inline-block;
+
+    width:200px;
+    height:20px;
+    padding:5px;
+}
+
+.ProgressBar {
+    height:100%;
+}

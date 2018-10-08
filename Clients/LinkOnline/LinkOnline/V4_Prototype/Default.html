@@ -1,0 +1,124 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>iHeartMedia Reports</title>
+
+    <script type="text/javascript" src="Scripts/Includes/jquery-1.10.2.js"></script>
+    <script type="text/javascript" src="Scripts/Includes/Ajax.js"></script>
+    <!--<script type="text/javascript" src="Scripts/Includes/tinymce.min.js"></script>-->
+    <script src="//cdn.tinymce.com/4/tinymce.min.js"></script>
+
+    <script type="text/javascript" src="Scripts/Main.js"></script>
+    <link rel="stylesheet" type="text/css" href="Stylesheets/Main.css" />
+
+    <script type="text/javascript" src="Scripts/Renderer.js"></script>
+    <link rel="stylesheet" type="text/css" href="Stylesheets/Renderer.css" />
+
+    <script type="text/javascript" src="Scripts/Components/Menu.js"></script>
+    <link rel="stylesheet" type="text/css" href="Stylesheets/Components/Menu.css" />
+
+    <script type="text/javascript" src="Scripts/Components/Box.js"></script>
+    <link rel="stylesheet" type="text/css" href="Stylesheets/Components/Box.css" />
+
+    <script type="text/javascript" src="Scripts/Components/Effects.js"></script>
+
+
+    <script type="text/javascript" src="Scripts/Pages/Dashboards.js"></script>
+    <link rel="stylesheet" type="text/css" href="Stylesheets/Pages/Dashboards.css" />
+
+    <script type="text/javascript" src="Scripts/Pages/Home.js"></script>
+    <link rel="stylesheet" type="text/css" href="Stylesheets/Pages/Home.css" />
+
+    <script type="text/javascript" src="Scripts/Pages/Settings.js"></script>
+    <link rel="stylesheet" type="text/css" href="Stylesheets/Pages/Settings.css" />
+
+    <script type="text/javascript" src="Scripts/Pages/MailLists.js"></script>
+    <script type="text/javascript" src="Scripts/Pages/Studio.js"></script>
+    <script type="text/javascript" src="Scripts/Pages/Architect.js"></script>
+
+    <meta charset="utf-8" />
+</head>
+<body>
+    <table id="pnlMainContainer" class="" cellpadding="0" cellspacing="0" style="width:100%;height:100%">
+        <tr valign="top">
+            <td>
+                <div id="pnlMenu" class="Header" style="background-color:#6CAEE0;">
+                    <table cellpadding="0" cellspacing="0" style="width:100%;height:100%">
+                        <tr valign="top">
+                            <td>
+                                <div class="MenuItem" onclick="Menu.ToggleView();">
+                                    <div class="MenuItemIcon">
+                                        <img src="Images/Icons/Menu.png" />
+                                    </div>
+                                    <div class="MenuItemText">
+                                        Menu
+                                    </div>
+                                </div>
+                                <div class="MenuItem MenuItem_Active" Action="Pages.Home.Load();" ColorScheme="#6CAEE0">
+                                    <div class="MenuItemIcon">
+                                        <img src="Images/Icons/Home.png" />
+                                    </div>
+                                    <div class="MenuItemText">
+                                        Home
+                                    </div>
+                                </div>
+                                <div class="MenuItem" Action="Pages.Architect.Load();" ColorScheme="#1aa7a9">
+                                    <div class="MenuItemIcon">
+                                        <img src="Images/Icons/Architect.png" />
+                                    </div>
+                                    <div class="MenuItemText">
+                                        Architect
+                                    </div>
+                                </div>
+                                <div class="MenuItem" Action="Pages.Dashboards.Load();" ColorScheme="#e74c3c">
+                                    <div class="MenuItemIcon">
+                                        <img src="Images/Icons/Dashboards.png" />
+                                    </div>
+                                    <div class="MenuItemText">
+                                        Dashboards
+                                    </div>
+                                </div>
+                                <div class="MenuItem" Action="Pages.Studio.Load();" ColorScheme="#9c54b8">
+                                    <div class="MenuItemIcon">
+                                        <img src="Images/Icons/Studio.png" />
+                                    </div>
+                                    <div class="MenuItemText">
+                                        Studio
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr valign="bottom">
+                            <td>
+                                <div class="MenuItem" Action="Pages.Settings.Load();" ColorScheme="#6CAEE0">
+                                    <div class="MenuItemIcon">
+                                        <img onmouseover="Effects.Rotate(this, 180);" onmouseout="Effects.Rotate(this, 0)" src="Images/Icons/Settings.png" />
+                                    </div>
+                                    <div class="MenuItemText">
+                                        Settings
+                                    </div>
+                                </div>
+                                <div class="MenuItem" Action="Logout();">
+                                    <div class="MenuItemIcon">
+                                        <img src="Images/Icons/Logout.png" />
+                                    </div>
+                                    <div class="MenuItemText">
+                                        Logout
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                    
+                </div>
+            </td>
+            <td id="pnlSubMenu" class="SubMenu" style="width:0px;max-width:0px;min-width:0px;">
+
+            </td>
+            <td style="width:100%;">
+                <div id="pnlMain"></div>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

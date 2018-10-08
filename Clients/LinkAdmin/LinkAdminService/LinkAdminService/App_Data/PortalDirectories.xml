@@ -1,0 +1,15 @@
+﻿<Directories>
+  <Directory Path="Fileadmin\Chat\{0}" FormatValue0="Client"></Directory>
+  <Directory Path="Fileadmin\Cloud\{0}" FormatValue0="Client"></Directory>
+  <Directory Path="Fileadmin\DashboardItems\{0}" FormatValue0="Client"></Directory>
+  <Directory Path="Fileadmin\HomeDefinitions\{0}.xml" FormatValue0="Client"></Directory>
+  <Directory Path="Fileadmin\HomeDefinitions\{0}.xml" FormatValue0="User"></Directory>
+  <Directory Path="Fileadmin\LinkBiDefinitions\{0}.xml" FormatValue0="User"></Directory>
+  <Directory Path="Fileadmin\News\{0}.xml" FormatValue0="Client"></Directory>
+  <Directory Path="Fileadmin\ReportDefinitions\{0}" FormatValue0="Client"></Directory>
+  <Directory Path="Fileadmin\SavedLinkBiDefinitions\{0}" FormatValue0="Client"></Directory>
+  <Directory Path="Fileadmin\SavedReports\{0}" FormatValue0="Client"></Directory>
+  <Directory Path="Fileadmin\UserImages\{0}.png" FormatValue0="User"></Directory>
+  <Directory Path="Fileadmin\TaxonomyStructures\{0}" FormatValue0="Client"></Directory>
+  <Directory Path="Fileadmin\StudyTaxonomyStructures\{0}" FormatValue0="Client"></Directory>
+</Directories>

@@ -1,0 +1,5 @@
+<UserValidation EnforcePasswordChange="True">
+  <Fields>
+    <Field Name="E-Mail" Type="Text"></Field>
+  </Fields>
+</UserValidation>
